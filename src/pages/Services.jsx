@@ -88,7 +88,7 @@ const infoNavItems = {
           </a>
         </div>
         <div>
-          <button className="btn bg-blue h-12 rounded-md text-white font-semibold px-8">Request a Call Back</button>
+          <button className="btn bg-blue h-12 rounded-md text-white font-semibold px-8 hover:bg-sky-700">Request a Call Back</button>
         </div>
       </div>
 
@@ -118,7 +118,7 @@ const infoNavItems = {
                              and facilities to keep up with while maintaining their operations.</p>
                              <p className='mt-3'>That’s where we come in! For more details about our services tailored to your specific area
                                  of specialization, please click on one of the links below:</p>
-          <button className="bg-blue mt-12 text-white px-5 py-2 rounded-md font-semibold float-left shadow-lg">Contact Us</button>
+          <button className="bg-blue mt-12 text-white px-5 py-2 rounded-md font-semibold float-left shadow-lg hover:bg-sky-700">Contact Us</button>
                     </div>
                 <div>
                     {/* Right section */}
@@ -308,7 +308,7 @@ const infoNavItems = {
             </div>
             <button
               type="submit"
-              className="bg-blue text-white w-full mt-4 p-3 rounded transition"
+              className="bg-blue text-white w-full mt-4 p-3 rounded transition hover:bg-sky-700"
             >
               Send Message
             </button>

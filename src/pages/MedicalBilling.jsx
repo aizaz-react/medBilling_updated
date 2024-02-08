@@ -89,7 +89,7 @@ const infoNavItems = {
           </a>
         </div>
         <div>
-          <button className="btn bg-blue h-12 rounded-md text-white font-semibold px-4">Request a Call Back</button>
+          <button className="btn bg-blue h-12 rounded-md text-white font-semibold px-4 hover:bg-sky-700">Request a Call Back</button>
         </div>
       </div>
 
@@ -115,7 +115,7 @@ const infoNavItems = {
                 <p className='pt-4'>If your medical practice is facing challenges with billing and revenue management, there’s a solution. AllStars Medical Billing offers
                      tailored medical billing services that cater to practices of all sizes and specialties. Our goal is to transform the billing process for small practices, making it more efficient, compliant, and less stressful. Through our reliable
                       system, we guarantee precise coding, reducing errors, and optimizing revenue.</p>
-          <button className="bg-blue mt-12 text-white px-5 py-2 rounded-md font-semibold float-left shadow-lg">Contact Us</button>
+          <button className="bg-blue mt-12 text-white px-5 py-2 rounded-md font-semibold float-left shadow-lg hover:bg-sky-700">Contact Us</button>
                     </div>
                 <div>
                     {/* Right section */}
@@ -223,7 +223,7 @@ const infoNavItems = {
              When you provide a service, it’s crucial to submit the claims promptly. Managing fluctuating claim
               volumes and ensuring timely submissions can be a challenge for in-house staff. At AllStars Medical Billing, our experienced team excels at filing claims within 48 hours in most cases. We leverage cutting-edge technology to gather precise information and expedite the claim process.
              </p>
-          <button className="bg-blue mt-12 text-white px-5 py-2 rounded-md font-semibold float-left shadow-lg">Contact Us</button>
+          <button className="bg-blue mt-12 text-white px-5 py-2 rounded-md font-semibold float-left shadow-lg hover:bg-sky-700">Contact Us</button>
                     </div>
                 </div>
             </div>
@@ -366,7 +366,7 @@ const infoNavItems = {
             </div>
             <button
               type="submit"
-              className="bg-blue text-white w-full mt-4 p-3 rounded transition"
+              className="bg-blue text-white w-full mt-4 p-3 rounded transition hover:bg-sky-700"
             >
               Send Message
             </button>

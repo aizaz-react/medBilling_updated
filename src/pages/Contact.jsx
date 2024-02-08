@@ -87,7 +87,7 @@ const infoNavItems = {
           </a>
         </div>
         <div>
-          <button className="btn bg-blue h-12 rounded-md text-white font-semibold px-8">Request a Call Back</button>
+          <button className="btn bg-blue h-12 rounded-md text-white font-semibold px-8 hover:bg-sky-700">Request a Call Back</button>
         </div>
       </div>
 
@@ -99,7 +99,7 @@ const infoNavItems = {
             }}>
         <img src={Brud} alt='Brud' className='opacity-20 w-full h-44' />
         </div>
-            <h1 className="text-white text-5xl font-bold absolute top-16 left-16">Contact Us</h1>
+            <h1 className="text-white text-5xl font-bold absolute top-16 left-16 hover:bg-sky-700">Contact Us</h1>
             </div>
         <div className=' mt-20'>
         <div className="md:flex mx-20 py-5">
@@ -324,7 +324,7 @@ const infoNavItems = {
             </div>
             <button
               type="submit"
-              className="bg-blue text-white w-full mt-4 p-3 rounded transition"
+              className="bg-blue text-white w-full mt-4 p-3 rounded transition hover:bg-sky-700"
             >
               Send Message
             </button>

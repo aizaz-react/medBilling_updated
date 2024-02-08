@@ -95,7 +95,7 @@ const infoNavItems = {
           </a>
         </div>
         <div>
-          <button className="btn bg-blue h-12 rounded-md text-white font-semibold px-8">Request a Call Back</button>
+          <button className="btn bg-blue h-12 rounded-md text-white font-semibold px-8 hover:bg-sky-700">Request a Call Back</button>
         </div>
       </div>
 
@@ -566,7 +566,7 @@ const infoNavItems = {
             </div>
             <button
               type="submit"
-              className="bg-blue text-white w-full mt-4 p-3 rounded transition"
+              className="bg-blue text-white w-full mt-4 p-3 rounded transition hover:bg-sky-700"
             >
               Send Message
             </button>

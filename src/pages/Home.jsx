@@ -113,7 +113,7 @@ function Home() {
           </a>
         </div>
         <div>
-          <button className="btn bg-blue h-12 rounded-md text-white font-semibold px-8">Request a Call Back</button>
+          <button className="btn bg-blue h-12 rounded-md text-white font-semibold px-8 hover:bg-sky-700">Request a Call Back</button>
         </div>
       </div>
       <div>
@@ -127,7 +127,7 @@ function Home() {
           <p className="text-lg mb-4 text-white">
             today and you'll be amazed when you hear about our vendor program.
           </p>
-          <button className="bg-blue mt-8 text-white px-4 py-2 rounded-md font-bold">Read More</button>
+          <button className="bg-blue mt-8 text-white px-4 py-2 rounded-md font-bold hover:bg-sky-700">Read More</button>
         </div>
       </div>
       <div className=' md:h-96 bg-darkgray md:mt-[-70px]'>
@@ -835,7 +835,7 @@ function Home() {
             </div>
             <button
               type="submit"
-              className="bg-blue text-white w-full mt-4 p-3 rounded transition"
+              className="bg-blue text-white w-full mt-4 p-3 rounded transition hover:bg-sky-700"
             >
               Send Message
             </button>

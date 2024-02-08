@@ -90,7 +90,7 @@ const infoNavItems = {
           </a>
         </div>
         <div>
-          <button className="btn bg-blue h-12 rounded-md text-white font-semibold px-8">Request a Call Back</button>
+          <button className="btn bg-blue h-12 rounded-md text-white font-semibold px-8 hover:bg-sky-700">Request a Call Back</button>
         </div>
       </div>
 
@@ -114,7 +114,7 @@ const infoNavItems = {
                 <p className='pt-4'>Welcome to AllStars Medical Coding Services, your trusted partner for precision and accuracy
                  in healthcare documentation. Our expert team ensures that every code is meticulously and accurately assigned, allowing
                   you to optimize your revenue while maintaining compliance with industry regulations. Trust us to elevate your coding standards and streamline your healthcare operations with AllStars.</p>
-          <button className="bg-blue mt-12 text-white px-5 py-2 rounded-md font-semibold float-left shadow-lg">Contact Us</button>
+          <button className="bg-blue mt-12 text-white px-5 py-2 rounded-md font-semibold float-left shadow-lg hover:bg-sky-700">Contact Us</button>
                     </div>
                 <div>
                     {/* Right section */}
@@ -278,7 +278,7 @@ const infoNavItems = {
             </div>
             <button
               type="submit"
-              className="bg-blue text-white w-full mt-4 p-3 rounded transition"
+              className="bg-blue text-white w-full mt-4 p-3 rounded transition hover:bg-sky-700"
             >
               Send Message
             </button>
