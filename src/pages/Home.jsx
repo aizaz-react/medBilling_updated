@@ -740,7 +740,7 @@ function Home() {
               {/* Textarea */}
               <div className="flex flex-col w-full">
                 <textarea
-                  className="border p-4 md:p-2 md:rounded focus:outline-none h-32"
+                  className="border p-4 md:p-2 md:rounded focus:outline-none h-28 md:h-32"
                   placeholder="Comments"
                 ></textarea>
               </div>
