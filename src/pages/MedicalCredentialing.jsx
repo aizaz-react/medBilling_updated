@@ -50,7 +50,7 @@ const infoNavItems = {
   function MedicalCredentialing() {
     return (
       <div>
-        <div className={'bg-blue w-full mx-auto'}>
+        <div className={'bg-blue w-full mx-auto md:block hidden'}>
         <Container className={'flex justify-between items-center py-2'}>
           <div className='flex flex-row text-center'>
             {infoNavItems.leftSide.map((item, i, array) => (
@@ -88,7 +88,7 @@ const infoNavItems = {
           </a>
         </div>
         <div>
-          <button className="btn bg-blue h-12 rounded-md text-white font-semibold px-8 hover:bg-sky-700">Request a Call Back</button>
+          <button className="btn bg-blue h-12 rounded-md text-white font-semibold px-8 hover:bg-sky-700 md:block hidden">Request a Call Back</button>
         </div>
       </div>
 
@@ -98,16 +98,16 @@ const infoNavItems = {
         opacity: '0.9',
         transition: 'background 0.3s, border-radius 0.3s, opacity 0.3s',
             }}>
-        <img src={Brud} alt='Brud' className='opacity-20 w-full h-44' />
+        <img src={Brud} alt='Brud' className='opacity-5 w-full h-44' />
         </div>
-            <h1 className="text-white text-4xl font-bold absolute top-16 left-16">Credentialing & Enrollment</h1>
+            <h1 className="text-white text-4xl font-bold absolute md:top-16 md:left-16 top-12 left-[70px]">Credentialing & Enrollment</h1>
             </div>
             <div className='bg-darkgray'>
-                <div className='flex gap-44 mx-20'>
-                    <div className='w-1/2 my-32'>
+                <div className='md:flex gap-44 md:mx-20 mx-5 mt-16'>
+                    <div className='md:w-1/2 md:my-32'>
                         {/* Left section */}
                         <h1 className='text-2xl'>Reduce the Complexity of Credentialing</h1>
-             <div className='h-1 w-[26rem] bg-blue mt-1'></div>
+             <div className='h-1 md:w-[26rem] bg-blue mt-1'></div>
              <p className='pt-4'>AllStars can handle any specialty including laboratories and DMEs. Our
               experts send error free applications to insurances and do proper follow-up till the case is 
               closed. Our first time application acceptance ratio is 98%. We can assist you in setting up your setups with insurance companies for electronic claims submissions, rejections, eligibility, payment information, denials and fund transfer.</p>
@@ -115,7 +115,7 @@ const infoNavItems = {
                     </div>
                 <div>
                     {/* Right section */}
-                    <img className='pt-28' src={serviceAimnImage} alt='MainImage' style={{backgroundPosition: 'bottom' }}></img>
+                    <img className='md:pt-28 pt-10' src={serviceAimnImage} alt='MainImage' style={{backgroundPosition: 'bottom' }}></img>
                 </div>
                 </div>
             </div>
@@ -126,7 +126,7 @@ const infoNavItems = {
 
             {/* Cards Section */}
             <div className='md:my-20'>
-  <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mx-20">
+  <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mx-5 md:mx-20 my-12">
     <div className="flex-1">
       <div className="flex flex-col  min-h-[200px] h-full border border-borderstyledark">
         <div className="p-6">
@@ -249,8 +249,8 @@ const infoNavItems = {
         </div>
         </div>
         {/* Contact card section */}
-      <div className='bg-blue w-full'>
-        <div className='mx-4 md:mx-8 lg:mx-16 py-4 flex flex-col md:flex-row justify-between'>
+        <div className='bg-blue w-full'>
+        <div className='mx-4 lg:mx-16 py-4 flex flex-col md:flex-row justify-between'>
           <div className='mb-4 md:mb-0 md:mr-4 flex items-center'>
             <div>
               <LuPhoneCall style={{ color: 'white', marginRight: '10px', fontSize: '45px' }} />
@@ -287,7 +287,9 @@ const infoNavItems = {
           </div>
         </div>
       </div>
-        {/* Footer */}
+
+      {/* Footer */}
+              {/* Footer */}
         <div className='bg-black'>
         <div className='py-10 px-4 lg:px-10 flex flex-col lg:flex-row justify-between'>
           <div className='flex flex-col justify-start border-2 rounded-lg border-blue lg:w-[28%]'>
@@ -337,7 +339,7 @@ const infoNavItems = {
               <a href="#" className="hover:text-blue">Patient Billing</a>
             </nav>
           </div>
-          <div className='mt-6 lg:mt-0 w-1/4'>
+          <div className='mt-6 lg:mt-0 lg:w-1/4 w-full'>
             {/* right two */}
             <div className="flex flex-col gap-4 w-full">
               <h1 className='text-white font-bold text-2xl'>Quick Contact</h1>
@@ -358,17 +360,13 @@ const infoNavItems = {
           </div>
         </div>
       </div>
-
       <div className='bg-blue'>
-        <div className='py-4 px-10 flex justify-between text-white font-semibold'>
-          <div>
-            <p>© 2023 AllStars Medical Billing. All rights reserved</p>
-          </div>
-          <div>
-            <a href="#" >Privacy Policy | Terms & Conditions</a>
-          </div>
-        </div>
-      </div>
+      <div className='py-4 px-5 md:w-full w-full flex flex-col md:flex-row justify-between items-center font-semibold text-white'>
+  
+    <p>© 2023 AllStars Medical Billing. All rights reserved</p>
+    <a href="#" >Privacy Policy | Terms & Conditions</a>
+  </div>
+</div>
             </div>
             );
             }

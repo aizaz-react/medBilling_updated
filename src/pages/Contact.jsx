@@ -97,7 +97,7 @@ const infoNavItems = {
         opacity: '0.9',
         transition: 'background 0.3s, border-radius 0.3s, opacity 0.3s',
             }}>
-        <img src={Brud} alt='Brud' className='opacity-20 w-full h-44' />
+        <img src={Brud} alt='Brud' className='opacity-5 w-full h-44' />
         </div>
             <h1 className="text-white text-5xl font-bold absolute top-16 md:left-16 left-20 hover:bg-sky-700">Contact Us</h1>
             </div>

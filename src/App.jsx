@@ -3,9 +3,9 @@ import About from './pages/About';
 import Services from './pages/Services';
 import PricePlan from './pages/Price&plan';
 import Contact from './pages/Contact';
-// import MedicalBilling from './pages/MedicalBilling';
-// import MedicalCoding from './pages/MedicalCoding';
-// import MedicalCredentialing from './pages/MedicalCredentialing';
+import MedicalBilling from './pages/MedicalBilling';
+import MedicalCoding from './pages/MedicalCoding';
+import MedicalCredentialing from './pages/MedicalCredentialing';
 
 
 function App() {
@@ -15,10 +15,10 @@ function App() {
       {/* <About/> */}
       {/* <Services/> */}
       {/* <PricePlan/> */}
-      <Contact/>
+      {/* <Contact/> */}
       {/* <MedicalBilling/> */}
       {/* <MedicalCoding/> */}
-      {/* <MedicalCredentialing/> */}
+      <MedicalCredentialing/>
     </div>
   );
 }

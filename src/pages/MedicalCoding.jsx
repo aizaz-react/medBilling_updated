@@ -52,7 +52,7 @@ const infoNavItems = {
   function MedicalCoding() {
     return (
       <div>
-        <div className={'bg-blue w-full mx-auto'}>
+        <div className={'bg-blue w-full mx-auto md:block hidden'}>
         <Container className={'flex justify-between items-center py-2'}>
           <div className='flex flex-row text-center'>
             {infoNavItems.leftSide.map((item, i, array) => (
@@ -90,7 +90,7 @@ const infoNavItems = {
           </a>
         </div>
         <div>
-          <button className="btn bg-blue h-12 rounded-md text-white font-semibold px-8 hover:bg-sky-700">Request a Call Back</button>
+          <button className="btn bg-blue h-12 rounded-md text-white font-semibold px-8 hover:bg-sky-700 md:block hidden">Request a Call Back</button>
         </div>
       </div>
 
@@ -100,32 +100,32 @@ const infoNavItems = {
         opacity: '0.9',
         transition: 'background 0.3s, border-radius 0.3s, opacity 0.3s',
             }}>
-        <img src={Brud} alt='Brud' className='opacity-20 w-full h-44' />
+        <img src={Brud} alt='Brud' className='opacity-5 w-full h-44' />
         </div>
             <h1 className="text-white text-4xl font-bold absolute top-16 left-16">Medical Coding</h1>
             </div>
             <div className='bg-darkgray'>
-                <div className='flex gap-44 mx-20'>
-                    <div className='w-1/2 my-32'>
+                <div className='md:flex gap-44 md:mx-20 my-10 mx-5'>
+                    <div className='md:w-1/2 md:my-28'>
                         {/* Left section */}
-                        <h1 className='text-2xl'>Medical Coding Services</h1>
-             <div className='h-1 w-[16rem] bg-blue mt-1'></div>
+                        <h1 className='md:text-2xl'>Medical Coding Services</h1>
+             <div className='h-1 md:w-[16rem] w-[11rem] bg-blue mt-1'></div>
              <p className='pt-4'>AllStars Medical Coding Services: Precision in Healthcare Documentation</p>
                 <p className='pt-4'>Welcome to AllStars Medical Coding Services, your trusted partner for precision and accuracy
                  in healthcare documentation. Our expert team ensures that every code is meticulously and accurately assigned, allowing
                   you to optimize your revenue while maintaining compliance with industry regulations. Trust us to elevate your coding standards and streamline your healthcare operations with AllStars.</p>
           <button className="bg-blue mt-12 text-white px-5 py-2 rounded-md font-semibold float-left shadow-lg hover:bg-sky-700">Contact Us</button>
                     </div>
-                <div>
+              
                     {/* Right section */}
-                    <img className='pt-28' src={MainCodingImage} alt='MainImage' style={{backgroundPosition: 'bottom' }}></img>
-                </div>
+                    <img className='md:pt-28 pt-8' src={MainCodingImage} alt='MainImage' style={{backgroundPosition: 'bottom' }}></img>
+              
                 </div>
             </div>
 
             {/* Card Section */}
       <div className='md:mt-16'>
-  <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mx-20">
+  <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mx-5 md:mx-20">
     <div className="flex-1">
       <div className="flex flex-col  min-h-[200px] h-full border border-borderstyledark">
         <div className="p-6">
@@ -154,13 +154,13 @@ const infoNavItems = {
     </div>
   </div>
         </div>
-        <div className='bg-darkgray mt-20'>
-            <div className='flex justify-between py-20 mx-20'>
+        <div className='bg-darkgray md:mt-20 mt-10'>
+            <div className='flex md:flex-row flex-col justify-between py-20 md:mx-20 mx-5'>
                 <img src={DynamicImage}  className="h-auto max-h-[35rem] max-w-full"></img>
 
-            <div className=''>
+            <div>
             <h1 className='text-2xl'>Maximizing Your Reimbursement Potential</h1>
-             <div className='h-1 w-[28rem] bg-blue mt-1'></div>
+             <div className='h-1 md:w-[28rem] bg-blue mt-1'></div>
                 <p className='pt-4'>At AllStars Medical Coding Services, we understand that coding accuracy directly impacts
                      your revenue, and we are committed to ensuring you receive the highest possible reimbursement.
                       Efficiency is at the core of our coding process. Our coding team comprises highly efficient and seasoned professionals, each with a minimum of five years of experience.</p>
@@ -176,8 +176,9 @@ const infoNavItems = {
             </div>
         </div>
         {/* Contact card section */}
-      <div className='bg-blue w-full'>
-        <div className='mx-4 md:mx-8 lg:mx-16 py-4 flex flex-col md:flex-row justify-between'>
+            
+        <div className='bg-blue w-full'>
+        <div className='mx-4 lg:mx-16 py-4 flex flex-col md:flex-row justify-between'>
           <div className='mb-4 md:mb-0 md:mr-4 flex items-center'>
             <div>
               <LuPhoneCall style={{ color: 'white', marginRight: '10px', fontSize: '45px' }} />
@@ -214,7 +215,9 @@ const infoNavItems = {
           </div>
         </div>
       </div>
-        {/* Footer */}
+
+      {/* Footer */}
+              {/* Footer */}
         <div className='bg-black'>
         <div className='py-10 px-4 lg:px-10 flex flex-col lg:flex-row justify-between'>
           <div className='flex flex-col justify-start border-2 rounded-lg border-blue lg:w-[28%]'>
@@ -264,7 +267,7 @@ const infoNavItems = {
               <a href="#" className="hover:text-blue">Patient Billing</a>
             </nav>
           </div>
-          <div className='mt-6 lg:mt-0 w-1/4'>
+          <div className='mt-6 lg:mt-0 lg:w-1/4 w-full'>
             {/* right two */}
             <div className="flex flex-col gap-4 w-full">
               <h1 className='text-white font-bold text-2xl'>Quick Contact</h1>
@@ -285,17 +288,13 @@ const infoNavItems = {
           </div>
         </div>
       </div>
-
       <div className='bg-blue'>
-        <div className='py-4 px-10 flex justify-between text-white font-semibold'>
-          <div>
-            <p>© 2023 AllStars Medical Billing. All rights reserved</p>
-          </div>
-          <div>
-            <a href="#" >Privacy Policy | Terms & Conditions</a>
-          </div>
-        </div>
-      </div>
+      <div className='py-4 px-5 md:w-full w-full flex flex-col md:flex-row justify-between items-center font-semibold text-white'>
+  
+    <p>© 2023 AllStars Medical Billing. All rights reserved</p>
+    <a href="#" >Privacy Policy | Terms & Conditions</a>
+  </div>
+</div>
             </div>
             );
             }
