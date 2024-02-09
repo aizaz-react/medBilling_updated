@@ -54,7 +54,7 @@ const infoNavItems = {
   function About() {
     return (
       <div>
-        <div className={'bg-blue w-full mx-auto'}>
+        <div className={'bg-blue w-full mx-auto md:block hidden'}>
         <Container className={'flex justify-between items-center py-2'}>
           <div className='flex flex-row text-center'>
             {infoNavItems.leftSide.map((item, i, array) => (
@@ -92,7 +92,7 @@ const infoNavItems = {
           </a>
         </div>
         <div>
-          <button className="btn bg-blue h-12 rounded-md text-white font-semibold px-8 hover:bg-sky-700">Request a Call Back</button>
+          <button className="btn bg-blue h-12 rounded-md text-white font-semibold px-8 hover:bg-sky-700 md:block hidden">Request a Call Back</button>
         </div>
       </div>
 
@@ -102,35 +102,33 @@ const infoNavItems = {
         opacity: '0.9',
         transition: 'background 0.3s, border-radius 0.3s, opacity 0.3s',
             }}>
-        <img src={Brud} alt='Brud' className='opacity-20 w-full h-44' />
+        <img src={Brud} alt='Brud' className='opacity-20 w-full md:h-44 h-32' />
         </div>
-            <h1 className="text-white text-4xl font-bold absolute top-16 left-16">About Us</h1>
+            <h1 className="text-white text-4xl font-bold absolute top-16 md:left-16 left-32">About Us</h1>
             </div>
       {/* About */}
-      <div className='mt-20 mx-14'>
-        <div className='pb-[5rem] flex mr-20 ml-20'>
-          <div className='md:flex justify-between gap-8'>
-            <div className='md:w-2/5'>
-              <img className='rounded-md' src={aboutimage} alt="Aboutimage" style={{ maxWidth: '100%', height: 'auto' }} />
-            </div>
-            <div className=' md:w-2/3 mt-8'>
-              <h1 className='text-2xl font-bold text-left ml-3'>About AllStars Medical Billing</h1>
-             <div className='h-1 w-[21rem] bg-blue mt-2 ml-3'></div>
-              <p className='mt-6 ml-3 line-clamp-7'>
-              Effective billing management is a crucial component of any successful medical practice. By entrusting this responsibility to the experts at AllStars Medical Billing Solutions, you can free up your staff and medical professionals to concentrate on what matters most: providing top-notch patient care.
-             </p>
-             <p className='mt-6 ml-3 line-clamp-7'>
-             With a wealth of experience in the field, our billing professionals are dedicated to helping healthcare providers optimize their revenue streams, cut unnecessary expenses, and streamline their business operations. AllStars Medical Billing Solutions offers a 
-             comprehensive end-to-end revenue cycle management solution tailored to over 50 medical specialties across the United States.
-             </p>
-          <button className="bg-blue mt-16 text-white px-5 py-2 rounded-md font-semibold float-right shadow-lg hover:bg-sky-700">Contact Us</button>
-            </div>
-          </div>
-        </div>
-      </div>
+            <div className='md:pb-[5rem] pb-8 flex mx-5 md:mx-20 mt-14 md:mt-14'>
+            <div className='md:flex justify-between gap-8'>
+  <div className='md:w-2/5 order-2 md:order-1'>
+    <img className='rounded-md' src={aboutimage} alt="Aboutimage" style={{ maxWidth: '100%', height: 'auto' }} />
+  </div>
+  <div className='md:w-2/3 mt-8 md:order-2'>
+    <h1 className='text-2xl font-bold text-left ml-3'>About AllStars Medical Billing</h1>
+    <div className='h-1 w-[21rem] bg-blue mt-2 ml-3'></div>
+    <p className='mt-6 ml-3 line-clamp-7'>
+      Effective billing management is a crucial component of any successful medical practice. By entrusting this responsibility to the experts at AllStars Medical Billing Solutions, you can free up your staff and medical professionals to concentrate on what matters most: providing top-notch patient care.
+    </p>
+    <p className='md:mt-6 mt-3 md:ml-3 line-clamp-7'>
+      With a wealth of experience in the field, our billing professionals are dedicated to helping healthcare providers optimize their revenue streams, cut unnecessary expenses, and streamline their business operations. AllStars Medical Billing Solutions offers a comprehensive end-to-end revenue cycle management solution tailored to over 50 medical specialties across the United States.
+    </p>
+    <button className="bg-blue mt-10 md:mt-16 text-white px-5 py-2 rounded-md font-semibold float-right shadow-lg hover:bg-sky-700">Contact Us</button>
+  </div>
+</div>
+
+</div>
       {/* Card Section */}
       <div className='md:mt-16'>
-  <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mx-20">
+  <div className="grid grid-cols-1 md:grid-cols-4 gap-6 md:mx-20 mx-5">
     <div className="flex-1">
       <div className="flex flex-col  min-h-[200px] h-full border border-borderstyledark">
         <div className="p-6">
@@ -199,38 +197,37 @@ const infoNavItems = {
   </div>
         </div>
         {/* Mission section */}
-        <div className='bg-darkgray mt-14'>
-            <div className='md:flex justify-between mx-20 items-center py-10'>
+        <div className='bg-darkgray md:mt-14 mt-10'>
+            <div className='md:flex justify-between mx-5 md:mx-20 items-center md:py-10 pt-14'>
                 <div>
                     <h1 className='font-bold text-2xl'>Our <span className='text-blue'>Mission</span></h1>
                     <div className='h-1 w-[8.5rem] bg-blue'></div>
-                    <p className='pt-5 pr-32'>At AllStars Medical Billing, our purpose is to empower healthcare providers by alleviating the complexities of medical billing. We are dedicated to optimizing revenue streams, minimizing costs, and enhancing operational efficiency for over 50 medical specialties across the United States. Our unwavering commitment is to enable healthcare professionals to dedicate their full attention to patient care, while we expertly manage claims, payments, and patient statements with precision and speed.  We are steadfast in our mission to ensure accuracy from the outset,
+                    <p className='pt-5 md:pr-32'>At AllStars Medical Billing, our purpose is to empower healthcare providers by alleviating the complexities of medical billing. We are dedicated to optimizing revenue streams, minimizing costs, and enhancing operational efficiency for over 50 medical specialties across the United States. Our unwavering commitment is to enable healthcare professionals to dedicate their full attention to patient care, while we expertly manage claims, payments, and patient statements with precision and speed.  We are steadfast in our mission to ensure accuracy from the outset,
                          eliminating the underlying causes of billing errors and providing peace of mind to our clients.</p>
                 </div>
-                <div>
+                <div className='pt-5'>
                     <img className='h-auto max-w[100%]:' src={MissionImage} alt='MissionImage'style={{width:'1300px'}}></img>
                 </div>
             </div>
         </div>
         {/* Vision section */}
-        <div className='mt-14'>
-            <div className='md:flex justify-between mx-20 items-center py-10'>
-                <div>
-                    <img className='h-auto max-w[100%]:' src={VisionImamge} alt='VisionImamge'style={{width:'1300px'}}></img>
-                </div>
-                <div className='pl-32'>
-                    <h1 className='font-bold text-2xl'>Our <span className='text-blue'>Mission</span></h1>
-                    <div className='h-1 w-[8.5rem] bg-blue'></div>
-                    <p className='pt-5'>
-                    We aspire to become the foremost ally for healthcare practices in their pursuit of financial excellence. Our goal is to establish the benchmark for excellence in medical billing, credentialing, medical accounts receivable management, and practice billing audit services within the industry. Drawing upon our extensive experience in healthcare billing, we envision a future where healthcare providers can place their complete trust in us to elevate their financial performance. This trust will enable them to
-                     offer exceptional services to their patients with unwavering confidence and peace of mind.
-                    </p>
-                </div>
-            </div>
-        </div>
+        <div className='md:mt-14'>
+  <div className='md:flex justify-between mx-5 md:mx-20 items-center py-10'>
+    <div className='md:order-1 md:pl-32'>
+      <h1 className='font-bold text-2xl'>Our <span className='text-blue'>Mission</span></h1>
+      <div className='h-1 w-[8.5rem] bg-blue'></div>
+      <p className='pt-5'>
+        We aspire to become the foremost ally for healthcare practices in their pursuit of financial excellence. Our goal is to establish the benchmark for excellence in medical billing, credentialing, medical accounts receivable management, and practice billing audit services within the industry. Drawing upon our extensive experience in healthcare billing, we envision a future where healthcare providers can place their complete trust in us to elevate their financial performance. This trust will enable them to offer exceptional services to their patients with unwavering confidence and peace of mind.
+      </p>
+    </div>
+      <img className='h-auto w-full' src={VisionImamge} alt='VisionImamge' style={{ width: '300px' }} />
+    
+  </div>
+</div>
+
         {/* Address section */}
         <div className='bg-blue w-full'>
-        <div className='mx-4 md:mx-8 lg:mx-16 py-4 flex flex-col md:flex-row justify-between'>
+        <div className='mx-4 lg:mx-16 py-4 flex flex-col md:flex-row justify-between'>
           <div className='mb-4 md:mb-0 md:mr-4 flex items-center'>
             <div>
               <LuPhoneCall style={{ color: 'white', marginRight: '10px', fontSize: '45px' }} />
@@ -267,7 +264,9 @@ const infoNavItems = {
           </div>
         </div>
       </div>
-        {/* Footer */}
+
+      {/* Footer */}
+              {/* Footer */}
         <div className='bg-black'>
         <div className='py-10 px-4 lg:px-10 flex flex-col lg:flex-row justify-between'>
           <div className='flex flex-col justify-start border-2 rounded-lg border-blue lg:w-[28%]'>
@@ -291,6 +290,7 @@ const infoNavItems = {
         <FaYoutube className="text-white text-lg" />
     </a>
 </div>
+
           </div>
           <div className='text-white lg:mt-0 mt-6'>
             {/* left two */}
@@ -316,14 +316,14 @@ const infoNavItems = {
               <a href="#" className="hover:text-blue">Patient Billing</a>
             </nav>
           </div>
-          <div className='mt-6 lg:mt-0 w-1/4'>
+          <div className='mt-6 lg:mt-0 lg:w-1/4 w-full'>
             {/* right two */}
             <div className="flex flex-col gap-4 w-full">
               <h1 className='text-white font-bold text-2xl'>Quick Contact</h1>
               <input type="text" className="lg:flex-1 border p-2 rounded border-none focus:outline-none" placeholder="Your Email" />
               <div className="flex flex-col w-full">
                 <textarea
-                  className="border p-2 rounded focus:outline-none h-32"
+                  className="border p-2 rounded focus:outline-none"
                   placeholder="Message"
                 ></textarea>
               </div>
@@ -337,17 +337,13 @@ const infoNavItems = {
           </div>
         </div>
       </div>
-
       <div className='bg-blue'>
-        <div className='py-4 px-10 flex justify-between text-white font-semibold'>
-          <div>
-            <p>© 2023 AllStars Medical Billing. All rights reserved</p>
-          </div>
-          <div>
-            <a href="#" >Privacy Policy | Terms & Conditions</a>
-          </div>
-        </div>
-      </div>
+      <div className='py-4 px-5 md:w-full w-full flex flex-col md:flex-row justify-between items-center font-semibold text-white'>
+  
+    <p>© 2023 AllStars Medical Billing. All rights reserved</p>
+    <a href="#" >Privacy Policy | Terms & Conditions</a>
+  </div>
+</div>
       </div>
     );
   }

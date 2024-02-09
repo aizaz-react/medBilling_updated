@@ -49,7 +49,7 @@ const infoNavItems = {
   function Contact() {
     return (
       <div>
-        <div className={'bg-blue w-full mx-auto'}>
+        <div className={'bg-blue w-full mx-auto md:block hidden'}>
         <Container className={'flex justify-between items-center py-2'}>
           <div className='flex flex-row text-center'>
             {infoNavItems.leftSide.map((item, i, array) => (
@@ -87,7 +87,7 @@ const infoNavItems = {
           </a>
         </div>
         <div>
-          <button className="btn bg-blue h-12 rounded-md text-white font-semibold px-8 hover:bg-sky-700">Request a Call Back</button>
+          <button className="btn bg-blue h-12 rounded-md text-white font-semibold px-8 hover:bg-sky-700 md:block hidden">Request a Call Back</button>
         </div>
       </div>
 
@@ -99,11 +99,11 @@ const infoNavItems = {
             }}>
         <img src={Brud} alt='Brud' className='opacity-20 w-full h-44' />
         </div>
-            <h1 className="text-white text-5xl font-bold absolute top-16 left-16 hover:bg-sky-700">Contact Us</h1>
+            <h1 className="text-white text-5xl font-bold absolute top-16 md:left-16 left-20 hover:bg-sky-700">Contact Us</h1>
             </div>
-        <div className=' mt-20'>
-        <div className="md:flex mx-20 py-5">
-          <div className="mx-3 flex-1">
+        <div className='mt-20'>
+        <div className="md:flex mx-5 md:mx-20 md:py-5">
+          <div className="mx-3 flex-1 mb-10">
             <div className="flex flex-col rounded-lg min-h[200px] h-full" style={{ boxShadow: '0px 0px 18px 0px rgba(0,0,0,.16)' }}>
               <div className="p-6">
               <a href=''>
@@ -119,7 +119,7 @@ const infoNavItems = {
             </div>
           </div>
 
-          <div className="mx-3 flex-1">
+          <div className="mx-3 flex-1 mb-10">
             <div className="flex flex-col rounded-lg min-h[200px] h-full" style={{ boxShadow: '0px 0px 18px 0px rgba(0,0,0,.16)' }}>
               <div className="p-6">
                 <a href=''>
@@ -135,7 +135,7 @@ const infoNavItems = {
             </div>
           </div>
 
-          <div className="mx-3 flex-1">
+          <div className="mx-3 flex-1 mb-10">
             <div className="flex flex-col rounded-lg min-h[200px] h-full" style={{ boxShadow: '0px 0px 18px 0px rgba(0,0,0,.16)' }}>
               <div className="p-6">
               <a href=''>
@@ -153,13 +153,13 @@ const infoNavItems = {
         </div>
       </div>
       {/* Locations & Contact section */}
-      <div className='bg-darkgray mt-24'>
-        <div className='md:flex gap-20 mx-20 py-20'>
-          <div className='w-1/2'>
+      <div className='bg-darkgray mt-16'>
+        <div className='md:flex gap-20 mx-8 md:mx-20 md:py-20'>
+          <div className='md:w-1/2 object-cover'>
             {/* Left */}
             <h1 className='text-2xl'>Our Locations</h1>
             <div className='h-1 w-[9rem] bg-blue'></div>
-            <div className='felx-1 py-8'>
+            <div className='felx-1 md:py-8'>
             <iframe 
       src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6295.864071381195!2d-122.06452505191072!3d37.908651254732625!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808561bd3ff82649%3A0x823c07820af525e0!2sAllStars%20Medical%20Billing!5e0!3m2!1sen!2s!4v1707299200723!5m2!1sen!2s" 
     width="600" 
@@ -177,11 +177,11 @@ const infoNavItems = {
             <div className='h-1 w-[7rem] bg-blue'></div>
             <div className='flex-1'>
             <div className="items-center py-8 md:flex flex-col gap-4">
-              <div className="flex gap-4 w-full">
+              <div className="flex gap-4 w-full lg:w-full md:w-0 sm:flex sm:flex-row">
                 <input type="text" className=" flex-1 border bg-darkgray p-2 focus:outline-none border-borderstyledark" placeholder="Name" />
                 <input type="email" className=" flex-1 border bg-darkgray border-borderstyledark p-2  focus:outline-none" placeholder="Email Address" />
               </div>
-              <div className="flex gap-4 w-full">
+              <div className="flex gap-4 w-full lg:w-full md:w-0 sm:flex sm:flex-row">
                 <input type="text" className="border bg-darkgray border-borderstyledark p-2 focus:outline-none flex-1" placeholder="Phone No." />
                 <select className="border bg-darkgray border-borderstyledark p-2 focus:outline-none flex-1">
                   <option value="" disabled selected>-Service-</option>
@@ -192,7 +192,7 @@ const infoNavItems = {
                 </select>
               </div>
 
-              <div className="flex gap-4 w-full">
+              <div className="flex gap-4 w-full lg:w-full md:w-0 sm:flex sm:flex-row">
                 <select className="border bg-darkgray border-borderstyledark p-2 focus:outline-none flex-1">
                   <option value="" disabled selected>-State-</option>
                   <option value="category1">Category 1</option>
@@ -223,7 +223,7 @@ const infoNavItems = {
       </div>
       {/* Contact card section */}
       <div className='bg-blue w-full'>
-        <div className='mx-4 md:mx-8 lg:mx-16 py-4 flex flex-col md:flex-row justify-between'>
+        <div className='mx-4 lg:mx-16 py-4 flex flex-col md:flex-row justify-between'>
           <div className='mb-4 md:mb-0 md:mr-4 flex items-center'>
             <div>
               <LuPhoneCall style={{ color: 'white', marginRight: '10px', fontSize: '45px' }} />
@@ -260,7 +260,9 @@ const infoNavItems = {
           </div>
         </div>
       </div>
-        {/* Footer */}
+
+      {/* Footer */}
+              {/* Footer */}
         <div className='bg-black'>
         <div className='py-10 px-4 lg:px-10 flex flex-col lg:flex-row justify-between'>
           <div className='flex flex-col justify-start border-2 rounded-lg border-blue lg:w-[28%]'>
@@ -310,7 +312,7 @@ const infoNavItems = {
               <a href="#" className="hover:text-blue">Patient Billing</a>
             </nav>
           </div>
-          <div className='mt-6 lg:mt-0 w-1/4'>
+          <div className='mt-6 lg:mt-0 lg:w-1/4 w-full'>
             {/* right two */}
             <div className="flex flex-col gap-4 w-full">
               <h1 className='text-white font-bold text-2xl'>Quick Contact</h1>
@@ -331,17 +333,13 @@ const infoNavItems = {
           </div>
         </div>
       </div>
-
       <div className='bg-blue'>
-        <div className='py-4 px-10 flex justify-between text-white font-semibold'>
-          <div>
-            <p>© 2023 AllStars Medical Billing. All rights reserved</p>
-          </div>
-          <div>
-            <a href="#" >Privacy Policy | Terms & Conditions</a>
-          </div>
-        </div>
-      </div>
+      <div className='py-4 px-5 md:w-full w-full flex flex-col md:flex-row justify-between items-center font-semibold text-white'>
+  
+    <p>© 2023 AllStars Medical Billing. All rights reserved</p>
+    <a href="#" >Privacy Policy | Terms & Conditions</a>
+  </div>
+</div>
       </div>
     );
   }

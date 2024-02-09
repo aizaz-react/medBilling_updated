@@ -11,9 +11,10 @@ import { BsFillTelephoneFill } from "react-icons/bs";
 import { BiSolidBuildingHouse } from "react-icons/bi";
 import '../Header.css';
 import logo from '../images/main-logo.webp'
-import banner from '../images/Banner-img.png'
+import bannerTwo from '../images/banner-2.png'
 import aboutimage from '../images/ABout.png'
 import serviceAimnImage from '../images/amin3.png'
+import Brud from '../images/brud.png'
 import testimonialImage from '../images/testimonial.png'
 import buisnextImage from '../images/businext-img33.png'
 import Faqf from '../images/faqs-f.png'
@@ -113,27 +114,25 @@ function Home() {
           </a>
         </div>
         <div>
-          <button className="btn bg-blue h-12 rounded-md text-white font-semibold px-8 hover:bg-sky-700">Request a Call Back</button>
+          <button className="btn bg-blue h-12 rounded-md text-white font-semibold px-8 hover:bg-sky-700 md:block hidden">Request a Call Back</button>
         </div>
       </div>
-      <div>
-        <img className='relative h-[650px]' src={banner} alt='banner-imag'></img>
-        <div className="absolute top-64 text-left ml-24">
-          <h1 className="text-5xl font-bold text-white mt-6 mb-4 line-clamp-5">AllStars Medical Billing
-          </h1>
-          <p className="text-lg mb-4 mt-2 text-white">
-            By referring clients to our medical billing and coding services, you can start earning
-          </p>
-          <p className="text-lg mb-4 text-white">
-            today and you'll be amazed when you hear about our vendor program.
-          </p>
-          <button className="bg-blue mt-8 text-white px-4 py-2 rounded-md font-bold hover:bg-sky-700">Read More</button>
-        </div>
-      </div>
-      <div className=' md:h-96 bg-darkgray md:mt-[-70px]'>
-        <div className="md:flex md:absolute mx-10">
-          <div className="mx-3 flex-1">
-            <div className="flex flex-col rounded-lg min-h[300px] h-full bg-white shadow-md dark:bg-neutral-700">
+      
+      <div className='relative h-72 md:h-auto'>
+  <img className='h-full md:w-full object-cover' src={bannerTwo} alt='banner-image' />
+  <div className="absolute text-left md:ml-24 top-10 md:mt-24 mx-7 md:mx-0 left-0">
+    <h1 className="md:text-4xl font-bold text-white md:my-6">AllStars Medical Billing</h1>
+    <p className="md:text-lg mb-4 mt-2 text-white">We excel in medical billing and coding, with expertise in Professional,<br></br>Institutional, Emergency Room, and Out-of-Network coding services.</p>
+    <button className="bg-blue mt-4 md:mt-8 text-white px-4 py-2 rounded-md font-bold hover:bg-sky-700">Read More</button>
+  </div>
+</div>
+
+  <div className='relative md:h-96 mt-[-30px] md:mt-[-70px] md:static'>
+    <div className="md:flex md:absolute md:mx-10 mx-5">
+      {/* Services Section */}
+      <div className="mx-3 flex-1 my-4 md:my-0">
+        {/* Service 1 Content */}
+        <div className="flex flex-col rounded-lg min-h[300px] h-full bg-white shadow-md dark:bg-neutral-700">
               <div className="p-6">
                 <h1 className="text-center mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
                   Medical Credentialing
@@ -144,10 +143,10 @@ function Home() {
                 </p>
               </div>
             </div>
-          </div>
-
-          <div className="mx-3 flex-1">
-            <div className="flex flex-col rounded-lg min-h[300px] h-full bg-white shadow-md dark:bg-neutral-700">
+      </div>
+      <div className="mx-3 flex-1">
+        {/* Service 2 Content */}
+        <div className="flex flex-col rounded-lg min-h[300px] h-full bg-white shadow-md dark:bg-neutral-700">
               <div className="p-6">
                 <h1 className="text-center mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
                   Medical Coding
@@ -158,10 +157,10 @@ function Home() {
                 </p>
               </div>
             </div>
-          </div>
-
-          <div className="mx-3 flex-1">
-            <div className="flex flex-col rounded-lg min-h[300px] h-full bg-white shadow-md dark:bg-neutral-700">
+      </div>
+      <div className="mx-3 flex-1 my-4 md:my-0">
+        {/* Service 3 Content */}
+        <div className="flex flex-col rounded-lg min-h[300px] h-full bg-white shadow-md dark:bg-neutral-700">
               <div className="p-6">
                 <h1 className="mb-2 text-xl font-medium text-center leading-tight text-neutral-800 dark:text-neutral-50">
                   Medical Billing
@@ -172,10 +171,10 @@ function Home() {
                 </p>
               </div>
             </div>
-          </div>
-
-          <div className="mx-3 flex-1">
-            <div className="flex flex-col rounded-lg min-h[300px] h-full bg-white shadow-md dark:bg-neutral-700">
+      </div>
+      <div className="mx-3 flex-1">
+        {/* Service 4 Content */}
+        <div className="flex flex-col rounded-lg min-h[300px] h-full bg-white shadow-md dark:bg-neutral-700">
               <div className="p-6">
                 <h1 className="text-center mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
                   Practice Management
@@ -186,128 +185,172 @@ function Home() {
                 </p>
               </div>
             </div>
-          </div>
-        </div>
       </div>
-      {/* About  */}
-      <div className='bg-darkgray'>
-        <div className='pb-[5rem] flex mr-20 ml-20'>
-          <div className='md:flex justify-between gap-8'>
-            <div className='md:w-2/5'>
-              <img className='rounded-md' src={aboutimage} alt="Aboutimage" style={{ maxWidth: '100%', height: 'auto' }} />
-            </div>
-            <div className=' md:w-2/3'>
-              <h1 className='font-extrabold text-center'>Welcome To <span className='text-blue'> AllStars Medical Billing</span></h1>
-              <p className='mt-6 ml-3 line-clamp-7'>Billing plays a crucial role in the operations of any medical practice. When entrusted to capable hands, it allows your staff and medical professionals to concentrate on their primary focus: delivering excellent patient care. AllStars has a proven track record of assisting healthcare providers in optimizing their revenue collection, minimizing unnecessary expenses, and simplifying business processes through a team of highly skilled billing experts. AllStars Medical Billing Solutions offers comprehensive revenue cycle management solutions tailored to over 50 specialties across the United States.</p>
-            </div>
-          </div>
-        </div>
-      </div>
+    </div>
+  </div>
 
-      <div className='mt-14 md:mr-28 ml-28'>
-        <h2 className='text-center text-4xl font-semibold'>Why AllStars Medical Billing?</h2>
-        <div className='h-1 w-[27rem] bg-blue mt-2 mx-auto'></div>
+  {/* About Section */}
+  <div className='bg-darkgray'>
+    <div className='py-10 md:pb-[5rem] flex md:mx-20 mx-5'>
+      <div className='md:flex justify-between gap-8'>
+        <div className='md:w-2/5 w-full'>
+          {/* About Image */}
+          <img className='rounded-md' src={aboutimage} alt="Aboutimage" style={{ maxWidth: '100%', height: 'auto' }} />
+        </div>
+        <div className='mx-5 md:mx-0 pt-10 md:w-2/3 md:pt-0 '>
+          {/* About Content */}
+          <h1 className='font-bold md:text-3xl text-[28px] flex flex-col md:flex-row'>Welcome To <span className='text-blue'> AllStars Medical Billing</span></h1>
+          <p className=' mt-4 md:mt-6 line-clamp-7 text-gray-500'>Billing plays a crucial role in the operations of any medical practice. When entrusted to capable hands, it allows your staff and medical professionals
+           to concentrate on their primary focus: delivering excellent patient care. AllStars has a proven track record of assisting healthcare providers in 
+           optimizing their revenue collection, minimizing unnecessary expenses, and simplifying business processes through a team of highly skilled billing experts. AllStars Medical Billing Solutions offers comprehensive 
+           revenue cycle management solutions tailored to over 50 specialties across the United States.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+      <div className='mt-5 md:mx-28 mx-8'>
+        <h2 className='text-center md:text-4xl text-2xl font-semibold'>Why AllStars Medical Billing?</h2>
+        <div className='h-1 md:w-[27rem] w-[19rem] bg-blue mt-2 mx-auto'></div>
         <p className='text-center text-gray-500 mt-5'>At AllStars, we firmly believe that healthcare providers should dedicate their time and energy to patient care and delivering outstanding services, without the burden of claims, payments, and patient statements. Our approach revolves around an intelligent workflow that prioritizes precision from the outset, consistently identifying and eradicating the underlying causes of billing errors and other issues.</p>
       </div>
 
-      <div className='mt-10 mr-28 ml-28'>
+      <div className='mt-10 mx-10 md:mx-28'>
         <div className=' grid md:grid-cols-2 grid-cols-1 gap-14'>
           <div className='flex-1'>
-            <h2 className='text-2xl font-bold'>EXCEPTIONAL EXPERTISE</h2>
+            <h2 className='md:text-xl font-bold'>EXCEPTIONAL EXPERTISE</h2>
             <p className='text-gray-500'>Each member of our team boasts a minimum of 10 years of experience in medical billing and client management, with the majority of that time spent in high-level executive roles. It's a claim that sets us apart, as only
               a select few medical billing companies can match our level of expertise.</p>
           </div>
           <div className='flex-1'>
-            <h2 className='text-2xl font-bold'>RAPID REIMBURSEMENTS</h2>
+            <h2 className='md:text-xl font-bold'>RAPID REIMBURSEMENTS</h2>
             <p className='text-gray-500'>Thanks to our extensive expertise, we can expedite your reimbursements efficiently. Our team consists solely of seasoned professionals, eliminating the need for on-the-job training at your expense. This results in reduced overhead
               for us and increased reimbursements for you, all at a lower cost.</p>
           </div>
 
           <div className="flex-1">
-            <h2 className='text-2xl font-bold'>CLAIMS ACCEPTANCE RATIO – 98%</h2>
+            <h2 className='md:text-xl font-bold'>CLAIMS ACCEPTANCE RATIO – 98%</h2>
             <p className='text-gray-500'>Our monthly first-pass claim acceptance rate across all of our customers has consistently averaged 98%, which is 3% higher than the industry average!</p>
           </div>
           <div className="flex-1">
-            <h2 className='text-2xl font-bold'>CONTROLLED MONTHLY DENIALS</h2>
+            <h2 className='md:text-xl font-bold'>CONTROLLED MONTHLY DENIALS</h2>
             <p className='text-gray-500'>Our monthly denial rate is less than 8% across all of our customers which is better than the industry average!</p>
           </div>
 
           <div className='flex-1'>
-            <h2 className='text-2xl font-bold'>96% Electronic Claims Submission</h2>
+            <h2 className='md:text-xl font-bold'>96% Electronic Claims Submission</h2>
             <p className='text-gray-500'>Sending 95% of claims electronically is an impressive efficiency achievement for AllStars. Electronic claims submission is faster, more accurate, and cost-effective compared to paper-based methods. This high percentage suggests that AllStars prioritizes streamlined processes, reducing paperwork, and expediting claim processing, which benefits both healthcare providers and their clients by
               accelerating reimbursement and reducing administrative burdens.</p>
           </div>
           <div className='flex-1'>
-            <h2 className='text-2xl font-bold'>99% Credentialing success on first application</h2>
+            <h2 className='md:text-xl font-bold'>99% Credentialing success on first application</h2>
             <p className='text-gray-500'>AllStars achieved 99% credentialing success rate on the first application which is a significant accomplishment in the healthcare industry. Credentialing is a crucial process where healthcare providers are thoroughly
               reviewed and verified by the insurance companies.</p>
           </div>
 
           <div className='flex-1'>
-            <h2 className='text-2xl font-bold'>95% Electronic Payments</h2>
+            <h2 className='md:text-xl font-bold'>95% Electronic Payments</h2>
             <p className='text-gray-500'>Achieving a 95% rate for Electronic Remittance Advice (ERA) and Electronic Funds Transfer (EFT) payments with AllStars demonstrates their commitment to efficient and modern financial transactions in healthcare. Utilizing ERA and EFT significantly streamlines payment processes, reduces paperwork, and enhances accuracy. This high percentage indicates that AllStars excels in facilitating electronic payment methods, providing healthcare providers with
               quicker and more secure access to their payments, thus improving overall financial management.</p>
           </div>
           <div className='flex-1'>
-            <h2 className='text-2xl font-bold'>Free Coding audit</h2>
+            <h2 className='md:text-xl font-bold'>Free Coding audit</h2>
             <p className='text-gray-500'>Offering a free coding audit with AllStars is a valuable service for healthcare providers. A coding audit can help identify errors or inaccuracies in medical coding, which can have a significant impact on reimbursement and compliance. By providing this service for free, AllStars demonstrates a commitment to helping healthcare practices improve their
               coding accuracy and optimize their revenue cycle management without incurring additional costs.</p>
           </div>
 
           <div className='flex-1'>
-            <h2 className='text-2xl font-bold'>10% - 15% Growth in monthly Collections</h2>
+            <h2 className='md:text-xl font-bold'>10% - 15% Growth in monthly Collections</h2>
             <p className='text-gray-500'>Achieving a proven monthly revenue growth of 15% to 20% with AllStars is a remarkable accomplishment. This substantial increase in revenue demonstrates the effectiveness of AllStars' services and strategies in optimizing revenue cycle management for healthcare providers. Such growth indicates that AllStars not only maintains the
               financial health of their clients but actively contributes to their financial success by enhancing billing, collections, and reimbursement processes.</p>
           </div>
           <div className='flex-1'>
-            <h2 className='text-2xl font-bold'>Open Service Agreement/ No limitation</h2>
+            <h2 className='md:text-xl font-bold'>Open Service Agreement/ No limitation</h2>
             <p className='text-gray-500'>An open agreement with AllStars without limitations suggests a flexible and unrestricted partnership. Such an arrangement typically means that there are no predefined constraints, boundaries, or specific terms that restrict the scope of services or engagement. It provides both parties with the freedom to collaborate and adapt the agreement as needed to meet evolving needs
               and objectives. Leave us any time if not happy with our committed services. No hidden charges.</p>
           </div>
 
           <div className='flex-1'>
-            <h2 className='text-2xl font-bold'>3RD PARTY EHR/BILLING PLATFORMS</h2>
+            <h2 className='md:text-xl font-bold'>3RD PARTY EHR/BILLING PLATFORMS</h2>
             <p className='text-gray-500'>We have hands-on expertise with almost all the industry top medical
               billing software platforms. This means we can get you started without any delay.</p>
           </div>
           <div className='flex-1'>
-            <h2 className='text-2xl font-bold'>ALL SPECIALTIES</h2>
+            <h2 className='md:text-xl font-bold'>ALL SPECIALTIES</h2>
             <p className='text-gray-500'>Our team has proven skills in Institutional
               Billing, Professional Billing, DME, Emergency Room, Out-of-Network and Laboratory Billing.</p>
           </div>
 
           <div className='flex-1'>
-            <h2 className='text-2xl font-bold'>HIPAA-compliant</h2>
+            <h2 className='md:text-xl font-bold'>HIPAA-compliant</h2>
             <p className='text-gray-500'>As a HIPAA-compliant and ISO-certified organization, we wholeheartedly prioritize the highest standards of compliance in our industry. Our team comprises highly trained experts who meticulously
               adhere to regulations set forth by Medicaid, Medicare, and commercial insurance entities.</p>
           </div>
           <div className='flex-1'>
-            <h2 className='text-2xl font-bold'>Data Protection</h2>
+            <h2 className='md:text-xl font-bold'>Data Protection</h2>
             <p className='text-gray-500'>Our commitment to data security is unwavering, with
               stringent protocols in effect to guarantee the privacy and integrity of your data</p>
           </div>
 
           <div className='flex-1'>
-            <h2 className='text-2xl font-bold'>Single Point of contact</h2>
+            <h2 className='md:text-xl font-bold'>Single Point of contact</h2>
             <p className='text-gray-500'>At Allstars, we pride ourselves on offering a personalized experience to each client. That's why we assign a dedicated project manager to you, ensuring you have a single, reliable point of contact throughout your billing journey. This approach simplifies communication, minimizes any potential confusion, and guarantees transparency when it comes to
               updating you on your claims, settlements, and promptly addressing any questions you may have.</p>
           </div>
           <div className='flex-1'>
-            <h2 className='text-2xl font-bold'>Assurance of Quality</h2>
+            <h2 className='md:text-xl font-bold'>Assurance of Quality</h2>
             <p className='text-gray-500'>With our rigorous audits and steadfast dedication to quality standards, we assure uncompromising
               billing services. We continually improve our systems for service excellence.</p>
           </div>
         </div>
       </div>
 
-      <div className='mt-20 text-white pt-24 pb-[14rem]' style={{ backgroundImage: `url(${serviceAimnImage})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'right bottom', backgroundColor: "rgba(0, 0, 0, 0.3)" }}>
-        <div><h1 className="text-2xl font-semibold text-center">What We Do</h1>
-          <h2 className="text-4xl font-bold mb-2 text-center">Our Services</h2>
-          <div className='h-1 w-[12rem] bg-white mt-1 mb-1 mx-auto'></div>
-          <p className="text-lg text-center mx-80">AllStars Medical Billing  has a strong grasp of medical billing, credentialing, medical A/R, and practice billing audit services. With extensive experience in the healthcare billing industry, we are confident
-            in our ability to enhance the financial performance of your healthcare practice.</p></div>
-      </div>
-      <div className='md:mt-[-100px] z-[1] relative mx-40 grid grid-cols-1 md:grid-cols-3 gap-8 place-items-center'>
+
+<div className='mt-20 text-white pt-10 md:pt-24 pb-[10rem]' style={{ 
+  backgroundImage: `url(${serviceAimnImage})`, 
+  backgroundRepeat: 'no-repeat', 
+  backgroundPosition: 'right bottom',
+  background: 'linear-gradient(180deg, #204066 0%, #008ac6 100%)',
+  transition: 'background 0.3s, border-radius 0.3s, opacity 0.3s',
+  '@media (max-width: 768px)': {
+    backgroundPosition: 'center',
+    paddingTop: '16rem',
+    paddingBottom: '8rem',
+  }
+}}>
+  <div>
+    <h1 className="text-2xl font-semibold text-center">What We Do</h1>
+    <h2 className="md:text-3xl pt-2 text-2xl font-bold mb-2 text-center">Our Services</h2>
+    <div className='h-1 md:w-[11rem] w-[8.5rem] bg-white mt-1 mb-1 mx-auto'></div>
+    <p className="md:text-lg pt-3 text-center mx-5 md:mx-72">AllStars Medical Billing has a strong grasp of medical billing, credentialing, medical A/R, and practice billing audit services. With extensive experience in the healthcare billing industry, we are confident in our ability to enhance the financial performance of your healthcare practice.</p>
+  </div>
+</div>
+
+           {/* crash code */}
+{/* <div className='relative'>
+  <div className='bg-gradient-to-r from-darkblue to-darkblue' style={{ 
+    background: 'linear-gradient(180deg, #204066 0%, #008ac6 100%)',
+    transition: 'background 0.3s, border-radius 0.3s, opacity 0.3s',
+  }}>
+    <img
+      src={serviceAimnImage}
+      alt='serviceAimnImage'
+      className='w-full h-40 md:h-60 lg:h-80'
+      style={{ width: '100%', height: 'auto', maxHeight: '40vh',backgroundRepeat: 'no-repeat', backgroundPosition: 'right bottom'}}
+    />
+  <div className='absolute top-0 left-0 right-0 h-full flex flex-col justify-center items-center'>
+    <h1 className="text-2xl font-semibold text-center">What We Do</h1>
+    <h2 className="text-4xl font-bold mb-2 text-center">Our Services</h2>
+    <div className='h-1 w-[12rem] bg-white mt-1 mb-1'></div>
+    <p className="text-lg text-center mx-8">
+      AllStars Medical Billing has a strong grasp of medical billing, credentialing, medical A/R, and practice billing audit services. With extensive experience in the healthcare billing industry, we are confident in our ability to enhance the financial performance of your healthcare practice.
+    </p>
+  </div>
+  </div>
+</div> */}
+
+
+      <div className='md:mt-[-46px] mt-[-80px] relative mx-5 md:mx-40 grid grid-cols-1 md:grid-cols-3 gap-8 place-items-center'>
         {/* Box 1 */}
         <div className="flex flex-col rounded-lg h-full bg-white custom-shadow">
           <div className="p-6">
@@ -385,15 +428,17 @@ function Home() {
         </div>
       </div>
 
-      <div className='mt-20 py-20 bg-darkgray'>
-        <h2 className='text-blue text-xl font-semibold text-center pt-10'>We Cover</h2>
-        <h1 className='text-4xl font-bold text-center'>These Medical Specialties</h1>
-        <div className='h-1 w-[28rem] bg-blue mt-1 mb-1 mx-auto'></div>
+              {/* Medical Specialties */}
 
-        <div className="grid grid-cols-1 md:grid-cols-5 gap-4 mt-10 mx-40">
+      <div className='mt-20 py-10 bg-darkgray'>
+        <h2 className='text-blue text-xl font-semibold text-center pt-5'>We Cover</h2>
+        <h1 className='md:text-4xl md:font-semibold text-2xl font-semibold text-center'>These Medical Specialties</h1>
+        <div className='h-1 md:w-[25rem] w-[17rem] bg-blue mt-1 mb-1 mx-auto'></div>
+
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-4 mt-10 mx-5 md:mx-40">
           <div className="col-span-1 md:col-span-1  p-6 text-center bg-white  rounded-lg shadow-md">
             <div className="flex flex-col items-center justify-center">
-              <img src={Gynocologyicon} style={{ width: '150px', height: '120px' }} alt="Gynocology" />
+              <img className='w-[150px] h-[120px]' src={Gynocologyicon} alt="Gynocology" />
               <h3 className="font-bold text-elementcolor mt-3">Gynocology</h3>
             </div>
           </div>
@@ -456,15 +501,17 @@ function Home() {
         </div>
 
       </div>
+
+
       <div className='bg-darkgray'>
         <h2 className='text-blue text-xl font-semibold text-center pt-10'>Our Pride</h2>
-        <h1 className='text-4xl font-bold text-center'>Proud Partners</h1>
-        <div className='h-1 w-[16rem] bg-blue mt-1 mb-1 mx-auto'></div>
-        <p className=' pt-5 text-center px-[260px]'>
+        <h1 className='md:text-4xl md:font-bold text-2xl font-semibold text-center'>Proud Partners</h1>
+        <div className='h-1 md:w-[16rem] w-[10rem] bg-blue mt-1 mb-1 mx-auto'></div>
+        <p className='md:pt-5 text-center md:px-[260px] px-5 pt-5'>
           The innovative approach of AllStars Medical Billing has made it one of the rapidly expanding physician practice communities in the United States. Our commitment to driving transformation within the medical field is
           evident through our cutting-edge solutions, all achieved via our Channel Partnerships.
         </p>
-        <div className="grid md:grid-cols-5 grid-rows-2 gap-2 pt-10 px-28 justify-center">
+        <div className="grid md:grid-cols-5 grid-rows-2 gap-2 py-10 md:pt-10 px-28 justify-center">
           <div className="col-span-1 p-2 ">
             <div className="bg-white rounded-md flex items-center justify-center" style={{ width: '200px' }}>
               <img src={allstarspartner1} alt="Partner 1" />
@@ -519,11 +566,11 @@ function Home() {
       </div>
 
       {/* Testimonial */}
-      <div className='text-white pt-24 pb-[14rem]' style={{ backgroundImage: `url(${testimonialImage})`, backgroundRepeat: 'no-repeat', backgroundAttachment: 'fixed' }}>
+      <div className='text-white py-5 md:py-16' style={{ backgroundImage: `url(${testimonialImage})`, backgroundRepeat: 'no-repeat', backgroundAttachment: 'fixed' }}>
         <div><h1 className="text-xl font-semibold text-center text-blue">Testimonials</h1>
-          <h2 className="text-4xl font-bold mb-2 text-center text-black">Our Happy Clients Say!</h2>
-          <div className='h-1 w-[23rem] bg-blue mt-1 mb-1 mx-auto'></div></div>
-        <div className='md:mt-[-100px] z-[1] pt-32 relative mx-4 md:mx-20 grid grid-cols-1 md:grid-cols-3 gap-8 place-items-center'>
+          <h2 className="md:text-4xl text-2xl md:font-bold font-semibold mb-2 text-center text-black">Our Happy Clients Say!</h2>
+          <div className='h-1 md:w-[23rem] w-[15rem] bg-blue mt-1 mb-1 mx-auto'></div></div>
+        <div className='md:mt-[-100px] z-[1] pt-8 md:pt-32 relative mx-4 md:mx-20 grid grid-cols-1 md:grid-cols-3 gap-8 place-items-center'>
           {/* Box 1 */}
           <div className="flex flex-col rounded-lg h-full bg-white custom-shadow border-b-4 border-blue p-4">
             <div className="p-4">
@@ -558,21 +605,19 @@ function Home() {
             </div>
           </div>
         </div>
-
-
       </div>
 
       {/* FAQS */}
 
 
-      <div className="md:flex justify-center gap-8 h-full">
-        <div className='pt-32 font-semibold'>
+      <div className="md:flex justify-center gap-10 h-full mx-10 mt-20 md:mt-8">
+        <div className='md:pt-32 font-semibold'>
           <p className='text-blue'>FAQs</p>
-          <h1 className='text-[24px]'>
+          <h1 className='md:text-[24px]'>
             AllStars Medical Billing stands out as the top choice <br></br>for medical billing services for your healthcare<br></br> practice.
           </h1>
-          <div className="max-w-screen-xl  bg-white">
-            <div className="grid divide-y divide-neutral-200 max-w-xl mt-8">
+          <div className="md:max-w-screen-xl bg-white">
+            <div className="grid divide-y divide-neutral-200 md:max-w-xl mt-8">
               <div className="py-5">
                 <details className="group">
                   <summary className="flex justify-between items-center font-medium cursor-pointer list-none">
@@ -654,26 +699,26 @@ function Home() {
             </div>
           </div>
         </div>
-        <div className="relative text-white" style={{ backgroundImage: `url(${buisnextImage})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'right top' }}>
-          <img src={Faqf} alt="faq" />
+        <div className='relative md:mt-10'>
+        <img src={buisnextImage} className='w-full md:w-auto mx-auto text-white md:bg-right-top mt-4' />
+          <img src={Faqf} alt="faq" className='w-full md:w-auto absolute top-[-20px]'/>
         </div>
       </div>
 
       {/* Request call section */}
       <div className='bg-darkgray'>
-        <div className='py-16 px-32 md:flex'>
-          {/* Left section */}
-          <div className='bg-darkblue flex-1'>
-
-            <div className="px-12 pt-10 items-center py-8 flex flex-col gap-4">
+        <div className='lg:py-16 lg:px-32 md:px-0 md:flex'>
+          {/* Right section */}
+          <div className='bg-darkblue flex-1 md:w-full'>
+            <div className="px-5 md:px-8 lg:px-12 pt-10 md:items-center py-8 flex flex-col gap-4">
               <h1 className='text-white font-bold text-2xl pb-3'>Request For A Call Back</h1>
-              <div className="flex gap-4 w-full">
-                <input type="text" className=" flex-1 border p-2 rounded border-none focus:outline-none" placeholder="Name" />
-                <input type="email" className=" flex-1 border p-2 rounded  focus:outline-none" placeholder="Email" />
+              <div className="flex gap-4 flex-col lg:w-full md:w-0 sm:flex sm:flex-row w-full">
+                <input type="text" className=" flex-1 border p-4 md:p-2 md:rounded border-none focus:outline-none" placeholder="Name" />
+                <input type="email" className=" flex-1 border p-4 md:p-2 md:rounded  focus:outline-none" placeholder="Email" />
               </div>
-              <div className="flex gap-4 w-full">
-                <input type="text" className="border p-2 rounded focus:outline-none flex-1" placeholder="Phone" />
-                <select className="border p-2 rounded focus:outline-none flex-1">
+              <div className="flex flex-col gap-4 lg:w-full md:w-0 sm:flex sm:flex-row w-full">
+                <input type="text" className="border p-4 md:p-2 md:rounded focus:outline-none flex-1" placeholder="Phone" />
+                <select className="border p-4 md:p-2 md:rounded focus:outline-none flex-1">
                   <option value="" disabled selected>-Service-</option>
                   <option value="category1">Medical Billing</option>
                   <option value="category2">Medical Coding</option>
@@ -682,20 +727,20 @@ function Home() {
                 </select>
               </div>
 
-              <div className="flex gap-4 w-full">
-                <select className="border p-2 rounded focus:outline-none flex-1">
+              <div className="flex flex-col gap-4 lg:w-full md:w-0 sm:flex sm:flex-row w-full">
+                <select className="border p-4 md:p-2 md:rounded focus:outline-none flex-1">
                   <option value="" disabled selected>-State-</option>
                   <option value="category1">Category 1</option>
                   <option value="category2">Category 2</option>
                   <option value="category3">Category 3</option>
                 </select>
-                <input type="date" className="border p-2 rounded focus:outline-none flex-1" placeholder="Pick a Date" />
+                <input type="date" className="border p-4 md:p-2 md:rounded focus:outline-none flex-1" placeholder="Pick a Date" />
               </div>
 
               {/* Textarea */}
               <div className="flex flex-col w-full">
                 <textarea
-                  className="border p-2 rounded focus:outline-none h-32"
+                  className="border p-4 md:p-2 md:rounded focus:outline-none h-32"
                   placeholder="Comments"
                 ></textarea>
               </div>
@@ -712,7 +757,7 @@ function Home() {
 
           <div className='border flex-1 p-4 border-blue'>
             {/*Left section */}
-            <div className='py-[165px]'>
+            <div className='lg:py-[165px]'>
               <h1 className='text-2xl font-bold'>Reach Us</h1>
               <div className='h-1 w-[6rem] bg-blue mt-1 mb-1'></div>
               <div className='pt-4' style={{ display: 'flex', flexDirection: 'column' }}>
@@ -732,7 +777,7 @@ function Home() {
       </div>
 
       <div className='bg-blue w-full'>
-        <div className='mx-4 md:mx-8 lg:mx-16 py-4 flex flex-col md:flex-row justify-between'>
+        <div className='mx-4 lg:mx-16 py-4 flex flex-col md:flex-row justify-between'>
           <div className='mb-4 md:mb-0 md:mr-4 flex items-center'>
             <div>
               <LuPhoneCall style={{ color: 'white', marginRight: '10px', fontSize: '45px' }} />
@@ -821,7 +866,7 @@ function Home() {
               <a href="#" className="hover:text-blue">Patient Billing</a>
             </nav>
           </div>
-          <div className='mt-6 lg:mt-0 w-1/4'>
+          <div className='mt-6 lg:mt-0 lg:w-1/4 w-full'>
             {/* right two */}
             <div className="flex flex-col gap-4 w-full">
               <h1 className='text-white font-bold text-2xl'>Quick Contact</h1>
@@ -843,22 +888,20 @@ function Home() {
         </div>
       </div>
       <div className='bg-blue'>
-        <div className='py-4 px-10 flex justify-between text-white font-semibold'>
-          <div>
-            <p>© 2023 AllStars Medical Billing. All rights reserved</p>
-          </div>
-          <div>
-            <a href="#" >Privacy Policy | Terms & Conditions</a>
-          </div>
-        </div>
-      </div>
+      <div className='py-4 px-5 md:w-full w-full flex flex-col md:flex-row justify-between items-center font-semibold text-white'>
+  
+    <p>© 2023 AllStars Medical Billing. All rights reserved</p>
+    <a href="#" >Privacy Policy | Terms & Conditions</a>
+  </div>
+</div>
 
-      <div className='border border-gray-300 w-2/3 mx-auto mt-20'>
+
+      {/* <div className='border border-gray-300 w-2/3 mx-auto mt-20'>
         <div className='mx-10 mt-5'>
           <h1 className='font-bold text-2xl text-gray-700'>Our Services</h1>
           <hr className='my-4'></hr>
           <div className='grid grid-cols-1 md:grid-cols-3 gap-8'>
-        {/* Box 1 */}
+        Box 1
           <a href='#'>
             <h1 className="text-left mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
               Medical Billing
@@ -868,7 +911,7 @@ function Home() {
             We provide a full suite of revenue-related services to support the seamless operation of
              medical practices. Your dedication to patient care is our primary focus
             </p></a>
-            {/* Box 2 */}
+            Box 2
             <a href='#'>
             <h1 className="text-left mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
               Medical Coding
@@ -878,7 +921,7 @@ function Home() {
             Our certified medical coding specialists are your key to minimizing claim denials. Equipped
              with industry-leading coding tools, we optimize your success
             </p></a>
-            {/* Box 3 */}
+            Box 3
             <a href='#'>
             <h1 className="text-left mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
               Medical Credentialing
@@ -890,7 +933,7 @@ function Home() {
             </p></a>
         </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

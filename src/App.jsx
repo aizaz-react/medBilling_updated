@@ -1,24 +1,24 @@
 import Home from './pages/Home';
-// import About from './pages/About';
-// import Contact from './pages/Contact';
-// import PricePlan from './pages/Price&plan';
+import About from './pages/About';
+import Services from './pages/Services';
+import PricePlan from './pages/Price&plan';
+import Contact from './pages/Contact';
 // import MedicalBilling from './pages/MedicalBilling';
 // import MedicalCoding from './pages/MedicalCoding';
 // import MedicalCredentialing from './pages/MedicalCredentialing';
-import Services from './pages/Services';
 
 
 function App() {
   return (
     <div>
-      <Home />
+      {/* <Home /> */}
       {/* <About/> */}
-      {/* <Contact/> */}
+      {/* <Services/> */}
       {/* <PricePlan/> */}
+      <Contact/>
       {/* <MedicalBilling/> */}
       {/* <MedicalCoding/> */}
       {/* <MedicalCredentialing/> */}
-      {/* <Services/> */}
     </div>
   );
 }

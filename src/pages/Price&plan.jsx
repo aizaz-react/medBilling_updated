@@ -57,7 +57,7 @@ const infoNavItems = {
   function PricePlan() {
     return (
       <div>
-        <div className={'bg-blue w-full mx-auto'}>
+        <div className={'bg-blue w-full mx-auto md:block hidden'}>
         <Container className={'flex justify-between items-center py-2'}>
           <div className='flex flex-row text-center'>
             {infoNavItems.leftSide.map((item, i, array) => (
@@ -95,25 +95,25 @@ const infoNavItems = {
           </a>
         </div>
         <div>
-          <button className="btn bg-blue h-12 rounded-md text-white font-semibold px-8 hover:bg-sky-700">Request a Call Back</button>
+          <button className="btn bg-blue h-12 rounded-md text-white font-semibold px-8 hover:bg-sky-700 md:block hidden">Request a Call Back</button>
         </div>
       </div>
 
          <div className='relative'>
-         <div className='bg-gradient-to-r from-darkblue to-darkblue' style={{ 
+         <div className='bg-gradient-to-r from-darkblue to-darkblue h-72 md:h-full' style={{ 
          background: 'linear-gradient(180deg, #204066 0%, #008ac6 100%)',
         opacity: '0.9',
         transition: 'background 0.3s, border-radius 0.3s, opacity 0.3s',
             }}>
-        <img src={Brud} alt='Brud' className='opacity-20 w-full' />
+        <img src={Brud} alt='Brud' className='opacity-[0.07] w-full h-72 md:h-full' />
         </div>
-            <h1 className="text-white text-5xl font-bold absolute top-16 left-16">Plans and Pricing</h1>
-            <p className="text-white absolute top-24 left-16 w-1/2 pt-8">We offer a range of comprehensive plans to cater to various medical billing needs. Our transparent pricing ensures that you get the best value for
+            <h1 className="text-white md:text-5xl text-3xl font-bold absolute top-16 left-16">Plans and Pricing</h1>
+            <p className="text-white absolute top-24 md:left-16 md:w-1/2 pt-5 md:pt-8 text-center md:text-left">We offer a range of comprehensive plans to cater to various medical billing needs. Our transparent pricing ensures that you get the best value for
              your investment. Choose the plan that aligns with your practice’s requirements and budget.</p>
             </div>
             {/* Card Section */}
-            <div className='md:mt-16 pt-10 pb-24'>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mx-20">
+            <div className='md:mt-16 pt-12 pb-10 md:pb-24'>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mx-5 md:mx-20">
                 {/* First Card */}
             <div className="flex-1">
             <div className="flex flex-col border rounded-md border-blue">
@@ -464,8 +464,9 @@ const infoNavItems = {
         </div>
 
             {/* Contact card section */}
-      <div className='bg-blue w-full'>
-        <div className='mx-4 md:mx-8 lg:mx-16 py-4 flex flex-col md:flex-row justify-between'>
+
+            <div className='bg-blue w-full'>
+        <div className='mx-4 lg:mx-16 py-4 flex flex-col md:flex-row justify-between'>
           <div className='mb-4 md:mb-0 md:mr-4 flex items-center'>
             <div>
               <LuPhoneCall style={{ color: 'white', marginRight: '10px', fontSize: '45px' }} />
@@ -502,7 +503,9 @@ const infoNavItems = {
           </div>
         </div>
       </div>
-        {/* Footer */}
+
+      {/* Footer */}
+              {/* Footer */}
         <div className='bg-black'>
         <div className='py-10 px-4 lg:px-10 flex flex-col lg:flex-row justify-between'>
           <div className='flex flex-col justify-start border-2 rounded-lg border-blue lg:w-[28%]'>
@@ -552,7 +555,7 @@ const infoNavItems = {
               <a href="#" className="hover:text-blue">Patient Billing</a>
             </nav>
           </div>
-          <div className='mt-6 lg:mt-0 w-1/4'>
+          <div className='mt-6 lg:mt-0 lg:w-1/4 w-full'>
             {/* right two */}
             <div className="flex flex-col gap-4 w-full">
               <h1 className='text-white font-bold text-2xl'>Quick Contact</h1>
@@ -573,17 +576,13 @@ const infoNavItems = {
           </div>
         </div>
       </div>
-
       <div className='bg-blue'>
-        <div className='py-4 px-10 flex justify-between text-white font-semibold'>
-          <div>
-            <p>© 2023 AllStars Medical Billing. All rights reserved</p>
-          </div>
-          <div>
-            <a href="#" >Privacy Policy | Terms & Conditions</a>
-          </div>
-        </div>
-      </div>
+      <div className='py-4 px-5 md:w-full w-full flex flex-col md:flex-row justify-between items-center font-semibold text-white'>
+  
+    <p>© 2023 AllStars Medical Billing. All rights reserved</p>
+    <a href="#" >Privacy Policy | Terms & Conditions</a>
+  </div>
+</div>
 
             </div>
             );
