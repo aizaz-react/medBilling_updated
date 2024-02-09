@@ -102,14 +102,14 @@ const infoNavItems = {
             }}>
         <img src={Brud} alt='Brud' className='opacity-5 w-full h-44' />
         </div>
-            <h1 className="text-white text-4xl font-bold absolute top-16 left-16">Medical Coding</h1>
+            <h1 className="text-white text-4xl font-bold absolute top-16 md:left-16 left-[75px]">Medical Coding</h1>
             </div>
             <div className='bg-darkgray'>
-                <div className='md:flex gap-44 md:mx-20 my-10 mx-5'>
-                    <div className='md:w-1/2 md:my-28'>
+                <div className='md:flex gap-44 md:mx-20 pt-16 md:pt-0 mx-5'>
+                    <div className='md:w-1/2 md:my-16'>
                         {/* Left section */}
-                        <h1 className='md:text-2xl'>Medical Coding Services</h1>
-             <div className='h-1 md:w-[16rem] w-[11rem] bg-blue mt-1'></div>
+                        <h1 className='md:text-2xl text-[22px]'>Medical Coding Services</h1>
+             <div className='h-1 md:w-[16rem] w-[14.5rem] bg-blue mt-1'></div>
              <p className='pt-4'>AllStars Medical Coding Services: Precision in Healthcare Documentation</p>
                 <p className='pt-4'>Welcome to AllStars Medical Coding Services, your trusted partner for precision and accuracy
                  in healthcare documentation. Our expert team ensures that every code is meticulously and accurately assigned, allowing
@@ -118,13 +118,13 @@ const infoNavItems = {
                     </div>
               
                     {/* Right section */}
-                    <img className='md:pt-28 pt-8' src={MainCodingImage} alt='MainImage' style={{backgroundPosition: 'bottom' }}></img>
+                    <img className='md:pt-28' src={MainCodingImage} alt='MainImage' style={{backgroundPosition: 'bottom' }}></img>
               
                 </div>
             </div>
 
             {/* Card Section */}
-      <div className='md:mt-16'>
+      <div className='md:mt-16 mt-10'>
   <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mx-5 md:mx-20">
     <div className="flex-1">
       <div className="flex flex-col  min-h-[200px] h-full border border-borderstyledark">
@@ -155,12 +155,12 @@ const infoNavItems = {
   </div>
         </div>
         <div className='bg-darkgray md:mt-20 mt-10'>
-            <div className='flex md:flex-row flex-col justify-between py-20 md:mx-20 mx-5'>
+            <div className='flex md:flex-row flex-col justify-between md:py-20 pb-14 md:mx-20 mx-5'>
                 <img src={DynamicImage}  className="h-auto max-h-[35rem] max-w-full"></img>
 
             <div>
-            <h1 className='text-2xl'>Maximizing Your Reimbursement Potential</h1>
-             <div className='h-1 md:w-[28rem] bg-blue mt-1'></div>
+            <h1 className='md:text-2xl text-xl'>Maximizing Your Reimbursement Potential</h1>
+             <div className='h-1 md:w-[28rem] w-[23rem] bg-blue mt-1'></div>
                 <p className='pt-4'>At AllStars Medical Coding Services, we understand that coding accuracy directly impacts
                      your revenue, and we are committed to ensuring you receive the highest possible reimbursement.
                       Efficiency is at the core of our coding process. Our coding team comprises highly efficient and seasoned professionals, each with a minimum of five years of experience.</p>

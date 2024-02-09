@@ -106,8 +106,8 @@ const infoNavItems = {
                 <div className='md:flex gap-44 md:mx-20 mx-5 mt-16'>
                     <div className='md:w-1/2 md:my-32'>
                         {/* Left section */}
-                        <h1 className='text-2xl'>Reduce the Complexity of Credentialing</h1>
-             <div className='h-1 md:w-[26rem] bg-blue mt-1'></div>
+                        <h1 className='md:text-2xl text-xl whitespace-nowrap'>Reduce the Complexity of Credentialing</h1>
+             <div className='h-1 md:w-[26rem] w-[22rem] bg-blue mt-1'></div>
              <p className='pt-4'>AllStars can handle any specialty including laboratories and DMEs. Our
               experts send error free applications to insurances and do proper follow-up till the case is 
               closed. Our first time application acceptance ratio is 98%. We can assist you in setting up your setups with insurance companies for electronic claims submissions, rejections, eligibility, payment information, denials and fund transfer.</p>

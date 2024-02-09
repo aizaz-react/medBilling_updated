@@ -17,8 +17,8 @@ function App() {
       {/* <PricePlan/> */}
       {/* <Contact/> */}
       {/* <MedicalBilling/> */}
-      {/* <MedicalCoding/> */}
-      <MedicalCredentialing/>
+      <MedicalCoding/>
+      {/* <MedicalCredentialing/> */}
     </div>
   );
 }
