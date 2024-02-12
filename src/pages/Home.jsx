@@ -1,4 +1,5 @@
 import "../App.css";
+import Container from "../components/Container";
 import Footer from "../components/Footer";
 import {
   IoCallOutline,
@@ -35,6 +36,7 @@ import allstarspartner10 from "../images/allstarmbpartners-10.webp";
 import Navbar from "../components/Navbar";
 import InfoNav from "../components/InfoNav";
 import CardSection from "../components/Home/CardSection";
+import ServiceCardSection from "../components/Home/ServiceCardSection";
 
 function Home() {
   return (
@@ -102,7 +104,7 @@ function Home() {
         <h2 className="text-center md:text-3xl text-2xl font-semibold">
           Why AllStars Medical Billing?
         </h2>
-        <div className="h-1 md:w-[24rem] w-[19rem] bg-blue mt-2 mx-auto"></div>
+        <div className="h-1 md:w-[23rem] w-[19rem] bg-blue mt-2 mx-auto"></div>
         <p className="text-center text-gray-500 mt-5">
           At AllStars, we firmly believe that healthcare providers should
           dedicate their time and energy to patient care and delivering
@@ -320,10 +322,11 @@ function Home() {
       >
         <div>
           <h1 className="text-2xl font-semibold text-center">What We Do</h1>
-          <h2 className="md:text-3xl pt-2 text-2xl font-bold mb-2 text-center">
+          <h2 className="flex flex-col gap-2 md:text-3xl pt-2 text-2xl font-bold mb-2 text-center w-max mx-auto">
             Our Services
+            <span className="w-full h-1 bg-white" />
           </h2>
-          <div className="h-1 md:w-[11rem] w-[8.5rem] bg-white mt-1 mb-1 mx-auto"></div>
+          {/* <div className="h-1 md:w-[11rem] w-[8.5rem] bg-white mt-1 mb-1 mx-auto"></div> */}
           <p className="md:text-lg pt-3 text-center mx-5 md:mx-72">
             AllStars Medical Billing has a strong grasp of medical billing,
             credentialing, medical A/R, and practice billing audit services.
@@ -333,98 +336,7 @@ function Home() {
           </p>
         </div>
       </div>
-
-      <div className="md:mt-[-46px] mt-[-80px] relative mx-5 md:mx-40 grid grid-cols-1 md:grid-cols-3 gap-8 place-items-center">
-        {/* Box 1 */}
-        <div className="flex flex-col rounded-lg h-full bg-white custom-shadow">
-          <div className="p-6">
-            <h1 className="text-center mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
-              Medical Billing
-            </h1>
-            <div className="h-1 w-[8rem] bg-blue mt-1 mb-1 mx-auto"></div>
-            <p className="text-center mb-4 text-base text-neutral-600 dark:text-neutral-200">
-              Credentialing specialists assist healthcare providers in
-              enrollment, ensuring insurance reimbursement eligibility. We offer
-              comprehensive credentialing solutions for all practices.
-            </p>
-          </div>
-        </div>
-
-        {/* Box 2 */}
-        <div className="flex flex-col rounded-lg h-full bg-white custom-shadow">
-          <div className="p-6">
-            <h1 className="text-center mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
-              Medical Coding
-            </h1>
-            <div className="h-1 w-[9rem] bg-blue mt-1 mb-1 mx-auto"></div>
-            <p className="text-center mb-4 text-base text-neutral-600 dark:text-neutral-200">
-              With the help of our certified medical coding specialists working
-              on your project, your claim denial rate is significantly reduced.
-              Our coders use the best-in-class coding tools and resources
-              available in the industry
-            </p>
-          </div>
-        </div>
-
-        {/* Box 3 */}
-        <div className="flex flex-col rounded-lg h-full bg-white custom-shadow">
-          <div className="p-6">
-            <h1 className="mb-2 text-xl font-medium text-center leading-tight text-neutral-800 dark:text-neutral-50">
-              Medical Credentialing
-            </h1>
-            <div className="h-1 w-[12rem] bg-blue mt-1 mb-1 mx-auto"></div>
-            <p className="text-center mb-4 text-base text-neutral-600 dark:text-neutral-200">
-              AllStars can handle any specialty including laboratories and DMEs.
-              Our experts send error-free applications to insurances and do
-              proper follow-up till the case is closed.
-            </p>
-          </div>
-        </div>
-        {/* Box 1 */}
-        <div className="flex flex-col rounded-lg h-full bg-white custom-shadow">
-          <div className="p-6">
-            <h1 className="text-center mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
-              Verification of Benefits
-            </h1>
-            <div className="h-1 w-[12rem] bg-blue mt-1 mb-1 mx-auto"></div>
-            <p className="text-center mb-4 text-base text-neutral-600 dark:text-neutral-200">
-              Our Insurance Benefits Verification Services provide healthcare
-              providers with a hassle-free way to confirm patient insurance
-              coverage and eligibility.
-            </p>
-          </div>
-        </div>
-
-        {/* Box 2 */}
-        <div className="flex flex-col rounded-lg h-full bg-white custom-shadow">
-          <div className="p-6">
-            <h1 className="text-center mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
-              Prior Authorization Services
-            </h1>
-            <div className="h-1 w-[15rem] bg-blue mt-1 mb-1 mx-auto"></div>
-            <p className="text-center mb-4 text-base text-neutral-600 dark:text-neutral-200">
-              Our Prior Authorization Services take the complexity out oingf
-              obtaining insurance approvals for medical procedures and
-              treatments. We simplify the process for healthcare providers,
-              ensuring you get the necessary authorizations efficiently.
-            </p>
-          </div>
-        </div>
-        {/* Box 3 */}
-        <div className="flex flex-col rounded-lg h-full bg-white custom-shadow">
-          <div className="p-6">
-            <h1 className="mb-2 text-xl font-medium text-center leading-tight text-neutral-800 dark:text-neutral-50">
-              Patient Billing
-            </h1>
-            <div className="h-1 w-[7rem] bg-blue mt-1 mb-1 mx-auto"></div>
-            <p className="text-center mb-4 text-base text-neutral-600 dark:text-neutral-200">
-              Our Patient Billing Services are designed to make healthcare
-              billing transparent, efficient, and stress-free for both patients
-              and healthcare providers
-            </p>
-          </div>
-        </div>
-      </div>
+      <ServiceCardSection />
 
       {/* Medical Specialties */}
 
@@ -432,10 +344,10 @@ function Home() {
         <h2 className="text-blue text-xl font-semibold text-center pt-5">
           We Cover
         </h2>
-        <h1 className="md:text-4xl md:font-semibold text-2xl font-semibold text-center">
+        <h1 className="flex flex-col w-max mx-auto gap-2 md:text-4xl md:font-semibold text-2xl font-semibold text-center">
           These Medical Specialties
+          <span className="w-full h-1 bg-blue" />
         </h1>
-        <div className="h-1 md:w-[25rem] w-[17rem] bg-blue mt-1 mb-1 mx-auto"></div>
 
         <div className="grid grid-cols-1 md:grid-cols-5 gap-4 mt-10 mx-5 md:mx-40">
           <div className="col-span-1 md:col-span-1  p-6 text-center bg-white  rounded-lg shadow-md">
@@ -555,10 +467,10 @@ function Home() {
         <h2 className="text-blue text-xl font-semibold text-center pt-10">
           Our Pride
         </h2>
-        <h1 className="md:text-4xl md:font-bold text-2xl font-semibold text-center">
+        <h1 className="flex flex-col w-max mx-auto md:text-4xl md:font-bold text-2xl font-semibold text-center">
           Proud Partners
+          <span className="w-full h-1 bg-blue" />
         </h1>
-        <div className="h-1 md:w-[16rem] w-[10rem] bg-blue mt-1 mb-1 mx-auto"></div>
         <p className="md:pt-5 text-center md:px-[260px] px-5 pt-5">
           The innovative approach of AllStars Medical Billing has made it one of
           the rapidly expanding physician practice communities in the United
@@ -663,10 +575,10 @@ function Home() {
           <h1 className="text-xl font-semibold text-center text-blue">
             Testimonials
           </h1>
-          <h2 className="md:text-4xl text-2xl md:font-bold font-semibold mb-2 text-center text-black">
+          <h2 className="flex flex-col w-max mx-auto gap-2 md:text-4xl text-2xl md:font-bold font-semibold mb-2 text-center text-black">
             Our Happy Clients Say!
+            <span className="w-full h-1 bg-blue" />
           </h2>
-          <div className="h-1 md:w-[23rem] w-[15rem] bg-blue mt-1 mb-1 mx-auto"></div>
         </div>
         <div className="md:mt-[-100px] z-[1] pt-8 md:pt-32 relative mx-4 md:mx-20 grid grid-cols-1 md:grid-cols-3 gap-8 place-items-center">
           {/* Box 1 */}
@@ -924,34 +836,42 @@ function Home() {
                 className="pt-4"
                 style={{ display: "flex", flexDirection: "column" }}
               >
-                <p
-                  className="text-xl"
-                  style={{ display: "flex", alignItems: "center" }}
-                >
-                  <IoCallOutline
-                    style={{ marginRight: "8px", fontSize: "30px" }}
-                  />{" "}
-                  (501)-424-0123
-                </p>
-                <p
-                  className="text-xl pt-2"
-                  style={{ display: "flex", alignItems: "center" }}
-                >
-                  <IoMailOutline
-                    className="my-2"
-                    style={{ marginRight: "7px", fontSize: "25px" }}
-                  />{" "}
-                  info@allstarsmb.com
-                </p>
-                <p
-                  className="text-xl pt-2"
-                  style={{ display: "flex", alignItems: "center" }}
-                >
-                  <IoLocationOutline
-                    style={{ marginRight: "8px", fontSize: "35px" }}
-                  />{" "}
-                  2121 N California Blvd Suite 243, Walnut Creek, CA 94596, USA
-                </p>
+                <a href="tel:+15014240123">
+                  {" "}
+                  <p
+                    className="text-xl"
+                    style={{ display: "flex", alignItems: "center" }}
+                  >
+                    <IoCallOutline
+                      style={{ marginRight: "8px", fontSize: "30px" }}
+                    />{" "}
+                    (501)-424-0123
+                  </p>
+                </a>
+                <a href="mailto:info@allstarsmb.com">
+                  <p
+                    className="text-xl pt-2"
+                    style={{ display: "flex", alignItems: "center" }}
+                  >
+                    <IoMailOutline
+                      className="my-2"
+                      style={{ marginRight: "7px", fontSize: "25px" }}
+                    />{" "}
+                    info@allstarsmb.com
+                  </p>
+                </a>
+                <a href="#">
+                  <p
+                    className="text-xl pt-2"
+                    style={{ display: "flex", alignItems: "center" }}
+                  >
+                    <IoLocationOutline
+                      style={{ marginRight: "8px", fontSize: "35px" }}
+                    />{" "}
+                    2121 N California Blvd Suite 243, Walnut Creek, CA 94596,
+                    USA
+                  </p>
+                </a>
               </div>
             </div>
           </div>

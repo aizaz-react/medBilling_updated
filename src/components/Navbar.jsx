@@ -5,9 +5,9 @@ import { navLinks, services } from "../utils/data";
 const Navbar = () => {
   return (
     <div className="z-10 sticky top-0 flex flex-row justify-between items-center bg-white py-2 pr-12 pl-12 shadow-sm z-">
-      <div>
+      <a href="/" className="block">
         <img className="h-16 cursor-pointer" src={logo} alt="mainLogo"></img>
-      </div>
+      </a>
       <div className="flex flex-row justify-between">
         {navLinks.map((item, index) => (
           <a
@@ -42,11 +42,11 @@ const ServiceModal = () => {
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {services.map((item, index) => (
-            <a href="#" key={index}>
-              <h1 className="text-left mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
+            <a href={item.link} key={index}>
+              <h1 className=" flex flex-col gap-2 text-left mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50 w-max">
                 {item.title}
+                <span className="w-full h-1 bg-blue" />
               </h1>
-              <div className="h-1 w-[8.5rem] bg-blue mt-1 mb-1"></div>
               <p className="text-left mb-4 text-base text-neutral-600 dark:text-neutral-200">
                 {item.description}
               </p>

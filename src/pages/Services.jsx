@@ -16,6 +16,7 @@ import GrowthImage from "../images/growth.png";
 import Footer from "../components/Footer";
 import InfoNav from "../components/InfoNav";
 import Navbar from "../components/Navbar";
+import ServiceCardSection from "../components/Home/ServiceCardSection";
 
 const infoNavItems = {
   leftSide: [
@@ -100,96 +101,8 @@ function Services() {
         </div>
       </div>
 
-      <div className="md:my-20 pb-10 mx-8 md:mx-20 grid grid-cols-1 md:grid-cols-3 gap-8 place-items-center">
-        {/* Box 1 */}
-        <div className="flex flex-col rounded-lg h-full bg-white custom-shadow">
-          <div className="p-6">
-            <h1 className="text-center mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
-              Medical Billing
-            </h1>
-            <div className="h-1 w-[8rem] bg-blue mt-1 mb-1 mx-auto"></div>
-            <p className="text-center mb-4 text-base text-neutral-600 dark:text-neutral-200">
-              Credentialing specialists assist healthcare providers in
-              enrollment, ensuring insurance reimbursement eligibility. We offer
-              comprehensive credentialing solutions for all practices.
-            </p>
-          </div>
-        </div>
-
-        {/* Box 2 */}
-        <div className="flex flex-col rounded-lg h-full bg-white custom-shadow">
-          <div className="p-6">
-            <h1 className="text-center mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
-              Medical Coding
-            </h1>
-            <div className="h-1 w-[9rem] bg-blue mt-1 mb-1 mx-auto"></div>
-            <p className="text-center mb-4 text-base text-neutral-600 dark:text-neutral-200">
-              With the help of our certified medical coding specialists working
-              on your project, your claim denial rate is significantly reduced.
-              Our coders use the best-in-class coding tools and resources
-              available in the industry
-            </p>
-          </div>
-        </div>
-
-        {/* Box 3 */}
-        <div className="flex flex-col rounded-lg h-full bg-white custom-shadow">
-          <div className="p-6">
-            <h1 className="mb-2 text-xl font-medium text-center leading-tight text-neutral-800 dark:text-neutral-50">
-              Medical Credentialing
-            </h1>
-            <div className="h-1 w-[12rem] bg-blue mt-1 mb-1 mx-auto"></div>
-            <p className="text-center mb-4 text-base text-neutral-600 dark:text-neutral-200">
-              AllStars can handle any specialty including laboratories and DMEs.
-              Our experts send error-free applications to insurances and do
-              proper follow-up till the case is closed.
-            </p>
-          </div>
-        </div>
-        {/* Box 1 */}
-        <div className="flex flex-col rounded-lg h-full bg-white custom-shadow">
-          <div className="p-6">
-            <h1 className="text-center mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
-              Verification of Benefits
-            </h1>
-            <div className="h-1 w-[12rem] bg-blue mt-1 mb-1 mx-auto"></div>
-            <p className="text-center mb-4 text-base text-neutral-600 dark:text-neutral-200">
-              Our Insurance Benefits Verification Services provide healthcare
-              providers with a hassle-free way to confirm patient insurance
-              coverage and eligibility.
-            </p>
-          </div>
-        </div>
-
-        {/* Box 2 */}
-        <div className="flex flex-col rounded-lg h-full bg-white custom-shadow">
-          <div className="p-6">
-            <h1 className="text-center mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
-              Prior Authorization Services
-            </h1>
-            <div className="h-1 w-[15rem] bg-blue mt-1 mb-1 mx-auto"></div>
-            <p className="text-center mb-4 text-base text-neutral-600 dark:text-neutral-200">
-              Our Prior Authorization Services take the complexity out of
-              obtaining insurance approvals for medical procedures and
-              treatments. We simplify the process for healthcare providers,
-              ensuring you get the necessary authorizations efficiently.
-            </p>
-          </div>
-        </div>
-        {/* Box 3 */}
-        <div className="flex flex-col rounded-lg h-full bg-white custom-shadow">
-          <div className="p-6">
-            <h1 className="mb-2 text-xl font-medium text-center leading-tight text-neutral-800 dark:text-neutral-50">
-              Patient Billing
-            </h1>
-            <div className="h-1 w-[7rem] bg-blue mt-1 mb-1 mx-auto"></div>
-            <p className="text-center mb-4 text-base text-neutral-600 dark:text-neutral-200">
-              Our Patient Billing Services are designed to make healthcare
-              billing transparent, efficient, and stress-free for both patients
-              and healthcare providers
-            </p>
-          </div>
-        </div>
+      <div className="my-28 md:my-20 ">
+        <ServiceCardSection />
       </div>
 
       <Footer />

@@ -33,7 +33,7 @@ function Contact() {
         >
           <img src={Brud} alt="Brud" className="opacity-5 w-full h-44" />
         </div>
-        <h1 className="text-white text-5xl font-bold absolute top-16 md:left-16 left-20 hover:bg-sky-700">
+        <h1 className="text-white text-4xl font-bold absolute top-16 md:left-16 left-20 hover:bg-sky-700">
           Contact Us
         </h1>
       </div>

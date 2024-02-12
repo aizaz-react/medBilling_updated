@@ -124,7 +124,7 @@ function MedicalCoding() {
         <div className="flex md:flex-row flex-col justify-between md:py-20 pb-14 md:mx-20 mx-5">
           <img
             src={DynamicImage}
-            className="h-auto max-h-[35rem] max-w-full"
+            className="h-auto max-h-[35rem] md:w-1/2"
           ></img>
 
           <div>

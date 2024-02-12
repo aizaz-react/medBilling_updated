@@ -1,16 +1,7 @@
 import "../App.css";
 import Container from "../components/Container";
 import React, { useState, useEffect } from "react";
-import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
-import { IoMailOutline } from "react-icons/io5";
-import { LuPhoneCall } from "react-icons/lu";
-import { LiaFaxSolid } from "react-icons/lia";
-import { FaYoutube } from "react-icons/fa";
-import { MdEmail } from "react-icons/md";
-import { BsFillTelephoneFill } from "react-icons/bs";
-import { BiSolidBuildingHouse } from "react-icons/bi";
 import "../Header.css";
-import logo from "../images/main-logo.webp";
 import Brud from "../images/brud.png";
 import serviceAimnImage from "../images/amin3.png";
 import Footer from "../components/Footer";

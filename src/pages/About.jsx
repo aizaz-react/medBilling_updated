@@ -2,11 +2,6 @@ import "../App.css";
 import Container from "../components/Container";
 import React, { useState, useEffect } from "react";
 import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
-import {
-  IoCallOutline,
-  IoMailOutline,
-  IoLocationOutline,
-} from "react-icons/io5";
 import { LuPhoneCall } from "react-icons/lu";
 import { LiaFaxSolid } from "react-icons/lia";
 import { FaYoutube } from "react-icons/fa";
@@ -23,6 +18,7 @@ import VisionImamge from "../images/vision.png";
 import serviceAimnImage from "../images/amin3.png";
 import Footer from "../components/Footer";
 import InfoNav from "../components/InfoNav";
+import Navbar from "../components/Navbar";
 
 const infoNavItems = {
   leftSide: [
