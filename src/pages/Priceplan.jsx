@@ -7,7 +7,7 @@ import { FcCheckmark } from "react-icons/fc";
 import { GrCheckmark } from "react-icons/gr";
 import { LuDot } from "react-icons/lu";
 import "../Header.css";
-import Brud from "../images/brud.png";
+import PrimaryImage from "../images/primary-bg.jpg";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import InfoNav from "../components/InfoNav";
@@ -20,16 +20,14 @@ function PricePlan() {
 
       <div className="relative">
         <div
-          className="bg-gradient-to-r from-blue to-blue h-72 md:h-full"
           style={{
             background: "linear-gradient(180deg, #204066 0%, #008ac6 100%)",
             opacity: "0.9",
-            transition: "background 0.3s, border-radius 0.3s, opacity 0.3s",
           }}
         >
           <img
-            src={Brud}
-            alt="Brud"
+            src={PrimaryImage}
+            alt="PrimaryImage"
             className="opacity-[0.07] w-full h-72 md:h-full"
           />
         </div>

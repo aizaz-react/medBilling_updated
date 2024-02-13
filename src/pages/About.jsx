@@ -12,7 +12,7 @@ import "../Header.css";
 import logo from "../images/main-logo.webp";
 import banner from "../images/Banner-img.png";
 import aboutimage from "../images/ABout.png";
-import Brud from "../images/brud.png";
+import PrimaryImage from "../images/primary-bg.jpg";
 import MissionImage from "../images/goals.png";
 import VisionImamge from "../images/vision.png";
 import serviceAimnImage from "../images/amin3.png";
@@ -59,16 +59,14 @@ function About() {
 
       <div className="relative">
         <div
-          className="bg-gradient-to-r from-blue to-blue"
           style={{
             background: "linear-gradient(180deg, #204066 0%, #008ac6 100%)",
             opacity: "0.9",
-            transition: "background 0.3s, border-radius 0.3s, opacity 0.3s",
           }}
         >
           <img
-            src={Brud}
-            alt="Brud"
+            src={PrimaryImage}
+            alt="PrimaryImage"
             className="opacity-20 w-full md:h-44 h-32"
           />
         </div>

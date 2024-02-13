@@ -11,7 +11,7 @@ import { BsFillTelephoneFill } from "react-icons/bs";
 import { BiSolidBuildingHouse } from "react-icons/bi";
 import "../Header.css";
 import logo from "../images/main-logo.webp";
-import Brud from "../images/brud.png";
+import PrimaryImage from "../images/primary-bg.jpg";
 import GrowthImage from "../images/growth.png";
 import Footer from "../components/Footer";
 import InfoNav from "../components/InfoNav";
@@ -39,16 +39,14 @@ function Services() {
 
       <div className="relative">
         <div
-          className="bg-gradient-to-r from-blue to-blue"
           style={{
             background: "linear-gradient(180deg, #204066 0%, #008ac6 100%)",
             opacity: "0.9",
-            transition: "background 0.3s, border-radius 0.3s, opacity 0.3s",
           }}
         >
           <img
-            src={Brud}
-            alt="Brud"
+            src={PrimaryImage}
+            alt="PrimaryImage"
             className="opacity-10 w-full md:h-44 h-32"
           />
         </div>

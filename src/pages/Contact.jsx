@@ -11,7 +11,8 @@ import { BsFillTelephoneFill } from "react-icons/bs";
 import { BiSolidBuildingHouse } from "react-icons/bi";
 import "../Header.css";
 import logo from "../images/main-logo.webp";
-import Brud from "../images/brud.png";
+import PrimaryImage from "../images/primary-bg.jpg";
+import DesignImage from "../images/design.webp";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import InfoNav from "../components/InfoNav";
@@ -24,14 +25,13 @@ function Contact() {
 
       <div className="relative">
         <div
-          className="bg-gradient-to-r from-blue to-blue"
+          className=""
           style={{
             background: "linear-gradient(180deg, #204066 0%, #008ac6 100%)",
             opacity: "0.9",
-            transition: "background 0.3s, border-radius 0.3s, opacity 0.3s",
           }}
         >
-          <img src={Brud} alt="Brud" className="opacity-5 w-full h-44" />
+          <img src={PrimaryImage} alt="Brud" className="w-full h-44" />
         </div>
         <h1 className="text-white text-4xl font-bold absolute top-16 md:left-16 left-20 hover:bg-sky-700">
           Contact Us
