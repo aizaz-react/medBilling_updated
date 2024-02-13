@@ -20,7 +20,7 @@ function PricePlan() {
 
       <div className="relative">
         <div
-          className="h-72 md:h-full"
+          className="h-64"
           style={{
             background: "linear-gradient(180deg, #204066 0%, #008ac6 100%)",
             opacity: "0.9",
@@ -29,13 +29,13 @@ function PricePlan() {
           <img
             src={PrimaryImage}
             alt="PrimaryImage"
-            className="opacity-[0.07] w-full h-72 md:h-full"
+            className="w-full h-44 md:h-full"
           />
         </div>
-        <h1 className="text-white md:text-4xl text-3xl font-bold absolute top-16 left-16 font-poppins">
+        <h1 className="text-white md:text-4xl text-3xl font-bold absolute top-16 left-20 font-poppins">
           Plans and Pricing
         </h1>
-        <p className="font-Roboto text-white absolute top-24 md:left-16 md:w-1/2 pt-5 md:pt-8 text-center md:text-left">
+        <p className="text-white absolute top-24 md:left-14 md:w-1/2 pt-5 md:pt-8 text-center md:text-left mx-5">
           We offer a range of comprehensive plans to cater to various medical
           billing needs. Our transparent pricing ensures that you get the best
           value for your investment. Choose the plan that aligns with your

@@ -21,11 +21,7 @@ function MedicalCredentialing() {
             opacity: "0.9",
           }}
         >
-          <img
-            src={PrimaryImage}
-            alt="PrimaryImage"
-            className="opacity-5 w-full h-44"
-          />
+          <img src={PrimaryImage} alt="PrimaryImage" className="w-full h-44" />
         </div>
         <h1 className="text-white text-4xl font-bold absolute md:top-16 md:left-16 top-12 left-[70px]">
           Credentialing & Enrollment

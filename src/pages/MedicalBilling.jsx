@@ -13,7 +13,7 @@ import "../Header.css";
 import logo from "../images/main-logo.webp";
 import PrimaryImage from "../images/primary-bg.jpg";
 import MainImage from "../images/Main.png";
-import MedialIMage from "../images/medial.png";
+import FastFill from "../images/Fast-fill.webp";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import InfoNav from "../components/InfoNav";
@@ -30,11 +30,7 @@ function MedicalBilling() {
             opacity: "0.9",
           }}
         >
-          <img
-            src={PrimaryImage}
-            alt="PrimaryImage"
-            className="opacity-5 w-full h-44"
-          />
+          <img src={PrimaryImage} alt="PrimaryImage" className="w-full h-44" />
         </div>
         <h1 className="text-white text-4xl font-bold absolute top-16 left-16">
           Medical Billing
@@ -224,10 +220,9 @@ function MedicalBilling() {
       </div>
       <div className="bg-darkgray mt-20">
         <div className="md:flex gap-16 md:mx-20 mx-5 md:py-20">
-          <div>
-            {/* left section */}
-            <img src={MedialIMage} alt=""></img>
-          </div>
+          {/* left section */}
+          <img className="pb-5 md:pb-0" src={FastFill} alt="FastFill"></img>
+
           <div className="md:w-1/2 md:my-16">
             {/* right section */}
             <h1 className="text-2xl">Fast Filling</h1>

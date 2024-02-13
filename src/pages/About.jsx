@@ -67,7 +67,7 @@ function About() {
           <img
             src={PrimaryImage}
             alt="PrimaryImage"
-            className="opacity-20 w-full md:h-44 h-32"
+            className="w-full md:h-44 h-32"
           />
         </div>
         <h1 className="text-white text-4xl font-bold absolute top-16 md:left-16 left-32">

@@ -47,7 +47,7 @@ function Services() {
           <img
             src={PrimaryImage}
             alt="PrimaryImage"
-            className="opacity-10 w-full md:h-44 h-32"
+            className="w-full md:h-44 h-32"
           />
         </div>
         <h1 className="text-white text-4xl font-bold absolute md:top-14 top-10 md:left-16 left-32">
