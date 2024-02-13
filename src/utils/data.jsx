@@ -212,3 +212,102 @@ export const pricingData = [
     ],
   },
 ];
+
+export const servicesData = [
+  {
+    image: "",
+    title: "EXCEPTIONAL EXPERTISE",
+    description:
+      "Each member of our team boasts a minimum of 10 years of experience in medical billing and client management, with the majority of that time spent in high-level executive roles. It's a claim that sets us apart, as only a select few medical billing companies can match our level of expertise.",
+  },
+  {
+    image: "",
+    title: "RAPID REIMBURSEMENTS",
+    description:
+      "Thanks to our extensive expertise, we can expedite your reimbursements efficiently. Our team consists solely of seasoned professionals, eliminating the need for on-the-job training at your expense. This results in reduced overhead for us and increased reimbursements for you, all at a lower cost.",
+  },
+  {
+    image: "",
+    title: "RAPID REIMBURSEMENTS",
+    description:
+      "Thanks to our extensive expertise, we can expedite your reimbursements efficiently. Our team consists solely of seasoned professionals, eliminating the need for on-the-job training at your expense. This results in reduced overhead for us and increased reimbursements for you, all at a lower cost.",
+  },
+  {
+    image: "",
+    title: "RAPID REIMBURSEMENTS",
+    description:
+      "Thanks to our extensive expertise, we can expedite your reimbursements efficiently. Our team consists solely of seasoned professionals, eliminating the need for on-the-job training at your expense. This results in reduced overhead for us and increased reimbursements for you, all at a lower cost.",
+  },
+  {
+    image: "",
+    title: "RAPID REIMBURSEMENTS",
+    description:
+      "Thanks to our extensive expertise, we can expedite your reimbursements efficiently. Our team consists solely of seasoned professionals, eliminating the need for on-the-job training at your expense. This results in reduced overhead for us and increased reimbursements for you, all at a lower cost.",
+  },
+  {
+    image: "",
+    title: "RAPID REIMBURSEMENTS",
+    description:
+      "Thanks to our extensive expertise, we can expedite your reimbursements efficiently. Our team consists solely of seasoned professionals, eliminating the need for on-the-job training at your expense. This results in reduced overhead for us and increased reimbursements for you, all at a lower cost.",
+  },
+  {
+    image: "",
+    title: "RAPID REIMBURSEMENTS",
+    description:
+      "Thanks to our extensive expertise, we can expedite your reimbursements efficiently. Our team consists solely of seasoned professionals, eliminating the need for on-the-job training at your expense. This results in reduced overhead for us and increased reimbursements for you, all at a lower cost.",
+  },
+  {
+    image: "",
+    title: "RAPID REIMBURSEMENTS",
+    description:
+      "Thanks to our extensive expertise, we can expedite your reimbursements efficiently. Our team consists solely of seasoned professionals, eliminating the need for on-the-job training at your expense. This results in reduced overhead for us and increased reimbursements for you, all at a lower cost.",
+  },
+  {
+    image: "",
+    title: "RAPID REIMBURSEMENTS",
+    description:
+      "Thanks to our extensive expertise, we can expedite your reimbursements efficiently. Our team consists solely of seasoned professionals, eliminating the need for on-the-job training at your expense. This results in reduced overhead for us and increased reimbursements for you, all at a lower cost.",
+  },
+  {
+    image: "",
+    title: "RAPID REIMBURSEMENTS",
+    description:
+      "Thanks to our extensive expertise, we can expedite your reimbursements efficiently. Our team consists solely of seasoned professionals, eliminating the need for on-the-job training at your expense. This results in reduced overhead for us and increased reimbursements for you, all at a lower cost.",
+  },
+  {
+    image: "",
+    title: "RAPID REIMBURSEMENTS",
+    description:
+      "Thanks to our extensive expertise, we can expedite your reimbursements efficiently. Our team consists solely of seasoned professionals, eliminating the need for on-the-job training at your expense. This results in reduced overhead for us and increased reimbursements for you, all at a lower cost.",
+  },
+  {
+    image: "",
+    title: "RAPID REIMBURSEMENTS",
+    description:
+      "Thanks to our extensive expertise, we can expedite your reimbursements efficiently. Our team consists solely of seasoned professionals, eliminating the need for on-the-job training at your expense. This results in reduced overhead for us and increased reimbursements for you, all at a lower cost.",
+  },
+  {
+    image: "",
+    title: "RAPID REIMBURSEMENTS",
+    description:
+      "Thanks to our extensive expertise, we can expedite your reimbursements efficiently. Our team consists solely of seasoned professionals, eliminating the need for on-the-job training at your expense. This results in reduced overhead for us and increased reimbursements for you, all at a lower cost.",
+  },
+  {
+    image: "",
+    title: "RAPID REIMBURSEMENTS",
+    description:
+      "Thanks to our extensive expertise, we can expedite your reimbursements efficiently. Our team consists solely of seasoned professionals, eliminating the need for on-the-job training at your expense. This results in reduced overhead for us and increased reimbursements for you, all at a lower cost.",
+  },
+  {
+    image: "",
+    title: "RAPID REIMBURSEMENTS",
+    description:
+      "Thanks to our extensive expertise, we can expedite your reimbursements efficiently. Our team consists solely of seasoned professionals, eliminating the need for on-the-job training at your expense. This results in reduced overhead for us and increased reimbursements for you, all at a lower cost.",
+  },
+  {
+    image: "",
+    title: "RAPID REIMBURSEMENTS",
+    description:
+      "Thanks to our extensive expertise, we can expedite your reimbursements efficiently. Our team consists solely of seasoned professionals, eliminating the need for on-the-job training at your expense. This results in reduced overhead for us and increased reimbursements for you, all at a lower cost.",
+  },
+];
