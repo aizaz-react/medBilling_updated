@@ -37,7 +37,7 @@ import Navbar from "../components/Navbar";
 import InfoNav from "../components/InfoNav";
 import CardSection from "../components/Home/CardSection";
 import ServiceCardSection from "../components/Home/ServiceCardSection";
-// import ServiceFeatures from "../components/Home/ServicesFeatures";
+import ServiceFeatures from "../components/Home/ServicesFeatures";
 
 function Home() {
   return (
@@ -117,7 +117,7 @@ function Home() {
         </p>
       </div>
 
-      <div className="mt-10 mx-10 md:mx-28">
+      {/* <div className="mt-10 mx-10 md:mx-28">
         <div className=" grid md:grid-cols-2 grid-cols-1 gap-14">
           <div className="flex-1">
             <h2 className="md:text-xl font-bold">EXCEPTIONAL EXPERTISE</h2>
@@ -304,8 +304,9 @@ function Home() {
             </p>
           </div>
         </div>
-      </div>
-      {/* <ServiceFeatures /> */}
+      </div> */}
+
+      <ServiceFeatures />
       <div
         className="mt-20 text-white pt-10 md:pt-24 pb-[10rem]"
         style={{
