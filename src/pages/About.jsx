@@ -19,6 +19,7 @@ import serviceAimnImage from "../images/amin3.png";
 import Footer from "../components/Footer";
 import InfoNav from "../components/InfoNav";
 import Navbar from "../components/Navbar";
+import AboutCards from "../components/About/AboutCards";
 
 const infoNavItems = {
   leftSide: [
@@ -112,92 +113,8 @@ function About() {
           </div>
         </div>
       </div>
-      {/* Card Section */}
-      <div className="md:mt-16">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-6 md:mx-20 mx-5">
-          <div className="flex-1">
-            <div className="flex flex-col  min-h-[200px] h-full border border-borderstyledark">
-              <div className="p-6">
-                <h1 className="text-center font-bold text-2xl">98%</h1>
-                <h2 className="text-center font-bold text-blue pt-5">
-                  Clean Claims Acceptance
-                </h2>
-              </div>
-            </div>
-          </div>
-          <div className="flex-1">
-            <div className="flex flex-col  min-h-[200px] h-full border border-borderstyledark">
-              <div className="p-6">
-                <h1 className="text-center font-bold text-2xl">08%</h1>
-                <h2 className="text-center font-bold text-blue pt-5">
-                  Monthly Denials
-                </h2>
-              </div>
-            </div>
-          </div>
-          <div className="flex-1">
-            <div className="flex flex-col  min-h-[200px] h-full border border-borderstyledark">
-              <div className="p-6">
-                <h1 className="text-center font-bold text-2xl">96%</h1>
-                <h2 className="text-center font-bold text-blue pt-5">
-                  Electronic Claims Submission
-                </h2>
-              </div>
-            </div>
-          </div>
-          <div className="flex-1">
-            <div className="flex flex-col  min-h-[200px] h-full border border-borderstyledark">
-              <div className="p-6">
-                <h1 className="text-center font-bold text-2xl">99%</h1>
-                <h2 className="text-center font-bold text-blue pt-5">
-                  Credentialing Success
-                </h2>
-              </div>
-            </div>
-          </div>
-          {/* Add three more sets of similar card divs */}
-          <div className="flex-1">
-            <div className="flex flex-col  min-h-[200px] h-full border border-borderstyledark">
-              <div className="p-6">
-                <h1 className="text-center font-bold text-2xl">96%</h1>
-                <h2 className="text-center font-bold text-blue pt-5">
-                  Bank Direct Deposit
-                </h2>
-              </div>
-            </div>
-          </div>
-          <div className="flex-1">
-            <div className="flex flex-col  min-h-[200px] h-full border border-borderstyledark">
-              <div className="p-6">
-                <h1 className="text-center font-bold text-2xl">10% - 15%</h1>
-                <h2 className="text-center font-bold text-blue pt-5">
-                  Practise Growth
-                </h2>
-              </div>
-            </div>
-          </div>
-          <div className="flex-1">
-            <div className="flex flex-col  min-h-[200px] h-full border border-borderstyledark">
-              <div className="p-6">
-                <h1 className="text-center font-bold text-2xl">10Y</h1>
-                <h2 className="text-center font-bold text-blue pt-5">
-                  Team Avg. Experties
-                </h2>
-              </div>
-            </div>
-          </div>
-          <div className="flex-1">
-            <div className="flex flex-col  min-h-[200px] h-full border border-borderstyledark">
-              <div className="p-6">
-                <h1 className="text-center font-bold text-2xl">95%</h1>
-                <h2 className="text-center font-bold text-blue pt-5">
-                  Electronic Payments
-                </h2>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+
+      <AboutCards />
       {/* Mission section */}
       <div className="bg-darkgray md:mt-14 mt-10">
         <div className="md:flex justify-between mx-5 md:mx-20 items-center md:py-10 pt-14">

@@ -311,3 +311,14 @@ export const servicesData = [
       "Thanks to our extensive expertise, we can expedite your reimbursements efficiently. Our team consists solely of seasoned professionals, eliminating the need for on-the-job training at your expense. This results in reduced overhead for us and increased reimbursements for you, all at a lower cost.",
   },
 ];
+
+export const aboutCardData = [
+  { percentage: "98%", title: "Clean Claims Acceptance" },
+  { percentage: "08%", title: "Monthly Denials" },
+  { percentage: "96%", title: "Electronic Claims Submission" },
+  { percentage: "99%", title: "Credentialing Success" },
+  { percentage: "96%", title: "Bank Direct Deposit" },
+  { percentage: "10% - 15%", title: "Practise Growth" },
+  { percentage: "10Y", title: "Team Avg. Expertise" },
+  { percentage: "95%", title: "Electronic Payments" },
+];
