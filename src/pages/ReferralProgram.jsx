@@ -1,21 +1,13 @@
 import "../App.css";
 import Container from "../components/Container";
 import React, { useState, useEffect } from "react";
-import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
-import { IoMailOutline, IoLocationOutline } from "react-icons/io5";
-import { LuPhoneCall } from "react-icons/lu";
-import { LiaFaxSolid } from "react-icons/lia";
-import { FaYoutube } from "react-icons/fa";
-import { MdEmail } from "react-icons/md";
-import { BsFillTelephoneFill } from "react-icons/bs";
-import { GoArrowRight } from "react-icons/go";
-import { BiSolidBuildingHouse } from "react-icons/bi";
 import "../Header.css";
 import logo from "../images/main-logo.webp";
 import Brud from "../images/brud.png";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import InfoNav from "../components/InfoNav";
+import PricingCards from "../components/Referral/PricingCards";
 
 function Contact() {
   return (
@@ -50,9 +42,10 @@ function Contact() {
           collected revenue.
         </p>
       </div>
+      <PricingCards />
 
-      <div className="grid md:grid-cols-3 gap-6 md:mx-20 md:my-20 mx-5 mb-16">
-        {/* First Card */}
+      {/* <div className="grid md:grid-cols-3 gap-6 md:mx-20 md:my-20 mx-5 mb-16">
+        
         <div className="rounded-md p-4 custom-shadow">
           <h1 className="text-xl font-bold text-blue">
             Avg. Monthly Collection
@@ -70,7 +63,7 @@ function Contact() {
           </p>
         </div>
 
-        {/* Second Card */}
+        
         <div className="rounded-md p-4 custom-shadow">
           <h1 className="text-xl font-bold text-blue">Referral Pro</h1>
           <h3 className="text-lg pt-3">Referral Ultimate</h3>
@@ -87,7 +80,6 @@ function Contact() {
           </p>
         </div>
 
-        {/* Third Card */}
         <div className="rounded-md p-4 custom-shadow  ">
           <h1 className="text-xl font-bold text-blue">Referral Ultimate</h1>
           <h3 className="text-lg pt-3">Monthly Bonus Forever</h3>
@@ -103,7 +95,7 @@ function Contact() {
             <GoArrowRight className="text-blue" /> Get 6% of Monthly Invoice
           </p>
         </div>
-      </div>
+      </div> */}
 
       <Footer />
     </div>

@@ -15,7 +15,7 @@ const Footer = () => {
                 style={{
                   color: "white",
                   marginRight: "10px",
-                  fontSize: "45px",
+                  fontSize: "40px",
                 }}
               />
             </div>
@@ -32,7 +32,7 @@ const Footer = () => {
                 style={{
                   color: "white",
                   marginRight: "10px",
-                  fontSize: "50px",
+                  fontSize: "40px",
                 }}
               />
             </div>
@@ -47,7 +47,7 @@ const Footer = () => {
                 style={{
                   color: "white",
                   marginRight: "10px",
-                  fontSize: "55px",
+                  fontSize: "45px",
                 }}
               />
             </div>

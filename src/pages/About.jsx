@@ -88,10 +88,10 @@ function About() {
             />
           </div>
           <div className="md:w-2/3 mt-8 md:order-2">
-            <h1 className="text-2xl font-bold text-left ml-3">
+            <h1 className="flex flex-col w-max gap-2 text-2xl font-bold text-left ml-3">
               About AllStars Medical Billing
+              <span className="w-full h-1 bg-blue" />
             </h1>
-            <div className="h-1 w-[21rem] bg-blue mt-2 ml-3"></div>
             <p className="mt-6 ml-3 line-clamp-7">
               Effective billing management is a crucial component of any
               successful medical practice. By entrusting this responsibility to
@@ -237,7 +237,7 @@ function About() {
         <div className="md:flex justify-between mx-5 md:mx-20 items-center py-10">
           <div className="md:order-1 md:pl-32">
             <h1 className="font-bold text-2xl">
-              Our <span className="text-blue">Mission</span>
+              Our <span className="text-blue">Vission</span>
             </h1>
             <div className="h-1 w-[8.5rem] bg-blue"></div>
             <p className="pt-5">

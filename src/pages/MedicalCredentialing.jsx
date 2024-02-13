@@ -33,10 +33,10 @@ function MedicalCredentialing() {
         <div className="md:flex gap-44 md:mx-20 mx-5 mt-16 md:mt-0">
           <div className="md:w-1/2 md:my-32">
             {/* Left section */}
-            <h1 className="md:text-2xl text-xl whitespace-nowrap">
+            <h1 className="flex flex-col w-max gap-2 md:text-2xl text-xl whitespace-nowrap">
               Reduce the Complexity of Credentialing
+              <span className="w-full h-1 bg-blue" />
             </h1>
-            <div className="h-1 md:w-[26rem] w-[22rem] bg-blue mt-1"></div>
             <p className="pt-4">
               AllStars can handle any specialty including laboratories and DMEs.
               Our experts send error free applications to insurances and do

@@ -42,8 +42,10 @@ function MedicalBilling() {
         <div className="md:flex gap-44 md:mx-20 mx-5">
           <div className="md:w-1/2 my-16">
             {/* Left section */}
-            <h1 className="md:text-2xl text-xl">Medical Billing Services</h1>
-            <div className="h-1 md:w-[15rem] w-[13rem] bg-blue mt-1"></div>
+            <h1 className="flex flex-col w-max gap-2 md:text-2xl text-xl">
+              Medical Billing Services
+              <span className="w-full h-1 bg-blue" />
+            </h1>
             <p className="pt-4">
               Medical billing is the process of sending bills to health
               insurance companies to get paid for healthcare services. A medical

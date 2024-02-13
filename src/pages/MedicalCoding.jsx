@@ -43,8 +43,10 @@ function MedicalCoding() {
         <div className="md:flex gap-44 md:mx-20 pt-16 md:pt-0 mx-5">
           <div className="md:w-1/2 md:my-16">
             {/* Left section */}
-            <h1 className="md:text-2xl text-[22px]">Medical Coding Services</h1>
-            <div className="h-1 md:w-[16rem] w-[14.5rem] bg-blue mt-1"></div>
+            <h1 className="flex flex-col w-max gap-2 md:text-2xl text-[22px]">
+              Medical Coding Services
+              <span className="w-full h-1 bg-blue" />
+            </h1>
             <p className="pt-4">
               AllStars Medical Coding Services: Precision in Healthcare
               Documentation

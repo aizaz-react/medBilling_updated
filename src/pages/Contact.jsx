@@ -45,17 +45,16 @@ function Contact() {
               style={{ boxShadow: "0px 0px 18px 0px rgba(0,0,0,.16)" }}
             >
               <div className="p-6">
-                <a href="">
+                <a href="tel:+15014240123">
                   <div className=" flex flex-col items-center text-center">
-                    <div>
-                      <LuPhoneCall
-                        style={{
-                          color: "#008ac6",
-                          marginRight: "10px",
-                          fontSize: "35px",
-                        }}
-                      />
-                    </div>
+                    <LuPhoneCall
+                      style={{
+                        color: "#008ac6",
+                        marginRight: "10px",
+                        fontSize: "35px",
+                      }}
+                    />
+
                     <p className="font-semibold md:pt-0 pt-3">(051) 4240123</p>
                     <p>Call Today</p>
                   </div>
@@ -70,17 +69,15 @@ function Contact() {
               style={{ boxShadow: "0px 0px 18px 0px rgba(0,0,0,.16)" }}
             >
               <div className="p-6">
-                <a href="">
+                <a href="mailto:info@allstarsmb.com">
                   <div className=" flex flex-col items-center text-center">
-                    <div>
-                      <IoMailOutline
-                        style={{
-                          color: "008ac6",
-                          marginRight: "10px",
-                          fontSize: "40px",
-                        }}
-                      />
-                    </div>
+                    <IoMailOutline
+                      style={{
+                        color: "008ac6",
+                        marginRight: "10px",
+                        fontSize: "40px",
+                      }}
+                    />
                     <p className="font-semibold md:pt-0 pt-3">
                       info@allstarsmb.com
                     </p>
@@ -97,17 +94,15 @@ function Contact() {
               style={{ boxShadow: "0px 0px 18px 0px rgba(0,0,0,.16)" }}
             >
               <div className="p-6">
-                <a href="">
+                <a href="#">
                   <div className=" flex flex-col items-center text-center">
-                    <div>
-                      <IoLocationOutline
-                        style={{
-                          color: "008ac6",
-                          marginRight: "10px",
-                          fontSize: "40px",
-                        }}
-                      />
-                    </div>
+                    <IoLocationOutline
+                      style={{
+                        color: "008ac6",
+                        marginRight: "10px",
+                        fontSize: "40px",
+                      }}
+                    />
                     <p className="font-semibold md:pt-0 pt-3">
                       2121 N California Blvd Suite 243, Walnut Creek, CA 94596,
                       USA
@@ -201,7 +196,7 @@ function Contact() {
 
                 <button
                   type="submit"
-                  className="bg-blue text-white border rounded-md border-white mt-4 px-4 py-2 transition mr-auto"
+                  className="bg-blue text-white border rounded-md border-white mt-4 px-4 py-2 transition mr-auto hover:bg-sky-700"
                 >
                   Submit Now
                 </button>

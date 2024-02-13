@@ -14,7 +14,7 @@ const ServiceCardSection = () => {
             alt={item.title}
             className="w-24 h-24 object-cover rounded-full"
           />
-          <h1 className="text-center mt-2 text-elementcolor text-xl font-semibold">
+          <h1 className="text-center mt-2 text-elementcolor text-xl font-bold">
             {item.title}
           </h1>
         </div>

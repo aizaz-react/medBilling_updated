@@ -186,3 +186,29 @@ export const specialitescard = [
   { image: Neurology, title: "Neurology" },
   { image: Ophthalmology, title: "Ophthalmology" },
 ];
+
+export const pricingData = [
+  {
+    title: "Avg. Monthly Collection",
+    subtitle: "Collection",
+    items: ["Less Than 200K", "Less Than 400K", "More Than 400k*"],
+  },
+  {
+    title: "Referral Pro",
+    subtitle: "Referral Ultimate",
+    items: [
+      "Get 6% of Monthly Invoice",
+      "Get 7% of Monthly Invoice",
+      "Get 8% of Monthly Invoice",
+    ],
+  },
+  {
+    title: "Referral Ultimate",
+    subtitle: "Monthly Bonus Forever",
+    items: [
+      "Get 4% of Monthly Invoice",
+      "Get 5% of Monthly Invoice",
+      "Get 6% of Monthly Invoice",
+    ],
+  },
+];

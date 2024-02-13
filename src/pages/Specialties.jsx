@@ -42,7 +42,7 @@ function Contact() {
         <h2 className="text-blue text-xl font-semibold text-center pt-5">
           We Cover
         </h2>
-        <h1 className=" flex flex-col gap-2 md:text-4xl md:font-semibold text-2xl font-semibold text-center mx-auto w-max">
+        <h1 className=" flex flex-col gap-2 md:text-3xl md:font-semibold text-2xl font-semibold text-center mx-auto w-max">
           Our Specialties
           <span className="w-full h-1 bg-divideroclor" />
         </h1>
