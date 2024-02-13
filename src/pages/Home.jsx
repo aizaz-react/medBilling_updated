@@ -37,7 +37,7 @@ import Navbar from "../components/Navbar";
 import InfoNav from "../components/InfoNav";
 import CardSection from "../components/Home/CardSection";
 import ServiceCardSection from "../components/Home/ServiceCardSection";
-import ServiceFeatures from "../components/Home/ServicesFeatures";
+import ServiceFeatures from "../components/Home/ServiceFeatures";
 
 function Home() {
   return (
