@@ -20,6 +20,7 @@ function PricePlan() {
 
       <div className="relative">
         <div
+          className="h-72 md:h-full"
           style={{
             background: "linear-gradient(180deg, #204066 0%, #008ac6 100%)",
             opacity: "0.9",
