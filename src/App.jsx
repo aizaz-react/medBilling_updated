@@ -5,6 +5,7 @@ import {
   Routes,
   Link,
   BrowserRouter,
+  Navigate,
 } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -34,6 +35,7 @@ function App() {
         />
         <Route path="/specialties" element={<Specialties />} />
         <Route path="/referral-program" element={<ReferralProgram />} />
+        <Route path="*" element={<Navigate to="/not-found" />} />
       </Routes>
     </BrowserRouter>
   );
