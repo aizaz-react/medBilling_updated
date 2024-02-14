@@ -35,7 +35,6 @@ function App() {
         />
         <Route path="/specialties" element={<Specialties />} />
         <Route path="/referral-program" element={<ReferralProgram />} />
-        <Route path="*" element={<Navigate to="/not-found" />} />
       </Routes>
     </BrowserRouter>
   );

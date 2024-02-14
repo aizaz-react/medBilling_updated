@@ -13,15 +13,6 @@ import serviceAimnImage from "../images/amin3.png";
 import testimonialImage from "../images/testimonial.png";
 import buisnextImage from "../images/businext-img33.png";
 import Faqf from "../images/faqs-f.png";
-import Gynocologyicon from "../icons/gynecology.png";
-import HormonalExamination from "../icons/hormonal-examination.png";
-import InternalMedicine from "../icons/Internal-medicine.png";
-import Ionm from "../icons/ionm.png";
-import Anesthesiology from "../icons/anesthesiology.png";
-import Psychiatry from "../icons/psychiatry.png";
-import Radiology from "../icons/radiology.png";
-import Urology from "../icons/urology.png";
-import Neurology from "../icons/neurology.png";
 import Painmanagement from "../icons/pain-management.png";
 import allstarspartner1 from "../images/allstarmbpartners-1.webp";
 import allstarspartner2 from "../images/allstarmbpartners-2.webp";
@@ -33,18 +24,17 @@ import allstarspartner7 from "../images/allstarmbpartners-7.webp";
 import allstarspartner8 from "../images/allstarmbpartners-8.webp";
 import allstarspartner9 from "../images/allstarmbpartners-9.webp";
 import allstarspartner10 from "../images/allstarmbpartners-10.webp";
-import Navbar from "../components/Navbar";
 import Nav from "../components/Nav";
 import InfoNav from "../components/InfoNav";
 import CardSection from "../components/Home/CardSection";
 import ServiceCardSection from "../components/Home/ServiceCardSection";
 import ServiceFeatures from "../components/Home/ServiceFeatures";
+import MedicalServicesCards from "../components/Home/MedicalServicesCards";
 
 function Home() {
   return (
     <div>
       <InfoNav />
-      {/* <Navbar /> */}
       <Nav />
       <div
         style={{ "--image-url": `url(${bannerTwo})` }}
@@ -164,118 +154,7 @@ function Home() {
           <span className="w-full h-1 bg-blue" />
         </h1>
 
-        <div className="grid grid-cols-1 md:grid-cols-5 gap-4 mt-10 mx-5 md:mx-40">
-          <div className="col-span-1 md:col-span-1  p-6 text-center bg-white  rounded-lg shadow-md">
-            <div className="flex flex-col items-center justify-center">
-              <img
-                className="w-[150px] h-[120px]"
-                src={Gynocologyicon}
-                alt="Gynocology"
-              />
-              <h3 className="font-bold text-elementcolor mt-3">Gynocology</h3>
-            </div>
-          </div>
-          <div className="col-span-1 md:col-span-1  p-6 text-center bg-white  rounded-lg shadow-md">
-            <div className="flex flex-col items-center justify-center">
-              <img
-                src={HormonalExamination}
-                style={{ width: "150px", height: "120px" }}
-                alt="HormonalExamination"
-              />
-              <h3 className="font-bold text-elementcolor mt-3">
-                Hormonal Examination
-              </h3>
-            </div>
-          </div>
-          <div className="col-span-1 md:col-span-1  p-6 text-center bg-white  rounded-lg shadow-md">
-            <div className="flex flex-col items-center justify-center">
-              <img
-                src={InternalMedicine}
-                style={{ width: "150px", height: "120px" }}
-                alt="InternalMedicine"
-              />
-              <h3 className="font-bold text-elementcolor mt-3">
-                Internal Medicine
-              </h3>
-            </div>
-          </div>
-          <div className="col-span-1 md:col-span-1  p-6 text-center bg-white  rounded-lg shadow-md">
-            <div className="flex flex-col items-center justify-center">
-              <img
-                src={Ionm}
-                style={{ width: "150px", height: "120px" }}
-                alt="Ionm"
-              />
-              <h3 className="font-bold text-elementcolor mt-3">Ionm</h3>
-            </div>
-          </div>
-          <div className="col-span-1 md:col-span-1  p-6 text-center bg-white  rounded-lg shadow-md">
-            <div className="flex flex-col items-center justify-center">
-              <img
-                src={Anesthesiology}
-                style={{ width: "150px", height: "120px" }}
-                alt="Anesthesiology"
-              />
-              <h3 className="font-bold text-elementcolor mt-3">
-                Anesthesiology
-              </h3>
-            </div>
-          </div>
-
-          {/* Second Row */}
-          <div className="col-span-1 md:col-span-1  p-6 text-center bg-white  rounded-lg shadow-md">
-            <div className="flex flex-col items-center justify-center">
-              <img
-                src={Psychiatry}
-                style={{ width: "150px", height: "120px" }}
-                alt="Psychiatry"
-              />
-              <h3 className="font-bold text-elementcolor mt-3">Psychiatry</h3>
-            </div>
-          </div>
-          <div className="col-span-1 md:col-span-1  p-6 text-center bg-white  rounded-lg shadow-md">
-            <div className="flex flex-col items-center justify-center">
-              <img
-                src={Radiology}
-                style={{ width: "150px", height: "120px" }}
-                alt="Radiology"
-              />
-              <h3 className="font-bold text-elementcolor mt-3">Radiology</h3>
-            </div>
-          </div>
-          <div className="col-span-1 md:col-span-1  p-6 text-center bg-white  rounded-lg shadow-md">
-            <div className="flex flex-col items-center justify-center">
-              <img
-                src={Urology}
-                style={{ width: "150px", height: "120px" }}
-                alt="Urology"
-              />
-              <h3 className="font-bold text-elementcolor mt-3">Urology</h3>
-            </div>
-          </div>
-          <div className="col-span-1 md:col-span-1  p-6 text-center bg-white  rounded-lg shadow-md">
-            <div className="flex flex-col items-center justify-center">
-              <img
-                src={Neurology}
-                style={{ width: "150px", height: "120px" }}
-                alt="Neurology"
-              />
-              <h3 className="font-bold text-elementcolor mt-3">Neurology</h3>
-            </div>
-          </div>
-          <div className="col-span-1 md:col-span-1  p-6 text-center bg-white  rounded-lg shadow-md">
-            <div className="flex flex-col items-center justify-center">
-              <img
-                src={Painmanagement}
-                style={{ width: "150px", height: "120px" }}
-                alt="Painmanagement"
-              />
-              <h3 className="font-bold text-elementcolor mt-3">
-                Pain Management
-              </h3>
-            </div>
-          </div>
-        </div>
+        <MedicalServicesCards />
       </div>
 
       <div className="bg-darkgray">
@@ -501,122 +380,119 @@ function Home() {
       </div>
 
       {/* Request call section */}
-      <div className="bg-darkgray">
-        <div className="lg:py-16 lg:px-32 md:px-0 md:flex">
-          {/* Right section */}
-          <div className="bg-blue flex-1 md:w-full">
-            <div className="px-5 md:px-8 lg:px-12 pt-10 md:items-center py-8 flex flex-col gap-4">
-              <h1 className="text-white font-bold text-2xl pb-3">
-                Request For A Call Back
-              </h1>
-              <div className="flex gap-4 flex-col lg:w-full md:w-0 sm:flex sm:flex-row w-full">
-                <input
-                  type="text"
-                  className=" flex-1 border p-4 md:p-2 md:rounded border-none focus:outline-none"
-                  placeholder="Name"
-                />
-                <input
-                  type="email"
-                  className=" flex-1 border p-4 md:p-2 md:rounded  focus:outline-none"
-                  placeholder="Email"
-                />
-              </div>
-              <div className="flex flex-col gap-4 lg:w-full md:w-0 sm:flex sm:flex-row w-full">
-                <input
-                  type="text"
-                  className="border p-4 md:p-2 md:rounded focus:outline-none flex-1"
-                  placeholder="Phone"
-                />
-                <select className="border p-4 md:p-2 md:rounded focus:outline-none flex-1">
-                  <option value="" disabled selected>
-                    -Service-
-                  </option>
-                  <option value="category1">Medical Billing</option>
-                  <option value="category2">Medical Coding</option>
-                  <option value="category3">Credentialing</option>
-                  <option value="category3">Other </option>
-                </select>
-              </div>
-
-              <div className="flex flex-col gap-4 lg:w-full md:w-0 sm:flex sm:flex-row w-full">
-                <select className="border p-4 md:p-2 md:rounded focus:outline-none flex-1">
-                  <option value="" disabled selected>
-                    -State-
-                  </option>
-                  <option value="category1">Category 1</option>
-                  <option value="category2">Category 2</option>
-                  <option value="category3">Category 3</option>
-                </select>
-                <input
-                  type="date"
-                  className="border p-4 md:p-2 md:rounded focus:outline-none flex-1"
-                  placeholder="Pick a Date"
-                />
-              </div>
-
-              {/* Textarea */}
-              <div className="flex flex-col w-full">
-                <textarea
-                  className="border p-4 md:p-2 md:rounded focus:outline-none h-28 md:h-32"
-                  placeholder="Comments"
-                ></textarea>
-              </div>
-
-              <button
-                type="submit"
-                className="bg-blue-500 text-white border border-white mt-4 px-4 py-2 rounded transition hover:bg-white hover:text-black mr-auto"
-              >
-                Submit Now
-              </button>
+      <div className="bg-darkgray lg:py-16 lg:px-32 md:px-0 md:flex">
+        {/* Right section */}
+        <div className="bg-blue flex-1 md:w-full">
+          <div className="px-5 md:px-8 lg:px-12 pt-10 md:items-center py-8 flex flex-col gap-4">
+            <h1 className="text-white font-bold text-2xl pb-3">
+              Request For A Call Back
+            </h1>
+            <div className="flex gap-4 flex-col lg:w-full md:w-0 sm:flex sm:flex-row w-full">
+              <input
+                type="text"
+                className=" flex-1 border p-4 md:p-2 md:rounded border-none focus:outline-none"
+                placeholder="Name"
+              />
+              <input
+                type="email"
+                className=" flex-1 border p-4 md:p-2 md:rounded  focus:outline-none"
+                placeholder="Email"
+              />
             </div>
-          </div>
+            <div className="flex flex-col gap-4 lg:w-full md:w-0 sm:flex sm:flex-row w-full">
+              <input
+                type="text"
+                className="border p-4 md:p-2 md:rounded focus:outline-none flex-1"
+                placeholder="Phone"
+              />
+              <select className="border p-4 md:p-2 md:rounded focus:outline-none flex-1">
+                <option value="" disabled selected>
+                  -Service-
+                </option>
+                <option value="category1">Medical Billing</option>
+                <option value="category2">Medical Coding</option>
+                <option value="category3">Credentialing</option>
+                <option value="category3">Other </option>
+              </select>
+            </div>
 
-          <div className="border flex-1 p-4 border-blue">
-            {/*Left section */}
-            <div className="lg:py-[165px]">
-              <h1 className="text-2xl font-bold">Reach Us</h1>
-              <div className="h-1 w-[6rem] bg-blue mt-1 mb-1"></div>
-              <div
-                className="pt-4"
-                style={{ display: "flex", flexDirection: "column" }}
-              >
-                <a href="tel:+15014240123">
-                  {" "}
-                  <p
-                    className="text-xl"
-                    style={{ display: "flex", alignItems: "center" }}
-                  >
-                    <IoCallOutline
-                      style={{ marginRight: "8px", fontSize: "30px" }}
-                    />{" "}
-                    (501)-424-0123
-                  </p>
-                </a>
-                <a href="mailto:info@allstarsmb.com">
-                  <p
-                    className="text-xl pt-2"
-                    style={{ display: "flex", alignItems: "center" }}
-                  >
-                    <IoMailOutline
-                      className="my-2"
-                      style={{ marginRight: "7px", fontSize: "25px" }}
-                    />{" "}
-                    info@allstarsmb.com
-                  </p>
-                </a>
-                <a href="#">
-                  <p
-                    className="text-xl pt-2"
-                    style={{ display: "flex", alignItems: "center" }}
-                  >
-                    <IoLocationOutline
-                      style={{ marginRight: "8px", fontSize: "35px" }}
-                    />{" "}
-                    2121 N California Blvd Suite 243, Walnut Creek, CA 94596,
-                    USA
-                  </p>
-                </a>
-              </div>
+            <div className="flex flex-col gap-4 lg:w-full md:w-0 sm:flex sm:flex-row w-full">
+              <select className="border p-4 md:p-2 md:rounded focus:outline-none flex-1">
+                <option value="" disabled selected>
+                  -State-
+                </option>
+                <option value="category1">Category 1</option>
+                <option value="category2">Category 2</option>
+                <option value="category3">Category 3</option>
+              </select>
+              <input
+                type="date"
+                className="border p-4 md:p-2 md:rounded focus:outline-none flex-1"
+                placeholder="Pick a Date"
+              />
+            </div>
+
+            {/* Textarea */}
+            <div className="flex flex-col w-full">
+              <textarea
+                className="border p-4 md:p-2 md:rounded focus:outline-none h-28 md:h-32"
+                placeholder="Comments"
+              ></textarea>
+            </div>
+
+            <button
+              type="submit"
+              className="bg-blue-500 text-white border border-white mt-4 px-4 py-2 rounded transition hover:bg-white hover:text-black mr-auto"
+            >
+              Submit Now
+            </button>
+          </div>
+        </div>
+
+        <div className="border flex-1 p-4 border-blue">
+          {/*Left section */}
+          <div className="lg:py-[165px]">
+            <h1 className="text-2xl font-bold">Reach Us</h1>
+            <div className="h-1 w-[6rem] bg-blue mt-1 mb-1"></div>
+            <div
+              className="pt-4"
+              style={{ display: "flex", flexDirection: "column" }}
+            >
+              <a href="tel:+15014240123">
+                {" "}
+                <p
+                  className="text-xl"
+                  style={{ display: "flex", alignItems: "center" }}
+                >
+                  <IoCallOutline
+                    style={{ marginRight: "8px", fontSize: "30px" }}
+                  />{" "}
+                  (501)-424-0123
+                </p>
+              </a>
+              <a href="mailto:info@allstarsmb.com">
+                <p
+                  className="text-xl pt-2"
+                  style={{ display: "flex", alignItems: "center" }}
+                >
+                  <IoMailOutline
+                    className="my-2"
+                    style={{ marginRight: "7px", fontSize: "25px" }}
+                  />{" "}
+                  info@allstarsmb.com
+                </p>
+              </a>
+              <a href="#">
+                <p
+                  className="text-xl pt-2"
+                  style={{ display: "flex", alignItems: "center" }}
+                >
+                  <IoLocationOutline
+                    style={{ marginRight: "8px", fontSize: "35px" }}
+                  />{" "}
+                  2121 N California Blvd Suite 243, Walnut Creek, CA 94596, USA
+                </p>
+              </a>
             </div>
           </div>
         </div>

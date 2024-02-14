@@ -5,7 +5,7 @@ import { infoNavItems } from "../utils/data";
 const InfoNav = () => {
   return (
     <div>
-      <div className={"bg-blue w-full mx-auto md:block hidden"}>
+      <div className={"bg-blue w-full mx-auto lg:block hidden"}>
         <Container className={"flex justify-between items-center py-2"}>
           <div className="flex flex-row text-center">
             {infoNavItems.leftSide.map((item, i, array) => (
