@@ -18,7 +18,7 @@ import VisionImamge from "../images/vision.png";
 import serviceAimnImage from "../images/amin3.png";
 import Footer from "../components/Footer";
 import InfoNav from "../components/InfoNav";
-import Navbar from "../components/Navbar";
+import Nav from "../components/Nav";
 import AboutCards from "../components/About/AboutCards";
 
 const infoNavItems = {
@@ -56,21 +56,15 @@ function About() {
   return (
     <div>
       <InfoNav />
-      <Navbar />
+      <Nav />
 
       <div className="relative">
-        <div
-          style={{
-            background: "linear-gradient(180deg, #204066 0%, #008ac6 100%)",
-            opacity: "0.9",
-          }}
-        >
-          <img
-            src={PrimaryImage}
-            alt="PrimaryImage"
-            className="w-full md:h-44 h-32"
-          />
-        </div>
+        <img
+          src={PrimaryImage}
+          alt="PrimaryImage"
+          className="w-full md:h-44 h-44"
+        />
+
         <h1 className="text-white text-4xl font-bold absolute top-16 md:left-16 left-32">
           About Us
         </h1>
@@ -115,6 +109,7 @@ function About() {
       </div>
 
       <AboutCards />
+
       {/* Mission section */}
       <div className="bg-darkgray md:mt-14 mt-10">
         <div className="md:flex justify-between mx-5 md:mx-20 items-center md:py-10 pt-14">

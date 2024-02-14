@@ -322,3 +322,114 @@ export const aboutCardData = [
   { percentage: "10Y", title: "Team Avg. Expertise" },
   { percentage: "95%", title: "Electronic Payments" },
 ];
+
+export const billingCard = [
+  {
+    title: "98% Clean Claim acceptance",
+    description:
+      "Welcome to AllStars, where excellence meets efficiency in healthcare claims processing. We take immense pride in our remarkable 98% clean claim acceptance rate, setting new standards in the industry. Choose AllStars for a smoother, more efficient claims experience. Your success is our priority, and our 98% clean claim acceptance rate reflects our unwavering commitment to your satisfaction.",
+  },
+  {
+    title: "08% Monthly Denials",
+    description:
+      "Enhancing Your Healthcare Revenue Cycle with AllStars - Only 8% Monthly DenialsAllStars - Your trusted partner for efficient revenue cycle management and a remarkably low 8% monthly denials rate. Let us help you unlock your practice's full financial potential.",
+  },
+  {
+    title: "96% electronic claim submission",
+    description:
+      "AllStars - Your 96% Electronic Claim Submission SolutionChoose AllStars for a hassle-free, efficient electronic claim submission experience. Your success is our priority, and our 96% electronic claim submission rate reflects our unwavering commitment to providing you with the best possible service.",
+  },
+  {
+    title: "99% Credentialing Success",
+    description:
+      "AllStars: Unlocking Success with a 99% Credentialing Achievement With AllStars as your credentialing partner, you gain access to a team of experts who meticulously navigate the complex world of credentialing. We work diligently to ensure your applications are processed without errors and that your providers can seamlessly participate in insurance networks, allowing you to focus on providing exceptional patient care.",
+  },
+  {
+    title: "96% Bank Direct Deposit",
+    description:
+      "AllStars: Your 96% Success Rate in Bank Direct Deposits Select AllStars for a dependable, efficient bank direct deposit experience. Your financial well-being is our priority, and our 96% success rate underscores our dedication to providing you with the best possible service. With AllStars, you can trust that your bank direct deposits will be processed smoothly and securely, allowing you to maintain your focus on your business.",
+  },
+  {
+    title: "10% - 15% Practice Growth",
+    description:
+      "AllStars: Fueling Your Practice Growth Experience significant practice growth with AllStars. Our proven strategies have consistently delivered impressive results, ranging from 10% to 15%. Partner with us to unlock your practice's full potential and embark on a journey to lasting success.",
+  },
+  {
+    title: "10Y Avg. Team Expertise",
+    description:
+      "AllStars: 10-Year Average Team Experience At AllStars, our team boasts an impressive 10-year average experience. With a decade of expertise, we provide you with seasoned professionals who understand the industry inside out. Trust us to bring unparalleled knowledge and skill to your healthcare needs.",
+  },
+  {
+    title: "95% Electronic Payments",
+    description:
+      "AllStars: Your 95% Electronic Payments Partner Experience the efficiency and reliability of AllStars with our outstanding 95% electronic payments success rate. We ensure your financial transactions are processed seamlessly and securely, helping you streamline your operations and stay on top of your finances.",
+  },
+];
+
+export const credentialingCard = [
+  {
+    title: "Primary Source Verification",
+    description:
+      "We conduct Primary Source Verification for credentialing, including board certification, license, and hospitalprivileges checks, ensuring accuracy and reliability directlyfrom the source.",
+  },
+  {
+    title: "Management of Documents",
+    description:
+      "Efficiently manage and securely store healthcare provider documents, including certifications and licenses, for streamlined access and regulatory compliance by using Allstars secure credentialing management system.",
+  },
+  {
+    title: "NPI Registration",
+    description:
+      "AllStars streamlines NPI Registration for both Type 1 (individuals) and Type 2 (organizations), ensuring efficient and accurate identification in healthcare billing.",
+  },
+  {
+    title: "CAQH Profile Management/Reattestation",
+    description:
+      "AllStars excels in CAQH Profile Management and Reattestation, ensuring hassle-free maintenance of accurate healthcare provider information.",
+  },
+  {
+    title: "Credentialing & Network Enrollment Analysis",
+    description:
+      "AllStars offers expert Credentialing and Network Enrollment Analysis, ensuring accuracy and compliance for streamlined provider enrollment.",
+  },
+  {
+    title: "Revalidation and Re-credentialing",
+    description:
+      "AllStars manages the crucial processes of Revalidation and Re-credentialing, ensuring that healthcare providers maintain current and compliant credentials for continued participation in healthcare networks.",
+  },
+  {
+    title: "Weekly Follow Up",
+    description:
+      "AllStars conducts proactive weekly follow-ups with insurance companies, ensuring timely approvals and efficient processing to meet your needs.",
+  },
+  {
+    title: "Credentialing Audit",
+    description:
+      "AllStars offers on-demand Credentialing Audits, ensuring a thorough and timely examination of credentials to maintain compliance and accuracy for healthcare providers.",
+  },
+  {
+    title: "IPA Enrollment",
+    description:
+      "AllStars streamlines IPA (Independent Practice Association) Enrollment, providing efficient and effective services for healthcare providers to join and participate in independent practice associations.",
+  },
+  {
+    title: "Telehealth Credentialing",
+    description:
+      "AllStars specializes in Telehealth Medicine Credentialing, ensuring healthcare providers are credentialed and compliant for telehealth services, facilitating seamless and secure virtual healthcare delivery.",
+  },
+  {
+    title: "EDI Setups",
+    description:
+      "AllStars specializes in EDI (Electronic Data Interchange) Setups, ensuring efficient and accurate electronic communication for seamless data exchange between healthcare entities.",
+  },
+  {
+    title: "ERA Setup",
+    description:
+      "AllStars excels in ERA (Electronic Remittance Advice) Setups, offering seamless solutions for healthcare entities to streamline and optimize the electronic processing of payment information.",
+  },
+  {
+    title: "EFT Enrollment",
+    description:
+      "AllStars specializes in EFT (Electronic Funds Transfer) Enrollment, streamlining the process for healthcare providers to efficiently receive electronic payments, enhancing financial transactions in the healthcare industry.",
+  },
+];

@@ -4,7 +4,7 @@ import { navLinks, services } from "../utils/data";
 
 const Navbar = () => {
   return (
-    <div className="z-10 sticky top-0 flex flex-row justify-between items-center bg-white py-2 pr-12 pl-12 shadow-sm z-">
+    <div className="z-10 sticky top-0 flex flex-row justify-between items-center bg-white py-2 px-12 shadow-sm">
       <a href="/" className="block">
         <img className="h-16 cursor-pointer" src={logo} alt="mainLogo"></img>
       </a>
@@ -22,11 +22,9 @@ const Navbar = () => {
           </a>
         ))}
       </div>
-      <div>
-        <button className="btn bg-blue h-12 rounded-md text-white font-semibold px-8 hover:bg-sky-700 md:block hidden">
-          Request a Call Back
-        </button>
-      </div>
+      <button className="btn bg-blue h-12 rounded-md text-white font-semibold px-8 hover:bg-sky-700 md:block hidden">
+        Request a Call Back
+      </button>
     </div>
   );
 };

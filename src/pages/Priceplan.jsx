@@ -9,29 +9,21 @@ import { LuDot } from "react-icons/lu";
 import "../Header.css";
 import PrimaryImage from "../images/primary-bg.jpg";
 import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
+import Nav from "../components/Nav";
 import InfoNav from "../components/InfoNav";
 
 function PricePlan() {
   return (
     <div>
       <InfoNav />
-      <Navbar />
+      <Nav />
 
       <div className="relative">
-        <div
-          className="h-64"
-          style={{
-            background: "linear-gradient(180deg, #204066 0%, #008ac6 100%)",
-            opacity: "0.9",
-          }}
-        >
-          <img
-            src={PrimaryImage}
-            alt="PrimaryImage"
-            className="w-full h-44 md:h-full"
-          />
-        </div>
+        <img
+          src={PrimaryImage}
+          alt="PrimaryImage"
+          className="w-full h-72 md:h-64 "
+        />
         <h1 className="text-white md:text-4xl text-3xl font-bold absolute top-16 left-20 font-poppins">
           Plans and Pricing
         </h1>

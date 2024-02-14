@@ -16,23 +16,17 @@ import MainCodingImage from "../images/Main3.png";
 import MedialIMage from "../images/medial.png";
 import DynamicImage from "../images/positive_dynamic.svg";
 import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
+import Nav from "../components/Nav";
 import InfoNav from "../components/InfoNav";
 
 function MedicalCoding() {
   return (
     <div>
       <InfoNav />
-      <Navbar />
+      <Nav />
       <div className="relative">
-        <div
-          style={{
-            background: "linear-gradient(180deg, #204066 0%, #008ac6 100%)",
-            opacity: "0.9",
-          }}
-        >
-          <img src={PrimaryImage} alt="PrimaryImage" className="w-full h-44" />
-        </div>
+        <img src={PrimaryImage} alt="PrimaryImage" className="w-full h-44" />
+
         <h1 className="text-white text-4xl font-bold absolute top-16 md:left-16 left-[75px]">
           Medical Coding
         </h1>
@@ -72,8 +66,6 @@ function MedicalCoding() {
           ></img>
         </div>
       </div>
-
-      {/* Card Section */}
       <div className="md:mt-16 mt-10">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mx-5 md:mx-20">
           <div className="flex-1">

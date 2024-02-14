@@ -15,7 +15,7 @@ import PrimaryImage from "../images/primary-bg.jpg";
 import GrowthImage from "../images/growth.png";
 import Footer from "../components/Footer";
 import InfoNav from "../components/InfoNav";
-import Navbar from "../components/Navbar";
+import Nav from "../components/Nav";
 import ServiceCardSection from "../components/Home/ServiceCardSection";
 
 const infoNavItems = {
@@ -35,21 +35,14 @@ function Services() {
   return (
     <div>
       <InfoNav />
-      <Navbar />
+      <Nav />
 
       <div className="relative">
-        <div
-          style={{
-            background: "linear-gradient(180deg, #204066 0%, #008ac6 100%)",
-            opacity: "0.9",
-          }}
-        >
-          <img
-            src={PrimaryImage}
-            alt="PrimaryImage"
-            className="w-full md:h-44 h-32"
-          />
-        </div>
+        <img
+          src={PrimaryImage}
+          alt="PrimaryImage"
+          className="w-full md:h-44 h-32"
+        />
         <h1 className="text-white text-4xl font-bold absolute md:top-14 top-10 md:left-16 left-32">
           Services
         </h1>

@@ -4,35 +4,22 @@ import React, { useState, useEffect } from "react";
 import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 import { IoMailOutline, IoLocationOutline } from "react-icons/io5";
 import { LuPhoneCall } from "react-icons/lu";
-import { LiaFaxSolid } from "react-icons/lia";
-import { FaYoutube } from "react-icons/fa";
-import { MdEmail } from "react-icons/md";
-import { BsFillTelephoneFill } from "react-icons/bs";
-import { BiSolidBuildingHouse } from "react-icons/bi";
 import "../Header.css";
-import logo from "../images/main-logo.webp";
 import PrimaryImage from "../images/primary-bg.jpg";
 import DesignImage from "../images/design.webp";
 import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
+import Nav from "../components/Nav";
 import InfoNav from "../components/InfoNav";
 
 function Contact() {
   return (
     <div>
       <InfoNav />
-      <Navbar />
+      <Nav />
 
       <div className="relative">
-        <div
-          className=""
-          style={{
-            background: "linear-gradient(180deg, #204066 0%, #008ac6 100%)",
-            opacity: "0.9",
-          }}
-        >
-          <img src={PrimaryImage} alt="Brud" className="w-full h-44" />
-        </div>
+        <img src={PrimaryImage} alt="Brud" className="w-full h-44" />
+
         <h1 className="text-white text-4xl font-bold absolute top-16 md:left-16 left-[120px] hover:bg-sky-700">
           Contact Us
         </h1>

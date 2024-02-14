@@ -5,24 +5,18 @@ import "../Header.css";
 import PrimaryImage from "../images/primary-bg.jpg";
 import serviceAimnImage from "../images/amin3.png";
 import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
+import Nav from "../components/Nav";
 import InfoNav from "../components/InfoNav";
+import CredentialingCards from "../components/MedicalCredentialing/CredentialingCards";
 
 function MedicalCredentialing() {
   return (
     <div>
       <InfoNav />
-      <Navbar />
+      <Nav />
 
       <div className="relative">
-        <div
-          style={{
-            background: "linear-gradient(180deg, #204066 0%, #008ac6 100%)",
-            opacity: "0.9",
-          }}
-        >
-          <img src={PrimaryImage} alt="PrimaryImage" className="w-full h-44" />
-        </div>
+        <img src={PrimaryImage} alt="PrimaryImage" className="w-full h-44" />
         <h1 className="text-white text-4xl font-bold absolute md:top-16 md:left-16 top-12 left-[70px]">
           Credentialing & Enrollment
         </h1>
@@ -65,200 +59,7 @@ function MedicalCredentialing() {
       </div>
 
       {/* Cards Section */}
-      <div className="md:my-20">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mx-5 md:mx-20 my-12">
-          <div className="flex-1">
-            <div className="flex flex-col  min-h-[200px] h-full border border-borderstyledark">
-              <div className="p-6">
-                <h1 className="text-center text-elementcolor font-semibold text-2xl">
-                  Primary Source Verification
-                </h1>
-                <p className="text-center pt-4 text-gray-500">
-                  We conduct Primary Source Verification for credentialing,
-                  including board certification, license, and hospital
-                  privileges checks, ensuring accuracy and reliability directly
-                  from the source.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="flex-1">
-            <div className="flex flex-col  min-h-[200px] h-full border border-borderstyledark">
-              <div className="p-6">
-                <h1 className="text-center font-semibold text-elementcolor text-2xl">
-                  Management of Documents
-                </h1>
-                <p className="text-center pt-4 text-gray-500">
-                  Efficiently manage and securely store healthcare provider
-                  documents, including certifications and licenses, for
-                  streamlined access and regulatory compliance by using Allstars
-                  secure credentialing management system.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="flex-1">
-            <div className="flex flex-col  min-h-[200px] h-full border border-borderstyledark">
-              <div className="p-6">
-                <h1 className="text-center font-semibold text-elementcolor text-2xl">
-                  NPI Regestration
-                </h1>
-                <p className="text-center pt-4 text-gray-500">
-                  AllStars streamlines NPI Registration for both Type 1
-                  (individuals) and Type 2 (organizations), ensuring efficient
-                  and accurate identification in healthcare billing.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="flex-1">
-            <div className="flex flex-col  min-h-[200px] h-full border border-borderstyledark">
-              <div className="p-6">
-                <h1 className="text-center font-semibold text-elementcolor text-2xl">
-                  CAQH Profile Management/Reattestation
-                </h1>
-                <p className="text-center pt-4 text-gray-500">
-                  AllStars excels in CAQH Profile Management and Reattestation,
-                  ensuring hassle-free maintenance of accurate healthcare
-                  provider information.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="flex-1">
-            <div className="flex flex-col  min-h-[200px] h-full border border-borderstyledark">
-              <div className="p-6">
-                <h1 className="text-center font-semibold text-elementcolor text-2xl">
-                  Credentialing & Network Enrollment Analysis
-                </h1>
-                <p className="text-center pt-4 text-gray-500">
-                  AllStars offers expert Credentialing and Network Enrollment
-                  Analysis, ensuring accuracy and compliance for streamlined
-                  provider enrollment.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="flex-1">
-            <div className="flex flex-col  min-h-[200px] h-full border border-borderstyledark">
-              <div className="p-6">
-                <h1 className="text-center font-semibold text-elementcolor text-2xl">
-                  Revalidation and Re-credentialing
-                </h1>
-                <p className="text-center pt-4 text-gray-500">
-                  AllStars manages the crucial processes of Revalidation and
-                  Re-credentialing, ensuring that healthcare providers maintain
-                  current and compliant credentials for continued participation
-                  in healthcare networks.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="flex-1">
-            <div className="flex flex-col  min-h-[200px] h-full border border-borderstyledark">
-              <div className="p-6">
-                <h1 className="text-center font-semibold text-elementcolor text-2xl">
-                  Weekly Follow Up
-                </h1>
-                <p className="text-center pt-4 text-gray-500">
-                  AllStars conducts proactive weekly follow-ups with insurance
-                  companies, ensuring timely approvals and efficient processing
-                  to meet your needs.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="flex-1">
-            <div className="flex flex-col  min-h-[200px] h-full border border-borderstyledark">
-              <div className="p-6">
-                <h1 className="text-center font-semibold text-elementcolor text-2xl">
-                  Credentialing Audit
-                </h1>
-                <p className="text-center pt-4 text-gray-500">
-                  AllStars offers on-demand Credentialing Audits, ensuring a
-                  thorough and timely examination of credentials to maintain
-                  compliance and accuracy for healthcare providers.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="flex-1">
-            <div className="flex flex-col  min-h-[200px] h-full border border-borderstyledark">
-              <div className="p-6">
-                <h1 className="text-center font-semibold text-elementcolor text-2xl">
-                  IPA Enrollment
-                </h1>
-                <p className="text-center pt-4 text-gray-500">
-                  AllStars streamlines IPA (Independent Practice Association)
-                  Enrollment, providing efficient and effective services for
-                  healthcare providers to join and participate in independent
-                  practice associations.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="flex-1">
-            <div className="flex flex-col  min-h-[200px] h-full border border-borderstyledark">
-              <div className="p-6">
-                <h1 className="text-center font-semibold text-elementcolor text-2xl">
-                  Telehealth Credentialing
-                </h1>
-                <p className="text-center pt-4 text-gray-500">
-                  AllStars specializes in Telehealth Medicine Credentialing,
-                  ensuring healthcare providers are credentialed and compliant
-                  for telehealth services, facilitating seamless and secure
-                  virtual healthcare delivery.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="flex-1">
-            <div className="flex flex-col  min-h-[200px] h-full border border-borderstyledark">
-              <div className="p-6">
-                <h1 className="text-center font-semibold text-elementcolor text-2xl">
-                  EDI Setups
-                </h1>
-                <p className="text-center pt-4 text-gray-500">
-                  AllStars specializes in EDI (Electronic Data Interchange)
-                  Setups, ensuring efficient and accurate electronic
-                  communication for seamless data exchange between healthcare
-                  entities.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="flex-1">
-            <div className="flex flex-col  min-h-[200px] h-full border border-borderstyledark">
-              <div className="p-6">
-                <h1 className="text-center font-semibold text-elementcolor text-2xl">
-                  ERA Setups
-                </h1>
-                <p className="text-center pt-4 text-gray-500">
-                  AllStars excels in ERA (Electronic Remittance Advice) Setups,
-                  offering seamless solutions for healthcare entities to
-                  streamline and optimize the electronic processing of payment
-                  information.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="flex-1">
-            <div className="flex flex-col  min-h-[200px] h-full border border-borderstyledark">
-              <div className="p-6">
-                <h1 className="text-center font-semibold text-elementcolor text-2xl">
-                  EFT Enrollment
-                </h1>
-                <p className="text-center pt-4 text-gray-500">
-                  AllStars specializes in EFT (Electronic Funds Transfer)
-                  Enrollment, streamlining the process for healthcare providers
-                  to efficiently receive electronic payments, enhancing
-                  financial transactions in the healthcare industry.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <CredentialingCards />
       <Footer />
     </div>
   );

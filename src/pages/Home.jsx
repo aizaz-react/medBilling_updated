@@ -34,6 +34,7 @@ import allstarspartner8 from "../images/allstarmbpartners-8.webp";
 import allstarspartner9 from "../images/allstarmbpartners-9.webp";
 import allstarspartner10 from "../images/allstarmbpartners-10.webp";
 import Navbar from "../components/Navbar";
+import Nav from "../components/Nav";
 import InfoNav from "../components/InfoNav";
 import CardSection from "../components/Home/CardSection";
 import ServiceCardSection from "../components/Home/ServiceCardSection";
@@ -43,7 +44,8 @@ function Home() {
   return (
     <div>
       <InfoNav />
-      <Navbar />
+      {/* <Navbar /> */}
+      <Nav />
       <div
         style={{ "--image-url": `url(${bannerTwo})` }}
         className={`bg-[image:var(--image-url)] py-36 bg-cover bg-no-repeat`}
@@ -62,7 +64,6 @@ function Home() {
           </button>
         </div>
       </div>
-
       <CardSection />
 
       {/* About Section */}
