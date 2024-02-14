@@ -4,11 +4,6 @@ import HormonalExamination from "../../icons/hormonal-examination.png";
 import InternalMedicine from "../../icons/Internal-medicine.png";
 import Ionm from "../../icons/ionm.png";
 import Anesthesiology from "../../icons/anesthesiology.png";
-import Psychiatry from "../../icons/psychiatry.png";
-import Radiology from "../../icons/radiology.png";
-import Urology from "../../icons/urology.png";
-import Neurology from "../../icons/neurology.png";
-import Painmanagement from "../../icons/pain-management.png";
 
 const serviceSpecialties = [
   {

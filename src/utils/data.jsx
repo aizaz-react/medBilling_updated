@@ -78,9 +78,9 @@ export const services = [
 export const infoNavItems = {
   leftSide: [
     {
-      text: "info@allstarsmb.com",
+      text: "Skrisentech Inc.com",
       icon: <MdEmail size={18} />,
-      link: "mailto:info@allstarsmb.com",
+      link: "Skrisentech Inc.com",
     },
     {
       text: "(501)-424-0123",

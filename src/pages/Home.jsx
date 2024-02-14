@@ -42,7 +42,7 @@ function Home() {
       >
         <div className="text-left md:ml-24 top-10 mx-7 md:mx-0 left-0">
           <h1 className="font-poppins md:text-4xl font-bold text-white md:my-6">
-            AllStars Medical Billing
+            Skrisentech Inc Medical Billing
           </h1>
           <p className="font-Roboto md:text-lg mb-4 mt-2 text-white">
             We excel in medical billing and coding, with expertise in
@@ -72,8 +72,10 @@ function Home() {
             <div className="mx-5 md:mx-0 pt-10 md:w-2/3 md:pt-0 ">
               {/* About Content */}
               <h1 className="font-Roboto font-bold md:text-3xl text-[28px] flex flex-col md:flex-row">
-                Welcome To{" "}
-                <span className="text-blue"> AllStars Medical Billing</span>
+                Welcome To
+                <span className="text-blue">
+                  Skrisentech Inc Medical Billing
+                </span>
               </h1>
               <p className=" mt-4 md:mt-6 line-clamp-7 text-gray-500">
                 Billing plays a crucial role in the operations of any medical
@@ -94,11 +96,11 @@ function Home() {
 
       <div className="mt-5 md:mx-28 mx-8">
         <h2 className="text-center md:text-3xl text-2xl font-semibold">
-          Why AllStars Medical Billing?
+          Why Skrisentech Inc Medical Billing?
         </h2>
         <div className="h-1 md:w-[23rem] w-[19rem] bg-blue mt-2 mx-auto"></div>
         <p className="text-center text-gray-500 mt-5">
-          At AllStars, we firmly believe that healthcare providers should
+          At Skrisentech Inc, we firmly believe that healthcare providers should
           dedicate their time and energy to patient care and delivering
           outstanding services, without the burden of claims, payments, and
           patient statements. Our approach revolves around an intelligent
@@ -133,11 +135,11 @@ function Home() {
           </h2>
           {/* <div className="h-1 md:w-[11rem] w-[8.5rem] bg-white mt-1 mb-1 mx-auto"></div> */}
           <p className="md:text-lg pt-3 text-center mx-5 md:mx-72">
-            AllStars Medical Billing has a strong grasp of medical billing,
-            credentialing, medical A/R, and practice billing audit services.
-            With extensive experience in the healthcare billing industry, we are
-            confident in our ability to enhance the financial performance of
-            your healthcare practice.
+            Skrisentech Inc Medical Billing has a strong grasp of medical
+            billing, credentialing, medical A/R, and practice billing audit
+            services. With extensive experience in the healthcare billing
+            industry, we are confident in our ability to enhance the financial
+            performance of your healthcare practice.
           </p>
         </div>
       </div>
@@ -166,11 +168,11 @@ function Home() {
           <span className="w-full h-1 bg-blue" />
         </h1>
         <p className="md:pt-5 text-center md:px-[260px] px-5 pt-5">
-          The innovative approach of AllStars Medical Billing has made it one of
-          the rapidly expanding physician practice communities in the United
-          States. Our commitment to driving transformation within the medical
-          field is evident through our cutting-edge solutions, all achieved via
-          our Channel Partnerships.
+          The innovative approach of Skrisentech Inc Medical Billing has made it
+          one of the rapidly expanding physician practice communities in the
+          United States. Our commitment to driving transformation within the
+          medical field is evident through our cutting-edge solutions, all
+          achieved via our Channel Partnerships.
         </p>
         <div className="grid md:grid-cols-5 grid-rows-2 gap-2 py-10 md:pt-10 px-28 justify-center">
           <div className="col-span-1 p-2 ">
@@ -262,15 +264,16 @@ function Home() {
         <div className="md:pt-32 font-semibold">
           <p className="text-blue">FAQs</p>
           <h1 className="md:text-[24px]">
-            AllStars Medical Billing stands out as the top choice <br></br>for
-            medical billing services for your healthcare<br></br> practice.
+            Skrisentech Inc Medical Billing stands out as the top choice{" "}
+            <br></br>for medical billing services for your healthcare<br></br>{" "}
+            practice.
           </h1>
           <div className="md:max-w-screen-xl bg-white">
             <div className="grid divide-y divide-neutral-200 md:max-w-xl mt-8">
               <div className="py-5">
                 <details className="group">
                   <summary className="flex justify-between items-center font-medium cursor-pointer list-none">
-                    <span> What does AllStars Medical Billing Do?</span>
+                    <span> What does Skrisentech Inc Medical Billing Do?</span>
                     <span className="transition group-open:rotate-180">
                       <svg
                         fill="none"
@@ -288,7 +291,7 @@ function Home() {
                     </span>
                   </summary>
                   <p className="text-neutral-600 mt-3 group-open:animate-fadeIn">
-                    AllStars Medical Billing is a company specializing in
+                    Skrisentech Inc Medical Billing is a company specializing in
                     medical billing services for healthcare providers. They
                     offer a complete range of solutions to support healthcare
                     providers in managing their billing process. This includes
@@ -303,7 +306,7 @@ function Home() {
                   <summary className="flex justify-between items-center font-medium cursor-pointer list-none">
                     <span>
                       {" "}
-                      Is my data secure with AllStars Medical Billing?
+                      Is my data secure with Skrisentech Inc Medical Billing?
                     </span>
                     <span className="transition group-open:rotate-180">
                       <svg
@@ -322,8 +325,8 @@ function Home() {
                     </span>
                   </summary>
                   <p className="text-neutral-600 mt-3 group-open:animate-fadeIn">
-                    AllStars Medical Billing places a strong emphasis on data
-                    security. They employ advanced security measures to
+                    Skrisentech Inc Medical Billing places a strong emphasis on
+                    data security. They employ advanced security measures to
                     safeguard your data, which includes secure servers, data
                     encryption, and secure data transfer protocols. The company
                     is fully compliant with HIPAA regulations and adheres to
@@ -355,7 +358,7 @@ function Home() {
                     The duration of the physician credentialing process may
                     differ based on factors like the healthcare provider, the
                     insurance company, and other variables. Typically, this
-                    process can take several months to finalize. AllStars
+                    process can take several months to finalize. Skrisentech Inc
                     Medical Billing is committed to expediting the credentialing
                     process by proactively managing deadlines and maintaining
                     close communication with insurance providers and relevant
@@ -470,7 +473,7 @@ function Home() {
                   (501)-424-0123
                 </p>
               </a>
-              <a href="mailto:info@allstarsmb.com">
+              <a href="Skrisentech Inc.com">
                 <p
                   className="text-xl pt-2"
                   style={{ display: "flex", alignItems: "center" }}
@@ -478,8 +481,8 @@ function Home() {
                   <IoMailOutline
                     className="my-2"
                     style={{ marginRight: "7px", fontSize: "25px" }}
-                  />{" "}
-                  info@allstarsmb.com
+                  />
+                  Skrisentech Inc.com
                 </p>
               </a>
               <a href="#">

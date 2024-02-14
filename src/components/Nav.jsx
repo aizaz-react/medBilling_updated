@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Dialog, Disclosure, Popover } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
-import logo from "../images/main-logo.webp";
+import logo from "../images/Logo-1.png";
 import { useNavigate } from "react-router-dom";
 import { navLinks, services } from "../utils/data";
 

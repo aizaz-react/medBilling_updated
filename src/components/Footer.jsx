@@ -2,7 +2,7 @@ import { FaFacebookF, FaLinkedinIn, FaYoutube } from "react-icons/fa";
 import { IoMailOutline } from "react-icons/io5";
 import { LiaFaxSolid } from "react-icons/lia";
 import { LuPhoneCall } from "react-icons/lu";
-import logo from "../images/main-logo.webp";
+import logo from "../images/Logo-1.png";
 
 const Footer = () => {
   return (
@@ -38,7 +38,7 @@ const Footer = () => {
             </div>
             <div>
               <p className="text-xl pt-2 text-white font-semibold">Email</p>
-              <p className="text-white">info@allstarsmb.com</p>
+              <p className="text-white">Skrisentech Inc.com</p>
             </div>
           </div>
           <div className="mb-4 md:mb-0 md:mr-4 flex items-center">
@@ -177,7 +177,7 @@ const Footer = () => {
       </div>
 
       <div className="bg-blue py-4 px-5 md:w-full w-full flex flex-col md:flex-row justify-between items-center font-semibold text-white">
-        <p>© 2023 AllStars Medical Billing. All rights reserved</p>
+        <p>© 2023 Skrisentech Inc Medical Billing. All rights reserved</p>
         <a href="#">Privacy Policy | Terms & Conditions</a>
       </div>
     </div>
