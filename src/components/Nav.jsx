@@ -3,7 +3,7 @@ import { Dialog, Disclosure, Popover } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
 import logo from "../images/Logo-1.png";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { navLinks, services } from "../utils/data";
 
 const products = [
@@ -42,9 +42,9 @@ export default function Example() {
         className="flex flex-row justify-between items-center py-2 px-12 shadow-sm"
         aria-label="Global"
       >
-        <a href="/" alt="logo">
+        <Link to="/" alt="logo">
           <img className="h-16" src={logo} alt="" />
-        </a>
+        </Link>
         <div className="flex lg:hidden">
           <button
             type="button"
@@ -56,16 +56,16 @@ export default function Example() {
         </div>
         <div className="hidden lg:block flex-row justify-between">
           {navLinks.map((item, index) => (
-            <a
+            <Link
               key={index}
-              href={item.link}
+              to={item.link}
               className={`${
                 item.title === "Services" && "group"
               } text-md font-semibold leading-6 text-gray-900 mx-3 hover:text-blue focus:text-blue`}
             >
               {item.title}
               {item.title === "Services" && <ServiceModal />}
-            </a>
+            </Link>
           ))}
         </div>
         <button className="btn bg-blue h-12 sm:hidden rounded-md text-white font-semibold px-8 hover:bg-sky-700 lg:block hidden">
@@ -81,9 +81,9 @@ export default function Example() {
         <div className="fixed inset-0 z-10" />
         <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white p-8 sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
-            <a href="/" className="-m-1.5 p-1.5">
+            <Link to="/" className="-m-1.5 p-1.5">
               <img className="h-8 md:h-16  w-auto" src={logo} alt="logo" />
-            </a>
+            </Link>
             <button
               type="button"
               className="-m-2.5 rounded-md p-2.5 text-gray-700"
@@ -95,12 +95,12 @@ export default function Example() {
           <div className="mt-6 flow-root">
             <div className="-my-6 divide-y divide-gray-500/10">
               <div className="space-y-2 py-6">
-                <a
-                  href="/"
+                <Link
+                  to="/"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Home
-                </a>
+                </Link>
 
                 <Disclosure as="div" className="-mx-3">
                   {({ open }) => (
@@ -133,24 +133,24 @@ export default function Example() {
                     </>
                   )}
                 </Disclosure>
-                <a
-                  href="/about"
+                <Link
+                  to="/about"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   About Us
-                </a>
-                <a
-                  href="/price-plan"
+                </Link>
+                <Link
+                  to="/price-plan"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Plans & Pricing
-                </a>
-                <a
-                  href="/contact"
+                </Link>
+                <Link
+                  to="/contact"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Contact Us
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -169,7 +169,7 @@ const ServiceModal = () => {
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {services.map((item, index) => (
-            <a href={item.link} key={index}>
+            <Link to={item.link} key={index}>
               <h1 className=" flex flex-col gap-2 text-left mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50 w-max">
                 {item.title}
                 <span className="w-full h-1 bg-blue" />
@@ -177,7 +177,7 @@ const ServiceModal = () => {
               <p className="text-left mb-4 text-base text-neutral-600 dark:text-neutral-200">
                 {item.description}
               </p>
-            </a>
+            </Link>
           ))}
         </div>
       </div>

@@ -30,6 +30,7 @@ import CardSection from "../components/Home/CardSection";
 import ServiceCardSection from "../components/Home/ServiceCardSection";
 import ServiceFeatures from "../components/Home/ServiceFeatures";
 import MedicalServicesCards from "../components/Home/MedicalServicesCards";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -485,7 +486,7 @@ function Home() {
                   Skrisentech Inc.com
                 </p>
               </a>
-              <a href="#">
+              <Link to="#">
                 <p
                   className="text-xl pt-2"
                   style={{ display: "flex", alignItems: "center" }}
@@ -495,7 +496,7 @@ function Home() {
                   />{" "}
                   2121 N California Blvd Suite 243, Walnut Creek, CA 94596, USA
                 </p>
-              </a>
+              </Link>
             </div>
           </div>
         </div>

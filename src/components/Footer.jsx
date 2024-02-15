@@ -3,6 +3,7 @@ import { IoMailOutline } from "react-icons/io5";
 import { LiaFaxSolid } from "react-icons/lia";
 import { LuPhoneCall } from "react-icons/lu";
 import logo from "../images/Logo-1.png";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -72,7 +73,7 @@ const Footer = () => {
         <div className="py-10 px-4 lg:px-10 flex flex-col lg:flex-row justify-between">
           <div className="flex flex-col justify-start border-2 rounded-lg border-blue lg:w-[28%]">
             {/* left one */}
-            <a href="/">
+            <Link to="/">
               <div className="bg-white pt-5 pl-5 rounded-tl-lg rounded-tr-lg">
                 <img
                   className="h-20 cursor-pointer py-2"
@@ -80,7 +81,7 @@ const Footer = () => {
                   alt="mainLogo"
                 />
               </div>
-            </a>
+            </Link>
             <p className="text-white bg-black px-5 pt-5">
               AllStars has been helping Healthcare providers in increasing
               collections, reduce extra expenses and streamline the business
@@ -88,63 +89,63 @@ const Footer = () => {
             </p>
 
             <div className="flex social-links space-x-4 mx-5 my-5">
-              <a
-                href="https://www.facebook.com"
+              <Link
+                to="https://www.facebook.com"
                 className="flex items-center justify-center w-10 h-10 bg-blue rounded-full transition duration-300 ease-in-out transform hover:-translate-y-1 hover:bg-opacity-80"
               >
                 <FaFacebookF className="text-white text-lg" />
-              </a>
-              <a
-                href="https://www.linkedin.com"
+              </Link>
+              <Link
+                to="https://www.linkedin.com"
                 className="flex items-center justify-center w-10 h-10 bg-blue rounded-full transition duration-300 ease-in-out transform hover:-translate-y-1 hover:bg-opacity-80"
               >
                 <FaLinkedinIn className="text-white text-lg" />
-              </a>
-              <a
-                href="https://www.youtube.com"
+              </Link>
+              <Link
+                to="https://www.youtube.com"
                 className="flex items-center justify-center w-10 h-10 bg-blue rounded-full transition duration-300 ease-in-out transform hover:-translate-y-1 hover:bg-opacity-80"
               >
                 <FaYoutube className="text-white text-lg" />
-              </a>
+              </Link>
             </div>
           </div>
           <div className="text-white lg:mt-0 mt-6">
             {/* left two */}
             <nav className="flex flex-col gap-4 ">
               <h6 className="text-2xl font-bold">Company</h6>
-              <a href="/about" className="hover:text-blue">
+              <Link to="/about" className="hover:text-blue">
                 About Us
-              </a>
-              <a href="/services" className="hover:text-blue">
+              </Link>
+              <Link to="/services" className="hover:text-blue">
                 Services
-              </a>
-              <a href="/specialties" className="hover:text-blue">
+              </Link>
+              <Link to="/specialties" className="hover:text-blue">
                 Specialties
-              </a>
-              <a href="/price-plan" className="hover:text-blue">
+              </Link>
+              <Link to="/price-plan" className="hover:text-blue">
                 Pricing
-              </a>
-              <a href="/referral-program" className="hover:text-blue">
+              </Link>
+              <Link to="/referral-program" className="hover:text-blue">
                 Referal Program
-              </a>
-              <a href="/contact" className="hover:text-blue">
+              </Link>
+              <Link to="/contact" className="hover:text-blue">
                 Contact Us
-              </a>
+              </Link>
             </nav>
           </div>
           <div className="text-white mt-6 lg:mt-0">
             {/* right one */}
             <nav className="flex flex-col gap-4">
               <h6 className="text-2xl font-bold">Services</h6>
-              <a href="/medical-billing" className="hover:text-blue">
+              <Link to="/medical-billing" className="hover:text-blue">
                 Medical Billing
-              </a>
-              <a href="/medical-coding" className="hover:text-blue">
+              </Link>
+              <Link to="/medical-coding" className="hover:text-blue">
                 Medical Coding
-              </a>
-              <a href="/medical-credentialing" className="hover:text-blue">
+              </Link>
+              <Link to="/medical-credentialing" className="hover:text-blue">
                 Medical Credentialing
-              </a>
+              </Link>
               <a className="hover:text-blue">Verification of Benefits</a>
               <a className="hover:text-blue">Prior Authorization Services</a>
               <a className="hover:text-blue">Patient Billing</a>
@@ -178,7 +179,7 @@ const Footer = () => {
 
       <div className="bg-blue py-4 px-5 md:w-full w-full flex flex-col md:flex-row justify-between items-center font-semibold text-white">
         <p>© 2023 Skrisentech Inc Medical Billing. All rights reserved</p>
-        <a href="#">Privacy Policy | Terms & Conditions</a>
+        <Link to="#">Privacy Policy | Terms & Conditions</Link>
       </div>
     </div>
   );

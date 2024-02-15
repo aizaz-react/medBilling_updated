@@ -1,6 +1,7 @@
 import React from "react";
 import Container from "./Container";
 import { infoNavItems } from "../utils/data";
+import { Link } from "react-router-dom";
 
 const InfoNav = () => {
   return (
@@ -9,9 +10,9 @@ const InfoNav = () => {
         <Container className={"flex justify-between items-center py-2"}>
           <div className="flex flex-row text-center">
             {infoNavItems.leftSide.map((item, i, array) => (
-              <a
+              <Link
                 key={i}
-                href={item.link}
+                to={item.link}
                 className="flex items-center cursor-pointer text-white"
               >
                 {item.icon && (
@@ -26,19 +27,19 @@ const InfoNav = () => {
                 >
                   {item.text}
                 </p>
-              </a>
+              </Link>
             ))}
           </div>
 
           <div className="flex flex-row text-center justify-between text-white">
             {infoNavItems.rightSide.map((item, i) => (
-              <a key={i} href={item.link} className="flex items-center">
+              <Link key={i} to={item.link} className="flex items-center">
                 {item.icon && (
                   <span className="text-white mx-3 cursor-pointer">
                     {item.icon}
                   </span>
                 )}
-              </a>
+              </Link>
             ))}
           </div>
         </Container>

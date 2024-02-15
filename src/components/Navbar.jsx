@@ -1,25 +1,26 @@
 import React from "react";
 import logo from "../images/main-logo.webp";
 import { navLinks, services } from "../utils/data";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <div className="z-10 sticky top-0 flex flex-row justify-between items-center bg-white py-2 px-12 shadow-sm">
-      <a href="/" className="block">
+      <Link to="/" className="block">
         <img className="h-16 cursor-pointer" src={logo} alt="mainLogo"></img>
-      </a>
+      </Link>
       <div className="flex flex-row justify-between">
         {navLinks.map((item, index) => (
-          <a
+          <Link
             key={index}
-            href={item.link}
+            to={item.link}
             className={`${
               item.title === "Services" && "group"
             } text-md font-semibold leading-6 text-gray-900 mx-3 hover:text-blue focus:text-blue`}
           >
             {item.title}
             {item.title === "Services" && <ServiceModal />}
-          </a>
+          </Link>
         ))}
       </div>
       <button className="btn bg-blue h-12 rounded-md text-white font-semibold px-8 hover:bg-sky-700 md:block hidden">
@@ -40,7 +41,7 @@ const ServiceModal = () => {
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {services.map((item, index) => (
-            <a href={item.link} key={index}>
+            <Link to={item.link} key={index}>
               <h1 className=" flex flex-col gap-2 text-left mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50 w-max">
                 {item.title}
                 <span className="w-full h-1 bg-blue" />
@@ -48,7 +49,7 @@ const ServiceModal = () => {
               <p className="text-left mb-4 text-base text-neutral-600 dark:text-neutral-200">
                 {item.description}
               </p>
-            </a>
+            </Link>
           ))}
         </div>
       </div>
