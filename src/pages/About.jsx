@@ -88,7 +88,7 @@ function About() {
             <p className="mt-6 ml-3 line-clamp-7">
               Effective billing management is a critical component of any
               successful medical practice. By entrusting this responsibility to
-              the experts at Skrisentech Inc. Medical Billing Solutions, you can
+              the experts at Skrisentech Inc Medical Billing Solutions, you can
               free up your staff and medical professionals to focus on what
               matters most: providing top-notch patient care.
             </p>
@@ -96,7 +96,7 @@ function About() {
               With a wealth of experience in the field, our billing
               professionals are dedicated to helping healthcare providers
               optimize their revenue streams, reduce unnecessary expenses, and
-              streamline their business operations. Skrisentech Inc. Medical
+              streamline their business operations. Skrisentech Inc Medical
               Billing Solutions offers a comprehensive end-to-end revenue cycle
               management solution tailored to over 50 medical specialties across
               the United States.

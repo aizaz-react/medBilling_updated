@@ -80,12 +80,12 @@ function Home() {
               <p className=" mt-4 md:mt-6 line-clamp-7 text-gray-500">
                 Billing plays a crucial role in the operations of any medical
                 practice. When entrusted to capable hands, it allows your staff
-                and medical professionals to concentrate on their primary focus:
-                delivering excellent patient care. Skrisentech Inc. has a proven
+                and medical professionals to concentrate on their primary focus
+                delivering excellent patient care. Skrisentech Inc has a proven
                 track record of assisting healthcare providers in optimizing
                 their revenue collection, minimizing unnecessary expenses, and
                 simplifying business processes through a team of highly skilled
-                billing experts. Skrisentech Inc. offers comprehensive revenue
+                billing experts. Skrisentech Inc offers comprehensive revenue
                 cycle management solutions tailored to over 50 specialties
                 across the United States.
               </p>
@@ -288,7 +288,7 @@ function Home() {
                     </span>
                   </summary>
                   <p className="text-neutral-600 mt-3 group-open:animate-fadeIn">
-                    Skrisentech Inc. Medical Billing specializes in providing
+                    Skrisentech Inc Medical Billing specializes in providing
                     medical billing services for healthcare providers. They
                     offer a complete range of solutions to support healthcare
                     providers in managing their billing process. This includes
@@ -322,7 +322,7 @@ function Home() {
                     </span>
                   </summary>
                   <p className="text-neutral-600 mt-3 group-open:animate-fadeIn">
-                    Skrisentech Inc. Medical Billing prioritizes data security,
+                    Skrisentech Inc Medical Billing prioritizes data security,
                     employing advanced measures to safeguard your information.
                     This includes secure servers, data encryption, and secure
                     data transfer protocols. The company is fully compliant with
@@ -355,11 +355,11 @@ function Home() {
                     The duration of the physician credentialing process may vary
                     based on factors such as the healthcare provider, the
                     insurance company, and other variables. Typically, this
-                    process can take several months to finalize. Skrisentech
-                    Inc. Medical Billing is committed to expediting the
-                    credentialing process by proactively managing deadlines and
-                    maintaining close communication with insurance providers and
-                    relevant organizations.
+                    process can take several months to finalize. Skrisentech Inc
+                    Medical Billing is committed to expediting the credentialing
+                    process by proactively managing deadlines and maintaining
+                    close communication with insurance providers and relevant
+                    organizations.
                   </p>
                 </details>
               </div>

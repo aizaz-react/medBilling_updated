@@ -40,7 +40,7 @@ function MedicalCoding() {
               <span className="w-full h-1 bg-blue" />
             </h1>
             <p className="pt-4">
-              Skrisentech Inc. Medical Coding Services: Precision in Healthcare
+              Skrisentech Inc Medical Coding Services: Precision in Healthcare
               Documentation
             </p>
             <p className="pt-4">
@@ -124,7 +124,7 @@ function MedicalCoding() {
             </h1>
             <div className="h-1 md:w-[28rem] w-[23rem] bg-blue mt-1"></div>
             <p className="pt-4">
-              At Skrisentech Inc. Medical Coding Services, we understand that
+              At Skrisentech Inc Medical Coding Services, we understand that
               coding accuracy directly impacts your revenue, and we are
               committed to ensuring you receive the highest possible
               reimbursement. Efficiency is at the core of our coding process.

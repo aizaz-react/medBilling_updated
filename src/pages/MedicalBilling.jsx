@@ -39,7 +39,7 @@ function MedicalBilling() {
             </p>
             <p className="pt-4">
               If your medical practice is facing challenges with billing and
-              revenue management, there’s a solution. Skrisentech Inc. Medical
+              revenue management, there’s a solution. Skrisentech Inc Medical
               Billing offers tailored medical billing services that cater to
               practices of all sizes and specialties. Our goal is to transform
               the billing process for small practices, making it more efficient,

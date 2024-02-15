@@ -137,7 +137,7 @@ export const serviceCardList = [
   {
     title: "Medical Credentialing",
     description:
-      "Skrisentech Inc. can handle any specialty, including laboratories and DMEs. Our experts submit error-free applications to insurance companies and diligently follow up until the case is closed.",
+      "Skrisentech Inc can handle any specialty, including laboratories and DMEs. Our experts submit error-free applications to insurance companies and diligently follow up until the case is closed.",
   },
   {
     title: "Verification of Benefits",
@@ -242,31 +242,31 @@ export const servicesData = [
     image: "",
     title: "96% Electronic Claims Submission",
     description:
-      "Achieving a 96% electronic claims submission rate is a remarkable efficiency milestone for Skrisentech Inc. Electronic submission is faster, more accurate, and cost-effective compared to paper-based methods. This high percentage suggests that Skrisentech Inc. prioritizes streamlined processes, reducing paperwork, and expediting claim processing, which benefits both healthcare providers and their clients by accelerating reimbursement and reducing administrative burdens.",
+      "Achieving a 96% electronic claims submission rate is a remarkable efficiency milestone for Skrisentech Inc Electronic submission is faster, more accurate, and cost-effective compared to paper-based methods. This high percentage suggests that Skrisentech Inc prioritizes streamlined processes, reducing paperwork, and expediting claim processing, which benefits both healthcare providers and their clients by accelerating reimbursement and reducing administrative burdens.",
   },
   {
     image: "",
     title: "99% Credentialing success on first application",
     description:
-      "Skrisentech Inc. achieved a 99% credentialing success rate on the first application, a significant accomplishment in the healthcare industry. Credentialing is a crucial process where healthcare providers are thoroughly reviewed and verified by insurance companies.",
+      "Skrisentech Inc achieved a 99% credentialing success rate on the first application, a significant accomplishment in the healthcare industry. Credentialing is a crucial process where healthcare providers are thoroughly reviewed and verified by insurance companies.",
   },
   {
     image: "",
     title: "95% Electronic Payments",
     description:
-      "Achieving a 95% rate for Electronic Remittance Advice (ERA) and Electronic Funds Transfer (EFT) payments with Skrisentech Inc. demonstrates their commitment to efficient and modern financial transactions in healthcare. Utilizing ERA and EFT significantly streamlines payment processes, reduces paperwork, and enhances accuracy. This high percentage indicates that Skrisentech Inc. excels in facilitating electronic payment methods, providing healthcare providers with quicker and more secure access to their payments, thus improving overall financial management.",
+      "Achieving a 95% rate for Electronic Remittance Advice (ERA) and Electronic Funds Transfer (EFT) payments with Skrisentech Inc demonstrates their commitment to efficient and modern financial transactions in healthcare. Utilizing ERA and EFT significantly streamlines payment processes, reduces paperwork, and enhances accuracy. This high percentage indicates that Skrisentech Inc excels in facilitating electronic payment methods, providing healthcare providers with quicker and more secure access to their payments, thus improving overall financial management.",
   },
   {
     image: "",
     title: "Free Coding Audit",
     description:
-      "Offering a complimentary coding audit with Skrisentech Inc. is a valuable service for healthcare providers. A coding audit can help identify errors or inaccuracies in medical coding, which can have a significant impact on reimbursement and compliance. By providing this service at no cost, Skrisentech Inc. demonstrates a commitment to helping healthcare practices improve their coding accuracy and optimize their revenue cycle management without incurring additional costs.",
+      "Offering a complimentary coding audit with Skrisentech Inc. is a valuable service for healthcare providers. A coding audit can help identify errors or inaccuracies in medical coding, which can have a significant impact on reimbursement and compliance. By providing this service at no cost, Skrisentech Inc demonstrates a commitment to helping healthcare practices improve their coding accuracy and optimize their revenue cycle management without incurring additional costs.",
   },
   {
     image: "",
     title: "10% - 15% Growth in monthly Collections",
     description:
-      "Achieving a proven monthly revenue growth of 10% to 15% with Skrisentech Inc. is a remarkable accomplishment. This substantial increase in revenue demonstrates the effectiveness of Skrisentech Inc.'s services and strategies in optimizing revenue cycle management for healthcare providers. Such growth indicates that Skrisentech Inc. not only maintains the financial health of their clients but actively contributes to their financial success by enhancing billing, collections, and reimbursement processes.",
+      "Achieving a proven monthly revenue growth of 10% to 15% with Skrisentech Inc is a remarkable accomplishment. This substantial increase in revenue demonstrates the effectiveness of Skrisentech Inc.'s services and strategies in optimizing revenue cycle management for healthcare providers. Such growth indicates that Skrisentech Inc not only maintains the financial health of their clients but actively contributes to their financial success by enhancing billing, collections, and reimbursement processes.",
   },
   {
     image: "",
@@ -278,13 +278,13 @@ export const servicesData = [
     image: "",
     title: "Open Service Agreement/ No limitation",
     description:
-      "An open agreement with Skrisentech Inc. without limitations suggests a flexible and unrestricted partnership. Such an arrangement typically means that there are no predefined constraints, boundaries, or specific terms that restrict the scope of services or engagement. It provides both parties with the freedom to collaborate and adapt the agreement as needed to meet evolving needs and objectives. You are free to leave us at any time if you are not satisfied with our committed services. There are no hidden charges.",
+      "An open agreement with Skrisentech Inc without limitations suggests a flexible and unrestricted partnership. Such an arrangement typically means that there are no predefined constraints, boundaries, or specific terms that restrict the scope of services or engagement. It provides both parties with the freedom to collaborate and adapt the agreement as needed to meet evolving needs and objectives. You are free to leave us at any time if you are not satisfied with our committed services. There are no hidden charges.",
   },
   {
     image: "",
     title: "3RD PARTY EHR/BILLING PLATFORMS",
     description:
-      "Skrisentech Inc. has hands-on expertise with almost all the industry's top medical billing software platforms. This means we can get you started without any delay.",
+      "Skrisentech Inc has hands-on expertise with almost all the industry's top medical billing software platforms. This means we can get you started without any delay.",
   },
   {
     image: "",
@@ -296,7 +296,7 @@ export const servicesData = [
     image: "",
     title: "HIPAA-compliant",
     description:
-      "As a HIPAA-compliant and ISO-certified organization, Skrisentech Inc. wholeheartedly prioritizes the highest standards of compliance in our industry. Our team comprises highly trained experts who meticulously adhere to regulations set forth by Medicaid, Medicare, and commercial insurance entities.",
+      "As a HIPAA-compliant and ISO-certified organization, Skrisentech Inc wholeheartedly prioritizes the highest standards of compliance in our industry. Our team comprises highly trained experts who meticulously adhere to regulations set forth by Medicaid, Medicare, and commercial insurance entities.",
   },
   {
     image: "",

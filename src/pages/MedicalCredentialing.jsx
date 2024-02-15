@@ -29,8 +29,8 @@ function MedicalCredentialing() {
             <span className="w-full h-1 bg-blue" />
           </h1>
           <p className="pt-4">
-            Skrisentech Inc. can manage any specialty, including laboratories
-            and DMEs. Our experts submit error-free applications to insurance
+            Skrisentech Inc can manage any specialty, including laboratories and
+            DMEs. Our experts submit error-free applications to insurance
             companies and provide proper follow-up until the case is closed. Our
             first-time application acceptance ratio is 98%. We can help you set
             up your arrangements with insurance companies for electronic claims

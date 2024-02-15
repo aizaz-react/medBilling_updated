@@ -83,7 +83,7 @@ const Footer = () => {
               </div>
             </Link>
             <p className="text-white bg-black px-5 pt-5">
-              Skrisentech Inc. has been assisting healthcare providers in
+              Skrisentech Inc has been assisting healthcare providers in
               increasing collections, reducing extra expenses, and streamlining
               business workflows with a highly experienced team.
             </p>
