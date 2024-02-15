@@ -89,24 +89,24 @@ const Footer = () => {
             </p>
 
             <div className="flex social-links space-x-4 mx-5 my-5">
-              <Link
-                to="https://www.facebook.com"
+              <a
+                href="https://www.facebook.com"
                 className="flex items-center justify-center w-10 h-10 bg-blue rounded-full transition duration-300 ease-in-out transform hover:-translate-y-1 hover:bg-opacity-80"
               >
                 <FaFacebookF className="text-white text-lg" />
-              </Link>
-              <Link
-                to="https://www.linkedin.com"
+              </a>
+              <a
+                href="https://www.linkedin.com"
                 className="flex items-center justify-center w-10 h-10 bg-blue rounded-full transition duration-300 ease-in-out transform hover:-translate-y-1 hover:bg-opacity-80"
               >
                 <FaLinkedinIn className="text-white text-lg" />
-              </Link>
-              <Link
-                to="https://www.youtube.com"
+              </a>
+              <a
+                href="https://www.youtube.com"
                 className="flex items-center justify-center w-10 h-10 bg-blue rounded-full transition duration-300 ease-in-out transform hover:-translate-y-1 hover:bg-opacity-80"
               >
                 <FaYoutube className="text-white text-lg" />
-              </Link>
+              </a>
             </div>
           </div>
           <div className="text-white lg:mt-0 mt-6">

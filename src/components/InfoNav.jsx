@@ -10,9 +10,9 @@ const InfoNav = () => {
         <Container className={"flex justify-between items-center py-2"}>
           <div className="flex flex-row text-center">
             {infoNavItems.leftSide.map((item, i, array) => (
-              <Link
+              <a
                 key={i}
-                to={item.link}
+                href={item.link}
                 className="flex items-center cursor-pointer text-white"
               >
                 {item.icon && (
@@ -27,19 +27,19 @@ const InfoNav = () => {
                 >
                   {item.text}
                 </p>
-              </Link>
+              </a>
             ))}
           </div>
 
           <div className="flex flex-row text-center justify-between text-white">
             {infoNavItems.rightSide.map((item, i) => (
-              <Link key={i} to={item.link} className="flex items-center">
+              <a key={i} href={item.link} className="flex items-center">
                 {item.icon && (
                   <span className="text-white mx-3 cursor-pointer">
                     {item.icon}
                   </span>
                 )}
-              </Link>
+              </a>
             ))}
           </div>
         </Container>
