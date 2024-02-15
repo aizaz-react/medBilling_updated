@@ -56,7 +56,7 @@ function Contact() {
               style={{ boxShadow: "0px 0px 18px 0px rgba(0,0,0,.16)" }}
             >
               <div className="p-6">
-                <a href="mailto:info@allstarsmb.com">
+                <a href="Skrisentech Inc.com">
                   <div className=" flex flex-col items-center text-center">
                     <IoMailOutline
                       style={{
@@ -66,7 +66,7 @@ function Contact() {
                       }}
                     />
                     <p className="font-semibold md:pt-0 pt-3">
-                      info@allstarsmb.com
+                      Skrisentech Inc.com
                     </p>
                     <p>Feel Free To Mail Us</p>
                   </div>

@@ -83,9 +83,9 @@ const Footer = () => {
               </div>
             </Link>
             <p className="text-white bg-black px-5 pt-5">
-              AllStars has been helping Healthcare providers in increasing
-              collections, reduce extra expenses and streamline the business
-              workflow with highly experienced team.
+              Skrisentech Inc. has been assisting healthcare providers in
+              increasing collections, reducing extra expenses, and streamlining
+              business workflows with a highly experienced team.
             </p>
 
             <div className="flex social-links space-x-4 mx-5 my-5">

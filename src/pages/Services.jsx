@@ -51,7 +51,9 @@ function Services() {
         <div className="md:flex gap-10 md:mx-20 mx-8 my-14 md:my-0">
           <div className="md:w-2/3 md:my-24 w-full">
             {/* Left section */}
-            <h1 className="text-2xl">AllStars Medical Billing Services</h1>
+            <h1 className="text-2xl">
+              Skrisentech Inc Medical Billing Services
+            </h1>
             <p className="text-blue mt-2 text-lg">
               Medical Billing & Revenue Cycle Solutions
             </p>
@@ -72,9 +74,9 @@ function Services() {
               facilities to keep up with while maintaining their operations.
             </p>
             <p className="mt-3">
-              That’s where we come in! For more details about our services
-              tailored to your specific area of specialization, please click on
-              one of the links below:
+              That’s where Skrisentech Inc comes in! For more details about our
+              services tailored to your specific area of specialization, please
+              click on one of the links below:
             </p>
             <button className="bg-blue mt-12 text-white px-5 py-2 rounded-md font-semibold float-left shadow-lg hover:bg-sky-700">
               Contact Us

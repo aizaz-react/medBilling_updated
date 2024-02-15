@@ -21,36 +21,34 @@ function MedicalCredentialing() {
           Credentialing & Enrollment
         </h1>
       </div>
-      <div className="bg-darkgray">
-        <div className="md:flex gap-44 md:mx-20 mx-5 mt-16 md:mt-0">
-          <div className="md:w-1/2 md:my-32">
-            {/* Left section */}
-            <h1 className="flex flex-col w-max gap-2 md:text-2xl text-xl whitespace-nowrap">
-              Reduce the Complexity of Credentialing
-              <span className="w-full h-1 bg-blue" />
-            </h1>
-            <p className="pt-4">
-              AllStars can handle any specialty including laboratories and DMEs.
-              Our experts send error free applications to insurances and do
-              proper follow-up till the case is closed. Our first time
-              application acceptance ratio is 98%. We can assist you in setting
-              up your setups with insurance companies for electronic claims
-              submissions, rejections, eligibility, payment information, denials
-              and fund transfer.
-            </p>
-            <button className="bg-blue mt-12 text-white px-5 py-2 rounded-md font-semibold float-left shadow-lg hover:bg-sky-700">
-              Contact Us
-            </button>
-          </div>
-          <div>
-            {/* Right section */}
-            <img
-              className="md:pt-28 pt-10"
-              src={serviceAimnImage}
-              alt="MainImage"
-              style={{ backgroundPosition: "bottom" }}
-            ></img>
-          </div>
+      <div className="bg-darkgray md:flex gap-44 md:mx-20 mx-5 mt-16 md:mt-0">
+        <div className="md:w-1/2 md:my-32">
+          {/* Left section */}
+          <h1 className="flex flex-col w-max gap-2 md:text-2xl text-xl whitespace-nowrap">
+            Reduce the Complexity of Credentialing
+            <span className="w-full h-1 bg-blue" />
+          </h1>
+          <p className="pt-4">
+            Skrisentech Inc. can manage any specialty, including laboratories
+            and DMEs. Our experts submit error-free applications to insurance
+            companies and provide proper follow-up until the case is closed. Our
+            first-time application acceptance ratio is 98%. We can help you set
+            up your arrangements with insurance companies for electronic claims
+            submissions, rejections, eligibility, payment information, denials,
+            and fund transfers.
+          </p>
+          <button className="bg-blue mt-12 text-white px-5 py-2 rounded-md font-semibold float-left shadow-lg hover:bg-sky-700">
+            Contact Us
+          </button>
+        </div>
+        <div>
+          {/* Right section */}
+          <img
+            className="md:pt-28 pt-10"
+            src={serviceAimnImage}
+            alt="MainImage"
+            style={{ backgroundPosition: "bottom" }}
+          ></img>
         </div>
       </div>
       <div className="mt-20">

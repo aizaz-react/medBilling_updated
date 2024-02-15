@@ -40,17 +40,17 @@ function MedicalCoding() {
               <span className="w-full h-1 bg-blue" />
             </h1>
             <p className="pt-4">
-              AllStars Medical Coding Services: Precision in Healthcare
+              Skrisentech Inc. Medical Coding Services: Precision in Healthcare
               Documentation
             </p>
             <p className="pt-4">
-              Welcome to AllStars Medical Coding Services, your trusted partner
-              for precision and accuracy in healthcare documentation. Our expert
-              team ensures that every code is meticulously and accurately
-              assigned, allowing you to optimize your revenue while maintaining
-              compliance with industry regulations. Trust us to elevate your
-              coding standards and streamline your healthcare operations with
-              AllStars.
+              Welcome to Skrisentech Inc Medical Coding Services, your trusted
+              partner for precision and accuracy in healthcare documentation.
+              Our expert team ensures that every code is meticulously and
+              accurately assigned, allowing you to optimize your revenue while
+              maintaining compliance with industry regulations. Trust us to
+              elevate your coding standards and streamline your healthcare
+              operations with Skrisentech Inc.
             </p>
             <button className="bg-blue mt-12 text-white px-5 py-2 rounded-md font-semibold float-left shadow-lg hover:bg-sky-700">
               Contact Us
@@ -75,10 +75,10 @@ function MedicalCoding() {
                   Certified Medical Coders
                 </h1>
                 <p className="text-center pt-4 text-gray-500">
-                  With the help of our certified medical coding specialists
-                  working on your project, your claim denial rate is
-                  significantly reduced. Our coders use the best in class coding
-                  tools and resources available in the industry
+                  With the assistance of our certified medical coding
+                  specialists, your project will experience a significant
+                  reduction in claim denial rates. Our coders utilize the
+                  best-in-class coding tools and industry resources available.
                 </p>
               </div>
             </div>
@@ -90,10 +90,9 @@ function MedicalCoding() {
                   Coding Audits
                 </h1>
                 <p className="text-center pt-4 text-gray-500">
-                  Daily, monthly, quarterly and yearly audits is what
-                  distinguishes us from rest working in the same space. For our
-                  clients we offer scheduled and on-demand coding audits without
-                  any cost
+                  Daily, monthly, quarterly, and yearly audits distinguish us
+                  from others in the same field. We offer scheduled and
+                  on-demand coding audits to our clients at no additional cost.
                 </p>
               </div>
             </div>
@@ -105,7 +104,7 @@ function MedicalCoding() {
                   Coding Effective
                 </h1>
                 <p className="text-center pt-4 text-gray-500">
-                  Using medical coding services is cost effective.
+                  Engaging medical coding services is a cost-efficient choice.
                 </p>
               </div>
             </div>
@@ -125,15 +124,15 @@ function MedicalCoding() {
             </h1>
             <div className="h-1 md:w-[28rem] w-[23rem] bg-blue mt-1"></div>
             <p className="pt-4">
-              At AllStars Medical Coding Services, we understand that coding
-              accuracy directly impacts your revenue, and we are committed to
-              ensuring you receive the highest possible reimbursement.
-              Efficiency is at the core of our coding process. Our coding team
-              comprises highly efficient and seasoned professionals, each with a
-              minimum of five years of experience.
+              At Skrisentech Inc. Medical Coding Services, we understand that
+              coding accuracy directly impacts your revenue, and we are
+              committed to ensuring you receive the highest possible
+              reimbursement. Efficiency is at the core of our coding process.
+              Our coding team comprises highly efficient and seasoned
+              professionals, each with a minimum of five years of experience.
             </p>
             <p className="pt-3">
-              When it comes to coding, we are vigilant about preventing two
+              When it comes to coding, we are diligent about preventing two
               common errors:
             </p>
             <p className="pt-3">
@@ -144,19 +143,19 @@ function MedicalCoding() {
               you rightfully deserve.
             </p>
             <p className="pt-1">
-              Our certified coders (CPC) are well-versed in ICD-10-CM, LMRP, CPT
-              Assistant, and HCPCS Level II. We meticulously cross-verify
+              Our certified coders (CPC) are knowledgeable in ICD-10-CM, LMRP,
+              CPT Assistant, and HCPCS Level II. We meticulously cross-verify
               diagnoses with procedural codes, applying the appropriate
-              modifiers when needed.
+              modifiers as necessary.
             </p>
             <p className="pt-3">
-              To ensure the utmost accuracy, our senior coding staff conducts
-              audits to verify the codes assigned. Our dedicated quality
-              assurance team goes the extra mile to guarantee that your coding
-              is error-free, resulting in maximum reimbursement and minimizing,
-              if not entirely eliminating, claim denials. With AllStars, you can
-              trust in our expertise to optimize your revenue while maintaining
-              coding precision.”
+              To ensure the highest level of accuracy, our senior coding staff
+              conducts audits to verify the codes assigned. Our dedicated
+              quality assurance team goes the extra mile to ensure that your
+              coding is error-free, resulting in maximum reimbursement and
+              minimizing, if not entirely eliminating, claim denials. With
+              Skrisentech Inc, you can rely on our expertise to optimize your
+              revenue while maintaining coding precision."
             </p>
           </div>
         </div>

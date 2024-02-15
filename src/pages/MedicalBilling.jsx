@@ -31,20 +31,20 @@ function MedicalBilling() {
               <span className="w-full h-1 bg-blue" />
             </h1>
             <p className="pt-4">
-              Medical billing is the process of sending bills to health
-              insurance companies to get paid for healthcare services. A medical
-              billing specialist’s job is to make sure the healthcare provider
-              gets paid for the work they do. A good biller can help the
-              healthcare facility earn more money.
+              Medical billing involves submitting bills to health insurance
+              companies to receive payment for healthcare services. A medical
+              billing specialist ensures that healthcare providers receive
+              payment for their services. A skilled biller can help the
+              healthcare facility increase its revenue.
             </p>
             <p className="pt-4">
               If your medical practice is facing challenges with billing and
-              revenue management, there’s a solution. AllStars Medical Billing
-              offers tailored medical billing services that cater to practices
-              of all sizes and specialties. Our goal is to transform the billing
-              process for small practices, making it more efficient, compliant,
-              and less stressful. Through our reliable system, we guarantee
-              precise coding, reducing errors, and optimizing revenue.
+              revenue management, there’s a solution. Skrisentech Inc. Medical
+              Billing offers tailored medical billing services that cater to
+              practices of all sizes and specialties. Our goal is to transform
+              the billing process for small practices, making it more efficient,
+              compliant, and less stressful. Through our reliable system, we
+              guarantee precise coding, reducing errors, and optimizing revenue.
             </p>
             <button className="bg-blue mt-12 text-white px-5 py-2 rounded-md font-semibold float-left shadow-lg hover:bg-sky-700">
               Contact Us
@@ -74,12 +74,12 @@ function MedicalBilling() {
             <h1 className="text-2xl">Fast Filling</h1>
             <div className="h-1 w-[7rem] bg-blue mt-1"></div>
             <p className="pt-4">
-              When you provide a service, it’s crucial to submit the claims
-              promptly. Managing fluctuating claim volumes and ensuring timely
-              submissions can be a challenge for in-house staff. At AllStars
-              Medical Billing, our experienced team excels at filing claims
-              within 48 hours in most cases. We leverage cutting-edge technology
-              to gather precise information and expedite the claim process.
+              When providing a service, submitting claims promptly is crucial.
+              Managing fluctuating claim volumes and ensuring timely submissions
+              can be challenging for in-house staff. At Skrisentech Inc Medical
+              Billing, our experienced team excels at filing claims within 48
+              hours in most cases. We leverage cutting-edge technology to gather
+              precise information and expedite the claim process.
             </p>
             <button className="bg-blue mt-12 text-white px-5 py-2 rounded-md font-semibold float-left shadow-lg hover:bg-sky-700">
               Contact Us
@@ -101,7 +101,7 @@ function MedicalBilling() {
               Increased Revenue
             </h1>
             <p className="text-left mb-4 md:text-base text-neutral-600 dark:text-neutral-200">
-              Get maximum reimbursements & increase your revenue up to 30%
+              Maximize reimbursements and increase your revenue by up to 30%
             </p>
           </div>
         </div>
@@ -111,8 +111,8 @@ function MedicalBilling() {
               High Volume Claims Submissions
             </h1>
             <p className="text-left mb-4 text-base text-neutral-600 dark:text-neutral-200">
-              Utilizing our innovative technology, we are able to process
-              thousands of error-free claims daily.
+              With our innovative technology, we can process thousands of
+              error-free claims daily.
             </p>
           </div>
         </div>
@@ -122,8 +122,8 @@ function MedicalBilling() {
               Compliance with Privacy Requirements
             </h1>
             <p className="text-left mb-4 text-base text-neutral-600 dark:text-neutral-200">
-              Data transmission and encryption designed by top-level security
-              specialists.
+              Data transmission and encryption are designed by top-level
+              security specialists.
             </p>
           </div>
         </div>

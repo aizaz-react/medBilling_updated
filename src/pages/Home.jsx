@@ -46,9 +46,10 @@ function Home() {
             Skrisentech Inc Medical Billing
           </h1>
           <p className="font-Roboto md:text-lg mb-4 mt-2 text-white">
-            We excel in medical billing and coding, with expertise in
-            Professional,<br></br>Institutional, Emergency Room, and
-            Out-of-Network coding services.
+            We specialize in medical billing and coding, excelling in
+            Professional,
+            <br /> Institutional, Emergency Room, and Out-of-Network coding
+            services.
           </p>
           <button className="bg-blue mt-4 md:mt-8 text-white px-4 py-2 rounded-md font-bold hover:bg-sky-700">
             Read More
@@ -73,22 +74,20 @@ function Home() {
             <div className="mx-5 md:mx-0 pt-10 md:w-2/3 md:pt-0 ">
               {/* About Content */}
               <h1 className="font-Roboto font-bold md:text-3xl text-[28px] flex flex-col md:flex-row">
-                Welcome To
-                <span className="text-blue">
-                  Skrisentech Inc Medical Billing
-                </span>
+                Welcome To Skrisentech
+                <span className="text-blue"> Inc Medical Billing</span>
               </h1>
               <p className=" mt-4 md:mt-6 line-clamp-7 text-gray-500">
                 Billing plays a crucial role in the operations of any medical
                 practice. When entrusted to capable hands, it allows your staff
                 and medical professionals to concentrate on their primary focus:
-                delivering excellent patient care. AllStars has a proven track
-                record of assisting healthcare providers in optimizing their
-                revenue collection, minimizing unnecessary expenses, and
+                delivering excellent patient care. Skrisentech Inc. has a proven
+                track record of assisting healthcare providers in optimizing
+                their revenue collection, minimizing unnecessary expenses, and
                 simplifying business processes through a team of highly skilled
-                billing experts. AllStars Medical Billing Solutions offers
-                comprehensive revenue cycle management solutions tailored to
-                over 50 specialties across the United States.
+                billing experts. Skrisentech Inc. offers comprehensive revenue
+                cycle management solutions tailored to over 50 specialties
+                across the United States.
               </p>
             </div>
           </div>
@@ -96,18 +95,17 @@ function Home() {
       </div>
 
       <div className="mt-5 md:mx-28 mx-8">
-        <h2 className="text-center md:text-3xl text-2xl font-semibold">
+        <h2 className="flex flex-col w-max mx-auto gap-2 text-center md:text-3xl text-2xl font-semibold">
           Why Skrisentech Inc Medical Billing?
+          <span className="h-1 bg-blue"></span>
         </h2>
-        <div className="h-1 md:w-[23rem] w-[19rem] bg-blue mt-2 mx-auto"></div>
         <p className="text-center text-gray-500 mt-5">
-          At Skrisentech Inc, we firmly believe that healthcare providers should
-          dedicate their time and energy to patient care and delivering
-          outstanding services, without the burden of claims, payments, and
-          patient statements. Our approach revolves around an intelligent
-          workflow that prioritizes precision from the outset, consistently
-          identifying and eradicating the underlying causes of billing errors
-          and other issues.
+          At Skrisentech Inc, we are dedicated to ensuring that healthcare
+          providers can focus on patient care and delivering outstanding
+          services, without the burden of claims, payments, and patient
+          statements. Our approach prioritizes precision from the outset,
+          consistently identifying and eradicating the underlying causes of
+          billing errors and other issues.
         </p>
       </div>
 
@@ -128,21 +126,19 @@ function Home() {
           },
         }}
       >
-        <div>
-          <h1 className="text-2xl font-semibold text-center">What We Do</h1>
-          <h2 className="flex flex-col gap-2 md:text-3xl pt-2 text-2xl font-bold mb-2 text-center w-max mx-auto">
-            Our Services
-            <span className="w-full h-1 bg-white" />
-          </h2>
-          {/* <div className="h-1 md:w-[11rem] w-[8.5rem] bg-white mt-1 mb-1 mx-auto"></div> */}
-          <p className="md:text-lg pt-3 text-center mx-5 md:mx-72">
-            Skrisentech Inc Medical Billing has a strong grasp of medical
-            billing, credentialing, medical A/R, and practice billing audit
-            services. With extensive experience in the healthcare billing
-            industry, we are confident in our ability to enhance the financial
-            performance of your healthcare practice.
-          </p>
-        </div>
+        <h1 className="text-2xl font-semibold text-center">What We Do</h1>
+        <h2 className="flex flex-col gap-2 md:text-3xl pt-2 text-2xl font-bold mb-2 text-center w-max mx-auto">
+          Our Services
+          <span className="w-full h-1 bg-white" />
+        </h2>
+        {/* <div className="h-1 md:w-[11rem] w-[8.5rem] bg-white mt-1 mb-1 mx-auto"></div> */}
+        <p className="md:text-lg pt-3 text-center mx-5 md:mx-72">
+          Skrisentech Inc Medical Billing has a strong grasp of medical billing,
+          credentialing, medical Accounts Receivable (A/R), and practice billing
+          audit services. With extensive experience in the healthcare billing
+          industry, we are confident in our ability to enhance the financial
+          performance of your healthcare practice.
+        </p>
       </div>
       <ServiceCardSection />
 
@@ -169,11 +165,11 @@ function Home() {
           <span className="w-full h-1 bg-blue" />
         </h1>
         <p className="md:pt-5 text-center md:px-[260px] px-5 pt-5">
-          The innovative approach of Skrisentech Inc Medical Billing has made it
-          one of the rapidly expanding physician practice communities in the
-          United States. Our commitment to driving transformation within the
-          medical field is evident through our cutting-edge solutions, all
-          achieved via our Channel Partnerships.
+          The innovative approach of Skrisentech Inc. Medical Billing has
+          propelled it to become one of the rapidly expanding physician practice
+          communities in the United States. Our commitment to driving
+          transformation within the medical field is evident through our
+          cutting-edge solutions, all achieved via our Channel Partnerships.
         </p>
         <div className="grid md:grid-cols-5 grid-rows-2 gap-2 py-10 md:pt-10 px-28 justify-center">
           <div className="col-span-1 p-2 ">
@@ -265,9 +261,9 @@ function Home() {
         <div className="md:pt-32 font-semibold">
           <p className="text-blue">FAQs</p>
           <h1 className="md:text-[24px]">
-            Skrisentech Inc Medical Billing stands out as the top choice{" "}
-            <br></br>for medical billing services for your healthcare<br></br>{" "}
-            practice.
+            Skrisentech Inc Medical Billing stands out as the top
+            <br /> choice for medical billing services for your
+            <br /> healthcare practice.
           </h1>
           <div className="md:max-w-screen-xl bg-white">
             <div className="grid divide-y divide-neutral-200 md:max-w-xl mt-8">
@@ -292,7 +288,7 @@ function Home() {
                     </span>
                   </summary>
                   <p className="text-neutral-600 mt-3 group-open:animate-fadeIn">
-                    Skrisentech Inc Medical Billing is a company specializing in
+                    Skrisentech Inc. Medical Billing specializes in providing
                     medical billing services for healthcare providers. They
                     offer a complete range of solutions to support healthcare
                     providers in managing their billing process. This includes
@@ -326,12 +322,12 @@ function Home() {
                     </span>
                   </summary>
                   <p className="text-neutral-600 mt-3 group-open:animate-fadeIn">
-                    Skrisentech Inc Medical Billing places a strong emphasis on
-                    data security. They employ advanced security measures to
-                    safeguard your data, which includes secure servers, data
-                    encryption, and secure data transfer protocols. The company
-                    is fully compliant with HIPAA regulations and adheres to
-                    other industry standards for data security.
+                    Skrisentech Inc. Medical Billing prioritizes data security,
+                    employing advanced measures to safeguard your information.
+                    This includes secure servers, data encryption, and secure
+                    data transfer protocols. The company is fully compliant with
+                    HIPAA regulations and adheres to other industry standards
+                    for data security.
                   </p>
                 </details>
               </div>
@@ -356,14 +352,14 @@ function Home() {
                     </span>
                   </summary>
                   <p className="text-neutral-600 mt-3 group-open:animate-fadeIn">
-                    The duration of the physician credentialing process may
-                    differ based on factors like the healthcare provider, the
+                    The duration of the physician credentialing process may vary
+                    based on factors such as the healthcare provider, the
                     insurance company, and other variables. Typically, this
-                    process can take several months to finalize. Skrisentech Inc
-                    Medical Billing is committed to expediting the credentialing
-                    process by proactively managing deadlines and maintaining
-                    close communication with insurance providers and relevant
-                    organizations.
+                    process can take several months to finalize. Skrisentech
+                    Inc. Medical Billing is committed to expediting the
+                    credentialing process by proactively managing deadlines and
+                    maintaining close communication with insurance providers and
+                    relevant organizations.
                   </p>
                 </details>
               </div>

@@ -28,10 +28,10 @@ function PricePlan() {
           Plans and Pricing
         </h1>
         <p className="text-white absolute top-24 md:left-14 md:w-1/2 pt-5 md:pt-8 text-center md:text-left mx-5">
-          We offer a range of comprehensive plans to cater to various medical
-          billing needs. Our transparent pricing ensures that you get the best
-          value for your investment. Choose the plan that aligns with your
-          practice’s requirements and budget.
+          We provide a variety of comprehensive plans to meet various medical
+          billing needs. Our transparent pricing ensures that you receive the
+          best value for your investment. Select the plan that aligns with your
+          practice’s requirements and budget. .
         </p>
       </div>
       {/* Card Section */}

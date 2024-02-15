@@ -59,19 +59,19 @@ export const services = [
     title: "Medical Billing",
     link: "/medical-billing",
     description:
-      "We provide a full suite of revenue-related services to support the seamless operation of medical practices. Your dedication to patient care is our primary focus",
+      "We offer comprehensive revenue-related services to support medical practices, focusing on your dedication to patient care.",
   },
   {
     title: "Medical Coding",
     link: "/medical-coding",
     description:
-      "Our certified medical coding specialists are your key to minimizing claim denials. Equipped with industry-leading coding tools, we optimize your success",
+      "Our certified coding specialists minimize claim denials and optimize your success with leading coding tools.",
   },
   {
     title: "Medical Credentialing",
     link: "/medical-credentialing",
     description:
-      "We handle all specialties, guaranteeing error-free insurance applications and persistent follow-up until closure",
+      "We manage all specialties, ensuring error-free insurance applications and thorough follow-up until closure.",
   },
 ];
 
@@ -104,22 +104,22 @@ export const cardList = [
   {
     title: "Medical Credentialing",
     description:
-      "Credentialing specialists assist healthcare providers in enrollment, ensuring insurance reimbursement eligibility. We offer comprehensive credentialing solutions for all practices.",
+      "Our credentialing specialists assist healthcare providers with enrollment, ensuring eligibility for insurance reimbursement. We offer comprehensive credentialing solutions for all practices.",
   },
   {
     title: "Medical Coding",
     description:
-      "We specialize in accurate medical coding, ensuring compliance with regulations. AllStars enables healthcare providers to focus on delivering exceptional patient care by handling proper documentation and billing.",
+      "Specializing in precise medical coding, we ensure compliance with regulations. AllStars enables healthcare providers to concentrate on delivering exceptional patient care by managing proper documentation and billing.",
   },
   {
     title: "Medical Billing",
     description:
-      "Our efficient management of medical billing significantly boosts your practice’s revenue, giving you more freedom to focus on providing exceptional patient care.",
+      "Our efficient management of medical billing significantly enhances your practice’s revenue, allowing you more freedom to concentrate on providing exceptional patient care.",
   },
   {
     title: "Practice Management",
     description:
-      "With our service, ‘Practice Management,’ we deliver comprehensive support across all stages of the revenue cycle, ensuring seamless efficiency.",
+      "With our 'Practice Management' service, we provide comprehensive support across all stages of the revenue cycle, ensuring seamless efficiency.",
   },
 ];
 
@@ -127,17 +127,17 @@ export const serviceCardList = [
   {
     title: "Medical Coding",
     description:
-      "We specialize in accurate medical coding, ensuring compliance with regulations. AllStars enables healthcare providers to focus on delivering exceptional patient care by handling proper documentation and billing.",
+      "We specialize in accurate medical coding, ensuring compliance with regulations. Skrisentech Inc enables healthcare providers to focus on delivering exceptional patient care by handling proper documentation and billing.",
   },
   {
     title: "Medical Billing",
     description:
-      "Our efficient management of medical billing significantly boosts your practice’s revenue, giving you more freedom to focus on providing exceptional patient care.",
+      "Our efficient management of medical billing significantly boosts your practice’s revenue, providing you with more freedom to focus on providing exceptional patient care.",
   },
   {
-    title: "Practice Management",
+    title: "Medical Credentialing",
     description:
-      "With our service, ‘Practice Management,’ we deliver comprehensive support across all stages of the revenue cycle, ensuring seamless efficiency.",
+      "Skrisentech Inc. can handle any specialty, including laboratories and DMEs. Our experts submit error-free applications to insurance companies and diligently follow up until the case is closed.",
   },
   {
     title: "Verification of Benefits",
@@ -147,12 +147,12 @@ export const serviceCardList = [
   {
     title: "Prior Authorization Services",
     description:
-      "Our Prior Authorization Services take the complexity out oingf obtaining insurance approvals for medical procedures and treatments. We simplify the process for healthcare providers, ensuring you get the necessary authorizations efficiently.",
+      "Our Prior Authorization Services simplify the process of obtaining insurance approvals for medical procedures and treatments. We ensure healthcare providers get the necessary authorizations efficiently, taking the complexity out of the process.",
   },
   {
     title: "Patient Billiing",
     description:
-      "Our Patient Billing Services are designed to make healthcare billing transparent, efficient, and stress-free for both patients and healthcare providers",
+      "Our Patient Billing Services are designed to make healthcare billing transparent, efficient, and stress-free for both patients and healthcare providers.",
   },
 ];
 
@@ -224,91 +224,91 @@ export const servicesData = [
     image: "",
     title: "RAPID REIMBURSEMENTS",
     description:
-      "Thanks to our extensive expertise, we can expedite your reimbursements efficiently. Our team consists solely of seasoned professionals, eliminating the need for on-the-job training at your expense. This results in reduced overhead for us and increased reimbursements for you, all at a lower cost.",
+      "With our extensive expertise, we can efficiently expedite your reimbursements. Our team consists solely of seasoned professionals, eliminating the need for on-the-job training at your expense. This results in reduced overhead for us and increased reimbursements for you, all at a lower cost.",
   },
   {
     image: "",
-    title: "RAPID REIMBURSEMENTS",
+    title: "CLAIMS ACCEPTANCE RATIO – 98%",
+    description:
+      "Our monthly first-pass claim acceptance rate across all customers has consistently averaged 98%, surpassing the industry average by 3%!",
+  },
+  {
+    image: "",
+    title: "CONTROLLED MONTHLY DENIALS",
+    description:
+      "Our monthly denial rate is less than 8% across all customers, surpassing the industry average!",
+  },
+  {
+    image: "",
+    title: "96% Electronic Claims Submission",
+    description:
+      "Achieving a 96% electronic claims submission rate is a remarkable efficiency milestone for Skrisentech Inc. Electronic submission is faster, more accurate, and cost-effective compared to paper-based methods. This high percentage suggests that Skrisentech Inc. prioritizes streamlined processes, reducing paperwork, and expediting claim processing, which benefits both healthcare providers and their clients by accelerating reimbursement and reducing administrative burdens.",
+  },
+  {
+    image: "",
+    title: "99% Credentialing success on first application",
+    description:
+      "Skrisentech Inc. achieved a 99% credentialing success rate on the first application, a significant accomplishment in the healthcare industry. Credentialing is a crucial process where healthcare providers are thoroughly reviewed and verified by insurance companies.",
+  },
+  {
+    image: "",
+    title: "95% Electronic Payments",
+    description:
+      "Achieving a 95% rate for Electronic Remittance Advice (ERA) and Electronic Funds Transfer (EFT) payments with Skrisentech Inc. demonstrates their commitment to efficient and modern financial transactions in healthcare. Utilizing ERA and EFT significantly streamlines payment processes, reduces paperwork, and enhances accuracy. This high percentage indicates that Skrisentech Inc. excels in facilitating electronic payment methods, providing healthcare providers with quicker and more secure access to their payments, thus improving overall financial management.",
+  },
+  {
+    image: "",
+    title: "Free Coding Audit",
+    description:
+      "Offering a complimentary coding audit with Skrisentech Inc. is a valuable service for healthcare providers. A coding audit can help identify errors or inaccuracies in medical coding, which can have a significant impact on reimbursement and compliance. By providing this service at no cost, Skrisentech Inc. demonstrates a commitment to helping healthcare practices improve their coding accuracy and optimize their revenue cycle management without incurring additional costs.",
+  },
+  {
+    image: "",
+    title: "10% - 15% Growth in monthly Collections",
+    description:
+      "Achieving a proven monthly revenue growth of 10% to 15% with Skrisentech Inc. is a remarkable accomplishment. This substantial increase in revenue demonstrates the effectiveness of Skrisentech Inc.'s services and strategies in optimizing revenue cycle management for healthcare providers. Such growth indicates that Skrisentech Inc. not only maintains the financial health of their clients but actively contributes to their financial success by enhancing billing, collections, and reimbursement processes.",
+  },
+  {
+    image: "",
+    title: "Open Service Agreement/ No limitation",
     description:
       "Thanks to our extensive expertise, we can expedite your reimbursements efficiently. Our team consists solely of seasoned professionals, eliminating the need for on-the-job training at your expense. This results in reduced overhead for us and increased reimbursements for you, all at a lower cost.",
   },
   {
     image: "",
-    title: "RAPID REIMBURSEMENTS",
+    title: "Open Service Agreement/ No limitation",
     description:
-      "Thanks to our extensive expertise, we can expedite your reimbursements efficiently. Our team consists solely of seasoned professionals, eliminating the need for on-the-job training at your expense. This results in reduced overhead for us and increased reimbursements for you, all at a lower cost.",
+      "An open agreement with Skrisentech Inc. without limitations suggests a flexible and unrestricted partnership. Such an arrangement typically means that there are no predefined constraints, boundaries, or specific terms that restrict the scope of services or engagement. It provides both parties with the freedom to collaborate and adapt the agreement as needed to meet evolving needs and objectives. You are free to leave us at any time if you are not satisfied with our committed services. There are no hidden charges.",
   },
   {
     image: "",
-    title: "RAPID REIMBURSEMENTS",
+    title: "3RD PARTY EHR/BILLING PLATFORMS",
     description:
-      "Thanks to our extensive expertise, we can expedite your reimbursements efficiently. Our team consists solely of seasoned professionals, eliminating the need for on-the-job training at your expense. This results in reduced overhead for us and increased reimbursements for you, all at a lower cost.",
+      "Skrisentech Inc. has hands-on expertise with almost all the industry's top medical billing software platforms. This means we can get you started without any delay.",
   },
   {
     image: "",
-    title: "RAPID REIMBURSEMENTS",
+    title: "ALL SPECIALTIES",
     description:
-      "Thanks to our extensive expertise, we can expedite your reimbursements efficiently. Our team consists solely of seasoned professionals, eliminating the need for on-the-job training at your expense. This results in reduced overhead for us and increased reimbursements for you, all at a lower cost.",
+      "Our team has proven skills in Institutional Billing, Professional Billing, Durable Medical Equipment (DME), Emergency Room Billing, Out-of-Network Billing, and Laboratory Billing.",
   },
   {
     image: "",
-    title: "RAPID REIMBURSEMENTS",
+    title: "HIPAA-compliant",
     description:
-      "Thanks to our extensive expertise, we can expedite your reimbursements efficiently. Our team consists solely of seasoned professionals, eliminating the need for on-the-job training at your expense. This results in reduced overhead for us and increased reimbursements for you, all at a lower cost.",
+      "As a HIPAA-compliant and ISO-certified organization, Skrisentech Inc. wholeheartedly prioritizes the highest standards of compliance in our industry. Our team comprises highly trained experts who meticulously adhere to regulations set forth by Medicaid, Medicare, and commercial insurance entities.",
   },
   {
     image: "",
-    title: "RAPID REIMBURSEMENTS",
+    title: "Data Protection",
     description:
-      "Thanks to our extensive expertise, we can expedite your reimbursements efficiently. Our team consists solely of seasoned professionals, eliminating the need for on-the-job training at your expense. This results in reduced overhead for us and increased reimbursements for you, all at a lower cost.",
+      "Skrisentech Inc.'s commitment to data security is unwavering, with stringent protocols in effect to guarantee the privacy and integrity of your data",
   },
   {
     image: "",
-    title: "RAPID REIMBURSEMENTS",
+    title: "Assurance of Quality",
     description:
-      "Thanks to our extensive expertise, we can expedite your reimbursements efficiently. Our team consists solely of seasoned professionals, eliminating the need for on-the-job training at your expense. This results in reduced overhead for us and increased reimbursements for you, all at a lower cost.",
-  },
-  {
-    image: "",
-    title: "RAPID REIMBURSEMENTS",
-    description:
-      "Thanks to our extensive expertise, we can expedite your reimbursements efficiently. Our team consists solely of seasoned professionals, eliminating the need for on-the-job training at your expense. This results in reduced overhead for us and increased reimbursements for you, all at a lower cost.",
-  },
-  {
-    image: "",
-    title: "RAPID REIMBURSEMENTS",
-    description:
-      "Thanks to our extensive expertise, we can expedite your reimbursements efficiently. Our team consists solely of seasoned professionals, eliminating the need for on-the-job training at your expense. This results in reduced overhead for us and increased reimbursements for you, all at a lower cost.",
-  },
-  {
-    image: "",
-    title: "RAPID REIMBURSEMENTS",
-    description:
-      "Thanks to our extensive expertise, we can expedite your reimbursements efficiently. Our team consists solely of seasoned professionals, eliminating the need for on-the-job training at your expense. This results in reduced overhead for us and increased reimbursements for you, all at a lower cost.",
-  },
-  {
-    image: "",
-    title: "RAPID REIMBURSEMENTS",
-    description:
-      "Thanks to our extensive expertise, we can expedite your reimbursements efficiently. Our team consists solely of seasoned professionals, eliminating the need for on-the-job training at your expense. This results in reduced overhead for us and increased reimbursements for you, all at a lower cost.",
-  },
-  {
-    image: "",
-    title: "RAPID REIMBURSEMENTS",
-    description:
-      "Thanks to our extensive expertise, we can expedite your reimbursements efficiently. Our team consists solely of seasoned professionals, eliminating the need for on-the-job training at your expense. This results in reduced overhead for us and increased reimbursements for you, all at a lower cost.",
-  },
-  {
-    image: "",
-    title: "RAPID REIMBURSEMENTS",
-    description:
-      "Thanks to our extensive expertise, we can expedite your reimbursements efficiently. Our team consists solely of seasoned professionals, eliminating the need for on-the-job training at your expense. This results in reduced overhead for us and increased reimbursements for you, all at a lower cost.",
-  },
-  {
-    image: "",
-    title: "RAPID REIMBURSEMENTS",
-    description:
-      "Thanks to our extensive expertise, we can expedite your reimbursements efficiently. Our team consists solely of seasoned professionals, eliminating the need for on-the-job training at your expense. This results in reduced overhead for us and increased reimbursements for you, all at a lower cost.",
+      "With our rigorous audits and steadfast dedication to quality standards, Skrisentech Inc. assures uncompromising billing services. We continually improve our systems for service excellence.",
   },
 ];
 
@@ -370,66 +370,66 @@ export const credentialingCard = [
   {
     title: "Primary Source Verification",
     description:
-      "We conduct Primary Source Verification for credentialing, including board certification, license, and hospitalprivileges checks, ensuring accuracy and reliability directlyfrom the source.",
+      "We conduct thorough Primary Source Verification for credentialing, which includes checks for board certification, licenses, and hospital privileges. This process ensures accuracy and reliability by verifying information directly from the source.",
   },
   {
     title: "Management of Documents",
     description:
-      "Efficiently manage and securely store healthcare provider documents, including certifications and licenses, for streamlined access and regulatory compliance by using Allstars secure credentialing management system.",
+      "Manage and securely store healthcare provider documents, including certifications and licenses, with efficiency and regulatory compliance using Skrisentech Inc.'s secure credentialing management system.",
   },
   {
     title: "NPI Registration",
     description:
-      "AllStars streamlines NPI Registration for both Type 1 (individuals) and Type 2 (organizations), ensuring efficient and accurate identification in healthcare billing.",
+      "Skrisentech Inc simplifies NPI Registration for both Type 1 (individuals) and Type 2 (organizations), ensuring efficient and accurate identification in healthcare billing..",
   },
   {
     title: "CAQH Profile Management/Reattestation",
     description:
-      "AllStars excels in CAQH Profile Management and Reattestation, ensuring hassle-free maintenance of accurate healthcare provider information.",
+      "Skrisentech Inc excels in CAQH Profile Management and Reattestation, ensuring hassle-free maintenance of accurate healthcare provider information.",
   },
   {
     title: "Credentialing & Network Enrollment Analysis",
     description:
-      "AllStars offers expert Credentialing and Network Enrollment Analysis, ensuring accuracy and compliance for streamlined provider enrollment.",
+      "Skrisentech Inc offers expert Credentialing and Network Enrollment Analysis, ensuring accuracy and compliance for streamlined provider enrollment.",
   },
   {
     title: "Revalidation and Re-credentialing",
     description:
-      "AllStars manages the crucial processes of Revalidation and Re-credentialing, ensuring that healthcare providers maintain current and compliant credentials for continued participation in healthcare networks.",
+      "Skrisentech Inc manages the crucial processes of Revalidation and Re-credentialing, ensuring that healthcare providers maintain current and compliant credentials for continued participation in healthcare networks.",
   },
   {
     title: "Weekly Follow Up",
     description:
-      "AllStars conducts proactive weekly follow-ups with insurance companies, ensuring timely approvals and efficient processing to meet your needs.",
+      "Skrisentech Inc specializes in CAQH Profile Management and Reattestation, ensuring effortless maintenance of accurate healthcare provider information.",
   },
   {
     title: "Credentialing Audit",
     description:
-      "AllStars offers on-demand Credentialing Audits, ensuring a thorough and timely examination of credentials to maintain compliance and accuracy for healthcare providers.",
+      "Skrisentech Inc provides on-demand Credentialing Audits, ensuring a comprehensive and timely examination of credentials to maintain compliance and accuracy for healthcare providers.",
   },
   {
     title: "IPA Enrollment",
     description:
-      "AllStars streamlines IPA (Independent Practice Association) Enrollment, providing efficient and effective services for healthcare providers to join and participate in independent practice associations.",
+      "Skrisentech Inc streamlines IPA (Independent Practice Association) Enrollment, offering efficient and effective services for healthcare providers to join and participate in independent practice associations.",
   },
   {
     title: "Telehealth Credentialing",
     description:
-      "AllStars specializes in Telehealth Medicine Credentialing, ensuring healthcare providers are credentialed and compliant for telehealth services, facilitating seamless and secure virtual healthcare delivery.",
+      "Skrisentech Inc specializes in Telehealth Medicine Credentialing, ensuring healthcare providers are credentialed and compliant for telehealth services, facilitating seamless and secure virtual healthcare delivery.",
   },
   {
     title: "EDI Setups",
     description:
-      "AllStars specializes in EDI (Electronic Data Interchange) Setups, ensuring efficient and accurate electronic communication for seamless data exchange between healthcare entities.",
+      "Skrisentech Inc specializes in EDI (Electronic Data Interchange) Setups, ensuring efficient and accurate electronic communication for seamless data exchange between healthcare entities.",
   },
   {
     title: "ERA Setup",
     description:
-      "AllStars excels in ERA (Electronic Remittance Advice) Setups, offering seamless solutions for healthcare entities to streamline and optimize the electronic processing of payment information.",
+      "Skrisentech Inc stands out in ERA (Electronic Remittance Advice) Setup, offering streamlined solutions for healthcare entities to enhance and optimize the electronic processing of payment information.",
   },
   {
     title: "EFT Enrollment",
     description:
-      "AllStars specializes in EFT (Electronic Funds Transfer) Enrollment, streamlining the process for healthcare providers to efficiently receive electronic payments, enhancing financial transactions in the healthcare industry.",
+      "Skrisentech Inc specializes in EFT (Electronic Funds Transfer) Enrollment, simplifying the process for healthcare providers to efficiently receive electronic payments, improving financial transactions in the healthcare industry.",
   },
 ];

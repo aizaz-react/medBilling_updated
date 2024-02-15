@@ -82,22 +82,22 @@ function About() {
           </div>
           <div className="md:w-2/3 mt-8 md:order-2">
             <h1 className="flex flex-col w-max gap-2 text-2xl font-bold text-left ml-3">
-              About AllStars Medical Billing
+              About Skrisentech Inc Medical Billing
               <span className="w-full h-1 bg-blue" />
             </h1>
             <p className="mt-6 ml-3 line-clamp-7">
-              Effective billing management is a crucial component of any
+              Effective billing management is a critical component of any
               successful medical practice. By entrusting this responsibility to
-              the experts at AllStars Medical Billing Solutions, you can free up
-              your staff and medical professionals to concentrate on what
+              the experts at Skrisentech Inc. Medical Billing Solutions, you can
+              free up your staff and medical professionals to focus on what
               matters most: providing top-notch patient care.
             </p>
             <p className="md:mt-6 mt-3 md:ml-3 line-clamp-7">
               With a wealth of experience in the field, our billing
               professionals are dedicated to helping healthcare providers
-              optimize their revenue streams, cut unnecessary expenses, and
-              streamline their business operations. AllStars Medical Billing
-              Solutions offers a comprehensive end-to-end revenue cycle
+              optimize their revenue streams, reduce unnecessary expenses, and
+              streamline their business operations. Skrisentech Inc. Medical
+              Billing Solutions offers a comprehensive end-to-end revenue cycle
               management solution tailored to over 50 medical specialties across
               the United States.
             </p>
@@ -119,17 +119,17 @@ function About() {
             </h1>
             <div className="h-1 w-[8.5rem] bg-blue"></div>
             <p className="pt-5 md:pr-32">
-              At AllStars Medical Billing, our purpose is to empower healthcare
-              providers by alleviating the complexities of medical billing. We
-              are dedicated to optimizing revenue streams, minimizing costs, and
-              enhancing operational efficiency for over 50 medical specialties
-              across the United States. Our unwavering commitment is to enable
-              healthcare professionals to dedicate their full attention to
-              patient care, while we expertly manage claims, payments, and
-              patient statements with precision and speed. We are steadfast in
-              our mission to ensure accuracy from the outset, eliminating the
-              underlying causes of billing errors and providing peace of mind to
-              our clients.
+              At Skrisentech Inc Medical Billing, our purpose is to empower
+              healthcare providers by alleviating the complexities of medical
+              billing. We are dedicated to optimizing revenue streams,
+              minimizing costs, and enhancing operational efficiency for over 50
+              medical specialties across the United States. Our unwavering
+              commitment is to enable healthcare professionals to dedicate their
+              full attention to patient care, while we expertly manage claims,
+              payments, and patient statements with precision and speed. We are
+              steadfast in our mission to ensure accuracy from the outset,
+              eliminating the underlying causes of billing errors and providing
+              peace of mind to our clients.
             </p>
           </div>
           <div className="pt-5">
@@ -151,16 +151,15 @@ function About() {
             </h1>
             <div className="h-1 w-[8.5rem] bg-blue"></div>
             <p className="pt-5">
-              We aspire to become the foremost ally for healthcare practices in
-              their pursuit of financial excellence. Our goal is to establish
-              the benchmark for excellence in medical billing, credentialing,
-              medical accounts receivable management, and practice billing audit
-              services within the industry. Drawing upon our extensive
-              experience in healthcare billing, we envision a future where
-              healthcare providers can place their complete trust in us to
-              elevate their financial performance. This trust will enable them
-              to offer exceptional services to their patients with unwavering
-              confidence and peace of mind.
+              We aim to be the leading partner for healthcare practices seeking
+              financial excellence. Our goal is to set the standard for
+              excellence in medical billing, credentialing, medical accounts
+              receivable management, and practice billing audit services.
+              Leveraging our extensive healthcare billing experience, we
+              envision a future where healthcare providers can trust us
+              completely to enhance their financial performance. This trust will
+              enable them to provide exceptional services to their patients with
+              unwavering confidence and peace of mind.
             </p>
           </div>
           <img
