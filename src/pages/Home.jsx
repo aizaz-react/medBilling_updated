@@ -131,7 +131,6 @@ function Home() {
           Our Services
           <span className="w-full h-1 bg-white" />
         </h2>
-        {/* <div className="h-1 md:w-[11rem] w-[8.5rem] bg-white mt-1 mb-1 mx-auto"></div> */}
         <p className="md:text-lg pt-3 text-center mx-5 md:mx-72">
           Skrisentech Inc Medical Billing has a strong grasp of medical billing,
           credentialing, medical Accounts Receivable (A/R), and practice billing
@@ -380,14 +379,14 @@ function Home() {
       </div>
 
       {/* Request call section */}
-      <div className="bg-darkgray lg:py-16 lg:px-32 md:px-0 md:flex">
+      <div className="bg-darkgray lg:py-16 lg:px-32 md:px-16 md:py-16 md:flex flex-row">
         {/* Right section */}
         <div className="bg-blue flex-1 md:w-full">
           <div className="px-5 md:px-8 lg:px-12 pt-10 md:items-center py-8 flex flex-col gap-4">
             <h1 className="text-white font-bold text-2xl pb-3">
               Request For A Call Back
             </h1>
-            <div className="flex gap-4 flex-col lg:w-full md:w-0 sm:flex sm:flex-row w-full">
+            <div className="flex flex-col gap-4 lg:w-full md:w-0 sm:flex sm:flex-row w-full">
               <input
                 type="text"
                 className=" flex-1 border p-4 md:p-2 md:rounded border-none focus:outline-none"
@@ -449,51 +448,49 @@ function Home() {
           </div>
         </div>
 
-        <div className="border flex-1 p-4 border-blue">
-          {/*Left section */}
-          <div className="lg:py-[165px]">
-            <h1 className="text-2xl font-bold">Reach Us</h1>
-            <div className="h-1 w-[6rem] bg-blue mt-1 mb-1"></div>
-            <div
-              className="pt-4"
-              style={{ display: "flex", flexDirection: "column" }}
-            >
-              <a href="tel:+15014240123">
-                {" "}
-                <p
-                  className="text-xl"
-                  style={{ display: "flex", alignItems: "center" }}
-                >
-                  <IoCallOutline
-                    style={{ marginRight: "8px", fontSize: "30px" }}
-                  />{" "}
-                  (501)-424-0123
-                </p>
-              </a>
-              <a href="Skrisentech Inc.com">
-                <p
-                  className="text-xl pt-2"
-                  style={{ display: "flex", alignItems: "center" }}
-                >
-                  <IoMailOutline
-                    className="my-2"
-                    style={{ marginRight: "7px", fontSize: "25px" }}
-                  />
-                  Skrisentech Inc.com
-                </p>
-              </a>
-              <Link to="#">
-                <p
-                  className="text-xl pt-2"
-                  style={{ display: "flex", alignItems: "center" }}
-                >
-                  <IoLocationOutline
-                    style={{ marginRight: "8px", fontSize: "35px" }}
-                  />{" "}
-                  2121 N California Blvd Suite 243, Walnut Creek, CA 94596, USA
-                </p>
-              </Link>
-            </div>
+        {/*Left section */}
+        <div className="border flex-1 p-4 border-blue py-[165px]">
+          <h1 className="text-2xl font-bold">Reach Us</h1>
+          <div className="h-1 w-[6rem] bg-blue mt-1 mb-1"></div>
+          <div
+            className="pt-4"
+            style={{ display: "flex", flexDirection: "column" }}
+          >
+            <a href="tel:+15014240123">
+              {" "}
+              <p
+                className="text-xl"
+                style={{ display: "flex", alignItems: "center" }}
+              >
+                <IoCallOutline
+                  style={{ marginRight: "8px", fontSize: "30px" }}
+                />{" "}
+                (501)-424-0123
+              </p>
+            </a>
+            <a href="Skrisentech Inc.com">
+              <p
+                className="text-xl pt-2"
+                style={{ display: "flex", alignItems: "center" }}
+              >
+                <IoMailOutline
+                  className="my-2"
+                  style={{ marginRight: "7px", fontSize: "25px" }}
+                />
+                Skrisentech Inc.com
+              </p>
+            </a>
+            <a href="#">
+              <p
+                className="text-xl pt-2"
+                style={{ display: "flex", alignItems: "center" }}
+              >
+                <IoLocationOutline
+                  style={{ marginRight: "8px", fontSize: "35px" }}
+                />
+                2121 N California Blvd Suite 243, Walnut Creek, CA 94596, USA
+              </p>
+            </a>
           </div>
         </div>
       </div>

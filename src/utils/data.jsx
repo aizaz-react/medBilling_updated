@@ -102,21 +102,25 @@ export const infoNavItems = {
 
 export const cardList = [
   {
+    image: "",
     title: "Medical Credentialing",
     description:
       "Our credentialing specialists assist healthcare providers with enrollment, ensuring eligibility for insurance reimbursement. We offer comprehensive credentialing solutions for all practices.",
   },
   {
+    image: "",
     title: "Medical Coding",
     description:
       "Specializing in precise medical coding, we ensure compliance with regulations. Skrisentech Inc enables healthcare providers to concentrate on delivering exceptional patient care by managing proper documentation and billing.",
   },
   {
+    image: "",
     title: "Medical Billing",
     description:
       "Our efficient management of medical billing significantly enhances your practice’s revenue, allowing you more freedom to concentrate on providing exceptional patient care.",
   },
   {
+    image: "",
     title: "Practice Management",
     description:
       "With our 'Practice Management' service, we provide comprehensive support across all stages of the revenue cycle, ensuring seamless efficiency.",

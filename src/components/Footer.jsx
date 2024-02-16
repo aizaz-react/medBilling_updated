@@ -71,43 +71,16 @@ const Footer = () => {
       {/* Footer */}
       <div className="bg-black">
         <div className="py-10 px-4 lg:px-10 flex flex-col lg:flex-row justify-between">
-          <div className="flex flex-col justify-start border-2 rounded-lg border-blue lg:w-[28%]">
+          <div className="flex flex-col justify-start lg:w-[10%]">
             {/* left one */}
             <Link to="/">
-              <div className="bg-white pt-5 pl-5 rounded-tl-lg rounded-tr-lg">
-                <img
-                  className="h-20 cursor-pointer py-2"
-                  src={logo}
-                  alt="mainLogo"
-                />
-              </div>
+              <img
+                className="h-20 cursor-pointer py-2"
+                src={logo}
+                alt="mainLogo"
+              />
+              <h1 className="text-white font-bold pt-2">Skrisentech Inc</h1>
             </Link>
-            <p className="text-white bg-black px-5 pt-5">
-              Skrisentech Inc has been assisting healthcare providers in
-              increasing collections, reducing extra expenses, and streamlining
-              business workflows with a highly experienced team.
-            </p>
-
-            <div className="flex social-links space-x-4 mx-5 my-5">
-              <a
-                href="https://www.facebook.com"
-                className="flex items-center justify-center w-10 h-10 bg-blue rounded-full transition duration-300 ease-in-out transform hover:-translate-y-1 hover:bg-opacity-80"
-              >
-                <FaFacebookF className="text-white text-lg" />
-              </a>
-              <a
-                href="https://www.linkedin.com"
-                className="flex items-center justify-center w-10 h-10 bg-blue rounded-full transition duration-300 ease-in-out transform hover:-translate-y-1 hover:bg-opacity-80"
-              >
-                <FaLinkedinIn className="text-white text-lg" />
-              </a>
-              <a
-                href="https://www.youtube.com"
-                className="flex items-center justify-center w-10 h-10 bg-blue rounded-full transition duration-300 ease-in-out transform hover:-translate-y-1 hover:bg-opacity-80"
-              >
-                <FaYoutube className="text-white text-lg" />
-              </a>
-            </div>
           </div>
           <div className="text-white lg:mt-0 mt-6">
             {/* left two */}
