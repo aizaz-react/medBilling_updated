@@ -109,7 +109,7 @@ export const cardList = [
   {
     title: "Medical Coding",
     description:
-      "Specializing in precise medical coding, we ensure compliance with regulations. AllStars enables healthcare providers to concentrate on delivering exceptional patient care by managing proper documentation and billing.",
+      "Specializing in precise medical coding, we ensure compliance with regulations. Skrisentech Inc enables healthcare providers to concentrate on delivering exceptional patient care by managing proper documentation and billing.",
   },
   {
     title: "Medical Billing",
@@ -327,42 +327,42 @@ export const billingCard = [
   {
     title: "98% Clean Claim acceptance",
     description:
-      "Welcome to AllStars, where excellence meets efficiency in healthcare claims processing. We take immense pride in our remarkable 98% clean claim acceptance rate, setting new standards in the industry. Choose AllStars for a smoother, more efficient claims experience. Your success is our priority, and our 98% clean claim acceptance rate reflects our unwavering commitment to your satisfaction.",
+      "Welcome to Skrisentech Inc, where excellence meets efficiency in healthcare claims processing. We take immense pride in our remarkable 98% clean claim acceptance rate, setting new standards in the industry. Choose Skrisentech Inc for a smoother, more efficient claims experience. Your success is our priority, and our 98% clean claim acceptance rate reflects our unwavering commitment to your satisfaction.",
   },
   {
     title: "08% Monthly Denials",
     description:
-      "Enhancing Your Healthcare Revenue Cycle with AllStars - Only 8% Monthly DenialsAllStars - Your trusted partner for efficient revenue cycle management and a remarkably low 8% monthly denials rate. Let us help you unlock your practice's full financial potential.",
+      "Enhancing Your Healthcare Revenue Cycle with Skrisentech Inc - Only 8% Monthly DenialsAllStars - Your trusted partner for efficient revenue cycle management and a remarkably low 8% monthly denials rate. Let us help you unlock your practice's full financial potential.",
   },
   {
     title: "96% electronic claim submission",
     description:
-      "AllStars - Your 96% Electronic Claim Submission SolutionChoose AllStars for a hassle-free, efficient electronic claim submission experience. Your success is our priority, and our 96% electronic claim submission rate reflects our unwavering commitment to providing you with the best possible service.",
+      "Skrisentech Inc - Your 96% Electronic Claim Submission SolutionChoose Skrisentech Inc for a hassle-free, efficient electronic claim submission experience. Your success is our priority, and our 96% electronic claim submission rate reflects our unwavering commitment to providing you with the best possible service.",
   },
   {
     title: "99% Credentialing Success",
     description:
-      "AllStars: Unlocking Success with a 99% Credentialing Achievement With AllStars as your credentialing partner, you gain access to a team of experts who meticulously navigate the complex world of credentialing. We work diligently to ensure your applications are processed without errors and that your providers can seamlessly participate in insurance networks, allowing you to focus on providing exceptional patient care.",
+      "Skrisentech Inc Unlocking Success with a 99% Credentialing Achievement With Skrisentech Inc as your credentialing partner, you gain access to a team of experts who meticulously navigate the complex world of credentialing. We work diligently to ensure your applications are processed without errors and that your providers can seamlessly participate in insurance networks, allowing you to focus on providing exceptional patient care.",
   },
   {
     title: "96% Bank Direct Deposit",
     description:
-      "AllStars: Your 96% Success Rate in Bank Direct Deposits Select AllStars for a dependable, efficient bank direct deposit experience. Your financial well-being is our priority, and our 96% success rate underscores our dedication to providing you with the best possible service. With AllStars, you can trust that your bank direct deposits will be processed smoothly and securely, allowing you to maintain your focus on your business.",
+      "Skrisentech Inc Your 96% Success Rate in Bank Direct Deposits Select Skrisentech Inc for a dependable, efficient bank direct deposit experience. Your financial well-being is our priority, and our 96% success rate underscores our dedication to providing you with the best possible service. With Skrisentech Inc, you can trust that your bank direct deposits will be processed smoothly and securely, allowing you to maintain your focus on your business.",
   },
   {
     title: "10% - 15% Practice Growth",
     description:
-      "AllStars: Fueling Your Practice Growth Experience significant practice growth with AllStars. Our proven strategies have consistently delivered impressive results, ranging from 10% to 15%. Partner with us to unlock your practice's full potential and embark on a journey to lasting success.",
+      "Skrisentech Inc Fueling Your Practice Growth Experience significant practice growth with Skrisentech Inc. Our proven strategies have consistently delivered impressive results, ranging from 10% to 15%. Partner with us to unlock your practice's full potential and embark on a journey to lasting success.",
   },
   {
     title: "10Y Avg. Team Expertise",
     description:
-      "AllStars: 10-Year Average Team Experience At AllStars, our team boasts an impressive 10-year average experience. With a decade of expertise, we provide you with seasoned professionals who understand the industry inside out. Trust us to bring unparalleled knowledge and skill to your healthcare needs.",
+      "Skrisentech Inc 10-Year Average Team Experience At Skrisentech Inc, our team boasts an impressive 10-year average experience. With a decade of expertise, we provide you with seasoned professionals who understand the industry inside out. Trust us to bring unparalleled knowledge and skill to your healthcare needs.",
   },
   {
     title: "95% Electronic Payments",
     description:
-      "AllStars: Your 95% Electronic Payments Partner Experience the efficiency and reliability of AllStars with our outstanding 95% electronic payments success rate. We ensure your financial transactions are processed seamlessly and securely, helping you streamline your operations and stay on top of your finances.",
+      "Skrisentech Inc Your 95% Electronic Payments Partner Experience the efficiency and reliability of Skrisentech Inc with our outstanding 95% electronic payments success rate. We ensure your financial transactions are processed seamlessly and securely, helping you streamline your operations and stay on top of your finances.",
   },
 ];
 
