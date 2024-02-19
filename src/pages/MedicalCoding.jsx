@@ -99,7 +99,7 @@ function MedicalCoding() {
 
           <div>
             <h1 className="md:text-2xl text-xl flex flex-col w-max">
-              Maximizing Your Reimbursement Potential
+              Maximizing Your Reimbursement <br /> Potential
               <span className="w-full h-1 bg-blue" />
             </h1>
             <p className="pt-4">
