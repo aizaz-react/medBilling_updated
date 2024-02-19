@@ -167,7 +167,7 @@ function Contact() {
                 <input
                   type="date"
                   className="border bg-darkgray border-borderstyledark p-3 focus:outline-none flex-1"
-                  placeholder=""
+                  placeholder="Pick a date"
                 />
               </div>
 

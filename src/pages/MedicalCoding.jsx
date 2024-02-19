@@ -98,10 +98,10 @@ function MedicalCoding() {
           ></img>
 
           <div>
-            <h1 className="md:text-2xl text-xl">
+            <h1 className="md:text-2xl text-xl flex flex-col w-max">
               Maximizing Your Reimbursement Potential
+              <span className="w-full h-1 bg-blue" />
             </h1>
-            <div className="h-1 md:w-[28rem] w-[23rem] bg-blue mt-1"></div>
             <p className="pt-4">
               At Skrisentech Inc Medical Coding Services, we understand that
               coding accuracy directly impacts your revenue, and we are
