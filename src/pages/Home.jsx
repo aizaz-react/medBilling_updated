@@ -95,7 +95,7 @@ function Home() {
       </div>
 
       <div className="mt-5 md:mx-28 mx-8">
-        <h2 className="flex flex-col w-max mx-auto gap-2 text-center md:text-3xl text-2xl font-semibold">
+        <h2 className="flex flex-col w-max mx-auto gap-2 text-center md:text-3xl text-xl font-semibold">
           Why Skrisentech Inc Medical Billing?
           <span className="h-1 bg-blue"></span>
         </h2>
