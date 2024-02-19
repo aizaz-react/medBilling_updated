@@ -256,7 +256,7 @@ function Home() {
 
       {/* FAQS */}
 
-      <div className="md:flex justify-center gap-10 h-full mx-10 mt-20 md:mt-8">
+      <div className="md:flex justify-between gap-10 h-full mx-10 mt-20 md:mt-8">
         <div className="md:pt-32 font-semibold">
           <p className="text-blue">FAQs</p>
           <h1 className="md:text-[24px]">
@@ -264,7 +264,7 @@ function Home() {
             <br /> choice for medical billing services for your
             <br /> healthcare practice.
           </h1>
-          <div className="md:max-w-screen-xl bg-white">
+          <div className="md:max-w-screen-lg bg-white">
             <div className="grid divide-y divide-neutral-200 md:max-w-xl mt-8">
               <div className="py-5">
                 <details className="group">
@@ -379,32 +379,31 @@ function Home() {
       </div>
 
       {/* Request call section */}
-      <div className="bg-darkgray lg:py-16 lg:px-32 md:px-16 md:py-16 md:flex flex-row">
-        {/* Right section */}
-        <div className="bg-blue flex-1 md:w-full">
+      <div className="bg-darkgray lg:py-16 lg:px-32 md:px-16 md:py-16 py-5">
+        <div className="bg-blue md:w-full">
           <div className="px-5 md:px-8 lg:px-12 pt-10 md:items-center py-8 flex flex-col gap-4">
             <h1 className="text-white font-bold text-2xl pb-3">
               Request For A Call Back
             </h1>
-            <div className="flex flex-col gap-4 lg:w-full md:w-0 sm:flex sm:flex-row w-full">
+            <div className="flex flex-col gap-4 lg:w-full sm:flex sm:flex-row w-full">
               <input
                 type="text"
-                className=" flex-1 border p-4 md:p-2 md:rounded border-none focus:outline-none"
+                className=" flex-1 border md:p-2 sm:rounded border-none focus:outline-none"
                 placeholder="Name"
               />
               <input
                 type="email"
-                className=" flex-1 border p-4 md:p-2 md:rounded  focus:outline-none"
+                className=" flex-1 border md:p-2 sm:rounded  focus:outline-none"
                 placeholder="Email"
               />
             </div>
-            <div className="flex flex-col gap-4 lg:w-full md:w-0 sm:flex sm:flex-row w-full">
+            <div className="flex flex-col gap-4 lg:w-full sm:flex sm:flex-row w-full">
               <input
                 type="text"
-                className="border p-4 md:p-2 md:rounded focus:outline-none flex-1"
+                className="border md:p-2 sm:rounded focus:outline-none flex-1"
                 placeholder="Phone"
               />
-              <select className="border p-4 md:p-2 md:rounded focus:outline-none flex-1">
+              <select className="border md:p-2 sm:rounded focus:outline-none flex-1">
                 <option value="" disabled selected>
                   -Service-
                 </option>
@@ -415,8 +414,8 @@ function Home() {
               </select>
             </div>
 
-            <div className="flex flex-col gap-4 lg:w-full md:w-0 sm:flex sm:flex-row w-full">
-              <select className="border p-4 md:p-2 md:rounded focus:outline-none flex-1">
+            <div className="flex flex-col gap-4 lg:w-full sm:flex sm:flex-row w-full">
+              <select className="border md:p-2 sm:rounded focus:outline-none flex-1">
                 <option value="" disabled selected>
                   -State-
                 </option>
@@ -426,7 +425,7 @@ function Home() {
               </select>
               <input
                 type="date"
-                className="border p-4 md:p-2 md:rounded focus:outline-none flex-1"
+                className="border md:p-2 sm:rounded focus:outline-none flex-1"
                 placeholder="Pick a Date"
               />
             </div>
@@ -434,7 +433,7 @@ function Home() {
             {/* Textarea */}
             <div className="flex flex-col w-full">
               <textarea
-                className="border p-4 md:p-2 md:rounded focus:outline-none h-28 md:h-32"
+                className="border md:p-2 sm:rounded focus:outline-none h-28 md:h-32"
                 placeholder="Comments"
               ></textarea>
             </div>
@@ -445,52 +444,6 @@ function Home() {
             >
               Submit Now
             </button>
-          </div>
-        </div>
-
-        {/*Left section */}
-        <div className="border flex-1 p-4 border-blue py-[165px]">
-          <h1 className="text-2xl font-bold">Reach Us</h1>
-          <div className="h-1 w-[6rem] bg-blue mt-1 mb-1"></div>
-          <div
-            className="pt-4"
-            style={{ display: "flex", flexDirection: "column" }}
-          >
-            <a href="tel:+15014240123">
-              {" "}
-              <p
-                className="text-xl"
-                style={{ display: "flex", alignItems: "center" }}
-              >
-                <IoCallOutline
-                  style={{ marginRight: "8px", fontSize: "30px" }}
-                />{" "}
-                (501)-424-0123
-              </p>
-            </a>
-            <a href="Skrisentech Inc.com">
-              <p
-                className="text-xl pt-2"
-                style={{ display: "flex", alignItems: "center" }}
-              >
-                <IoMailOutline
-                  className="my-2"
-                  style={{ marginRight: "7px", fontSize: "25px" }}
-                />
-                Skrisentech Inc.com
-              </p>
-            </a>
-            <a href="#">
-              <p
-                className="text-xl pt-2"
-                style={{ display: "flex", alignItems: "center" }}
-              >
-                <IoLocationOutline
-                  style={{ marginRight: "8px", fontSize: "35px" }}
-                />
-                2121 N California Blvd Suite 243, Walnut Creek, CA 94596, USA
-              </p>
-            </a>
           </div>
         </div>
       </div>

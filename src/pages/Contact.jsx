@@ -103,9 +103,9 @@ function Contact() {
         </div>
       </div>
       {/* Locations & Contact section */}
-      <div className="bg-darkgray mt-10 md:mt-5">
-        <div className="md:flex gap-14 mx-8 md:mx-20 md:py-16">
-          <div className="md:w-1/2 pt-10 md:pt-0">
+      <div className="bg-darkgray">
+        <div className="mt-10 md:mt-5 md:flex gap-14 mx-8 md:mx-20 md:py-16">
+          <div className="flex-1 pt-10 md:pt-0">
             {/* Left */}
             <h1 className="text-2xl">Our Locations</h1>
             <div className="h-1 w-[9rem] bg-blue"></div>
@@ -122,72 +122,69 @@ function Contact() {
             </div>
           </div>
 
-          <div className="md:w-1/2 w-full md:mt-0 mt-10">
+          <div className="flex-1 w-full md:mt-0 mt-10">
             {/* right  */}
             <h1 className="text-2xl">Contact Us</h1>
             <div className="h-1 w-[7rem] bg-blue"></div>
-            <div className="flex-1">
-              <div className="items-center py-8 md:flex flex-col gap-4">
-                <div className="flex flex-col gap-4 w-full lg:w-full md:w-0 sm:flex sm:flex-row">
-                  <input
-                    type="text"
-                    className=" flex-1 border bg-darkgray p-3 focus:outline-none border-borderstyledark"
-                    placeholder="Name"
-                  />
-                  <input
-                    type="email"
-                    className=" flex-1 border bg-darkgray border-borderstyledark p-3  focus:outline-none"
-                    placeholder="Email Address"
-                  />
-                </div>
-                <div className="flex flex-col gap-4 w-full lg:w-full md:w-0 sm:flex sm:flex-row pt-4">
-                  <input
-                    type="text"
-                    className="border bg-darkgray border-borderstyledark p-3 focus:outline-none flex-1"
-                    placeholder="Phone No."
-                  />
-                  <select className="border bg-darkgray border-borderstyledark p-3 focus:outline-none flex-1">
-                    <option value="" disabled selected>
-                      -Service-
-                    </option>
-                    <option value="category1">Medical Billing</option>
-                    <option value="category2">Medical Coding</option>
-                    <option value="category3">Credentialing</option>
-                    <option value="category3">Other</option>
-                  </select>
-                </div>
-
-                <div className="flex flex-col gap-4 w-full lg:w-full md:w-0 sm:flex sm:flex-row pt-4">
-                  <select className="border bg-darkgray border-borderstyledark p-3 focus:outline-none flex-1">
-                    <option value="" disabled selected>
-                      -State-
-                    </option>
-                    <option value="category1">Category 1</option>
-                    <option value="category2">Category 2</option>
-                    <option value="category3">Category 3</option>
-                  </select>
-                  <input
-                    type="date"
-                    className="border bg-darkgray border-borderstyledark p-3 focus:outline-none flex-1"
-                    placeholder="Pick a Date"
-                  />
-                </div>
-
-                {/* Textarea */}
-                <div className="flex flex-col w-full pt-4">
-                  <textarea
-                    className="border bg-darkgray border-borderstyledark p-4 md:p-2 focus:outline-none h-28 md:h-36 "
-                    placeholder="Message"
-                  ></textarea>
-                </div>
-
-                <button
-                  type="submit"
-                  className="bg-blue text-white border rounded-md border-white mt-4 px-4 py-2 transition mr-auto hover:bg-sky-700"
-                >
-                  Submit Now
-                </button>
+            <div className="items-center py-8 md:flex flex-col gap-4">
+              <div className="flex flex-col gap-4 w-full md:flex md:flex-row">
+                <input
+                  type="text"
+                  className=" flex-1 border bg-darkgray p-3 focus:outline-none border-borderstyledark"
+                  placeholder="Name"
+                />
+                <input
+                  type="email"
+                  className=" flex-1 border bg-darkgray border-borderstyledark p-3  focus:outline-none"
+                  placeholder="Email Address"
+                />
               </div>
+              <div className="flex flex-col gap-4 w-full md:flex md:flex-row pt-4">
+                <input
+                  type="text"
+                  className="border bg-darkgray border-borderstyledark p-3 focus:outline-none flex-1"
+                  placeholder="Phone No."
+                />
+                <select className="border bg-darkgray border-borderstyledark p-3 focus:outline-none flex-1">
+                  <option value="" disabled selected>
+                    -Service-
+                  </option>
+                  <option value="category1">Medical Billing</option>
+                  <option value="category2">Medical Coding</option>
+                  <option value="category3">Credentialing</option>
+                  <option value="category3">Other</option>
+                </select>
+              </div>
+              <div className="flex flex-col gap-4 w-full md:flex md:flex-row pt-4">
+                <select className="border bg-darkgray border-borderstyledark p-3 focus:outline-none flex-1">
+                  <option value="" disabled selected>
+                    -State-
+                  </option>
+                  <option value="category1">Category 1</option>
+                  <option value="category2">Category 2</option>
+                  <option value="category3">Category 3</option>
+                </select>
+                <input
+                  type="date"
+                  className="border bg-darkgray border-borderstyledark p-3 focus:outline-none flex-1"
+                  placeholder=""
+                />
+              </div>
+
+              {/* Textarea */}
+              <div className="flex flex-col w-full pt-4">
+                <textarea
+                  className="border bg-darkgray border-borderstyledark p-4 md:p-2 focus:outline-none h-28 md:h-36 "
+                  placeholder="Message"
+                ></textarea>
+              </div>
+
+              <button
+                type="submit"
+                className="bg-blue text-white border rounded-md border-white mt-4 px-4 py-2 transition mr-auto hover:bg-sky-700"
+              >
+                Submit Now
+              </button>
             </div>
           </div>
         </div>

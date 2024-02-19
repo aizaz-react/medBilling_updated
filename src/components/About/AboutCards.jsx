@@ -10,6 +10,11 @@ const AboutCards = () => {
             <div
               className={`flex flex-col min-h-[200px] h-full border ${card.borderColor}`}
             >
+              {card.icon && (
+                <div className="w-full h-auto mb-4 text-center text-blue">
+                  {card.icon}
+                </div>
+              )}
               <div className="p-6">
                 <h1
                   className={`text-center font-bold text-2xl ${card.titleColor}`}
