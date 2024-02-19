@@ -9,15 +9,15 @@ import { navLinks, services } from "../utils/data";
 const products = [
   {
     name: "Medical Coding",
-    href: "/medical-coding",
+    Link: "/medical-coding",
   },
   {
     name: "Medical Billing",
-    href: "/medical-billing",
+    Link: "/medical-billing",
   },
   {
     name: "Medical Credentialing",
-    href: "/medical-credentialing",
+    Link: "/medical-credentialing",
   },
 ];
 
@@ -119,15 +119,14 @@ export default function Example() {
                         />
                       </Disclosure.Button>
                       <Disclosure.Panel className="mt-2 space-y-2">
-                        {[...products].map((item) => (
-                          <Disclosure.Button
+                        {products.map((item) => (
+                          <Link
                             key={item.name}
-                            as="a"
-                            href={item.href}
+                            to={item.Link}
                             className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                           >
                             {item.name}
-                          </Disclosure.Button>
+                          </Link>
                         ))}
                       </Disclosure.Panel>
                     </>
