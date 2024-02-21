@@ -10,6 +10,7 @@ import Nav from "../components/Nav";
 import InfoNav from "../components/InfoNav";
 import BillingsCard from "../components/MedicalBilling/BillingCards";
 import RevenueIcon from "../svgicons/system-uicons_graph-increase.svg";
+import MonthlyDenialIcon from "../svgicons/simple-line-icons_calender.svg";
 import VolumeClaimIcon from "../svgicons/lock-square.svg";
 
 function MedicalBilling() {
@@ -109,7 +110,7 @@ function MedicalBilling() {
         </div>
         <div className="flex flex-col rounded-lg h-full bg-white custom-shadow">
           <div className="p-8">
-            <img src={RevenueIcon} />
+            <img src={MonthlyDenialIcon} />
             <h1 className="text-left mb-2 md:text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
               High Volume Claims Submissions
             </h1>
