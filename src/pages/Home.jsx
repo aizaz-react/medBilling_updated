@@ -417,7 +417,7 @@ function Home() {
             </div>
 
             <div className="flex flex-col gap-4 lg:w-full sm:flex sm:flex-row w-full">
-              <select className="font-Lato border p-2 rounded focus:outline-none font-Lato flex-1">
+              <select className="font-Lato border p-2 rounded focus:outline-none flex-1">
                 <option value="" disabled selected>
                   -State-
                 </option>

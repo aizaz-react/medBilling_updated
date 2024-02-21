@@ -3,7 +3,7 @@ import { servicesData } from "../../utils/data";
 
 const ServiceFeatures = () => {
   return (
-    <div className="mt-10 mx-10 md:mx-28">
+    <div className="mt-10 mx-5 md:mx-28">
       <div className="grid md:grid-cols-2 grid-cols-1 gap-14">
         {servicesData.map((feature, index) => (
           <div key={index} className="flex items-start gap-4">
