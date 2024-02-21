@@ -20,7 +20,7 @@ function Contact() {
       <div className="relative">
         <img src={PrimaryImage} alt="Brud" className="w-full h-44" />
 
-        <h1 className="text-white text-4xl font-bold absolute top-16 md:left-16 left-[120px] hover:bg-sky-700">
+        <h1 className="font-Oswald text-white text-4xl font-bold absolute top-16 md:left-16 left-[120px] hover:bg-sky-700">
           Contact Us
         </h1>
       </div>
@@ -42,8 +42,10 @@ function Contact() {
                       }}
                     />
 
-                    <p className="font-semibold md:pt-0 pt-3">(051) 4240123</p>
-                    <p>Call Today</p>
+                    <p className="font-Lato font-semibold md:pt-0 pt-3">
+                      (051) 4240123
+                    </p>
+                    <p className="font-Lato">Call Today</p>
                   </div>
                 </a>
               </div>
@@ -65,10 +67,10 @@ function Contact() {
                         fontSize: "40px",
                       }}
                     />
-                    <p className="font-semibold md:pt-0 pt-3">
+                    <p className="font-Lato font-semibold md:pt-0 pt-3">
                       Skrisentech Inc.com
                     </p>
-                    <p>Feel Free To Mail Us</p>
+                    <p className="font-Lato">Feel Free To Mail Us</p>
                   </div>
                 </a>
               </div>
@@ -90,11 +92,11 @@ function Contact() {
                         fontSize: "40px",
                       }}
                     />
-                    <p className="font-semibold md:pt-0 pt-3">
+                    <p className="font-Lato font-semibold md:pt-0 pt-3">
                       2121 N California Blvd Suite 243, Walnut Creek, CA 94596,
                       USA
                     </p>
-                    <p>California Office</p>
+                    <p className="font-Lato">California Office</p>
                   </div>
                 </a>
               </div>
@@ -107,7 +109,7 @@ function Contact() {
         <div className="mt-10 md:mt-5 md:flex gap-14 mx-8 md:mx-20 md:py-16">
           <div className="flex-1 pt-10 md:pt-0">
             {/* Left */}
-            <h1 className="text-2xl">Our Locations</h1>
+            <h1 className="text-2xl font-Oswald">Our Locations</h1>
             <div className="h-1 w-[9rem] bg-blue"></div>
             <div className="felx-1 md:py-8 md:mt-0 mt-7">
               <iframe
@@ -124,28 +126,28 @@ function Contact() {
 
           <div className="flex-1 w-full md:mt-0 mt-10">
             {/* right  */}
-            <h1 className="text-2xl">Contact Us</h1>
+            <h1 className="text-2xl font-Oswald">Contact Us</h1>
             <div className="h-1 w-[7rem] bg-blue"></div>
             <div className="items-center py-8 md:flex flex-col gap-4">
               <div className="flex flex-col gap-4 w-full md:flex md:flex-row">
                 <input
                   type="text"
-                  className=" flex-1 border bg-darkgray p-3 focus:outline-none border-borderstyledark"
+                  className="font-Lato flex-1 border bg-darkgray p-3 focus:outline-none border-borderstyledark"
                   placeholder="Name"
                 />
                 <input
                   type="email"
-                  className=" flex-1 border bg-darkgray border-borderstyledark p-3  focus:outline-none"
+                  className="font-Lato flex-1 border bg-darkgray border-borderstyledark p-3  focus:outline-none"
                   placeholder="Email Address"
                 />
               </div>
-              <div className="flex flex-col gap-4 w-full md:flex md:flex-row pt-4">
+              <div className="font-Lato flex flex-col gap-4 w-full md:flex md:flex-row pt-4">
                 <input
                   type="text"
-                  className="border bg-darkgray border-borderstyledark p-3 focus:outline-none flex-1"
+                  className="font-Lato border bg-darkgray border-borderstyledark p-3 focus:outline-none flex-1"
                   placeholder="Phone No."
                 />
-                <select className="border bg-darkgray border-borderstyledark p-3 focus:outline-none flex-1">
+                <select className="font-Lato border bg-darkgray border-borderstyledark p-3 focus:outline-none flex-1">
                   <option value="" disabled selected>
                     -Service-
                   </option>
@@ -156,7 +158,7 @@ function Contact() {
                 </select>
               </div>
               <div className="flex flex-col gap-4 w-full md:flex md:flex-row pt-4">
-                <select className="border bg-darkgray border-borderstyledark p-3 focus:outline-none flex-1">
+                <select className="font-Lato border bg-darkgray border-borderstyledark p-3 focus:outline-none flex-1">
                   <option value="" disabled selected>
                     -State-
                   </option>
@@ -166,22 +168,20 @@ function Contact() {
                 </select>
                 <input
                   type="date"
-                  className="border bg-darkgray border-borderstyledark p-3 focus:outline-none flex-1"
+                  className="font-Lato border bg-darkgray border-borderstyledark p-3 focus:outline-none flex-1"
                   placeholder="Pick a date"
                 />
               </div>
-
               {/* Textarea */}
               <div className="flex flex-col w-full pt-4">
                 <textarea
-                  className="border bg-darkgray border-borderstyledark p-4 md:p-2 focus:outline-none h-28 md:h-36 "
+                  className="font-Lato border bg-darkgray border-borderstyledark p-4 md:p-2 focus:outline-none h-28 md:h-36 "
                   placeholder="Message"
                 ></textarea>
               </div>
-
               <button
                 type="submit"
-                className="bg-blue text-white border rounded-md border-white mt-4 px-4 py-2 transition mr-auto hover:bg-sky-700"
+                className="font-Oswald bg-blue text-white border rounded-md border-white mt-4 px-4 py-2 transition mr-auto hover:bg-sky-700"
               >
                 Submit Now
               </button>

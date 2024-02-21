@@ -103,7 +103,7 @@ const MedicalServicesCards = () => (
             src={specialty.image}
             alt={specialty.title}
           />
-          <h3 className="font-bold text-elementcolor mt-3">
+          <h3 className="font-Oswald font-bold text-elementcolor mt-3">
             {specialty.title}
           </h3>
         </div>
@@ -111,35 +111,5 @@ const MedicalServicesCards = () => (
     ))}
   </div>
 );
-// const MedicalServicesCards = () => (
-//   <div className="mt-10 mx-10 md:mx-40">
-//     <Carousel
-//       showThumbs={false}
-//       dynamicHeight={false}
-//       autoPlay={true} // Set autoPlay to true for automatic slideshow
-//       interval={2000} // Specify the interval between slides (in milliseconds)
-//       showStatus={false} // Hide the status indicators (dots)
-//       className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4"
-//     >
-//       {serviceSpecialties.map((specialty, index) => (
-//         <div
-//           key={index}
-//           className="col-span-1 p-6 text-center bg-white rounded-lg shadow-md"
-//         >
-//           <div className="flex flex-col items-center justify-center">
-//             <img
-//               className="w-[150px] h-[120px]"
-//               src={specialty.image}
-//               alt={specialty.title}
-//             />
-//             <h3 className="font-bold text-elementcolor mt-3">
-//               {specialty.title}
-//             </h3>
-//           </div>
-//         </div>
-//       ))}
-//     </Carousel>
-//   </div>
-// );
 
 export default MedicalServicesCards;

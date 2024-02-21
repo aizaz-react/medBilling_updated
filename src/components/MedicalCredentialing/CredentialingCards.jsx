@@ -13,10 +13,10 @@ const CredentialingCards = () => {
                   {service.icon}
                 </div>
               )}
-              <h1 className="text-center text-elementcolor font-semibold text-2xl">
+              <h1 className="font-Oswald text-center text-elementcolor font-semibold text-2xl">
                 {service.title}
               </h1>
-              <p className="text-center pt-4 text-gray-500">
+              <p className="font-Lato text-center pt-4 text-gray-500">
                 {service.description}
               </p>
             </div>

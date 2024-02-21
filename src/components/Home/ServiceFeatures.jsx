@@ -12,8 +12,10 @@ const ServiceFeatures = () => {
               className="float-left w-[50px] h-[50px] object-contain"
             />
             <div>
-              <h2 className="md:text-xl font-bold">{feature.title}</h2>
-              <p className="text-gray-500">{feature.description}</p>
+              <h2 className="font-Oswald md:text-xl font-bold">
+                {feature.title}
+              </h2>
+              <p className="font-Lato text-gray-500">{feature.description}</p>
               <ul className="pricing-items">
                 {feature.items &&
                   feature.items.map((item, idx) => <li key={idx}>{item}</li>)}

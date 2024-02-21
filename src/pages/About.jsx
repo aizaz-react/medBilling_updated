@@ -65,7 +65,7 @@ function About() {
           className="w-full md:h-44 h-44"
         />
 
-        <h1 className="text-white text-4xl font-bold absolute top-16 md:left-16 left-32">
+        <h1 className="font-Oswald text-white text-4xl font-bold absolute top-16 md:left-16 left-32">
           About Us
         </h1>
       </div>
@@ -76,18 +76,18 @@ function About() {
             <img className="rounded-md" src={aboutimage} alt="Aboutimage" />
           </div>
           <div className="md:w-2/3 mt-8 md:order-2">
-            <h1 className="flex flex-col w-max gap-2 md:text-2xl text-xl font-bold text-left py-2">
+            <h1 className="font-Oswald flex flex-col w-max gap-2 md:text-2xl text-xl font-bold text-left py-2">
               About Skrisentech Inc Medical Billing
               <span className="w-full h-1 bg-blue" />
             </h1>
-            <p className="line-clamp-7">
+            <p className="font-Lato line-clamp-7">
               Effective billing management is a critical component of any
               successful medical practice. By entrusting this responsibility to
               the experts at Skrisentech Inc Medical Billing Solutions, you can
               free up your staff and medical professionals to focus on what
               matters most: providing top-notch patient care.
             </p>
-            <p className="md:mt-6 mt-3 md:ml-3 line-clamp-7">
+            <p className="font-Lato md:mt-6 mt-3 line-clamp-7">
               With a wealth of experience in the field, our billing
               professionals are dedicated to helping healthcare providers
               optimize their revenue streams, reduce unnecessary expenses, and
@@ -96,7 +96,7 @@ function About() {
               management solution tailored to over 50 medical specialties across
               the United States.
             </p>
-            <button className="bg-blue mt-10 md:mt-16 text-white px-5 py-2 rounded-md font-semibold float-right shadow-lg hover:bg-sky-700">
+            <button className="font-Oswald bg-blue mt-10 md:mt-16 text-white px-5 py-2 rounded-md font-semibold float-right shadow-lg hover:bg-sky-700">
               Contact Us
             </button>
           </div>
@@ -108,11 +108,11 @@ function About() {
       {/* Mission section */}
       <div className="bg-darkgray md:mt-14 mt-10 md:flex justify-between mx-5 md:mx-20 items-center md:py-10 pt-14">
         <div>
-          <h1 className="font-bold text-2xl">
+          <h1 className="font-Oswald font-bold text-2xl">
             Our <span className="text-blue">Mission</span>
           </h1>
           <div className="h-1 w-[8.5rem] bg-blue"></div>
-          <p className="pt-5 md:pr-32">
+          <p className="font-Lato pt-5 md:pr-32">
             At Skrisentech Inc Medical Billing, our purpose is to empower
             healthcare providers by alleviating the complexities of medical
             billing. We are dedicated to optimizing revenue streams, minimizing
@@ -138,11 +138,11 @@ function About() {
       {/* Vision section */}
       <div className="md:mt-14 md:flex justify-between mx-5 md:mx-20 items-center py-10">
         <div className="md:order-1 md:pl-32">
-          <h1 className="font-bold text-2xl">
+          <h1 className="font-Oswald font-bold text-2xl">
             Our <span className="text-blue">Vission</span>
           </h1>
           <div className="h-1 w-[8.5rem] bg-blue"></div>
-          <p className="pt-5">
+          <p className="font-Lato pt-5">
             We aim to be the leading partner for healthcare practices seeking
             financial excellence. Our goal is to set the standard for excellence
             in medical billing, credentialing, medical accounts receivable

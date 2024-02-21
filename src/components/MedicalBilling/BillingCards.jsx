@@ -11,10 +11,10 @@ const BillingsCard = () => {
                 src={item.icon}
                 className="float-left w-[50px] h-[50px] object-contain"
               />
-              <h1 className="text-center font-bold text-xl text-elementcolor">
+              <h1 className="font-Oswald text-center font-bold text-xl text-elementcolor">
                 {item.title}
               </h1>
-              <p className="text-center pt-3">{item.description}</p>
+              <p className="font-Lato text-center pt-3">{item.description}</p>
             </div>
           </div>
         ))}

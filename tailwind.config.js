@@ -7,6 +7,10 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        Oswald: ['Oswald', 'sans-serif'],
+        Lato: ['Lato', 'sans-seri']
+      },
       extend: {
         keyframes: {
           fadeIn: {
@@ -17,11 +21,6 @@ export default {
         animation: {
           fadeIn: "fadeIn 0.2s ease-in-out forwards",
         },
-      },
-      fontFamily: {
-        'sans': ['Roboto', 'ui-sans-serif', 'system-ui'],
-        'serif': ['Poppins', 'ui-serif', 'Georgia'],
-        'mono': ['Menlo', 'ui-monospace', 'SFMono-Regular'],
       },
       colors: {
         blue: '#008ac6',

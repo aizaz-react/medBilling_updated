@@ -9,18 +9,18 @@ const AboutCards = () => {
           <div
             className={`flex flex-col min-h-[200px] h-full border ${card.borderColor}`}
           >
-            <div className="p-6 flex flex-col">
+            <div className="p-6 flex flex-col items-center">
               <img
                 src={card.icon}
-                className="float-left w-[50px] h-[50px] object-contain mx-auto"
+                className="float-left w-[50px] h-[50px] object-contain"
               />
               <h1
-                className={`text-center font-bold text-2xl ${card.titleColor}`}
+                className={`font-Oswald font-bold text-2xl ${card.titleColor}`}
               >
                 {card.percentage}
               </h1>
               <h2
-                className={`text-center font-bold text-blue pt-5 ${card.titleColor}`}
+                className={`font-Oswald font-bold text-blue pt-5 ${card.titleColor}`}
               >
                 {card.title}
               </h2>

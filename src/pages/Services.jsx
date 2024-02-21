@@ -2,15 +2,11 @@ import "../App.css";
 import Container from "../components/Container";
 import React, { useState, useEffect } from "react";
 import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
-import { IoMailOutline } from "react-icons/io5";
-import { LuPhoneCall } from "react-icons/lu";
-import { LiaFaxSolid } from "react-icons/lia";
 import { FaYoutube } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { BiSolidBuildingHouse } from "react-icons/bi";
 import "../Header.css";
-import logo from "../images/main-logo.webp";
 import PrimaryImage from "../images/primary-bg.jpg";
 import GrowthImage from "../images/growth.png";
 import Footer from "../components/Footer";
@@ -43,7 +39,7 @@ function Services() {
           alt="PrimaryImage"
           className="w-full md:h-44 h-32"
         />
-        <h1 className="text-white text-4xl font-bold absolute md:top-14 top-10 md:left-16 left-32">
+        <h1 className="font-Oswald text-white text-4xl font-bold absolute md:top-14 top-10 md:left-16 left-32">
           Services
         </h1>
       </div>
@@ -51,13 +47,13 @@ function Services() {
         <div className="md:flex gap-10 md:mx-20 mx-8 my-14 md:my-0">
           <div className="md:w-2/3 md:my-24 w-full">
             {/* Left section */}
-            <h1 className="text-2xl">
+            <h1 className="font-Oswald text-2xl">
               Skrisentech Inc Medical Billing Services
             </h1>
-            <p className="text-blue mt-2 text-lg">
+            <p className="font-Lato text-blue mt-2 text-lg">
               Medical Billing & Revenue Cycle Solutions
             </p>
-            <p className="mt-5">
+            <p className="mt-5font-Lato">
               Our purpose is to offer a comprehensive range of revenue-related
               services essential for the smooth operation of medical practices.
               We understand that your primary focus is delivering high-quality
@@ -67,18 +63,18 @@ function Services() {
               components of managing a medical business.
             </p>
 
-            <p className="mt-3">
+            <p className="mt-3 font-Lato">
               Moreover, we recognize the constant changes in billing codes,
               insurance requirements, and payer policies, which can be
               exceedingly time-consuming for healthcare practitioners and
               facilities to keep up with while maintaining their operations.
             </p>
-            <p className="mt-3">
+            <p className="mt-3 font-Lato">
               That’s where Skrisentech Inc comes in! For more details about our
               services tailored to your specific area of specialization, please
               click on one of the links below:
             </p>
-            <button className="bg-blue mt-12 text-white px-5 py-2 rounded-md font-semibold float-left shadow-lg hover:bg-sky-700">
+            <button className="font-Oswald bg-blue mt-12 text-white px-5 py-2 rounded-md font-semibold float-left shadow-lg hover:bg-sky-700">
               Contact Us
             </button>
           </div>

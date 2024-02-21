@@ -20,7 +20,7 @@ function MedicalBilling() {
       <Nav />
       <div className="relative">
         <img src={PrimaryImage} alt="PrimaryImage" className="w-full h-44" />
-        <h1 className="text-white text-4xl font-bold absolute top-16 left-16">
+        <h1 className="font-Oswald text-white text-4xl font-bold absolute top-16 left-16">
           Medical Billing
         </h1>
       </div>
@@ -28,18 +28,18 @@ function MedicalBilling() {
         <div className="md:flex gap-44 md:mx-20 mx-5">
           <div className="md:w-1/2 my-16">
             {/* Left section */}
-            <h1 className="flex flex-col w-max gap-2 md:text-2xl text-xl">
+            <h1 className="font-Oswald flex flex-col w-max gap-2 md:text-2xl text-xl">
               Medical Billing Services
               <span className="w-full h-1 bg-blue" />
             </h1>
-            <p className="pt-4">
+            <p className="pt-4 font-Lato">
               Medical billing involves submitting bills to health insurance
               companies to receive payment for healthcare services. A medical
               billing specialist ensures that healthcare providers receive
               payment for their services. A skilled biller can help the
               healthcare facility increase its revenue.
             </p>
-            <p className="pt-4">
+            <p className="pt-4 font-Lato">
               If your medical practice is facing challenges with billing and
               revenue management, there’s a solution. Skrisentech Inc Medical
               Billing offers tailored medical billing services that cater to
@@ -48,7 +48,7 @@ function MedicalBilling() {
               compliant, and less stressful. Through our reliable system, we
               guarantee precise coding, reducing errors, and optimizing revenue.
             </p>
-            <button className="bg-blue mt-12 text-white px-5 py-2 rounded-md font-semibold float-left shadow-lg hover:bg-sky-700">
+            <button className="font-Oswald bg-blue mt-12 text-white px-5 py-2 rounded-md font-semibold float-left shadow-lg hover:bg-sky-700">
               Contact Us
             </button>
           </div>
@@ -73,9 +73,9 @@ function MedicalBilling() {
 
           <div className="md:w-1/2 md:my-16">
             {/* right section */}
-            <h1 className="text-2xl">Fast Filling</h1>
+            <h1 className="text-2xl font-Oswald">Fast Filling</h1>
             <div className="h-1 w-[7rem] bg-blue mt-1"></div>
-            <p className="pt-4">
+            <p className="pt-4 font-Lato">
               When providing a service, submitting claims promptly is crucial.
               Managing fluctuating claim volumes and ensuring timely submissions
               can be challenging for in-house staff. At Skrisentech Inc Medical
@@ -83,7 +83,7 @@ function MedicalBilling() {
               hours in most cases. We leverage cutting-edge technology to gather
               precise information and expedite the claim process.
             </p>
-            <button className="bg-blue mt-12 text-white px-5 py-2 rounded-md font-semibold float-left shadow-lg hover:bg-sky-700">
+            <button className="font-Oswald bg-blue mt-12 text-white px-5 py-2 rounded-md font-semibold float-left shadow-lg hover:bg-sky-700">
               Contact Us
             </button>
           </div>
@@ -91,7 +91,7 @@ function MedicalBilling() {
       </div>
 
       <div className="md:mt-16 mt-28 flex justify-center items-center">
-        <h1 className="md:text-3xl text-xl text-center font-bold flex md:flex-row flex-col md:gap-2">
+        <h1 className="font-Oswald md:text-3xl text-xl text-center font-bold flex md:flex-row flex-col md:gap-2">
           Boosting Revenue for Better
           <span className="text-blue">Patient Care</span>
         </h1>
@@ -100,10 +100,10 @@ function MedicalBilling() {
         <div className="flex flex-col rounded-lg h-full bg-white custom-shadow">
           <div className="p-8">
             <img src={RevenueIcon} />
-            <h1 className="text-left mb-2 md:text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
+            <h1 className="font-Oswald text-left mb-2 md:text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
               Increased Revenue
             </h1>
-            <p className="text-left mb-4 md:text-base text-neutral-600 dark:text-neutral-200">
+            <p className="font-Lato text-left mb-4 md:text-base text-neutral-600 dark:text-neutral-200">
               Maximize reimbursements and increase your revenue by up to 30%
             </p>
           </div>
@@ -111,10 +111,10 @@ function MedicalBilling() {
         <div className="flex flex-col rounded-lg h-full bg-white custom-shadow">
           <div className="p-8">
             <img src={MonthlyDenialIcon} />
-            <h1 className="text-left mb-2 md:text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
+            <h1 className="font-Oswald text-left mb-2 md:text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
               High Volume Claims Submissions
             </h1>
-            <p className="text-left mb-4 text-base text-neutral-600 dark:text-neutral-200">
+            <p className="font-Lato text-left mb-4 text-base text-neutral-600 dark:text-neutral-200">
               With our innovative technology, we can process thousands of
               error-free claims daily.
             </p>
@@ -123,10 +123,10 @@ function MedicalBilling() {
         <div className="flex flex-col rounded-lg h-full bg-white custom-shadow">
           <div className="p-8">
             <img src={VolumeClaimIcon} />
-            <h1 className="text-left mb-2 md:text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
+            <h1 className="font-Oswald text-left mb-2 md:text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
               Compliance with Privacy Requirements
             </h1>
-            <p className="text-left mb-4 text-base text-neutral-600 dark:text-neutral-200">
+            <p className="font-Lato text-left mb-4 text-base text-neutral-600 dark:text-neutral-200">
               Data transmission and encryption are designed by top-level
               security specialists.
             </p>

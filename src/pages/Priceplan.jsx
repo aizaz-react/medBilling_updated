@@ -24,10 +24,10 @@ function PricePlan() {
           alt="PrimaryImage"
           className="w-full h-72 md:h-64 "
         />
-        <h1 className="text-white md:text-4xl text-3xl font-bold absolute top-16 left-20 font-poppins">
+        <h1 className="font-Oswald text-white md:text-4xl text-3xl font-bold absolute top-16 left-20 font-poppins">
           Plans and Pricing
         </h1>
-        <p className="text-white absolute top-24 md:left-14 md:w-1/2 pt-5 md:pt-8 text-center md:text-left mx-5">
+        <p className="font-Lato text-white absolute top-24 md:left-14 md:w-1/2 pt-5 md:pt-8 text-center md:text-left mx-5">
           We provide a variety of comprehensive plans to meet various medical
           billing needs. Our transparent pricing ensures that you receive the
           best value for your investment. Select the plan that aligns with your
@@ -42,76 +42,78 @@ function PricePlan() {
             <div className="flex flex-col border rounded-md border-blue">
               <div className="p-8 text-gray-600">
                 <BsHeartPulse style={{ fontSize: "35px", color: "#008ac6" }} />
-                <h1 className="text-2xl text-secondary font-semibold pt-4 font-poppins">
+                <h1 className="font-Oswald text-2xl text-secondary font-semibold pt-4 font-poppins">
                   Essentail Plan
                 </h1>
                 <div className="flex items-center py-2">
                   <FcCheckmark className="mr-2" />
-                  <h1>Claim Scrubing</h1>
+                  <h1 className="font-Lato">Claim Scrubing</h1>
                   <LuDot />
                 </div>
                 <div className="flex items-center py-2">
                   <FcCheckmark className="mr-2" />
-                  <h1>Charge Entry</h1>
+                  <h1 className="font-Lato">Charge Entry</h1>
                   <LuDot />
                 </div>
                 <div className="flex items-center py-2">
                   <FcCheckmark className="mr-2" />
-                  <h1>Clearing House Rejection</h1>
+                  <h1 className="font-Lato">Clearing House Rejection</h1>
                   <LuDot />
                 </div>
                 <div className="flex items-center py-2">
                   <FcCheckmark className="mr-2" />
-                  <h1>Denial Management</h1>
+                  <h1 className="font-Lato">Denial Management</h1>
                   <LuDot />
                 </div>
                 <div className="flex items-center py-2">
                   <FcCheckmark className="mr-2" />
-                  <h1>Submissions within 24 Hours</h1>
+                  <h1 className="font-Lato">Submissions within 24 Hours</h1>
                   <LuDot />
                 </div>
                 <div className="flex items-center py-2">
                   <FcCheckmark className="mr-2" />
-                  <h1>Primary Payer Submission</h1>
+                  <h1 className="font-Lato">Primary Payer Submission</h1>
                   <LuDot />
                 </div>
                 <div className="flex items-center py-2">
                   <FcCheckmark className="mr-2" />
-                  <h1>Paper Claims Submissions</h1>
+                  <h1 className="font-Lato">Paper Claims Submissions</h1>
                   <LuDot />
                 </div>
                 <div className="flex items-center py-2">
                   <FcCheckmark className="mr-2" />
-                  <h1>Payment Posting</h1>
+                  <h1 className="font-Lato">Payment Posting</h1>
                   <LuDot />
                 </div>
                 <div className="flex items-center py-2">
                   <FcCheckmark className="mr-2" />
-                  <h1>Timely Feeling Appeals</h1>
+                  <h1 className="font-Lato">Timely Feeling Appeals</h1>
                   <LuDot />
                 </div>
                 <div className="flex items-center py-2">
                   <FcCheckmark className="mr-2" />
-                  <h1>Daily Follow-Up on Unpaid Claims</h1>
+                  <h1 className="font-Lato">
+                    Daily Follow-Up on Unpaid Claims
+                  </h1>
                   <LuDot />
                 </div>
                 <div className="flex items-center py-2">
                   <FcCheckmark className="mr-2" />
-                  <h1>24/7 Billing Support</h1>
+                  <h1 className="font-Lato">24/7 Billing Support</h1>
                   <LuDot />
                 </div>
                 <div className="flex items-center py-2">
                   <FcCheckmark className="mr-2" />
-                  <h1>Monthly Reports</h1>
+                  <h1 className="font-Lato">Monthly Reports</h1>
                   <LuDot />
                 </div>
                 <div className="flex items-center py-2">
                   <FcCheckmark className="mr-2" />
-                  <h1>Dedicated Account Manager</h1>
+                  <h1 className="font-Lato">Dedicated Account Manager</h1>
                   <LuDot />
                 </div>
                 <div className="pt-5">
-                  <button className="btn bg-blue h-12 rounded-md text-white font-semibold px-8 hover:bg-sky-700">
+                  <button className="font-Oswald btn bg-blue h-12 rounded-md text-white font-semibold px-8 hover:bg-sky-700">
                     Request a Call Back
                   </button>
                 </div>
@@ -123,126 +125,128 @@ function PricePlan() {
             <div className="flex flex-col border rounded-md bg-blue">
               <div className="p-8 text-white">
                 <BsHeartPulse style={{ fontSize: "35px", color: "white" }} />
-                <h1 className="text-2xl text-white font-semibold pt-4 font-poppins">
+                <h1 className=" font-Oswald text-2xl text-white font-semibold pt-4 font-poppins">
                   Premium Plan
                 </h1>
                 <div className="flex items-center py-2">
                   <GrCheckmark className="mr-2" />
-                  <h1>Claim Scrubing</h1>
+                  <h1 className="font-Lato">Claim Scrubing</h1>
                   <LuDot />
                 </div>
                 <div className="flex items-center py-2">
                   <GrCheckmark className="mr-2" />
-                  <h1>Charge Entry</h1>
+                  <h1 className="font-Lato">Charge Entry</h1>
                   <LuDot />
                 </div>
                 <div className="flex items-center py-2">
                   <GrCheckmark className="mr-2" />
-                  <h1>Clearing House Rejection</h1>
+                  <h1 className="font-Lato">Clearing House Rejection</h1>
                   <LuDot />
                 </div>
                 <div className="flex items-center py-2">
                   <GrCheckmark className="mr-2" />
-                  <h1>Denial Management</h1>
+                  <h1 className="font-Lato">Denial Management</h1>
                   <LuDot />
                 </div>
                 <div className="flex items-center py-2">
                   <GrCheckmark className="mr-2" />
-                  <h1>Submissions within 24 Hours</h1>
+                  <h1 className="font-Lato">Submissions within 24 Hours</h1>
                   <LuDot />
                 </div>
                 <div className="flex items-center py-2">
                   <GrCheckmark className="mr-2" />
-                  <h1>Primary Payer Submission</h1>
+                  <h1 className="font-Lato">Primary Payer Submission</h1>
                   <LuDot />
                 </div>
                 <div className="flex items-center py-2">
                   <GrCheckmark className="mr-2" />
-                  <h1>Paper Claims Submissions</h1>
+                  <h1 className="font-Lato">Paper Claims Submissions</h1>
                   <LuDot />
                 </div>
                 <div className="flex items-center py-2">
                   <GrCheckmark className="mr-2" />
-                  <h1>Payment Posting</h1>
+                  <h1 className="font-Lato">Payment Posting</h1>
                   <LuDot />
                 </div>
                 <div className="flex items-center py-2">
                   <GrCheckmark className="mr-2" />
-                  <h1>Timely Feeling Appeals</h1>
+                  <h1 className="font-Lato">Timely Feeling Appeals</h1>
                   <LuDot />
                 </div>
                 <div className="flex items-center py-2">
                   <GrCheckmark className="mr-2" />
-                  <h1>Daily Follow-Up on Unpaid Claims</h1>
+                  <h1 className="font-Lato">
+                    Daily Follow-Up on Unpaid Claims
+                  </h1>
                   <LuDot />
                 </div>
                 <div className="flex items-center py-2">
                   <GrCheckmark className="mr-2" />
-                  <h1>24/7 Billing Support</h1>
+                  <h1 className="font-Lato">24/7 Billing Support</h1>
                   <LuDot />
                 </div>
                 <div className="flex items-center py-2">
                   <GrCheckmark className="mr-2" />
-                  <h1>Monthly Reports</h1>
+                  <h1 className="font-Lato">Monthly Reports</h1>
                   <LuDot />
                 </div>
                 <div className="flex items-center py-2">
                   <GrCheckmark className="mr-2" />
-                  <h1>Dedicated Account Manager</h1>
+                  <h1 className="font-Lato">Dedicated Account Manager</h1>
                   <LuDot />
                 </div>
                 <div className="flex items-center py-2">
                   <FaDotCircle className="mr-2" style={{ fontSize: "12px" }} />
-                  <h1>Eligibility Verification</h1>
+                  <h1 className="font-Lato">Eligibility Verification</h1>
                   <LuDot />
                 </div>
                 <div className="flex items-center py-2">
                   <FaDotCircle className="mr-2" style={{ fontSize: "12px" }} />
-                  <h1>Deductible Verification</h1>
+                  <h1 className="font-Lato">Deductible Verification</h1>
                   <LuDot />
                 </div>
                 <div className="flex items-center py-2">
                   <FaDotCircle className="mr-2" style={{ fontSize: "12px" }} />
-                  <h1>Referral/Authorization</h1>
+                  <h1 className="font-Lato">Referral/Authorization</h1>
                   <LuDot />
                 </div>
                 <div className="flex items-center py-2">
                   <FaDotCircle className="mr-2" style={{ fontSize: "12px" }} />
-                  <h1>EDI Setups</h1>
+                  <h1 className="font-Lato">EDI Setups</h1>
                   <LuDot />
                 </div>
                 <div className="flex items-center py-2">
                   <FaDotCircle className="mr-2" style={{ fontSize: "12px" }} />
-                  <h1>ERA Setups</h1>
+                  <h1 className="font-Lato">ERA Setups</h1>
                   <LuDot />
                 </div>
                 <div className="flex items-center py-2">
                   <FaDotCircle className="mr-2" style={{ fontSize: "12px" }} />
-                  <h1>EFT Setups</h1>
+                  <h1 className="font-Lato">EFT Setups</h1>
                   <LuDot />
                 </div>
                 <div className="flex items-center py-2">
                   <FaDotCircle className="mr-2" style={{ fontSize: "12px" }} />
-                  <h1>Patient Statements</h1>
+                  <h1 className="font-Lato">Patient Statements</h1>
                   <LuDot />
                 </div>
                 <div className="flex items-center py-2">
                   <FaDotCircle className="mr-2" style={{ fontSize: "12px" }} />
-                  <h1>Patient Help Desk</h1>
+                  <h1 className="font-Lato">Patient Help Desk</h1>
                   <LuDot />
                 </div>
                 <div className="flex items-center py-2">
                   <FaDotCircle className="mr-2" style={{ fontSize: "12px" }} />
-                  <h1>Monthly Billing Audit</h1>
+                  <h1 className="font-Lato">Monthly Billing Audit</h1>
                   <LuDot />
                 </div>
                 <div className="flex items-center py-2">
                   <FaDotCircle className="mr-2" style={{ fontSize: "12px" }} />
-                  <h1>Monthly Coding Audit</h1>
+                  <h1 className="font-Lato">Monthly Coding Audit</h1>
                   <LuDot />
                 </div>
                 <div className="pt-5">
-                  <button className="btn bg-blue h-12 border border-white rounded-md text-white font-semibold px-8 hover:bg-white hover:text-blue">
+                  <button className="font-Oswald btn bg-blue h-12 border border-white rounded-md text-white font-semibold px-8 hover:bg-white hover:text-blue">
                     Request a Call Back
                   </button>
                 </div>
@@ -254,141 +258,143 @@ function PricePlan() {
             <div className="flex flex-col border rounded-md border-blue">
               <div className="p-8 text-gray-600">
                 <BsHeartPulse style={{ fontSize: "35px", color: "#008ac6" }} />
-                <h1 className="text-2xl text-secondary font-semibold pt-4 font-poppins">
+                <h1 className="font-Oswald text-2xl text-secondary font-semibold pt-4 font-poppins">
                   All-Inclusive Plan
                 </h1>
                 <div className="flex items-center py-2">
                   <FcCheckmark className="mr-2" />
-                  <h1>Claim Scrubing</h1>
+                  <h1 className="font-Lato">Claim Scrubing</h1>
                   <LuDot />
                 </div>
                 <div className="flex items-center py-2">
                   <FcCheckmark className="mr-2" />
-                  <h1>Charge Entry</h1>
+                  <h1 className="font-Lato">Charge Entry</h1>
                   <LuDot />
                 </div>
                 <div className="flex items-center py-2">
                   <FcCheckmark className="mr-2" />
-                  <h1>Clearing House Rejection</h1>
+                  <h1 className="font-Lato">Clearing House Rejection</h1>
                   <LuDot />
                 </div>
                 <div className="flex items-center py-2">
                   <FcCheckmark className="mr-2" />
-                  <h1>Denial Management</h1>
+                  <h1 className="font-Lato">Denial Management</h1>
                   <LuDot />
                 </div>
                 <div className="flex items-center py-2">
                   <FcCheckmark className="mr-2" />
-                  <h1>Submissions within 24 Hours</h1>
+                  <h1 className="font-Lato">Submissions within 24 Hours</h1>
                   <LuDot />
                 </div>
                 <div className="flex items-center py-2">
                   <FcCheckmark className="mr-2" />
-                  <h1>Primary Payer Submission</h1>
+                  <h1 className="font-Lato">Primary Payer Submission</h1>
                   <LuDot />
                 </div>
                 <div className="flex items-center py-2">
                   <FcCheckmark className="mr-2" />
-                  <h1>Paper Claims Submissions</h1>
+                  <h1 className="font-Lato">Paper Claims Submissions</h1>
                   <LuDot />
                 </div>
                 <div className="flex items-center py-2">
                   <FcCheckmark className="mr-2" />
-                  <h1>Payment Posting</h1>
+                  <h1 className="font-Lato">Payment Posting</h1>
                   <LuDot />
                 </div>
                 <div className="flex items-center py-2">
                   <FcCheckmark className="mr-2" />
-                  <h1>Timely Feeling Appeals</h1>
+                  <h1 className="font-Lato">Timely Feeling Appeals</h1>
                   <LuDot />
                 </div>
                 <div className="flex items-center py-2">
                   <FcCheckmark className="mr-2" />
-                  <h1>Daily Follow-Up on Unpaid Claims</h1>
+                  <h1 className="font-Lato">
+                    Daily Follow-Up on Unpaid Claims
+                  </h1>
                   <LuDot />
                 </div>
                 <div className="flex items-center py-2">
                   <FcCheckmark className="mr-2" />
-                  <h1>24/7 Billing Support</h1>
+                  <h1 className="font-Lato">24/7 Billing Support</h1>
                   <LuDot />
                 </div>
                 <div className="flex items-center py-2">
                   <FcCheckmark className="mr-2" />
-                  <h1>Monthly Reports</h1>
+                  <h1 className="font-Lato">Monthly Reports</h1>
                   <LuDot />
                 </div>
                 <div className="flex items-center py-2">
                   <FcCheckmark className="mr-2" />
-                  <h1>Dedicated Account Manager</h1>
+                  <h1 className="font-Lato">Dedicated Account Manager</h1>
                   <LuDot />
                 </div>
                 <div className="flex items-center py-2">
                   <FaDotCircle className="mr-2" style={{ fontSize: "12px" }} />
-                  <h1>Eligibility Verification</h1>
+                  <h1 className="font-Lato">Eligibility Verification</h1>
                   <LuDot />
                 </div>
                 <div className="flex items-center py-2">
                   <FaDotCircle className="mr-2" style={{ fontSize: "12px" }} />
-                  <h1>Deductible Verification</h1>
+                  <h1 className="font-Lato">Deductible Verification</h1>
                   <LuDot />
                 </div>
                 <div className="flex items-center py-2">
                   <FaDotCircle className="mr-2" style={{ fontSize: "12px" }} />
-                  <h1>Referral/Authorization</h1>
+                  <h1 className="font-Lato">Referral/Authorization</h1>
                   <LuDot />
                 </div>
                 <div className="flex items-center py-2">
                   <FaDotCircle className="mr-2" style={{ fontSize: "12px" }} />
-                  <h1>EDI Setups</h1>
+                  <h1 className="font-Lato">EDI Setups</h1>
                   <LuDot />
                 </div>
                 <div className="flex items-center py-2">
                   <FaDotCircle className="mr-2" style={{ fontSize: "12px" }} />
-                  <h1>ERA Setups</h1>
+                  <h1 className="font-Lato">ERA Setups</h1>
                   <LuDot />
                 </div>
                 <div className="flex items-center py-2">
                   <FaDotCircle className="mr-2" style={{ fontSize: "12px" }} />
-                  <h1>EFT Setups</h1>
+                  <h1 className="font-Lato">EFT Setups</h1>
                   <LuDot />
                 </div>
                 <div className="flex items-center py-2">
                   <FaDotCircle className="mr-2" style={{ fontSize: "12px" }} />
-                  <h1>Patient Statements</h1>
+                  <h1 className="font-Lato">Patient Statements</h1>
                   <LuDot />
                 </div>
                 <div className="flex items-center py-2">
                   <FaDotCircle className="mr-2" style={{ fontSize: "12px" }} />
-                  <h1>Patient Help Desk</h1>
+                  <h1 className="font-Lato">Patient Help Desk</h1>
                   <LuDot />
                 </div>
                 <div className="flex items-center py-2">
                   <FaDotCircle className="mr-2" style={{ fontSize: "12px" }} />
-                  <h1>Monthly Billing Audit</h1>
+                  <h1 className="font-Lato">Monthly Billing Audit</h1>
                   <LuDot />
                 </div>
                 <div className="flex items-center py-2">
                   <FaDotCircle className="mr-2" style={{ fontSize: "12px" }} />
-                  <h1>Monthly Coding Audit</h1>
+                  <h1 className="font-Lato">Monthly Coding Audit</h1>
                   <LuDot />
                 </div>
                 <div className="flex items-center py-2">
                   <BsDashLg className="mr-2" style={{ fontSize: "12px" }} />
-                  <h1>Propsal Acceptence</h1>
+                  <h1 className="font-Lato">Propsal Acceptence</h1>
                   <LuDot />
                 </div>
                 <div className="flex items-center py-2">
                   <BsDashLg className="mr-2" style={{ fontSize: "12px" }} />
-                  <h1>Credentialing & Enrollments</h1>
+                  <h1 className="font-Lato">Credentialing & Enrollments</h1>
                   <LuDot />
                 </div>
                 <div className="flex items-center py-2">
                   <BsDashLg className="mr-2" style={{ fontSize: "12px" }} />
-                  <h1>CAQH Attestation</h1>
+                  <h1 className="font-Lato">CAQH Attestation</h1>
                   <LuDot />
                 </div>
                 <div className="pt-5">
-                  <button className="btn bg-blue h-12 rounded-md text-white font-semibold px-8 hover:bg-sky-700">
+                  <button className="font-Oswald btn bg-blue h-12 rounded-md text-white font-semibold px-8 hover:bg-sky-700">
                     Request a Call Back
                   </button>
                 </div>

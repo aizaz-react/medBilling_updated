@@ -17,18 +17,18 @@ function MedicalCredentialing() {
 
       <div className="relative">
         <img src={PrimaryImage} alt="PrimaryImage" className="w-full h-44" />
-        <h1 className="text-white text-4xl font-bold absolute md:top-16 md:left-16 top-12 left-[70px]">
+        <h1 className="font-Oswald text-white text-4xl font-bold absolute md:top-16 md:left-16 top-12 left-[70px]">
           Credentialing & Enrollment
         </h1>
       </div>
       <div className="bg-darkgray md:flex gap-44 md:mx-20 mx-5 mt-16 md:mt-0">
         <div className="md:w-1/2 md:my-32">
           {/* Left section */}
-          <h1 className="flex flex-col w-max gap-2 md:text-2xl text-xl whitespace-nowrap">
+          <h1 className="font-Oswald flex flex-col w-max gap-2 md:text-2xl text-xl whitespace-nowrap">
             Reduce the Complexity of Credentialing
             <span className="w-full h-1 bg-blue" />
           </h1>
-          <p className="pt-4">
+          <p className="pt-4 font-Lato">
             Skrisentech Inc can manage any specialty, including laboratories and
             DMEs. Our experts submit error-free applications to insurance
             companies and provide proper follow-up until the case is closed. Our
@@ -37,7 +37,7 @@ function MedicalCredentialing() {
             submissions, rejections, eligibility, payment information, denials,
             and fund transfers.
           </p>
-          <button className="bg-blue mt-12 text-white px-5 py-2 rounded-md font-semibold float-left shadow-lg hover:bg-sky-700">
+          <button className="font-Oswald bg-blue mt-12 text-white px-5 py-2 rounded-md font-semibold float-left shadow-lg hover:bg-sky-700">
             Contact Us
           </button>
         </div>
@@ -52,7 +52,9 @@ function MedicalCredentialing() {
         </div>
       </div>
       <div className="mt-20">
-        <h1 className="text-3xl text-center">Our Credentialing Services</h1>
+        <h1 className="text-3xl text-center font-Oswald">
+          Our Credentialing Services
+        </h1>
         <div className="h-1 w-[21rem] bg-blue mt-1 mx-auto"></div>
       </div>
 

@@ -19,7 +19,7 @@ const InfoNav = () => {
                   <span className="text-white ml-3">{item.icon}</span>
                 )}
                 <p
-                  className={`text-white ${
+                  className={`text-white font-Lato ${
                     i === array.length - 1
                       ? ""
                       : "border-r-[#DDDDDD2E] border-r-[0.05rem]"

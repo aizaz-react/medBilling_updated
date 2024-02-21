@@ -17,22 +17,22 @@ function MedicalCoding() {
       <div className="relative">
         <img src={PrimaryImage} alt="PrimaryImage" className="w-full h-44" />
 
-        <h1 className="text-white text-4xl font-bold absolute top-16 md:left-16 left-[75px]">
+        <h1 className="font-Oswald text-white text-4xl font-bold absolute top-16 md:left-16 left-[75px]">
           Medical Coding
         </h1>
       </div>
       <div className="bg-darkgray md:flex gap-44 md:mx-20 pt-16 md:pt-0 mx-5">
         <div className="md:w-1/2 md:my-16">
           {/* Left section */}
-          <h1 className="flex flex-col w-max gap-2 md:text-2xl text-[22px]">
+          <h1 className="font-Oswald flex flex-col w-max gap-2 md:text-2xl text-[22px]">
             Medical Coding Services
             <span className="w-full h-1 bg-blue" />
           </h1>
-          <p className="pt-4">
+          <p className="pt-4 font-Lato">
             Skrisentech Inc Medical Coding Services: Precision in Healthcare
             Documentation
           </p>
-          <p className="pt-4">
+          <p className="pt-4 font-Lato">
             Welcome to Skrisentech Inc Medical Coding Services, your trusted
             partner for precision and accuracy in healthcare documentation. Our
             expert team ensures that every code is meticulously and accurately
@@ -41,7 +41,7 @@ function MedicalCoding() {
             coding standards and streamline your healthcare operations with
             Skrisentech Inc.
           </p>
-          <button className="bg-blue mt-12 text-white px-5 py-2 rounded-md font-semibold float-left shadow-lg hover:bg-sky-700">
+          <button className="font-Oswald bg-blue mt-12 text-white px-5 py-2 rounded-md font-semibold float-left shadow-lg hover:bg-sky-700">
             Contact Us
           </button>
         </div>
@@ -58,10 +58,10 @@ function MedicalCoding() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mx-5 md:mx-20">
           <div className="flex flex-col p-6 h-full border border-borderstyledark">
             {/* {icon && <div className="w-8 h-8 mx-auto">{icon}</div>} */}
-            <h1 className="text-center text-elementcolor font-semibold text-2xl">
+            <h1 className="font-Oswald text-center text-elementcolor font-semibold text-2xl">
               Certified Medical Coders
             </h1>
-            <p className="text-center pt-4 text-gray-500">
+            <p className="font-Lato text-center pt-4 text-gray-500">
               With the assistance of our certified medical coding specialists,
               your project will experience a significant reduction in claim
               denial rates. Our coders utilize the best-in-class coding tools
@@ -70,10 +70,10 @@ function MedicalCoding() {
           </div>
           <div className="flex flex-col p-6 h-full border border-borderstyledark">
             {/* {icon && <div className="w-8 h-8 mx-auto">{icon}</div>} */}
-            <h1 className="text-center font-semibold text-elementcolor text-2xl">
+            <h1 className="font-Oswald text-center font-semibold text-elementcolor text-2xl">
               Coding Audits
             </h1>
-            <p className="text-center pt-4 text-gray-500">
+            <p className="font-Lato text-center pt-4 text-gray-500">
               Daily, monthly, quarterly, and yearly audits distinguish us from
               others in the same field. We offer scheduled and on-demand coding
               audits to our clients at no additional cost.
@@ -81,10 +81,10 @@ function MedicalCoding() {
           </div>
           <div className="flex flex-col p-6 h-full border border-borderstyledark">
             {/* {icon && <div className="w-8 h-8 mx-auto">{icon}</div>} */}
-            <h1 className="text-center font-semibold text-elementcolor text-2xl">
+            <h1 className="font-Oswald text-center font-semibold text-elementcolor text-2xl">
               Coding Effective
             </h1>
-            <p className="text-center pt-4 text-gray-500">
+            <p className="font-Lato text-center pt-4 text-gray-500">
               Engaging medical coding services is a cost-efficient choice.
             </p>
           </div>
@@ -98,11 +98,11 @@ function MedicalCoding() {
           ></img>
 
           <div>
-            <h1 className="md:text-2xl text-xl flex flex-col w-max">
-              Maximizing Your Reimbursement <br /> Potential
+            <h1 className="font-Oswald md:text-2xl text-xl flex flex-col w-max">
+              Maximizing Your Reimbursement Potential
               <span className="w-full h-1 bg-blue" />
             </h1>
-            <p className="pt-4">
+            <p className="pt-4 font-Lato">
               At Skrisentech Inc Medical Coding Services, we understand that
               coding accuracy directly impacts your revenue, and we are
               committed to ensuring you receive the highest possible
@@ -110,24 +110,24 @@ function MedicalCoding() {
               Our coding team comprises highly efficient and seasoned
               professionals, each with a minimum of five years of experience.
             </p>
-            <p className="pt-3">
+            <p className="pt-3 font-Lato">
               When it comes to coding, we are diligent about preventing two
               common errors:
             </p>
-            <p className="pt-3">
+            <p className="pt-3 font-Lato">
               Up-coding (or over-coding), which often leads to claim denials.
             </p>
-            <p>
+            <p className="font-Lato">
               Down-coding, resulting in reimbursements that fall short of what
               you rightfully deserve.
             </p>
-            <p className="pt-1">
+            <p className="pt-1 font-Lato">
               Our certified coders (CPC) are knowledgeable in ICD-10-CM, LMRP,
               CPT Assistant, and HCPCS Level II. We meticulously cross-verify
               diagnoses with procedural codes, applying the appropriate
               modifiers as necessary.
             </p>
-            <p className="pt-3">
+            <p className="pt-3 font-Lato">
               To ensure the highest level of accuracy, our senior coding staff
               conducts audits to verify the codes assigned. Our dedicated
               quality assurance team goes the extra mile to ensure that your
