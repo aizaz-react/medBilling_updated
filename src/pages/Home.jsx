@@ -93,7 +93,7 @@ function Home() {
           Why Skrisentech Inc Medical Billing?
           <span className="h-1 bg-blue"></span>
         </h2>
-        <p className="font-Lato text-center text-gray-500 mt-5">
+        <p className="font-Lato text-gray-500 mt-5">
           At Skrisentech Inc, we are dedicated to ensuring that healthcare
           providers can focus on patient care and delivering outstanding
           services, without the burden of claims, payments, and patient
