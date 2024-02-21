@@ -417,7 +417,7 @@ function Home() {
               </select>
               <input
                 type="date"
-                className="border p-2 rounded focus:outline-none flex-1"
+                className="border p-2 rounded focus:outline-none flex-1 w-full"
                 placeholder="Pick a Date"
               />
             </div>
