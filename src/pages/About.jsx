@@ -70,7 +70,7 @@ function About() {
         </h1>
       </div>
       {/* About */}
-      <div className="md:pb-[5rem flex md:mx-20 my-14 md:mt-14">
+      <div className="md:pb-[5rem flex md:mx-20 mx-5 my-14 md:mt-14">
         <div className="md:flex justify-between gap-8">
           <div className="md:w-2/5 order-2 md:order-1">
             <img className="rounded-md" src={aboutimage} alt="Aboutimage" />
