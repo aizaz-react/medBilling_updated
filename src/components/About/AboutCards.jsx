@@ -6,27 +6,24 @@ const AboutCards = () => {
     <div className="md:mt-16">
       <div className="grid grid-cols-1 md:grid-cols-4 gap-6 md:mx-20 mx-5">
         {aboutCardData.map((card, index) => (
-          <div key={index} className={`flex-1 ${card.cardClass}`}>
-            <div
-              className={`flex flex-col min-h-[200px] h-full border ${card.borderColor}`}
-            >
-              {card.icon && (
-                <div className="w-full h-auto mb-4 text-center text-blue">
-                  {card.icon}
-                </div>
-              )}
-              <div className="p-6">
-                <h1
-                  className={`text-center font-bold text-2xl ${card.titleColor}`}
-                >
-                  {card.percentage}
-                </h1>
-                <h2
-                  className={`text-center font-bold text-blue pt-5 ${card.titleColor}`}
-                >
-                  {card.title}
-                </h2>
-              </div>
+          <div
+            className={`flex flex-col min-h-[200px] h-full border ${card.borderColor}`}
+          >
+            <div className="p-6 flex flex-col">
+              <img
+                src={card.icon}
+                className="float-left w-[50px] h-[50px] object-contain mx-auto"
+              />
+              <h1
+                className={`text-center font-bold text-2xl ${card.titleColor}`}
+              >
+                {card.percentage}
+              </h1>
+              <h2
+                className={`text-center font-bold text-blue pt-5 ${card.titleColor}`}
+              >
+                {card.title}
+              </h2>
             </div>
           </div>
         ))}

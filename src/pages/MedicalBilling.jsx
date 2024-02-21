@@ -2,7 +2,6 @@ import "../App.css";
 import Container from "../components/Container";
 import React, { useState, useEffect } from "react";
 import "../Header.css";
-import logo from "../images/main-logo.webp";
 import PrimaryImage from "../images/primary-bg.jpg";
 import MainImage from "../images/Main.png";
 import FastFill from "../images/Fast-fill.webp";
@@ -10,6 +9,8 @@ import Footer from "../components/Footer";
 import Nav from "../components/Nav";
 import InfoNav from "../components/InfoNav";
 import BillingsCard from "../components/MedicalBilling/BillingCards";
+import RevenueIcon from "../svgicons/system-uicons_graph-increase.svg";
+import VolumeClaimIcon from "../svgicons/lock-square.svg";
 
 function MedicalBilling() {
   return (
@@ -89,14 +90,15 @@ function MedicalBilling() {
       </div>
 
       <div className="md:mt-16 mt-28 flex justify-center items-center">
-        <h1 className="md:text-3xl text-xl text-center font-bold flex md:flex-row flex-col">
-          Boosting Revenue for Better{" "}
+        <h1 className="md:text-3xl text-xl text-center font-bold flex md:flex-row flex-col md:gap-2">
+          Boosting Revenue for Better
           <span className="text-blue">Patient Care</span>
         </h1>
       </div>
       <div className="md:mx-20 mx-8 py-10 md:my-10 grid grid-cols-1 md:grid-cols-3 gap-8 place-items-center">
         <div className="flex flex-col rounded-lg h-full bg-white custom-shadow">
           <div className="p-8">
+            <img src={RevenueIcon} />
             <h1 className="text-left mb-2 md:text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
               Increased Revenue
             </h1>
@@ -107,6 +109,7 @@ function MedicalBilling() {
         </div>
         <div className="flex flex-col rounded-lg h-full bg-white custom-shadow">
           <div className="p-8">
+            <img src={RevenueIcon} />
             <h1 className="text-left mb-2 md:text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
               High Volume Claims Submissions
             </h1>
@@ -118,6 +121,7 @@ function MedicalBilling() {
         </div>
         <div className="flex flex-col rounded-lg h-full bg-white custom-shadow">
           <div className="p-8">
+            <img src={VolumeClaimIcon} />
             <h1 className="text-left mb-2 md:text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
               Compliance with Privacy Requirements
             </h1>

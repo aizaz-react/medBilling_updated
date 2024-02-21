@@ -1,11 +1,5 @@
 import "../App.css";
-import Container from "../components/Container";
 import Footer from "../components/Footer";
-import {
-  IoCallOutline,
-  IoMailOutline,
-  IoLocationOutline,
-} from "react-icons/io5";
 import "../Header.css";
 import bannerTwo from "../images/banner-2.png";
 import aboutimage from "../images/ABout.png";
@@ -13,7 +7,6 @@ import serviceAimnImage from "../images/amin3.png";
 import testimonialImage from "../images/testimonial.png";
 import buisnextImage from "../images/businext-img33.png";
 import Faqf from "../images/faqs-f.png";
-import Painmanagement from "../icons/pain-management.png";
 import allstarspartner1 from "../images/allstarmbpartners-1.webp";
 import allstarspartner2 from "../images/allstarmbpartners-2.webp";
 import allstarspartner3 from "../images/allstarmbpartners-3.webp";
@@ -30,7 +23,6 @@ import CardSection from "../components/Home/CardSection";
 import ServiceCardSection from "../components/Home/ServiceCardSection";
 import ServiceFeatures from "../components/Home/ServiceFeatures";
 import MedicalServicesCards from "../components/Home/MedicalServicesCards";
-import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -73,9 +65,9 @@ function Home() {
             </div>
             <div className="mx-5 md:mx-0 pt-10 md:w-2/3 md:pt-0 ">
               {/* About Content */}
-              <h1 className="font-Roboto font-bold md:text-3xl text-[28px] flex flex-col md:flex-row">
+              <h1 className="font-Roboto font-bold md:text-3xl text-[28px] flex flex-col md:flex-row gap-2">
                 Welcome To Skrisentech
-                <span className="text-blue"> Inc Medical Billing</span>
+                <span className="text-blue">Inc Medical Billing</span>
               </h1>
               <p className=" mt-4 md:mt-6 line-clamp-7 text-gray-500">
                 Billing plays a crucial role in the operations of any medical
@@ -381,29 +373,29 @@ function Home() {
       {/* Request call section */}
       <div className="bg-darkgray lg:py-16 lg:px-32 md:px-16 md:py-16 py-5">
         <div className="bg-blue md:w-full">
-          <div className="px-5 md:px-8 lg:px-12 pt-10 md:items-center py-8 flex flex-col gap-4">
+          <div className="px-5 md:px-8 lg:px-12 pt-10 md:items-center py-8 flex flex-col gap-6">
             <h1 className="text-white font-bold text-2xl pb-3">
               Request For A Call Back
             </h1>
-            <div className="flex flex-col gap-4 lg:w-full sm:flex sm:flex-row w-full">
+            <div className="flex flex-col gap-4 sm:flex sm:flex-row w-full">
               <input
                 type="text"
-                className=" flex-1 border md:p-2 sm:rounded border-none focus:outline-none"
+                className=" flex-1 border p-2 rounded border-none focus:outline-none"
                 placeholder="Name"
               />
               <input
                 type="email"
-                className=" flex-1 border md:p-2 sm:rounded  focus:outline-none"
+                className=" flex-1 border p-2 rounded  focus:outline-none"
                 placeholder="Email"
               />
             </div>
             <div className="flex flex-col gap-4 lg:w-full sm:flex sm:flex-row w-full">
               <input
                 type="text"
-                className="border md:p-2 sm:rounded focus:outline-none flex-1"
+                className="border p-2 rounded focus:outline-none flex-1"
                 placeholder="Phone"
               />
-              <select className="border md:p-2 sm:rounded focus:outline-none flex-1">
+              <select className="border p-2 rounded focus:outline-none flex-1">
                 <option value="" disabled selected>
                   -Service-
                 </option>
@@ -415,7 +407,7 @@ function Home() {
             </div>
 
             <div className="flex flex-col gap-4 lg:w-full sm:flex sm:flex-row w-full">
-              <select className="border md:p-2 sm:rounded focus:outline-none flex-1">
+              <select className="border p-2 rounded focus:outline-none flex-1">
                 <option value="" disabled selected>
                   -State-
                 </option>
@@ -425,7 +417,7 @@ function Home() {
               </select>
               <input
                 type="date"
-                className="border md:p-2 sm:rounded focus:outline-none flex-1"
+                className="border p-2 rounded focus:outline-none flex-1"
                 placeholder="Pick a Date"
               />
             </div>
@@ -433,7 +425,7 @@ function Home() {
             {/* Textarea */}
             <div className="flex flex-col w-full">
               <textarea
-                className="border md:p-2 sm:rounded focus:outline-none h-28 md:h-32"
+                className="border md:p-2 rounded focus:outline-none h-28 md:h-32"
                 placeholder="Comments"
               ></textarea>
             </div>
