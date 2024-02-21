@@ -70,22 +70,17 @@ function About() {
         </h1>
       </div>
       {/* About */}
-      <div className="md:pb-[5rem] pb-8 flex mx-5 md:mx-20 mt-14 md:mt-14">
+      <div className="md:pb-[5rem flex md:mx-20 my-14 md:mt-14">
         <div className="md:flex justify-between gap-8">
           <div className="md:w-2/5 order-2 md:order-1">
-            <img
-              className="rounded-md"
-              src={aboutimage}
-              alt="Aboutimage"
-              style={{ maxWidth: "100%", height: "auto" }}
-            />
+            <img className="rounded-md" src={aboutimage} alt="Aboutimage" />
           </div>
           <div className="md:w-2/3 mt-8 md:order-2">
-            <h1 className="flex flex-col w-max gap-2 text-2xl font-bold text-left ml-3">
+            <h1 className="flex flex-col w-max gap-2 md:text-2xl text-xl font-bold text-left py-2">
               About Skrisentech Inc Medical Billing
               <span className="w-full h-1 bg-blue" />
             </h1>
-            <p className="mt-6 ml-3 line-clamp-7">
+            <p className="line-clamp-7">
               Effective billing management is a critical component of any
               successful medical practice. By entrusting this responsibility to
               the experts at Skrisentech Inc Medical Billing Solutions, you can
