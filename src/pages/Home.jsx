@@ -1,10 +1,9 @@
 import "../App.css";
 import Footer from "../components/Footer";
 import "../Header.css";
-import bannerTwo from "../images/banner-2.png";
+import bannerTwo from "../images/young-handsome-physician-medical-robe-with-stethoscope.jpg";
 import aboutimage from "../images/ABout.png";
 import serviceAimnImage from "../images/amin3.png";
-import testimonialImage from "../images/testimonial.png";
 import buisnextImage from "../images/businext-img33.png";
 import Faqf from "../images/faqs-f.png";
 import allstarspartner1 from "../images/allstarmbpartners-1.webp";
