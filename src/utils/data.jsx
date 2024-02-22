@@ -50,7 +50,7 @@ import ComplaintIcon from "../svgicons/icons8_organization.svg";
 import DataProIcon from "../svgicons/streamline_user-protection-2.svg";
 import AssuIcon from "../svgicons/carbon_rule-data-quality.svg";
 import VerificationIcon from "../svgicons/material-symbols-light_domain-verification-outline.svg";
-import AuthorIcon from "../svgicons/fluent-mdl2_c-r-m-services.svg";
+import ApprovalIcon from "../svgicons/fluent-mdl2_c-r-m-services.svg";
 import PatientIcon from "../svgicons/checkup-list.svg";
 import CleanClaimIcon from "../svgicons/Group.svg";
 import MonthlyDenialIcon from "../svgicons/simple-line-icons_calender.svg";
@@ -196,10 +196,10 @@ export const serviceCardList = [
       "Our Insurance Coverage Verification Services offer healthcare providers a convenient method to confirm patient insurance coverage and eligibility, eliminating hassle.",
   },
   {
-    icon: AuthorIcon,
+    icon: ApprovalIcon,
     title: "Pre-Approval Services",
     description:
-      "Our Pre-Approval Services streamline the insurance approval process for medical procedures and treatments. We ensure healthcare providers efficiently obtain necessary authorizations, simplifying the complex process.",
+      "Pre-Approval Services streamline the insurance approval process for medical procedures and treatments. We ensure healthcare providers efficiently obtain necessary authorizations, simplifying the complex process.",
   },
   {
     icon: PatientIcon,
