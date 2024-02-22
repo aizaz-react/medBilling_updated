@@ -7,7 +7,7 @@ const ServiceCardSection = () => {
       {specialitescard.map((item, index) => (
         <div
           key={index}
-          className="flex flex-row items-center justify-center pb-4"
+          className="flex flex-row items-center justify-start pb-4"
         >
           <img
             src={item.image}
