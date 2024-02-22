@@ -8,6 +8,9 @@ import DynamicImage from "../images/positive_dynamic.svg";
 import Footer from "../components/Footer";
 import Nav from "../components/Nav";
 import InfoNav from "../components/InfoNav";
+import CertifiedIcon from "../svgicons/certified.svg";
+import CodingAuditsIcon from "../svgicons/coding-audits.svg";
+import CostEffectiveIcon from "../svgicons/cost-effective.svg";
 
 function MedicalCoding() {
   return (
@@ -57,7 +60,7 @@ function MedicalCoding() {
       <div className="md:mt-16 mt-10">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mx-5 md:mx-20">
           <div className="flex flex-col p-6 h-full border border-borderstyledark">
-            {/* {icon && <div className="w-8 h-8 mx-auto">{icon}</div>} */}
+            <img className="w-16 h-16 mx-auto" src={CertifiedIcon}></img>
             <h1 className="font-Oswald text-center text-elementcolor font-semibold text-2xl">
               Certified Medical Coders
             </h1>
@@ -69,7 +72,7 @@ function MedicalCoding() {
             </p>
           </div>
           <div className="flex flex-col p-6 h-full border border-borderstyledark">
-            {/* {icon && <div className="w-8 h-8 mx-auto">{icon}</div>} */}
+            <img className="w-16 h-16 mx-auto" src={CodingAuditsIcon}></img>
             <h1 className="font-Oswald text-center font-semibold text-elementcolor text-2xl">
               Coding Audits
             </h1>
@@ -80,7 +83,7 @@ function MedicalCoding() {
             </p>
           </div>
           <div className="flex flex-col p-6 h-full border border-borderstyledark">
-            {/* {icon && <div className="w-8 h-8 mx-auto">{icon}</div>} */}
+            <img className="w-16 h-16 mx-auto" src={CostEffectiveIcon}></img>
             <h1 className="font-Oswald text-center font-semibold text-elementcolor text-2xl">
               Coding Effective
             </h1>

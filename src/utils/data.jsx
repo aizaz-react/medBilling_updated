@@ -60,6 +60,19 @@ import BankDepositeIcon from "../svgicons/vaadin_money-deposit.svg";
 import PracitseGrowIcon from "../svgicons/fluent_arrow-growth-20-filled.svg";
 import ExpertiesIcon from "../svgicons/fluent-mdl2_c-r-m-services.svg";
 import EelctroPayIcon from "../svgicons/mdi_recurring-payment.svg";
+import SourceIcon from "../svgicons/source-verification.svg";
+import ManagementIcon from "../svgicons/management.svg";
+import NpiIcon from "../svgicons/registration.svg";
+import ReattestationIcon from "../svgicons/reattestaion.svg";
+import EnrollmentIcon from "../svgicons/enrollment.svg";
+import RevalidationIcon from "../svgicons/revalidatioon.svg";
+import WeeklyFollowIcon from "../svgicons/weekly-follow.svg";
+import CredentialingAuditIcon from "../svgicons/crdentialing-audit.svg";
+import IpaIcon from "../svgicons/ipa-enrollment.svg";
+import TelehealthIcon from "../svgicons/telehealth.svg";
+import EdiIcon from "../svgicons/edi.svg";
+import EraIcon from "../svgicons/era.svg";
+import EftIcon from "../svgicons/eft.svg";
 
 export const navLinks = [
   {
@@ -417,79 +430,79 @@ export const billingCard = [
 
 export const credentialingCard = [
   {
-    icon: "",
+    icon: SourceIcon,
     title: "Primary Source Verification",
     description:
       "We conduct thorough Primary Source Verification for credentialing, which includes checks for board certification, licenses, and hospital privileges. This process ensures accuracy and reliability by verifying information directly from the source.",
   },
   {
-    icon: "",
+    icon: ManagementIcon,
     title: "Management of Documents",
     description:
       "Manage and securely store healthcare provider documents, including certifications and licenses, with efficiency and regulatory compliance using Skrisentech Inc.'s secure credentialing management system.",
   },
   {
-    icon: "",
+    icon: NpiIcon,
     title: "NPI Registration",
     description:
       "Skrisentech Inc simplifies NPI Registration for both Type 1 (individuals) and Type 2 (organizations), ensuring efficient and accurate identification in healthcare billing..",
   },
   {
-    icon: "",
+    icon: ReattestationIcon,
     title: "CAQH Profile Management/Reattestation",
     description:
       "Skrisentech Inc excels in CAQH Profile Management and Reattestation, ensuring hassle-free maintenance of accurate healthcare provider information.",
   },
   {
-    icon: "",
+    icon: EnrollmentIcon,
     title: "Credentialing & Network Enrollment Analysis",
     description:
       "Skrisentech Inc offers expert Credentialing and Network Enrollment Analysis, ensuring accuracy and compliance for streamlined provider enrollment.",
   },
   {
-    icon: "",
+    icon: RevalidationIcon,
     title: "Revalidation and Re-credentialing",
     description:
       "Skrisentech Inc manages the crucial processes of Revalidation and Re-credentialing, ensuring that healthcare providers maintain current and compliant credentials for continued participation in healthcare networks.",
   },
   {
-    icon: "",
+    icon: WeeklyFollowIcon,
     title: "Weekly Follow Up",
     description:
       "Skrisentech Inc specializes in CAQH Profile Management and Reattestation, ensuring effortless maintenance of accurate healthcare provider information.",
   },
   {
-    icon: "",
+    icon: CredentialingAuditIcon,
     title: "Credentialing Audit",
     description:
       "Skrisentech Inc provides on-demand Credentialing Audits, ensuring a comprehensive and timely examination of credentials to maintain compliance and accuracy for healthcare providers.",
   },
   {
-    icon: "",
+    icon: IpaIcon,
     title: "IPA Enrollment",
     description:
       "Skrisentech Inc streamlines IPA (Independent Practice Association) Enrollment, offering efficient and effective services for healthcare providers to join and participate in independent practice associations.",
   },
   {
-    icon: "",
+    icon: TelehealthIcon,
     title: "Telehealth Credentialing",
     description:
       "Skrisentech Inc specializes in Telehealth Medicine Credentialing, ensuring healthcare providers are credentialed and compliant for telehealth services, facilitating seamless and secure virtual healthcare delivery.",
   },
   {
-    icon: "",
+    icon: EdiIcon,
     title: "EDI Setups",
     description:
       "Skrisentech Inc specializes in EDI (Electronic Data Interchange) Setups, ensuring efficient and accurate electronic communication for seamless data exchange between healthcare entities.",
   },
   {
-    icon: "",
+    icon: EraIcon,
     title: "ERA Setup",
     description:
       "Skrisentech Inc stands out in ERA (Electronic Remittance Advice) Setup, offering streamlined solutions for healthcare entities to enhance and optimize the electronic processing of payment information.",
   },
   {
-    icon: "",
+    icon: EftIcon,
     title: "EFT Enrollment",
     description:
       "Skrisentech Inc specializes in EFT (Electronic Funds Transfer) Enrollment, simplifying the process for healthcare providers to efficiently receive electronic payments, improving financial transactions in the healthcare industry.",
