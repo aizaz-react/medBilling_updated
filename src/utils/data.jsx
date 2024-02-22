@@ -191,21 +191,21 @@ export const serviceCardList = [
   },
   {
     icon: VerificationIcon,
-    title: "Verification of Benefits",
+    title: "Confirmation of Coverage",
     description:
-      "Our Insurance Benefits Verification Services provide healthcare providers with a hassle-free way to confirm patient insurance coverage and eligibility.",
+      "Our Insurance Coverage Verification Services offer healthcare providers a convenient method to confirm patient insurance coverage and eligibility, eliminating hassle.",
   },
   {
     icon: AuthorIcon,
-    title: "Prior Authorization Services",
+    title: "Pre-Approval Services",
     description:
-      "Our Prior Authorization Services simplify the process of obtaining insurance approvals for medical procedures and treatments. We ensure healthcare providers get the necessary authorizations efficiently, taking the complexity out of the process.",
+      "Our Pre-Approval Services streamline the insurance approval process for medical procedures and treatments. We ensure healthcare providers efficiently obtain necessary authorizations, simplifying the complex process.",
   },
   {
     icon: PatientIcon,
     title: "Patient Billiing",
     description:
-      "Our Patient Billing Services are designed to make healthcare billing transparent, efficient, and stress-free for both patients and healthcare providers.",
+      "Our Patient Billing Services aim to streamline healthcare billing, ensuring transparency, efficiency, and ease for both patients and healthcare providers.",
   },
 ];
 
