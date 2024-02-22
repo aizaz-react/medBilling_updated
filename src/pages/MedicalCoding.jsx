@@ -21,7 +21,7 @@ function MedicalCoding() {
           Medical Coding
         </h1>
       </div>
-      <div className="bg-darkgray md:flex gap-44 md:mx-20 pt-16 md:pt-0 mx-5">
+      <div className="bg-darkgray md:flex gap-44 md:px-20 pt-16 md:pt-0 px-5">
         <div className="md:w-1/2 md:my-16">
           {/* Left section */}
           <h1 className="font-Oswald flex flex-col w-max gap-2 md:text-2xl text-[22px]">

@@ -3,7 +3,7 @@ import Container from "../components/Container";
 import React, { useState, useEffect } from "react";
 import "../Header.css";
 import PrimaryImage from "../images/primary-bg.jpg";
-import serviceAimnImage from "../images/amin3.png";
+import Credentialingimg from "../images/Credentialing-screen.jpg";
 import Footer from "../components/Footer";
 import Nav from "../components/Nav";
 import InfoNav from "../components/InfoNav";
@@ -21,7 +21,7 @@ function MedicalCredentialing() {
           Credentialing & Enrollment
         </h1>
       </div>
-      <div className="bg-darkgray md:flex gap-44 md:mx-20 mx-5 mt-16 md:mt-0">
+      <div className="bg-darkgray md:flex gap-32 md:px-20 px-5 mt-16 md:mt-0">
         <div className="md:w-1/2 md:my-32">
           {/* Left section */}
           <h1 className="font-Oswald flex flex-col w-max gap-2 md:text-2xl text-xl whitespace-nowrap">
@@ -44,8 +44,8 @@ function MedicalCredentialing() {
         <div>
           {/* Right section */}
           <img
-            className="md:pt-28 pt-10"
-            src={serviceAimnImage}
+            className="md:pt-28 pt-10 rounded-md"
+            src={Credentialingimg}
             alt="MainImage"
             style={{ backgroundPosition: "bottom" }}
           ></img>

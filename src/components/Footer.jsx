@@ -80,9 +80,6 @@ const Footer = () => {
                 src={logo}
                 alt="mainLogo"
               />
-              <h1 className="font-Oswald text-white font-bold pt-2">
-                Skrisentech Inc
-              </h1>
             </Link>
           </div>
           <div className="text-white lg:mt-0 mt-6">

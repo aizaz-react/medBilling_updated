@@ -1,21 +1,15 @@
 import "../App.css";
-import Container from "../components/Container";
 import React, { useState, useEffect } from "react";
 import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
-import { LuPhoneCall } from "react-icons/lu";
-import { LiaFaxSolid } from "react-icons/lia";
 import { FaYoutube } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { BiSolidBuildingHouse } from "react-icons/bi";
 import "../Header.css";
-import logo from "../images/main-logo.webp";
-import banner from "../images/Banner-img.png";
-import aboutimage from "../images/ABout.png";
+import aboutimage from "../images/two-doctors-cooperating-while-reading-patient-s-medical-documents-hospital.jpg";
 import PrimaryImage from "../images/primary-bg.jpg";
 import MissionImage from "../images/goals.png";
 import VisionImamge from "../images/vision.png";
-import serviceAimnImage from "../images/amin3.png";
 import Footer from "../components/Footer";
 import InfoNav from "../components/InfoNav";
 import Nav from "../components/Nav";
@@ -75,7 +69,7 @@ function About() {
           <div className="md:w-2/5 order-2 md:order-1">
             <img className="rounded-md" src={aboutimage} alt="Aboutimage" />
           </div>
-          <div className="md:w-2/3 mt-8 md:order-2">
+          <div className="md:w-2/3 my-4 md:order-2">
             <h1 className="font-Oswald flex flex-col w-max gap-2 md:text-2xl text-xl font-bold text-left py-2">
               About Skrisentech Inc Medical Billing
               <span className="w-full h-1 bg-blue" />
@@ -106,7 +100,7 @@ function About() {
       <AboutCards />
 
       {/* Mission section */}
-      <div className="bg-darkgray md:mt-14 mt-10 md:flex justify-between mx-5 md:mx-20 items-center md:py-10 pt-14">
+      <div className="bg-darkgray md:mt-14 mt-10 md:flex justify-between px-5 md:px-20 items-center md:py-10 pt-14">
         <div>
           <h1 className="font-Oswald font-bold text-2xl">
             Our <span className="text-blue">Mission</span>
@@ -128,10 +122,10 @@ function About() {
         </div>
         <div className="pt-5">
           <img
-            className="h-auto max-w[100%]:"
+            className="h-auto max-w[100%] rounded-md"
             src={MissionImage}
             alt="MissionImage"
-            style={{ width: "1300px" }}
+            style={{ width: "1200px" }}
           ></img>
         </div>
       </div>

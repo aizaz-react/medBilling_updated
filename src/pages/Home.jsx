@@ -147,7 +147,6 @@ function Home() {
           These Medical Specialties
           <span className="w-full h-1 bg-blue" />
         </h1>
-
         <MedicalServicesCards />
       </div>
 

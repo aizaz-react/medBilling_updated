@@ -52,54 +52,47 @@ const serviceSpecialties = [
     title: "Physical Therapy",
     image: PhysicalTherapy,
   },
-  {
-    title: "Plastic Surgery",
-    image: PlasticSurgery,
-  },
-  {
-    title: "Emergency Medicine",
-    image: EmergencyMedicine,
-  },
-  {
-    title: "Padiatry",
-    image: Padiatry,
-  },
-  {
-    title: "Deramatology",
-    image: Deramatology,
-  },
-  {
-    title: "Ophthalmology",
-    image: Ophthalmology,
-  },
-  {
-    title: "Neurosurgery",
-    image: Neurosurgery,
-  },
-  {
-    title: "Orthopedics",
-    image: Orthopedics,
-  },
-  {
-    title: "Pathology",
-    image: Pathology,
-  },
-  {
-    title: "Pediatrics",
-    image: Pediatrics,
-  },
+  // {
+  //   title: "Plastic Surgery",
+  //   image: PlasticSurgery,
+  // },
+  // {
+  //   title: "Emergency Medicine",
+  //   image: EmergencyMedicine,
+  // },
+  // {
+  //   title: "Deramatology",
+  //   image: Deramatology,
+  // },
+  // {
+  //   title: "Ophthalmology",
+  //   image: Ophthalmology,
+  // },
+  // {
+  //   title: "Neurosurgery",
+  //   image: Neurosurgery,
+  // },
+  // {
+  //   title: "Orthopedics",
+  //   image: Orthopedics,
+  // },
+  // {
+  //   title: "Pathology",
+  //   image: Pathology,
+  // },
+  // {
+  //   title: "Pediatrics",
+  //   image: Pediatrics,
+  // },
 ];
 
 const MedicalServicesCards = () => (
-  <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-4 mt-10 mx-5 md:mx-40">
+  <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-10 mx-5 md:mx-40">
     {serviceSpecialties.map((specialty, index) => (
-      <div
-        key={index}
-        className="col-span-1 md:col-span-1 p-6 text-center bg-white  rounded-lg shadow-md"
-      >
-        <div className="flex flex-col items-center justify-center">
+      <div key={index} className="col-span-1 md:col-span-1 p-6 text-center">
+        <div className="flex flex-row items-center justify-center">
           <img
-            className="w-[150px] h-[120px]"
+            className="w-[70px] h-[70px]"
             src={specialty.image}
             alt={specialty.title}
           />

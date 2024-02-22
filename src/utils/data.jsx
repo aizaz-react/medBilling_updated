@@ -206,7 +206,6 @@ export const specialitescard = [
   { image: Gestroenterology, title: "Gestroenterology" },
   { image: Ionm, title: "Ionm" },
   { image: Neurosurgery, title: "Neurosurgery" },
-  { image: Anesthesiology, title: "Anesthesiology" },
   { image: Orthopedics, title: "Orthopedics" },
   { image: Pathology, title: "Pathology" },
   { image: Pediatrics, title: "Pediatrics" },

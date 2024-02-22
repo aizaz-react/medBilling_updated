@@ -6,7 +6,6 @@ import { IoMailOutline, IoLocationOutline } from "react-icons/io5";
 import { LuPhoneCall } from "react-icons/lu";
 import "../Header.css";
 import PrimaryImage from "../images/primary-bg.jpg";
-import DesignImage from "../images/design.webp";
 import Footer from "../components/Footer";
 import Nav from "../components/Nav";
 import InfoNav from "../components/InfoNav";
@@ -109,8 +108,10 @@ function Contact() {
         <div className="mt-10 md:mt-5 md:flex gap-14 mx-8 md:mx-20 md:py-16">
           <div className="flex-1 pt-10 md:pt-0">
             {/* Left */}
-            <h1 className="text-2xl font-Oswald">Our Locations</h1>
-            <div className="h-1 w-[9rem] bg-blue"></div>
+            <h1 className="text-2xl font-Oswald flex flex-col w-max">
+              Our Locations
+              <span className="h-1 bg-blue"></span>
+            </h1>
             <div className="felx-1 md:py-8 md:mt-0 mt-7">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6295.864071381195!2d-122.06452505191072!3d37.908651254732625!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808561bd3ff82649%3A0x823c07820af525e0!2sAllStars%20Medical%20Billing!5e0!3m2!1sen!2s!4v1707299200723!5m2!1sen!2s"
@@ -126,8 +127,10 @@ function Contact() {
 
           <div className="flex-1 w-full md:mt-0 mt-10">
             {/* right  */}
-            <h1 className="text-2xl font-Oswald">Contact Us</h1>
-            <div className="h-1 w-[7rem] bg-blue"></div>
+            <h1 className="text-2xl font-Oswald flex flex-col w-max">
+              Contact Us
+              <span className="h-1 bg-blue"></span>
+            </h1>
             <div className="items-center py-8 md:flex flex-col gap-4">
               <div className="flex flex-col gap-4 w-full md:flex md:flex-row">
                 <input
