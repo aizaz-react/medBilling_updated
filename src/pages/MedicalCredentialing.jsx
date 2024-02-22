@@ -52,10 +52,10 @@ function MedicalCredentialing() {
         </div>
       </div>
       <div className="mt-20">
-        <h1 className="text-3xl text-center font-Oswald">
+        <h1 className="text-3xl text-center font-Oswald flex flex-col w-max">
           Our Credentialing Services
+          <span className="h-1 bg-blue mt-1 mx-auto"></span>
         </h1>
-        <div className="h-1 w-[21rem] bg-blue mt-1 mx-auto"></div>
       </div>
 
       {/* Cards Section */}
