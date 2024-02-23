@@ -120,19 +120,17 @@ const Footer = () => {
                 className="font-Lato lg:flex-1 border p-2 rounded border-none focus:outline-none"
                 placeholder="Your Email"
               />
-              <div className="flex flex-col w-full">
-                <textarea
-                  className="font-Lato border p-2 rounded focus:outline-none"
-                  placeholder="Message"
-                ></textarea>
-              </div>
+              <textarea
+                className="font-Lato border p-2 rounded focus:outline-none"
+                placeholder="Message"
+              ></textarea>
+              <button
+                type="submit"
+                className="bg-blue font-Oswald text-white w-full mt-4 p-3 rounded transition hover:bg-sky-700"
+              >
+                Send Message
+              </button>
             </div>
-            <button
-              type="submit"
-              className="bg-blue font-Oswald text-white w-full mt-4 p-3 rounded transition hover:bg-sky-700"
-            >
-              Send Message
-            </button>
           </div>
         </div>
       </div>
