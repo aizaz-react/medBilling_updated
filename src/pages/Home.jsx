@@ -1,7 +1,6 @@
 import "../App.css";
 import Footer from "../components/Footer";
 import "../Header.css";
-import bannerTwo from "../images/young-handsome-physician-medical-robe-with-stethoscope.jpg";
 import aboutimage from "../images/ABout.png";
 import serviceAimnImage from "../images/amin3.png";
 import buisnextImage from "../images/businext-img33.png";
@@ -22,33 +21,30 @@ import CardSection from "../components/Home/CardSection";
 import ServiceCardSection from "../components/Home/ServiceCardSection";
 import ServiceFeatures from "../components/Home/ServiceFeatures";
 import MedicalServicesCards from "../components/Home/MedicalServicesCards";
+import ImageSlider from "../components/ImageSlider";
+import { slider } from "../utils/data";
 
 function Home() {
   return (
     <div>
       <InfoNav />
       <Nav />
-      <div
-        style={{ "--image-url": `url(${bannerTwo})` }}
-        className={`bg-[image:var(--image-url)] py-36 bg-cover bg-no-repeat`}
-      >
-        <div className="text-left md:ml-24 top-10 mx-7 md:mx-0 left-0">
-          <h1 className="font-Oswald md:text-4xl font-bold text-white md:my-6">
-            Skrisentech Inc Medical Billing
-          </h1>
-          <p className="font-Lato md:text-lg mb-4 mt-2 text-white">
-            We specialize in medical billing and coding, excelling in
-            Professional,
-            <br /> Institutional, Emergency Room, and Out-of-Network coding
-            services.
-          </p>
-          <button className="font-Oswald bg-blue mt-4 md:mt-8 text-white px-4 py-2 rounded-md font-bold hover:bg-sky-700">
-            Read More
-          </button>
-        </div>
+      <ImageSlider slides={slider} className="relative" />;
+      <div className="absolute text-left md:ml-24 top-28 mx-7 md:my-72 left-0">
+        <h1 className="font-Oswald md:text-4xl font-bold text-white md:my-6">
+          Skrisentech Inc Medical Billing
+        </h1>
+        <p className="font-Lato md:text-lg mb-4 mt-2 text-white">
+          We specialize in medical billing and coding, excelling in
+          Professional,
+          <br /> Institutional, Emergency Room, and Out-of-Network coding
+          services.
+        </p>
+        <button className="font-Oswald bg-blue mt-4 md:mt-8 text-white px-4 py-2 rounded-md font-bold hover:bg-sky-700">
+          Read More
+        </button>
       </div>
       <CardSection />
-
       {/* About Section */}
       <div className="bg-darkgray">
         <div className="py-10 md:pb-[5rem] flex md:mx-20 mx-5">
@@ -86,7 +82,6 @@ function Home() {
           </div>
         </div>
       </div>
-
       <div className="mt-5 md:mx-28 mx-8">
         <h2 className="font-Oswald flex flex-col w-max mx-auto gap-2 text-center md:text-3xl text-xl font-semibold">
           Why Skrisentech Inc Medical Billing?
@@ -101,9 +96,7 @@ function Home() {
           billing errors and other issues.
         </p>
       </div>
-
       <ServiceFeatures />
-
       <div
         className="mt-20 text-white pt-10 md:pt-24 pb-[10rem]"
         style={{
@@ -135,9 +128,7 @@ function Home() {
         </p>
       </div>
       <ServiceCardSection />
-
       {/* Medical Specialties */}
-
       <div className="mt-20 py-10 bg-darkgray">
         <h2 className="font-Oswald text-blue text-xl font-semibold text-center pt-5">
           We Cover
@@ -148,7 +139,6 @@ function Home() {
         </h1>
         <MedicalServicesCards />
       </div>
-
       <div className="bg-darkgray">
         <h2 className="font-Oswald text-blue text-xl font-semibold text-center pt-10">
           Our Pride
@@ -247,9 +237,7 @@ function Home() {
           </div>
         </div>
       </div>
-
       {/* FAQS */}
-
       <div className="md:flex justify-between gap-10 h-full mx-10 mt-20 md:mt-8">
         <div className="md:pt-32 font-semibold">
           <p className="text-blue">FAQs</p>
@@ -377,7 +365,6 @@ function Home() {
           />
         </div>
       </div>
-
       {/* Request call section */}
       <div className="bg-darkgray lg:py-16 lg:px-32 md:px-16 md:py-16 py-5">
         <div className="bg-blue md:w-full">

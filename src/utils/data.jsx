@@ -73,7 +73,28 @@ import TelehealthIcon from "../svgicons/telehealth.svg";
 import EdiIcon from "../svgicons/edi.svg";
 import EraIcon from "../svgicons/era.svg";
 import EftIcon from "../svgicons/eft.svg";
-
+import SliderImage1 from "../images/young-handsome-physician-medical-robe-with-stethoscope.jpg";
+import SliderImage2 from "../images/medical-banner-with-doctor-holding-stethoscope.jpg";
+import SliderImage3 from "../images/international-worker-s-day-with-doctor-tools.jpg";
+import SliderImage4 from "../images/medicine-uniform-healthcare-medical-workers-day-space-text.jpg";
+import SliderImage5 from "../images/doctors-day-handsome-brunette-cute-guy-medical-gown-smiling-showing-good-gesture.jpg";
+export const slider = [
+  {
+    image: SliderImage1,
+  },
+  {
+    image: SliderImage2,
+  },
+  {
+    image: SliderImage3,
+  },
+  {
+    image: SliderImage4,
+  },
+  {
+    image: SliderImage5,
+  },
+];
 export const navLinks = [
   {
     title: "Home",
