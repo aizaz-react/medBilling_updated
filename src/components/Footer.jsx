@@ -15,7 +15,7 @@ const Footer = () => {
                 style={{
                   color: "white",
                   marginRight: "10px",
-                  fontSize: "40px",
+                  fontSize: "38px",
                 }}
               />
             </div>
@@ -23,7 +23,7 @@ const Footer = () => {
               <p className="font-Lato text-xl pt-2 text-white font-semibold">
                 Have Project on Mind?
               </p>
-              <p className="font-Lato text-white">(501) 424-0123</p>
+              <p className="font-Lato text-white">+ 15513408448</p>
             </div>
           </div>
           <div className="mb-4 md:mb-0 md:mr-4 flex items-center">
@@ -41,21 +41,6 @@ const Footer = () => {
                 Email
               </p>
               <p className="text-white font-Lato">Skrisentech Inc.com</p>
-            </div>
-          </div>
-          <div className="mb-4 md:mb-0 md:mr-4 flex items-center">
-            <div>
-              <LiaFaxSolid
-                style={{
-                  color: "white",
-                  marginRight: "10px",
-                  fontSize: "45px",
-                }}
-              />
-            </div>
-            <div>
-              <p className="text-xl pt-2 text-white font-semibold">Fax</p>
-              <p className="text-white font-Lato">(844) 726-9464</p>
             </div>
           </div>
           <div>

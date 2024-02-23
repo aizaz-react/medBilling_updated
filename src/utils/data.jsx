@@ -122,18 +122,13 @@ export const infoNavItems = {
   leftSide: [
     {
       text: "Skrisentech Inc.com",
-      icon: <MdEmail size={18} />,
+      icon: <MdEmail size={20} />,
       link: "Skrisentech Inc.com",
     },
     {
-      text: "(501)-424-0123",
+      text: "+15513408448",
       icon: <BsFillTelephoneFill size={18} />,
-      link: "tel:+15014240123",
-    },
-    {
-      text: "(844) 726-9464",
-      icon: <BiSolidBuildingHouse size={20} />,
-      link: "tel:(844) 726-9464",
+      link: "tel:+15513408448",
     },
   ],
   rightSide: [
