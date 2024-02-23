@@ -32,7 +32,7 @@ const ImageSlider = ({ slides }) => {
               <img
                 src={slide.image}
                 alt="medical image"
-                className="md:h-[100vh] h-[50vh] w-full md:object-cover"
+                className="md:h-[100vh] h-[50vh] w-full object-cover"
               />
             )}
           </div>
