@@ -23,77 +23,75 @@ function Contact() {
           Contact Us
         </h1>
       </div>
-      <div className="mt-20">
-        <div className="md:flex mx-5 md:mx-20 md:py-5">
-          <div
-            className="mx-3 flex-1 mb-10 flex flex-col rounded-lg min-h[200px] h-full"
-            style={{ boxShadow: "0px 0px 18px 0px rgba(0,0,0,.16)" }}
-          >
-            <div className="p-6">
-              <a href="tel:+15014240123">
-                <div className=" flex flex-col items-center text-center">
-                  <LuPhoneCall
-                    style={{
-                      color: "#008ac6",
-                      marginRight: "10px",
-                      fontSize: "35px",
-                    }}
-                  />
+      <div className="mt-20 md:flex mx-5 md:mx-20 md:py-5">
+        <div
+          className="mx-3 flex-1 mb-10 flex flex-col rounded-lg min-h[200px] h-full"
+          style={{ boxShadow: "0px 0px 18px 0px rgba(0,0,0,.16)" }}
+        >
+          <div className="p-6">
+            <a href="tel:+15014240123">
+              <div className=" flex flex-col items-center text-center">
+                <LuPhoneCall
+                  style={{
+                    color: "#008ac6",
+                    marginRight: "10px",
+                    fontSize: "35px",
+                  }}
+                />
 
-                  <p className="font-Lato font-semibold md:pt-0 pt-3">
-                    +15513408448
-                  </p>
-                  <p className="font-Lato">Call Today</p>
-                </div>
-              </a>
-            </div>
+                <p className="font-Lato font-semibold md:pt-0 pt-3">
+                  +15513408448
+                </p>
+                <p className="font-Lato">Call Today</p>
+              </div>
+            </a>
           </div>
-          <div
-            className="mx-3 flex-1 mb-10 flex flex-col rounded-lg min-h[200px] h-full"
-            style={{ boxShadow: "0px 0px 18px 0px rgba(0,0,0,.16)" }}
-          >
-            <div className="p-6">
-              <a href="Skrisentech Inc.com">
-                <div className=" flex flex-col items-center text-center">
-                  <IoMailOutline
-                    style={{
-                      color: "008ac6",
-                      marginRight: "10px",
-                      fontSize: "40px",
-                    }}
-                  />
-                  <a
-                    href="mailto:contact@skrisentechinc.com"
-                    className="font-Lato font-semibold md:pt-0 pt-3"
-                  >
-                    contact@skrisentechinc.com
-                  </a>
-                  <p className="font-Lato">Feel Free To Mail Us</p>
-                </div>
-              </a>
-            </div>
+        </div>
+        <div
+          className="mx-3 flex-1 mb-10 flex flex-col rounded-lg min-h[200px] h-full"
+          style={{ boxShadow: "0px 0px 18px 0px rgba(0,0,0,.16)" }}
+        >
+          <div className="p-6">
+            <a href="Skrisentech Inc.com">
+              <div className=" flex flex-col items-center text-center">
+                <IoMailOutline
+                  style={{
+                    color: "008ac6",
+                    marginRight: "10px",
+                    fontSize: "40px",
+                  }}
+                />
+                <a
+                  href="mailto:contact@skrisentechinc.com"
+                  className="font-Lato font-semibold md:pt-0 pt-3"
+                >
+                  contact@skrisentechinc.com
+                </a>
+                <p className="font-Lato">Feel Free To Mail Us</p>
+              </div>
+            </a>
           </div>
-          <div
-            className="mx-3 flex-1 mb-10 flex flex-col rounded-lg min-h[200px] h-full"
-            style={{ boxShadow: "0px 0px 18px 0px rgba(0,0,0,.16)" }}
-          >
-            <div className="p-6">
-              <a href="https://maps.app.goo.gl/w9cMqt6LUfA9Httd9">
-                <div className=" flex flex-col items-center text-center">
-                  <IoLocationOutline
-                    style={{
-                      color: "008ac6",
-                      marginRight: "10px",
-                      fontSize: "40px",
-                    }}
-                  />
-                  <p className="font-Lato font-semibold md:pt-0 pt-3">
-                    Lewisville, TX 75067 USA
-                  </p>
-                  <p className="font-Lato">Texas Office</p>
-                </div>
-              </a>
-            </div>
+        </div>
+        <div
+          className="mx-3 flex-1 mb-10 flex flex-col rounded-lg min-h[200px] h-full"
+          style={{ boxShadow: "0px 0px 18px 0px rgba(0,0,0,.16)" }}
+        >
+          <div className="p-6">
+            <a href="https://maps.app.goo.gl/w9cMqt6LUfA9Httd9">
+              <div className=" flex flex-col items-center text-center">
+                <IoLocationOutline
+                  style={{
+                    color: "008ac6",
+                    marginRight: "10px",
+                    fontSize: "40px",
+                  }}
+                />
+                <p className="font-Lato font-semibold md:pt-0 pt-3">
+                  Lewisville, TX 75067 USA
+                </p>
+                <p className="font-Lato">Texas Office</p>
+              </div>
+            </a>
           </div>
         </div>
       </div>

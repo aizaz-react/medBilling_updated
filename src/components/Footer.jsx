@@ -3,7 +3,7 @@ import { LiaFaxSolid } from "react-icons/lia";
 import { LuPhoneCall } from "react-icons/lu";
 import logo from "../images/Logo-1.png";
 import { Link } from "react-router-dom";
-
+import EmailJs from "../components/Email";
 const Footer = () => {
   return (
     <div>
@@ -53,7 +53,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-
       {/* Footer */}
       <div className="bg-black">
         <div className="py-10 px-4 lg:px-10 flex flex-col lg:flex-row justify-between">
@@ -110,26 +109,7 @@ const Footer = () => {
             </nav>
           </div>
           {/* right two */}
-          <div className="flex flex-col gap-4 mt-6 lg:mt-0 lg:w-1/4 w-full">
-            <h1 className="text-white font-bold text-2xl font-Oswald ">
-              Quick Contact
-            </h1>
-            <input
-              type="text"
-              className="font-Lato border p-2 rounded border-none focus:outline-none"
-              placeholder="Your Email"
-            />
-            <textarea
-              className="font-Lato border p-2 rounded focus:outline-none"
-              placeholder="Message"
-            ></textarea>
-            <button
-              type="submit"
-              className="bg-blue font-Oswald text-white w-full mt-4 p-3 rounded transition hover:bg-sky-700"
-            >
-              Send Message
-            </button>
-          </div>
+          <EmailJs />
         </div>
       </div>
 
