@@ -23,7 +23,7 @@ const Footer = () => {
               <p className="font-Lato text-xl pt-2 text-white font-semibold">
                 Have Project on Mind?
               </p>
-              <p className="font-Lato text-white">+ 15513408448</p>
+              <p className="font-Lato text-white">+15513408448</p>
             </div>
           </div>
           <div className="mb-4 md:mb-0 md:mr-4 flex items-center">
@@ -40,7 +40,7 @@ const Footer = () => {
               <p className="font-Lato text-xl pt-2 text-white font-semibold">
                 Email
               </p>
-              <p className="text-white font-Lato">Skrisentech Inc.com</p>
+              <p className="text-white font-Lato">contact@skrisentechinc.com</p>
             </div>
           </div>
           <div>
@@ -109,28 +109,26 @@ const Footer = () => {
               <a className="hover:text-blue">Patient Billing</a>
             </nav>
           </div>
-          <div className="mt-6 lg:mt-0 lg:w-1/4 w-full">
-            {/* right two */}
-            <div className="flex flex-col gap-4 w-full">
-              <h1 className="text-white font-bold text-2xl font-Oswald ">
-                Quick Contact
-              </h1>
-              <input
-                type="text"
-                className="font-Lato lg:flex-1 border p-2 rounded border-none focus:outline-none"
-                placeholder="Your Email"
-              />
-              <textarea
-                className="font-Lato border p-2 rounded focus:outline-none"
-                placeholder="Message"
-              ></textarea>
-              <button
-                type="submit"
-                className="bg-blue font-Oswald text-white w-full mt-4 p-3 rounded transition hover:bg-sky-700"
-              >
-                Send Message
-              </button>
-            </div>
+          {/* right two */}
+          <div className="flex flex-col gap-4 mt-6 lg:mt-0 lg:w-1/4 w-full">
+            <h1 className="text-white font-bold text-2xl font-Oswald ">
+              Quick Contact
+            </h1>
+            <input
+              type="text"
+              className="font-Lato border p-2 rounded border-none focus:outline-none"
+              placeholder="Your Email"
+            />
+            <textarea
+              className="font-Lato border p-2 rounded focus:outline-none"
+              placeholder="Message"
+            ></textarea>
+            <button
+              type="submit"
+              className="bg-blue font-Oswald text-white w-full mt-4 p-3 rounded transition hover:bg-sky-700"
+            >
+              Send Message
+            </button>
           </div>
         </div>
       </div>

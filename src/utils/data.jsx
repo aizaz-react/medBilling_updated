@@ -2,7 +2,6 @@ import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { BsFillTelephoneFill } from "react-icons/bs";
-import { BiSolidBuildingHouse } from "react-icons/bi";
 import Anesthesiology from "../icons/anesthesiology.png";
 import Cardiology from "../icons/cardiology.png";
 import Chiropractor from "../icons/chiropractor.png";
@@ -142,9 +141,9 @@ export const services = [
 export const infoNavItems = {
   leftSide: [
     {
-      text: "Skrisentech Inc.com",
+      text: "contact@skrisentechinc.com",
       icon: <MdEmail size={20} />,
-      link: "Skrisentech Inc.com",
+      link: "contact@skrisentechinc.com",
     },
     {
       text: "+15513408448",

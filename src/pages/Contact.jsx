@@ -25,80 +25,74 @@ function Contact() {
       </div>
       <div className="mt-20">
         <div className="md:flex mx-5 md:mx-20 md:py-5">
-          <div className="mx-3 flex-1 mb-10">
-            <div
-              className="flex flex-col rounded-lg min-h[200px] h-full"
-              style={{ boxShadow: "0px 0px 18px 0px rgba(0,0,0,.16)" }}
-            >
-              <div className="p-6">
-                <a href="tel:+15014240123">
-                  <div className=" flex flex-col items-center text-center">
-                    <LuPhoneCall
-                      style={{
-                        color: "#008ac6",
-                        marginRight: "10px",
-                        fontSize: "35px",
-                      }}
-                    />
+          <div
+            className="mx-3 flex-1 mb-10 flex flex-col rounded-lg min-h[200px] h-full"
+            style={{ boxShadow: "0px 0px 18px 0px rgba(0,0,0,.16)" }}
+          >
+            <div className="p-6">
+              <a href="tel:+15014240123">
+                <div className=" flex flex-col items-center text-center">
+                  <LuPhoneCall
+                    style={{
+                      color: "#008ac6",
+                      marginRight: "10px",
+                      fontSize: "35px",
+                    }}
+                  />
 
-                    <p className="font-Lato font-semibold md:pt-0 pt-3">
-                      (051) 4240123
-                    </p>
-                    <p className="font-Lato">Call Today</p>
-                  </div>
-                </a>
-              </div>
+                  <p className="font-Lato font-semibold md:pt-0 pt-3">
+                    +15513408448
+                  </p>
+                  <p className="font-Lato">Call Today</p>
+                </div>
+              </a>
             </div>
           </div>
-
-          <div className="mx-3 flex-1 mb-10">
-            <div
-              className="flex flex-col rounded-lg min-h[200px] h-full"
-              style={{ boxShadow: "0px 0px 18px 0px rgba(0,0,0,.16)" }}
-            >
-              <div className="p-6">
-                <a href="Skrisentech Inc.com">
-                  <div className=" flex flex-col items-center text-center">
-                    <IoMailOutline
-                      style={{
-                        color: "008ac6",
-                        marginRight: "10px",
-                        fontSize: "40px",
-                      }}
-                    />
-                    <p className="font-Lato font-semibold md:pt-0 pt-3">
-                      Skrisentech Inc.com
-                    </p>
-                    <p className="font-Lato">Feel Free To Mail Us</p>
-                  </div>
-                </a>
-              </div>
+          <div
+            className="mx-3 flex-1 mb-10 flex flex-col rounded-lg min-h[200px] h-full"
+            style={{ boxShadow: "0px 0px 18px 0px rgba(0,0,0,.16)" }}
+          >
+            <div className="p-6">
+              <a href="Skrisentech Inc.com">
+                <div className=" flex flex-col items-center text-center">
+                  <IoMailOutline
+                    style={{
+                      color: "008ac6",
+                      marginRight: "10px",
+                      fontSize: "40px",
+                    }}
+                  />
+                  <a
+                    href="mailto:contact@skrisentechinc.com"
+                    className="font-Lato font-semibold md:pt-0 pt-3"
+                  >
+                    contact@skrisentechinc.com
+                  </a>
+                  <p className="font-Lato">Feel Free To Mail Us</p>
+                </div>
+              </a>
             </div>
           </div>
-
-          <div className="mx-3 flex-1 mb-10">
-            <div
-              className="flex flex-col rounded-lg min-h[200px] h-full"
-              style={{ boxShadow: "0px 0px 18px 0px rgba(0,0,0,.16)" }}
-            >
-              <div className="p-6">
-                <a href="#">
-                  <div className=" flex flex-col items-center text-center">
-                    <IoLocationOutline
-                      style={{
-                        color: "008ac6",
-                        marginRight: "10px",
-                        fontSize: "40px",
-                      }}
-                    />
-                    <p className="font-Lato font-semibold md:pt-0 pt-3">
-                      2121 N California Blvd Suite 243, Walnut Creek, CA 94596,
-                      USA
-                    </p>
-                    <p className="font-Lato">California Office</p>
-                  </div>
-                </a>
-              </div>
+          <div
+            className="mx-3 flex-1 mb-10 flex flex-col rounded-lg min-h[200px] h-full"
+            style={{ boxShadow: "0px 0px 18px 0px rgba(0,0,0,.16)" }}
+          >
+            <div className="p-6">
+              <a href="https://maps.app.goo.gl/w9cMqt6LUfA9Httd9">
+                <div className=" flex flex-col items-center text-center">
+                  <IoLocationOutline
+                    style={{
+                      color: "008ac6",
+                      marginRight: "10px",
+                      fontSize: "40px",
+                    }}
+                  />
+                  <p className="font-Lato font-semibold md:pt-0 pt-3">
+                    Lewisville, TX 75067 USA
+                  </p>
+                  <p className="font-Lato">Texas Office</p>
+                </div>
+              </a>
             </div>
           </div>
         </div>
@@ -114,8 +108,7 @@ function Contact() {
             </h1>
             <div className="felx-1 md:py-8 md:mt-0 mt-7">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6295.864071381195!2d-122.06452505191072!3d37.908651254732625!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808561bd3ff82649%3A0x823c07820af525e0!2sAllStars%20Medical%20Billing!5e0!3m2!1sen!2s!4v1707299200723!5m2!1sen!2s"
-                width="600"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d107044.90032324655!2d-97.05807892769134!3d33.02609580628027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c2e7ab18c0633%3A0x53a2143debb7064b!2sLewisville%2C%20TX%2075067%2C%20USA!5e0!3m2!1sen!2s!4v1708974600736!5m2!1sen!2s"
                 height="400"
                 style={{ border: "0" }}
                 allowFullScreen={true}
