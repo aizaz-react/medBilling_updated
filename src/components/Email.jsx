@@ -1,5 +1,7 @@
 import React, { useRef, useState } from "react";
-import emailjs from "@emailjs/browser";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import emailjs, { sendForm } from "@emailjs/browser";
 
 const ContactUs = () => {
   const form = useRef();
@@ -10,12 +12,26 @@ const ContactUs = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm("service_htk2zqf", "template_k24jij7", form.current, {
-        publicKey: "qi6zPhgtxeOrtADYx",
+      .sendForm("service_0nthdxc", "template_n53a0wf", form.current, {
+        publicKey: "xmbsNI7RbDP0U9VPY",
       })
       .then(
         () => {
           console.log("SUCCESS!");
+          setEmail("");
+          setMessage("");
+          // console.log(JSON.stringify());
+          form.current.reset();
+          toast.info("🦄 Email sent Successfully!", {
+            position: "top-right",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "colored",
+          });
         },
         (error) => {
           console.log("FAILED...", error.text);
@@ -51,6 +67,18 @@ const ContactUs = () => {
           Send Message
         </button>
       </form>
+      <ToastContainer
+        position="top-right"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="light"
+      />
     </div>
   );
 };
