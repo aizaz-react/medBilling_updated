@@ -35,8 +35,8 @@ function Home() {
           Skrisentech Inc Medical Billing
         </h1>
         <p className="font-Lato md:text-lg mb-4 mt-2 text-white">
-          We specialize in medical billing and coding, excelling in
-          Professional,
+          We specialize in medical billing and coding, with expertise in
+          Professional
           <br /> Institutional, Emergency Room, and Out-of-Network coding
           services.
         </p>
@@ -47,47 +47,47 @@ function Home() {
       <CardSection />
       {/* About Section */}
       <div className="bg-darkgray">
-        <div className="py-10 md:pb-[5rem] flex md:mx-20 mx-5">
-          <div className="md:flex justify-between gap-8">
-            <div className="md:w-2/5 w-full">
-              {/* About Image */}
-              <img
-                className="rounded-md"
-                src={aboutimage}
-                alt="Aboutimage"
-                style={{ maxWidth: "100%", height: "auto" }}
-              />
-            </div>
-            <div className="mx-5 md:mx-0 pt-10 md:w-2/3 md:pt-0 ">
-              {/* About Content */}
-              <h1 className="font-Oswald font-bold md:text-3xl text-[28px] flex flex-col md:flex-row gap-2">
-                Welcome To Skrisentech
-                <span className="text-blue font-Oswald">
-                  Inc Medical Billing
-                </span>
-              </h1>
-              <p className="font-Lato mt-4 md:mt-6 line-clamp-7">
-                Billing plays a crucial role in the operations of any medical
-                practice. When entrusted to capable hands, it allows your staff
-                and medical professionals to concentrate on their primary focus
-                delivering excellent patient care. Skrisentech Inc has a proven
-                track record of assisting healthcare providers in optimizing
-                their revenue collection, minimizing unnecessary expenses, and
-                simplifying business processes through a team of highly skilled
-                billing experts. Skrisentech Inc offers comprehensive revenue
-                cycle management solutions tailored to over 50 specialties
-                across the United States.
-              </p>
-            </div>
+        <div className="py-10 md:pb-[5rem] flex md:mx-20 mx-5 md:flex justify-between gap-8">
+          <div className="md:w-2/5 w-full">
+            {/* About Image */}
+            <img
+              className="rounded-md"
+              src={aboutimage}
+              alt="Aboutimage"
+              style={{ maxWidth: "100%", height: "auto" }}
+            />
+          </div>
+          <div className="mx-5 md:mx-0 pt-10 md:w-2/3 md:pt-10 ">
+            {/* About Content */}
+            <h1 className="font-Oswald font-bold md:text-3xl text-[28px] flex flex-col md:flex-row gap-2">
+              Welcome To Skrisentech
+              <span className="text-blue font-Oswald">Inc Medical Billing</span>
+            </h1>
+            <p className="font-Lato mt-4 md:mt-6 line-clamp-7">
+              Billing is a critical aspect of every medical practice's
+              operations. When managed effectively, it enables your staff and
+              medical professionals to focus on their primary goal of delivering
+              exceptional patient care. Skrisentech Inc has a demonstrated
+              history of helping healthcare providers enhance revenue
+              collection, reduce unnecessary costs, and streamline business
+              operations through a team of experienced billing specialists.
+              Skrisentech Inc provides tailored revenue cycle management
+              solutions for over 50 specialties nationwide, ensuring
+              comprehensive support for your practice's financial health and
+              success. Our commitment to excellence and industry expertise sets
+              us apart as a trusted partner in your practice's success. Our
+              commitment to excellence and industry expertise sets us apart as a
+              trusted partner in your practice's success.
+            </p>
           </div>
         </div>
       </div>
       <div className="mt-5 md:mx-28 mx-8">
         <h2 className="font-Oswald flex flex-col w-max mx-auto gap-2 text-center md:text-3xl text-xl font-semibold">
-          Why Skrisentech Inc Medical Billing?
+          Why Choose Skrisentech Inc for Medical Billing?
           <span className="h-1 bg-blue"></span>
         </h2>
-        <p className="font-Lato text-gray-500 mt-5">
+        <p className="font-Lato text-gray-500 mt-5 text-center">
           At Skrisentech Inc, we are dedicated to ensuring that healthcare
           providers can focus on patient care and delivering outstanding
           services, without the burden of claims, payments, and patient

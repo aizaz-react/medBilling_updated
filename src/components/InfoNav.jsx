@@ -8,6 +8,17 @@ const InfoNav = () => {
     <div>
       <div className={"bg-blue w-full mx-auto lg:block hidden"}>
         <Container className={"flex justify-between items-center py-2"}>
+          <div className="flex flex-row text-center justify-between text-white">
+            {infoNavItems.rightSide.map((item, i) => (
+              <a key={i} href={item.link} className="flex items-center">
+                {item.icon && (
+                  <span className="text-white mx-3 cursor-pointer">
+                    {item.icon}
+                  </span>
+                )}
+              </a>
+            ))}
+          </div>
           <div className="flex flex-row text-center">
             {infoNavItems.leftSide.map((item, i, array) => (
               <a
@@ -27,18 +38,6 @@ const InfoNav = () => {
                 >
                   {item.text}
                 </p>
-              </a>
-            ))}
-          </div>
-
-          <div className="flex flex-row text-center justify-between text-white">
-            {infoNavItems.rightSide.map((item, i) => (
-              <a key={i} href={item.link} className="flex items-center">
-                {item.icon && (
-                  <span className="text-white mx-3 cursor-pointer">
-                    {item.icon}
-                  </span>
-                )}
               </a>
             ))}
           </div>

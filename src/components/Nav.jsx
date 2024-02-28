@@ -69,7 +69,7 @@ export default function Example() {
           ))}
         </div>
         <button className="font-Oswald btn bg-blue h-12 sm:hidden rounded-md text-white font-semibold px-8 hover:bg-sky-700 lg:block hidden">
-          Request a Call Back
+          Arrange a Call Back
         </button>
       </nav>
       <Dialog
