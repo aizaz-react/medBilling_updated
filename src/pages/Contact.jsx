@@ -1,5 +1,4 @@
 import "../App.css";
-import Container from "../components/Container";
 import React, { useState, useEffect } from "react";
 import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 import { IoMailOutline, IoLocationOutline } from "react-icons/io5";
@@ -15,113 +14,89 @@ function Contact() {
     <div>
       <InfoNav />
       <Nav />
-
       <div className="relative">
         <img src={PrimaryImage} alt="Brud" className="w-full h-44" />
 
-        <h1 className="font-Oswald text-white text-4xl font-bold absolute top-16 md:left-16 left-[120px] hover:bg-sky-700">
+        <h1 className="font-Oswald text-white text-4xl font-bold absolute top-16  left-[120px] hover:bg-sky-700">
           Contact Us
         </h1>
+        <p className="absolute font-Lato md:left-[120px] top-28 text-white md:text-lg text-center">
+          If you have any concerns, we would be happy to help you resolve it.
+        </p>
       </div>
-      <div className="mt-20 md:flex mx-5 md:mx-20 md:py-5">
+      <div className="mt-20 mx-5 sm:flex md:flex md:mx-20 md:py-5">
         <div
-          className="mx-3 flex-1 mb-10 flex flex-col rounded-lg min-h[200px] h-full"
+          className="mx-3 flex-1 mb-10 flex flex-col rounded-lg min-h[200px] p-6"
           style={{ boxShadow: "0px 0px 18px 0px rgba(0,0,0,.16)" }}
         >
-          <div className="p-6">
-            <a href="tel:+15014240123">
-              <div className=" flex flex-col items-center text-center">
-                <LuPhoneCall
-                  style={{
-                    color: "#008ac6",
-                    marginRight: "10px",
-                    fontSize: "35px",
-                  }}
-                />
-
-                <p className="font-Lato font-semibold md:pt-0 pt-3">
-                  +15513408448
-                </p>
-                <p className="font-Lato">Call Today</p>
-              </div>
-            </a>
-          </div>
+          <a href="tel:+15014240123">
+            <div className=" flex flex-col items-center text-center">
+              <LuPhoneCall
+                style={{
+                  color: "#008ac6",
+                  marginRight: "10px",
+                  fontSize: "35px",
+                }}
+              />
+              <p className="font-Lato font-semibold md:pt-0 pt-3">
+                +15513408448
+              </p>
+              <p className="font-Lato">Call Today</p>
+            </div>
+          </a>
         </div>
         <div
-          className="mx-3 flex-1 mb-10 flex flex-col rounded-lg min-h[200px] h-full"
+          className="mx-3 flex-1 mb-10 flex flex-col rounded-lg min-h[200px] p-6"
           style={{ boxShadow: "0px 0px 18px 0px rgba(0,0,0,.16)" }}
         >
-          <div className="p-6">
-            <a href="Skrisentech Inc.com">
-              <div className=" flex flex-col items-center text-center">
-                <IoMailOutline
-                  style={{
-                    color: "008ac6",
-                    marginRight: "10px",
-                    fontSize: "40px",
-                  }}
-                />
-                <a
-                  href="mailto:contact@skrisentechinc.com"
-                  className="font-Lato font-semibold md:pt-0 pt-3"
-                >
-                  contact@skrisentechinc.com
-                </a>
-                <p className="font-Lato">Feel Free To Mail Us</p>
-              </div>
-            </a>
-          </div>
+          <a href="Skrisentech Inc.com">
+            <div className=" flex flex-col items-center text-center">
+              <IoMailOutline
+                style={{
+                  color: "008ac6",
+                  marginRight: "10px",
+                  fontSize: "40px",
+                }}
+              />
+              <a
+                href="mailto:contact@skrisentechinc.com"
+                className="font-Lato font-semibold md:pt-0 pt-3"
+              >
+                contact@skrisentechinc.com
+              </a>
+              <p className="font-Lato">Feel Free To Mail Us</p>
+            </div>
+          </a>
         </div>
         <div
-          className="mx-3 flex-1 mb-10 flex flex-col rounded-lg min-h[200px] h-full"
+          className="mx-3 flex-1 mb-10 flex flex-col rounded-lg min-h[200px] p-6"
           style={{ boxShadow: "0px 0px 18px 0px rgba(0,0,0,.16)" }}
         >
-          <div className="p-6">
-            <a href="https://maps.app.goo.gl/w9cMqt6LUfA9Httd9">
-              <div className=" flex flex-col items-center text-center">
-                <IoLocationOutline
-                  style={{
-                    color: "008ac6",
-                    marginRight: "10px",
-                    fontSize: "40px",
-                  }}
-                />
-                <p className="font-Lato font-semibold md:pt-0 pt-3">
-                  Lewisville, TX 75067 USA
-                </p>
-                <p className="font-Lato">Texas Office</p>
-              </div>
-            </a>
-          </div>
+          <a href="https://maps.app.goo.gl/w9cMqt6LUfA9Httd9">
+            <div className=" flex flex-col items-center text-center">
+              <IoLocationOutline
+                style={{
+                  color: "008ac6",
+                  marginRight: "10px",
+                  fontSize: "40px",
+                }}
+              />
+              <p className="font-Lato font-semibold md:pt-0 pt-3">
+                Lewisville, TX 75067 USA
+              </p>
+              <p className="font-Lato">Texas Office</p>
+            </div>
+          </a>
         </div>
       </div>
       {/* Locations & Contact section */}
       <div className="bg-darkgray">
-        <div className="mt-10 md:mt-5 md:flex gap-14 mx-8 md:mx-20 md:py-16">
-          <div className="flex-1 pt-10 md:pt-0">
-            {/* Left */}
-            <h1 className="text-2xl font-Oswald flex flex-col w-max">
-              Our Locations
-              <span className="h-1 bg-blue"></span>
-            </h1>
-            <div className="felx-1 md:py-8 md:mt-0 mt-7">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d107044.90032324655!2d-97.05807892769134!3d33.02609580628027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c2e7ab18c0633%3A0x53a2143debb7064b!2sLewisville%2C%20TX%2075067%2C%20USA!5e0!3m2!1sen!2s!4v1708974600736!5m2!1sen!2s"
-                height="400"
-                style={{ border: "0" }}
-                allowFullScreen={true}
-                referrerPolicy="no-referrer-when-downgrade"
-                className="w-full md:w-full h-[29rem] md:h-[29rem]"
-              ></iframe>
-            </div>
-          </div>
-
-          <div className="flex-1 w-full md:mt-0 mt-10">
-            {/* right  */}
-            <h1 className="text-2xl font-Oswald flex flex-col w-max">
-              Contact Us
-              <span className="h-1 bg-blue"></span>
-            </h1>
+        <div className="mt-10 md:mt-5 mx-8 md:mx-20 md:py-16">
+          <h1 className="text-2xl font-Oswald flex flex-col w-max">
+            Get in Touch
+            <span className="h-1 bg-blue"></span>
+          </h1>
+          <div className="w-full">
             <div className="items-center py-8 md:flex flex-col gap-4">
               <div className="flex flex-col gap-4 w-full md:flex md:flex-row">
                 <input
@@ -230,6 +205,14 @@ function Contact() {
           </div>
         </div>
       </div>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d107044.90032324655!2d-97.05807892769134!3d33.02609580628027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c2e7ab18c0633%3A0x53a2143debb7064b!2sLewisville%2C%20TX%2075067%2C%20USA!5e0!3m2!1sen!2s!4v1708974600736!5m2!1sen!2s"
+        height="400"
+        style={{ border: "0" }}
+        allowFullScreen={true}
+        referrerPolicy="no-referrer-when-downgrade"
+        className="my-5 md:pr-20 md:pl-20 w-full"
+      ></iframe>
       <Footer />
     </div>
   );

@@ -41,9 +41,7 @@ const ContactUs = () => {
 
   return (
     <div className="flex flex-col gap-4 mt-6 lg:mt-0 lg:w-1/4 w-full">
-      <h1 className="text-white font-bold text-2xl font-Oswald">
-        Quick Contact
-      </h1>
+      <h1 className="text-white font-bold text-2xl font-Oswald">Quick Reach</h1>
       <form onSubmit={sendEmail} ref={form}>
         <input
           type="email"

@@ -30,7 +30,7 @@ function Home() {
       <InfoNav />
       <Nav />
       <ImageSlider slides={slider} className="relative" />;
-      <div className="absolute text-left md:ml-24 top-32 mx-7 md:my-72 left-0">
+      <div className="absolute text-left md:ml-24 top-10 mx-7 md:my-72 left-0">
         <h1 className="font-Oswald md:text-4xl font-bold text-white md:my-6">
           Skrisentech Inc Medical Billing
         </h1>
@@ -131,7 +131,7 @@ function Home() {
       {/* Medical Specialties */}
       <div className="mt-20 py-10 bg-darkgray">
         <h2 className="font-Oswald text-blue text-xl font-semibold text-center pt-5">
-          We Cover
+          We Include
         </h2>
         <h1 className="font-Oswald flex flex-col w-max mx-auto gap-2 md:text-4xl md:font-semibold text-2xl font-semibold text-center">
           These Medical Specialties
@@ -141,10 +141,10 @@ function Home() {
       </div>
       <div className="bg-darkgray">
         <h2 className="font-Oswald text-blue text-xl font-semibold text-center pt-10">
-          Our Pride
+          Our Honor
         </h2>
         <h1 className="font-Oswald flex flex-col w-max mx-auto md:text-4xl md:font-bold text-2xl font-semibold text-center">
-          Proud Partners
+          Esteemed Partners
           <span className="w-full h-1 bg-blue" />
         </h1>
         <p className="font-Lato md:pt-5 text-center md:px-[260px] px-5 pt-5">

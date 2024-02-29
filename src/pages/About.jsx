@@ -90,7 +90,7 @@ function About() {
               management solution tailored to over 50 medical specialties across
               the United States.
             </p>
-            <button className="font-Oswald bg-blue mt-10 md:mt-16 text-white px-5 py-2 rounded-md font-semibold float-right shadow-lg hover:bg-sky-700">
+            <button className="font-Oswald bg-blue mt-10 md:mt-10 text-white px-5 py-2 rounded-md font-semibold float-left shadow-lg hover:bg-sky-700">
               Contact Us
             </button>
           </div>
@@ -100,62 +100,55 @@ function About() {
       <AboutCards />
 
       {/* Mission section */}
-      <div className="bg-darkgray md:mt-14 mt-10 md:flex justify-between px-5 md:px-20 items-center md:py-10 pt-14">
-        <div>
-          <h1 className="font-Oswald font-bold text-2xl">
-            Our <span className="text-blue">Mission</span>
-          </h1>
-          <div className="h-1 w-[8.5rem] bg-blue"></div>
-          <p className="font-Lato pt-5 md:pr-32">
-            At Skrisentech Inc Medical Billing, our purpose is to empower
-            healthcare providers by alleviating the complexities of medical
-            billing. We are dedicated to optimizing revenue streams, minimizing
-            costs, and enhancing operational efficiency for over 50 medical
-            specialties across the United States. Our unwavering commitment is
-            to enable healthcare professionals to dedicate their full attention
-            to patient care, while we expertly manage claims, payments, and
-            patient statements with precision and speed. We are steadfast in our
-            mission to ensure accuracy from the outset, eliminating the
-            underlying causes of billing errors and providing peace of mind to
-            our clients.
-          </p>
-        </div>
-        <div className="pt-5">
-          <img
-            className="h-auto max-w[100%] rounded-md"
-            src={MissionImage}
-            alt="MissionImage"
-            style={{ width: "1200px" }}
-          ></img>
-        </div>
+      <div className="bg-darkgray md:mt-14 mt-10 px-5 md:px-20 items-center md:py-10 pt-14">
+        <h1 className="font-Oswald font-bold text-2xl">
+          Our <span className="text-blue">Mission</span>
+        </h1>
+        <div className="h-1 w-[8.5rem] bg-blue"></div>
+        <p className="font-Lato pt-5 md:pr-32">
+          At Skrisentech Inc Medical Billing, our purpose is to empower
+          healthcare providers by alleviating the complexities of medical
+          billing. We are dedicated to optimizing revenue streams, minimizing
+          costs, and enhancing operational efficiency for over 50 medical
+          specialties across the United States. Our unwavering commitment is to
+          enable healthcare professionals to dedicate their full attention to
+          patient care, while we expertly manage claims, payments, and patient
+          statements with precision and speed. We are steadfast in our mission
+          to ensure accuracy from the outset, eliminating the underlying causes
+          of billing errors and providing peace of mind to our clients.
+        </p>
+
+        {/* <img
+          className="h-auto max-w[100%] rounded-md pt-5"
+          src={MissionImage}
+          alt="MissionImage"
+          style={{ width: "1200px" }}
+        /> */}
       </div>
       {/* Vision section */}
-      <div className="md:mt-14 md:flex justify-between mx-5 md:mx-20 items-center py-10">
-        <div className="md:order-1 md:pl-32">
-          <h1 className="font-Oswald font-bold text-2xl">
-            Our <span className="text-blue">Vission</span>
-          </h1>
-          <div className="h-1 w-[8.5rem] bg-blue"></div>
-          <p className="font-Lato pt-5">
-            We aim to be the leading partner for healthcare practices seeking
-            financial excellence. Our goal is to set the standard for excellence
-            in medical billing, credentialing, medical accounts receivable
-            management, and practice billing audit services. Leveraging our
-            extensive healthcare billing experience, we envision a future where
-            healthcare providers can trust us completely to enhance their
-            financial performance. This trust will enable them to provide
-            exceptional services to their patients with unwavering confidence
-            and peace of mind.
-          </p>
-        </div>
-        <img
-          className="h-auto w-full"
-          src={VisionImamge}
-          alt="VisionImamge"
-          style={{ width: "300px" }}
-        />
+      <div className="md:order-1 md:mt-14 mx-5 md:mx-20 items-center py-10">
+        <h1 className="font-Oswald font-bold text-2xl">
+          Our <span className="text-blue">Vission</span>
+        </h1>
+        <div className="h-1 w-[8.5rem] bg-blue"></div>
+        <p className="font-Lato pt-5">
+          We aim to be the leading partner for healthcare practices seeking
+          financial excellence. Our goal is to set the standard for excellence
+          in medical billing, credentialing, medical accounts receivable
+          management, and practice billing audit services. Leveraging our
+          extensive healthcare billing experience, we envision a future where
+          healthcare providers can trust us completely to enhance their
+          financial performance. This trust will enable them to provide
+          exceptional services to their patients with unwavering confidence and
+          peace of mind.
+        </p>
       </div>
-
+      {/* <img
+        className="h-auto w-full"
+        src={VisionImamge}
+        alt="VisionImamge"
+        style={{ width: "300px" }}
+      /> */}
       <Footer />
     </div>
   );

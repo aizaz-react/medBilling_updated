@@ -6,6 +6,7 @@ import { MdEmail } from "react-icons/md";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { BiSolidBuildingHouse } from "react-icons/bi";
 import "../Header.css";
+import VisionImamge from "../images/vision.png";
 import PrimaryImage from "../images/primary-bg.jpg";
 import GrowthImage from "../images/growth.png";
 import Footer from "../components/Footer";
@@ -36,7 +37,7 @@ function Services() {
         <img
           src={PrimaryImage}
           alt="PrimaryImage"
-          className="w-full md:h-44 h-32"
+          className="w-full md:h-48 h-32"
         />
         <h1 className="font-Oswald text-white text-4xl font-bold absolute md:top-14 top-10 md:left-16 left-32">
           Services
@@ -81,7 +82,7 @@ function Services() {
             {/* Right section */}
             <img
               className="md:pt-28"
-              src={GrowthImage}
+              src={VisionImamge}
               alt="MainImage"
               style={{ backgroundPosition: "bottom" }}
             ></img>

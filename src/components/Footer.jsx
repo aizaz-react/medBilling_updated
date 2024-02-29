@@ -21,7 +21,7 @@ const Footer = () => {
             </div>
             <div className="">
               <p className="font-Lato text-xl pt-2 text-white font-semibold">
-                Have Project on Mind?
+                Have a Project Idea?
               </p>
               <p className="font-Lato text-white">+15513408448</p>
             </div>
@@ -48,7 +48,7 @@ const Footer = () => {
               type="submit"
               className="font-Oswald bg-white text-black border border-black mt-4 px-4 md:px-6 py-2 rounded transition hover:border-white hover:bg-blue hover:text-white mr-auto"
             >
-              Get A Quote
+              Request a Quote
             </button>
           </div>
         </div>
@@ -56,7 +56,7 @@ const Footer = () => {
       {/* Footer */}
       <div className="bg-black">
         <div className="py-10 px-4 lg:px-10 flex flex-col lg:flex-row justify-between">
-          <div className="flex flex-col justify-start lg:w-[10%]">
+          <div className="flex flex-col justify-start lg:w-[10%] gap-5">
             {/* left one */}
             <Link to="/">
               <img
@@ -69,23 +69,26 @@ const Footer = () => {
           <div className="text-white lg:mt-0 mt-6">
             {/* left two */}
             <nav className="flex flex-col gap-4 font-Lato">
-              <h6 className="text-2xl font-bold">Company</h6>
-              <Link to="/about" className="hover:text-blue">
+              <h6 className="text-2xl font-bold font-Oswald">Company</h6>
+              <Link to="/about" className="hover:text-blue font-Lato">
                 About Us
               </Link>
-              <Link to="/services" className="hover:text-blue">
+              <Link to="/services" className="hover:text-blue font-Lato">
                 Services
               </Link>
-              <Link to="/specialties" className="hover:text-blue">
+              <Link to="/specialties" className="hover:text-blue font-Lato">
                 Specialties
               </Link>
-              <Link to="/price-plan" className="hover:text-blue">
+              <Link to="/price-plan" className="hover:text-blue font-Lato">
                 Pricing
               </Link>
-              <Link to="/referral-program" className="hover:text-blue">
+              <Link
+                to="/referral-program"
+                className="hover:text-blue font-Lato"
+              >
                 Referal Program
               </Link>
-              <Link to="/contact" className="hover:text-blue">
+              <Link to="/contact" className="hover:text-blue font-Lato">
                 Contact Us
               </Link>
             </nav>
@@ -93,19 +96,26 @@ const Footer = () => {
           <div className="text-white mt-6 lg:mt-0">
             {/* right one */}
             <nav className="flex flex-col gap-4 font-Lato">
-              <h6 className="text-2xl font-bold">Services</h6>
-              <Link to="/medical-billing" className="hover:text-blue">
+              <h6 className="text-2xl font-bold font-Oswald">Services</h6>
+              <Link to="/medical-billing" className="hover:text-blue font-Lato">
                 Medical Billing
               </Link>
-              <Link to="/medical-coding" className="hover:text-blue">
+              <Link to="/medical-coding" className="hover:text-blue font-Lato">
                 Medical Coding
               </Link>
-              <Link to="/medical-credentialing" className="hover:text-blue">
+              <Link
+                to="/medical-credentialing"
+                className="hover:text-blue font-Lato"
+              >
                 Medical Credentialing
               </Link>
-              <a className="hover:text-blue">Verification of Benefits</a>
-              <a className="hover:text-blue">Prior Authorization Services</a>
-              <a className="hover:text-blue">Patient Billing</a>
+              <a className="hover:text-blue font-Lato">
+                Verification of Benefits
+              </a>
+              <a className="hover:text-blue font-Lato">
+                Prior Authorization Services
+              </a>
+              <a className="hover:text-blue font-Lato">Patient Billing</a>
             </nav>
           </div>
           {/* right two */}

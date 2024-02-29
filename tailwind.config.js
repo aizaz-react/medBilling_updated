@@ -24,6 +24,7 @@ export default {
       },
       colors: {
         blue: '#008ac6',
+        // blue: '#008ac6',
         darkgray: '#FBFBFBFC',
         secondary: '#0a7caf',
         servicecolor: '#20406',

@@ -20,10 +20,10 @@ function Contact() {
       </div>
       <div className="my-16">
         <h2 className="font-Oswald text-blue text-xl font-semibold text-center pt-5">
-          We Cover
+          We Include
         </h2>
         <h1 className="font-Oswald flex flex-col gap-2 md:text-3xl md:font-semibold text-2xl font-semibold text-center mx-auto w-max">
-          Our Specialties
+          Our Expertise
           <span className="w-full h-1 bg-divideroclor" />
         </h1>
         <SpecialtiesCard />

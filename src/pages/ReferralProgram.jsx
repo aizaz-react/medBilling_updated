@@ -34,7 +34,6 @@ function Contact() {
         </p>
       </div>
       <PricingCards />
-
       <Footer />
     </div>
   );
