@@ -2,7 +2,6 @@ import "../App.css";
 import Footer from "../components/Footer";
 import "../Header.css";
 import aboutimage from "../images/ABout.png";
-import serviceAimnImage from "../images/amin3.png";
 import buisnextImage from "../images/businext-img33.png";
 import Faqf from "../images/faqs-f.png";
 import allstarspartner1 from "../images/allstarmbpartners-1.webp";
@@ -100,16 +99,8 @@ function Home() {
       <div
         className="mt-20 text-white pt-10 md:pt-24 pb-[10rem]"
         style={{
-          backgroundImage: `url(${serviceAimnImage})`,
-          backgroundRepeat: "no-repeat",
-          backgroundPosition: "right bottom",
           background: "linear-gradient(180deg, #204066 0%, #008ac6 100%)",
           transition: "background 0.3s, border-radius 0.3s, opacity 0.3s",
-          "@media (max-width: 768px)": {
-            backgroundPosition: "center",
-            paddingTop: "16rem",
-            paddingBottom: "8rem",
-          },
         }}
       >
         <h1 className="font-Oswald text-2xl font-semibold text-center">
@@ -242,9 +233,9 @@ function Home() {
         <div className="md:pt-32 font-semibold">
           <p className="text-blue">FAQs</p>
           <h1 className="font-Oswald md:text-[24px]">
-            Skrisentech Inc Medical Billing stands out as the top
-            <br /> choice for medical billing services for your
-            <br /> healthcare practice.
+            Skrisentech Inc. is the premier choice for <br />
+            medical billing services, offering top-notch <br />
+            solutions for your healthcare practice.
           </h1>
           <div className="md:max-w-screen-lg bg-white">
             <div className="grid divide-y divide-neutral-200 md:max-w-xl mt-8">

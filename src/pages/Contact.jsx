@@ -210,7 +210,6 @@ function Contact() {
         height="400"
         style={{ border: "0" }}
         allowFullScreen={true}
-        referrerPolicy="no-referrer-when-downgrade"
         className="my-5 md:pr-20 md:pl-20 w-full"
       ></iframe>
       <Footer />
