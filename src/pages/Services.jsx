@@ -47,12 +47,9 @@ function Services() {
         <div className="md:flex gap-10 md:mx-20 mx-8 my-14 md:my-0">
           <div className="md:w-2/3 md:my-24 w-full">
             {/* Left section */}
-            <h1 className="font-Oswald text-2xl">
-              Skrisentech Inc Medical Billing Services
+            <h1 className="font-Oswald text-2xl py-2">
+              Medical Billing Services
             </h1>
-            <p className="font-Lato text-blue mt-2 text-lg">
-              Medical Billing & Revenue Cycle Solutions
-            </p>
             <p className="mt-5font-Lato">
               Our purpose is to offer a comprehensive range of revenue-related
               services essential for the smooth operation of medical practices.
