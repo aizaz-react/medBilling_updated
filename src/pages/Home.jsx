@@ -83,7 +83,7 @@ function Home() {
         </div>
       </div>
       <div className="mt-5 md:mx-28 mx-8">
-        <h2 className="font-Oswald flex flex-col w-max mx-auto gap-2 text-center md:text-3xl text-xl font-semibold">
+        <h2 className="font-Oswald flex flex-col w-max mx-auto gap-2 text-center md:text-3xl text-lg font-semibold">
           Why Choose Skrisentech Inc for Medical Billing?
           <span className="h-1 bg-blue"></span>
         </h2>
