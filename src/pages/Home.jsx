@@ -47,7 +47,7 @@ function Home() {
       <CardSection />
       {/* About Section */}
       <div className="bg-darkgray">
-        <div className="py-10 md:pb-[5rem] flex md:mx-20 mx-5 md:flex flex-col justify-between gap-8">
+        <div className="py-10 md:pb-[5rem] flex md:mx-20 mx-5 md:flex flex-col md:flex-row justify-between gap-8">
           <div className="md:w-2/5 w-full">
             {/* About Image */}
             <img
@@ -84,7 +84,7 @@ function Home() {
       </div>
       <div className="mt-5 md:mx-28 mx-8">
         <h2 className="font-Oswald flex flex-col w-max mx-auto gap-2 text-center md:text-3xl text-lg font-semibold">
-          Why Choose Skrisentech Inc for Medical Billing?
+          Why Skrisentech Inc for Medical Billing?
           <span className="h-1 bg-blue"></span>
         </h2>
         <p className="font-Lato text-gray-500 mt-5 text-center">
