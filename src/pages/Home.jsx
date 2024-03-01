@@ -30,7 +30,7 @@ function Home() {
       <InfoNav />
       <Nav />
       <ImageSlider slides={slider} className="relative" />;
-      <div className="absolute text-left md:ml-24 top-10 mx-7 md:my-72 left-0">
+      <div className="absolute text-left md:ml-24 top-[12rem] md:top-10 mx-7 md:my-72 left-0">
         <h1 className="font-Oswald md:text-4xl font-bold text-white md:my-6">
           Skrisentech Inc Medical Billing
         </h1>
