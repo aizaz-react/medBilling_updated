@@ -47,7 +47,7 @@ function Home() {
       <CardSection />
       {/* About Section */}
       <div className="bg-darkgray">
-        <div className="py-10 md:pb-[5rem] flex md:mx-20 mx-5 md:flex justify-between gap-8">
+        <div className="py-10 md:pb-[5rem] flex md:mx-20 mx-5 md:flex flex-col justify-between gap-8">
           <div className="md:w-2/5 w-full">
             {/* About Image */}
             <img
