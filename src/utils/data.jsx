@@ -108,7 +108,7 @@ export const navLinks = [
     link: "/services",
   },
   {
-    title: "Plans & Pricing",
+    title: "Pricing & Plans",
     link: "/price-plan",
   },
   {

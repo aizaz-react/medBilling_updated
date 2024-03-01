@@ -24,7 +24,7 @@ function PricePlan() {
           className="w-full h-72 md:h-64 "
         />
         <h1 className="font-Oswald text-white md:text-4xl text-3xl font-bold absolute top-16 left-20 font-poppins">
-          Plans and Pricing
+          Pricing and Plans
         </h1>
         <p className="font-Lato text-white absolute top-24 md:left-14 md:w-1/2 pt-5 md:pt-8 text-center md:text-left mx-5">
           We provide a variety of comprehensive plans to meet various medical
