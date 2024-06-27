@@ -141,7 +141,7 @@ export const services = [
 export const infoNavItems = {
   leftSide: [
     {
-      text: "skrisentechnic@gmail.com",
+      text: "contact@skrisentechnic.com",
       icon: <MdEmail size={20} />,
       link: "mailto:skrisentechnic@gmail.com",
     },
