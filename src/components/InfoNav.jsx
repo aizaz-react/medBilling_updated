@@ -24,6 +24,8 @@ const InfoNav = () => {
               <a
                 key={i}
                 href={item.link}
+                target="_blank"
+                 rel="noreferrer"
                 className="flex items-center cursor-pointer text-white"
               >
                 {item.icon && (

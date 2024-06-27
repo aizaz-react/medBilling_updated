@@ -141,9 +141,9 @@ export const services = [
 export const infoNavItems = {
   leftSide: [
     {
-      text: "contact@skrisentechinc.com",
+      text: "skrisentechnic@gmail.com",
       icon: <MdEmail size={20} />,
-      link: "contact@skrisentechinc.com",
+      link: "mailto:skrisentechnic@gmail.com",
     },
     {
       text: "+15513408448",
@@ -153,7 +153,7 @@ export const infoNavItems = {
   ],
   rightSide: [
     { icon: <FaFacebookF />, link: "https://www.facebook.com" },
-    { icon: <FaLinkedinIn />, link: "https://www.linkedin.com" },
+    { icon: <FaLinkedinIn />, link: "https://www.linkedin.com/company/103893897/admin/inbox/" },
     { icon: <FaYoutube />, link: "https://www.youtube.com" },
   ],
 };

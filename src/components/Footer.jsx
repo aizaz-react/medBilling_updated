@@ -124,7 +124,7 @@ const Footer = () => {
       </div>
 
       <div className="bg-blue font-Lato py-4 px-5 md:w-full w-full flex flex-col md:flex-row justify-between items-center font-semibold text-white">
-        <p>© 2023 Skrisentech Inc Medical Billing. All rights reserved</p>
+        <p>© 2024 Skrisentech Inc Medical Billing. All rights reserved</p>
         <Link to="#" className="font-Lato">
           Privacy Policy | Terms & Conditions
         </Link>
